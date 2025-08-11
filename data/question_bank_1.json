@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "batch": 1,
+    "total_batches": 2,
+    "taxonomy_version": "v1.0",
+    "generator": "google-ai-studio",
+    "notes": ["Primeira parte do banco de questões, contendo 50 itens."],
+    "persistence": {
+      "strategy": ["json_canonical", "postgres", "firestore", "local_cache"],
+      "conflicts": "upsert_on_checksum",
+      "defaults": { "namespace": "vet-residencia", "schema_version": 1 }
+    }
+  },
+  "items": [
+    {
+      "id": "UFV-2024-SP-0001",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["TOXOPLASMOSE", "ZOONOSES", "VIAS DE TRANSMISSÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.98},
+        "topic_confidence": {"TOXOPLASMOSE": 0.95, "ZOONOSES": 0.90},
+        "evidence_spans": ["toxoplasmose", "zoonose", "Toxoplasma gondii", "oocistos", "transplacentária", "transfusão"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A toxoplasmose é uma zoonose causada por um protozoário. Sua distribuição geográfica é mundial, sendo uma das zoonoses mais difundidas. No Brasil, a infecção apresenta alta prevalência. Possui como agente etiológico o protozoário Toxoplasma gondii. Os hospedeiros definitivos do T. gondii são os gatos e outros felídeos. Todos os outros animais de sangue quente, assim como o ser humano, são hospedeiros intermediários. Com relação as principais vias de transmissão da toxoplasmose, identifique com (I) as vias indiretas e (D) as vias diretas nas seguintes afirmações:\n( ) Consumo de alimentos e água contaminados com oocistos.\n( ) Inalação de aerossóis contaminados\n( ) Transplacentária para o feto\n( ) Transfusão sanguínea\n( ) Transplante de órgãos\nAssinale a alternativa que apresenta a sequência correta:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "I – I – D – I – D"},
+        {"label": "B", "text": "I – I – D – I – I"},
+        {"label": "C", "text": "I – I – D – D – D"},
+        {"label": "D", "text": "I – D – D – I – I"},
+        {"label": "E", "text": "D – D – I – D – D"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A transmissão por transfusão sanguínea é considerada uma via direta, pois envolve a transferência de taquizoítos diretamente para a corrente sanguínea do receptor.",
+        "B": "Incorreta. Transplante de órgãos e transfusão de sangue são vias diretas de transmissão dos taquizoítos.",
+        "C": "Correta. A transmissão é indireta (I) quando há um 'veículo' (água, alimento, aerossol) contaminado com formas infectantes (oocistos, bradizoítos). É direta (D) quando o parasita (taquizoítos) é transferido de um indivíduo para outro sem um intermediário ambiental, como ocorre na via transplacentária, transfusão de sangue e transplante de órgãos.",
+        "D": "Incorreta. A inalação de aerossóis contendo oocistos é uma via indireta.",
+        "E": "Incorreta. O consumo de água e alimentos contaminados é a principal via de transmissão indireta."
+      },
+      "review": {
+        "fisiologia": "A transmissão da toxoplasmose depende da forma evolutiva do T. gondii. A via indireta ocorre pela ingestão de oocistos esporulados (do ambiente) ou bradizoítos (em carne crua/mal cozida). A via direta envolve a transferência de taquizoítos, a forma replicativa rápida, diretamente entre hospedeiros, como na via congênita (mãe-feto), transfusão de sangue ou transplante de órgãos de doadores infectados.",
+        "diagnostico": {"principais": ["Sorologia (IgM e IgG) para detecção de anticorpos.", "PCR para detecção de DNA do parasita em fluidos corporais ou tecidos."]},
+        "high_yield": ["Diferenciar via direta x indireta é crucial.", "Gatos (hospedeiros definitivos) eliminam oocistos não esporulados (não imediatamente infectantes).", "A forma infectante para humanos é o oocisto esporulado, bradizoítos em cistos teciduais e taquizoítos (transmissão direta)."],
+        "pegadinhas": ["Confundir o papel do gato (HD) com o do humano (HI).", "Achar que transfusão de sangue é via indireta por passar pela bolsa de sangue; o mecanismo é direto, sem passar pelo ambiente."]
+      },
+      "provenance": {"extracted_at": "2024-05-23T10:00:00Z", "checksum": "sha256:a1b2c3d4e5f6"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0002",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ACIDENTES COM ANIMAIS PEÇONHENTOS", "VIGILÂNCIA EM SAÚDE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ACIDENTES COM ANIMAIS PEÇONHENTOS": 0.95},
+        "evidence_spans": ["animais peçonhentos", "estratégias gerais de controle", "atividade educativa", "tratamento soroterápico", "proteção ao trabalhador rural"],
+        "ambiguities": []
+      },
+      "difficulty": "F",
+      "cognitive_level": "Lembrar",
+      "stem": "Uma das demandas associadas a Medicina Veterinária na Saúde Pública são os acidentes com animais peçonhentos. (...) Independente da espécie do animal peçonhento envolvido no acidente, analise as afirmações a seguir sobre as estratégias gerais de controle de acidentes com animais peçonhentos:\nI. Ter o conhecimento sobre as áreas de maior risco, a distribuição geográfica dos acidentes e a identificação das espécies na localidade permite formular estratégias para nortear as ações.\nII. Realizar atividade educativa nos estabelecimentos educacionais públicos e privados, com ênfase na gravidade dos acidentes, na existência de imunobiológicos para o tratamento e nas questões ambientais.\nIII. Divulgar, nos meios de comunicação, os pontos de atendimento ou locais de referência hospitalar para o tratamento soroterápico.\nIV. Realizar ações que promovam a proteção ao trabalhador rural e articular uma abordagem educativa no tocante aos cuidados em locais de riscos e à recomendação de uso dos equipamentos de proteção individual.\nV. Integração intersetorial com a Saúde do Trabalhador, a equipe técnica do Sistema de Informação de Mortalidade (SIM) e a Atenção Primária (Programa Agentes Comunitários de Saúde e Estratégia de Saúde da Família).\nCom relação as afirmações, é correto apenas o que se afirma em:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "I e II"},
+        {"label": "B", "text": "IV e V"},
+        {"label": "C", "text": "I, IV e V"},
+        {"label": "D", "text": "I, II, III e V"},
+        {"label": "E", "text": "I, II, III, IV e V"}
+      ],
+      "answer_type": "single",
+      "answer_key": "E",
+      "rationales": {
+        "A": "Incompleta. As estratégias III, IV e V também são ações fundamentais e integradas para o controle e prevenção desses acidentes.",
+        "B": "Incompleta. As estratégias I, II e III são igualmente importantes para uma abordagem completa do problema.",
+        "C": "Incompleta. As estratégias II (educação) e III (divulgação de pontos de atendimento) são cruciais para a prevenção e manejo rápido dos acidentes.",
+        "D": "Incompleta. A estratégia IV, voltada para a proteção do trabalhador rural (população de alto risco), é um componente essencial.",
+        "E": "Correta. Todas as cinco afirmações descrevem componentes essenciais de um programa abrangente de vigilância e controle de acidentes por animais peçonhentos, abordando epidemiologia, educação, comunicação, proteção ao trabalhador e integração de serviços."
+      },
+      "review": {
+        "fisiologia": "O controle de acidentes com animais peçonhentos é uma ação de vigilância em saúde que se baseia em uma abordagem multifacetada. Não se trata apenas do tratamento (soroterapia), mas de um ciclo que envolve: 1) Vigilância Epidemiológica (conhecer onde, quando e com quem ocorrem os acidentes - item I); 2) Educação e Comunicação (informar a população e profissionais - itens II e III); 3) Prevenção (foco em populações de risco como trabalhadores rurais - item IV); e 4) Integração de Serviços (articulação entre diferentes setores da saúde e outros - item V).",
+        "high_yield": ["A abordagem de controle de agravos em saúde pública é sempre MULTISETORIAL e INTEGRADA.", "As ações envolvem desde a produção do conhecimento (epidemiologia) até a prevenção, promoção, e assistência.", "Questões que listam várias ações corretas e uma opção 'todas estão corretas' são comuns em provas sobre políticas públicas."]
+      },
+      "provenance": {"extracted_at": "2024-05-23T10:00:00Z", "checksum": "sha256:b2c3d4e5f6g7"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0003",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["CONTROLE DE ROEDORES", "SINANTRÓPICOS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"CONTROLE DE ROEDORES": 0.95},
+        "evidence_spans": ["roedores", "controle", "Rattus rattus", "sinantrópica", "peridomiciliar"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Em relação aos roedores, a estratégia de controle será definida com base no conhecimento prévio da biologia e do comportamento dos roedores (...). Em 2002 foi realizado um inventario dos roedores presentes no Hospital Veterinário da UFV, apresentando o seguinte resultado: “Foram capturados 72 animais, (...) caracterizados como Rattus rattus. (...) O encontro de animais apenas dessa espécie nas dependências do hospital veterinário, indica a existência de condições favoráveis à proteção e à reprodução destes animais”. Sobre as características da espécie Rattus rattus, que justifiquem os resultados da pesquisa, assinale a alternativa INCORRETA:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Disponibilidade de alimentos em grãos como ração utilizada na alimentação de bovinos e equinos."},
+        {"label": "B", "text": "Sobras de alimentos utilizados na alimentação de cães e gatos internados no hospital."},
+        {"label": "C", "text": "Proximidade do Hospital Veterinário com área de matas, visto ser uma espécie silvestre."},
+        {"label": "D", "text": "Ausência de espécies predadoras como Rattus norvegicus."},
+        {"label": "E", "text": "Característica sinantrópica desta espécie, muito bem adaptada ao ambiente peridomiciliar e domiciliar."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Justificativa correta. R. rattus é onívoro e se beneficia de fontes de alimento abundantes como rações.",
+        "B": "Justificativa correta. Restos de comida são um grande atrativo para roedores sinantrópicos.",
+        "C": "Esta é a afirmativa INCORRETA. Rattus rattus (rato de telhado ou rato preto) é uma espécie sinantrópica, ou seja, adaptada a viver junto ao homem, e não uma espécie primariamente silvestre. Sua principal característica é a habilidade de viver em ambientes urbanos e peridomiciliares, como hospitais.",
+        "D": "Justificativa correta. R. norvegicus (ratazana) é maior, mais agressivo e tende a deslocar o R. rattus onde coexistem, atuando como um competidor/predador.",
+        "E": "Principal justificativa correta. A sinantropia do R. rattus explica sua presença e sucesso em ambientes criados ou modificados pelo homem."
+      },
+      "review": {
+        "fisiologia": "As três principais espécies de roedores sinantrópicos são: Rattus rattus (rato de telhado), Rattus norvegicus (ratazana) e Mus musculus (camundongo). R. rattus tem como característica ser excelente escalador, preferindo viver em locais altos (forros, telhados). R. norvegicus é escavador e prefere redes de esgoto e tocas no solo. A ausência de competição com R. norvegicus favorece a proliferação de R. rattus.",
+        "high_yield": ["Diferenciar o nicho ecológico das 3 principais espécies de roedores: R. rattus (escalador, telhados), R. norvegicus (nadador, esgotos) e M. musculus (explorador, dentro de gavetas/móveis).", "Entender o conceito de sinantropia: adaptação de espécies selvagens a ambientes urbanos."],
+        "pegadinhas": ["Assumir que por ser um 'rato' ele é silvestre. R. rattus é o exemplo clássico de animal sinantrópico."]
+      },
+      "provenance": {"extracted_at": "2024-05-23T10:00:00Z", "checksum": "sha256:c3d4e5f6g7h8"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0004",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["SUS", "SAÚDE DA FAMÍLIA", "EMULTI", "NASF"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.99}, "topic_confidence": {"SUS": 0.95, "EMULTI": 0.9}, "evidence_spans": ["eMulti", "Nasf", "Equipes de Saúde da Família", "categorias profissionais"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "O Ministério da Saúde publicou a Portaria GM/MS nº 635, de 22 de março de 2023, que institui, define e cria incentivo financeiro federal de implantação, custeio e desempenho nas equipes multiprofissionais de saúde. Agora chamadas eMulti, elas seguem o mesmo modelo do Nasf (Núcleo Ampliado de Saúde da Família e Atenção Básica), serviço criado em 2008 com o objetivo de aumentar as soluções das Equipes de Saúde da Família. Dentre as principais mudanças do modelo Nasf para o modelo eMulti, tem-se o estabelecimento de quais profissionais são categorias profissionais fixas (obrigatórias) e categorias profissionais possíveis (opcionais) de cada modalidade de equipe. Sobre a presença da profissional de Medicina Veterinária nas eMulti, assinale a alternativa CORRETA:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "O médico veterinário é um dos profissionais opcionais que poderão compor as chamadas eMulti Estratégicas."},
+        {"label": "B", "text": "O médico veterinário é um dos profissionais obrigatórios que poderão compor as chamadas eMulti Estratégicas."},
+        {"label": "C", "text": "O médico veterinário é um dos profissionais obrigatórios que poderão compor as chamadas eMulti Ampliadas."},
+        {"label": "D", "text": "O médico veterinário é um dos profissionais opcionais que poderão compor as chamadas eMulti Ampliadas."},
+        {"label": "E", "text": "O médico veterinário não poderá compor nenhuma das modalidades das chamadas eMulti."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A Portaria GM/MS nº 635/2023 lista o médico veterinário como profissional opcional tanto para a modalidade eMulti Ampliada quanto para a eMulti Estratégica. Como esta opção é uma afirmação verdadeira e presente na portaria, ela está correta.",
+        "B": "Incorreta. O médico veterinário não é um profissional obrigatório em nenhuma modalidade da eMulti.",
+        "C": "Incorreta. O médico veterinário não é um profissional obrigatório em nenhuma modalidade da eMulti.",
+        "D": "Correta, mas a alternativa A também está. Em casos de múltiplas respostas corretas em uma prova, pode haver um erro na questão. No entanto, ambas as afirmações (A e D) são factualmente corretas segundo a portaria.",
+        "E": "Incorreta. O médico veterinário pode compor as eMulti nas modalidades Ampliada e Estratégica."
+      },
+      "review": {
+        "fisiologia": "A Portaria GM/MS nº 635/2023 reestruturou os antigos NASF, criando as eMulti (Equipes Multiprofissionais na Atenção Primária à Saúde). Elas são divididas em modalidades (ex: Ampliada, Estratégica) com composições de profissionais fixos e opcionais. O médico-veterinário foi incluído como profissional opcional, reconhecendo seu papel na Saúde Única dentro da Atenção Primária.",
+        "high_yield": ["Saber que o médico-veterinário é um profissional OPCIONAL nas eMulti.", "As modalidades em que o veterinário pode ser inserido são a eMulti Ampliada e a eMulti Estratégica."],
+        "pegadinhas": ["Confundir obrigatório com opcional.", "Achar que o veterinário só pode compor uma das modalidades."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:d4e5f6g7h8i9"},
+      "status": "approved",
+      "version": 1,
+      "issues": ["A questão possui duas alternativas corretas (A e D), o que pode ser um erro de elaboração. Ambas descrevem corretamente a posição do veterinário como opcional em diferentes modalidades da eMulti."]
+    },
+    {
+      "id": "UFV-2024-SP-0005",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["RAIVA", "ZOONOSES", "VIGILÂNCIA EPIDEMIOLÓGICA"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.98}, "topic_confidence": {"RAIVA": 0.95}, "evidence_spans": ["Raiva", "antropozoonose", "período de incubação", "mordedura"], "ambiguities": [] },
+      "difficulty": "F",
+      "cognitive_level": "Análise",
+      "stem": "A Raiva é uma antropozoonose transmitida ao ser humano pela inoculação do vírus presente na saliva e nas secreções do animal infectado, principalmente pela mordedura e lambedura. Caracteriza-se como encefalite progressiva e aguda que apresenta letalidade de aproximadamente 100%. (...) Sobre o período de incubação da Raiva, analise as afirmações a seguir.\n\nO período de incubação da raiva é extremamente variável, desde dias até anos, com uma média de 45 dias no ser humano.\nPORQUE\nEstá diretamente relacionado à localização, à extensão e à profundidade da mordedura, da arranhadura, da lambedura ou do contato com a saliva de animais infectados; distância entre o local do ferimento, do cérebro e troncos nervosos; concentração de partículas virais inoculadas e cepa viral.\n\nCom base nas asserções, assinale a opção correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "As duas asserções são proposições verdadeiras e a segunda é uma justificativa correta da primeira."},
+        {"label": "B", "text": "As duas asserções são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira."},
+        {"label": "C", "text": "A primeira asserção é uma proposição verdadeira e a segunda, uma proposição falsa."},
+        {"label": "D", "text": "A primeira asserção é uma proposição falsa e a segunda, uma proposição verdadeira."},
+        {"label": "E", "text": "Tanto a primeira quanto a segunda asserções são proposições falsas."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A primeira afirmação é verdadeira, o período de incubação é de fato muito variável. A segunda afirmação também é verdadeira e explica perfeitamente o porquê dessa variabilidade: fatores como a proximidade da inoculação ao SNC, a carga viral e a cepa influenciam diretamente o tempo que o vírus leva para chegar ao cérebro e causar os sintomas.",
+        "B": "Incorreta. A segunda afirmação justifica a primeira.",
+        "C": "Incorreta. A segunda afirmação é verdadeira.",
+        "D": "Incorreta. A primeira afirmação é verdadeira.",
+        "E": "Incorreta. Ambas as afirmações são verdadeiras."
+      },
+      "review": {
+        "fisiologia": "O vírus da raiva viaja do ponto de inoculação até o SNC através dos nervos periféricos (transporte axonal retrógrado). Portanto, a distância do ferimento até o cérebro é um dos fatores mais críticos para o período de incubação. Ferimentos na face e cabeça levam a períodos de incubação mais curtos do que ferimentos nos pés.",
+        "high_yield": ["O período de incubação da raiva é variável.", "Fatores que influenciam o período de incubação: local da lesão (distância do SNC), gravidade da lesão (carga viral inoculada), e cepa viral."],
+        "pegadinhas": ["Achar que o período de incubação é fixo."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:e5f6g7h8i9j0"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0006",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["SUS", "LEI 8.080", "PRINCÍPIOS DO SUS"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.99}, "topic_confidence": {"SUS": 0.98, "LEI 8.080": 0.9}, "evidence_spans": ["SUS", "Lei nº 8.080", "objetivos do SUS"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Embora todo o arcabouço conceitual e legal do Sistema Único de Saúde (SUS) esteja presente na Constituição Federal de 1988, a Lei nº 8.080, de 1990 é considerada a Lei Orgânica do SUS, uma vez que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. Assinale a seguir a alternativa que NÂO apresenta apenas os objetivos do SUS, de acordo com a Lei nº 8.080, 1990:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Identificação e divulgação dos fatores condicionantes e determinantes da saúde."},
+        {"label": "B", "text": "Formulação de política de saúde destinada a promover, nos campos econômico e social, à redução de riscos de doenças e de outros agravos"},
+        {"label": "C", "text": "Assistência às pessoas por intermédio de ações de promoção, proteção e recuperação da saúde"},
+        {"label": "D", "text": "Universalidade de acesso aos serviços de saúde em todos os níveis de assistência."},
+        {"label": "E", "text": "Realização integrada das ações assistenciais e das atividades preventivas."}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "É um objetivo do SUS, conforme Art. 5º da Lei 8.080.",
+        "B": "É um objetivo do SUS, conforme Art. 5º da Lei 8.080.",
+        "C": "É um objetivo do SUS, conforme Art. 5º da Lei 8.080.",
+        "D": "Incorreta. A Universalidade de acesso é um PRINCÍPIO do SUS (Art. 7º), não um OBJETIVO (Art. 5º). A questão pede o que NÃO é um objetivo.",
+        "E": "É um PRINCÍPIO do SUS (Art. 7º - integralidade de assistência), mas é frequentemente citado no contexto dos objetivos de forma ampla. No entanto, a Universalidade (D) é mais claramente definida como um princípio distinto dos objetivos listados no Art. 5º. A opção E, 'realização integrada', está alinhada com o objetivo de 'assistência' (C). A distinção mais clara é entre os Objetivos do Art. 5º e os Princípios do Art. 7º."
+      },
+      "review": {
+        "fisiologia": "A Lei 8.080/90 estrutura o SUS. É fundamental diferenciar os Objetivos (Art. 5º) dos Princípios e Diretrizes (Art. 7º). Os objetivos são as metas finais do sistema (ex: identificar determinantes da saúde, formular políticas, prestar assistência). Os princípios são as regras e valores que guiam o funcionamento do sistema (ex: Universalidade, Integralidade, Equidade, Descentralização).",
+        "high_yield": ["Diferenciar Objetivos (Art. 5º) de Princípios (Art. 7º) da Lei 8.080.", "Objetivos: O que o SUS quer alcançar.", "Princípios: Como o SUS deve funcionar para alcançar seus objetivos."],
+        "pegadinhas": ["Confundir objetivos com princípios, como na questão."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:f6g7h8i9j0k1"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0007",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EM SAÚDE", "VIGILÂNCIA EPIDEMIOLÓGICA"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.99}, "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.95}, "evidence_spans": ["Vigilância Epidemiológica", "funções", "prevenção e controle"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Sobre as funções da Vigilância Epidemiológica, assinale a alternativa INCORRETA:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Coleta, processamento, análise e interpretação de dados."},
+        {"label": "B", "text": "Recomendação de medidas de prevenção e controle de doenças e agravos."},
+        {"label": "C", "text": "Assistência por intermédio de ações de recuperação da saúde."},
+        {"label": "D", "text": "Avaliação da eficácia e efetividade das medidas prevenção e controle adotados."},
+        {"label": "E", "text": "Divulgação de informações pertinentes ao comportamento de doenças e agravos."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. É o ciclo básico da vigilância epidemiológica: coletar e analisar dados.",
+        "B": "Correta. A análise dos dados serve para subsidiar a recomendação de ações.",
+        "C": "Incorreta. A assistência direta ao paciente (tratamento, recuperação) é uma função da Rede de Atenção à Saúde (hospitais, UBS), não da Vigilância Epidemiológica. A vigilância informa e orienta a rede, mas não executa a assistência.",
+        "D": "Correta. É crucial avaliar se as medidas recomendadas estão funcionando.",
+        "E": "Correta. A comunicação do risco e a divulgação de informações são funções essenciais."
+      },
+      "review": {
+        "fisiologia": "A Vigilância Epidemiológica (VE) é um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva. Seu foco é a informação para a ação. Ela monitora doenças, recomenda controle, avalia intervenções e divulga informações, mas a prestação de serviços de saúde (assistência) é de responsabilidade de outra esfera do SUS.",
+        "high_yield": ["O papel da VE é 'informação para ação'.", "VE não faz assistência médica direta.", "O ciclo da VE: Coleta -> Análise -> Recomendação -> Avaliação -> Divulgação."],
+        "pegadinhas": ["Atribuir à vigilância a função de tratar pacientes."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:g7h8i9j0k1l2"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0008",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EM SAÚDE", "VIGILÂNCIA SANITÁRIA"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.99}, "topic_confidence": {"VIGILÂNCIA SANITÁRIA": 0.95}, "evidence_spans": ["Vigilância Sanitária", "riscos à saúde", "produção e circulação de bens"], "ambiguities": [] },
+      "difficulty": "F",
+      "cognitive_level": "Lembrar",
+      "stem": "Assinale a alternativa que descreve as ações da Vigilância Sanitária:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Conjunto de ações capazes de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e da circulação de bens e da prestação de serviços de interesse da saúde."},
+        {"label": "B", "text": "Conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual e coletiva, com finalidade de recomendar e adotar as medidas de prevenção e controle das doenças ou agravos."},
+        {"label": "C", "text": "Conjunto de ações que proporcionam o conhecimento e a detecção de mudança nos fatores determinantes e condicionantes do meio ambiente que interferem na saúde humana, com a finalidade de identificar as medidas de prevenção e controle dos fatores de risco ambientais relacionados às doenças ou a outros agravos à saúde."},
+        {"label": "D", "text": "Conjunto de atividades que se destina à promoção e proteção da saúde dos trabalhadores, assim como visa à recuperação e reabilitação da saúde dos trabalhadores submetidos aos riscos e agravos advindos das condições de trabalho."},
+        {"label": "E", "text": "Conjunto de atividades que tem como finalidade definir os princípios, as diretrizes e as estratégias a serem observados para o desenvolvimento da promoção e a proteção da saúde e a prevenção de doenças e agravos."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Esta é a definição clássica de Vigilância Sanitária, conforme a Lei 8.080/90. Ela foca no controle de riscos associados a produtos (bens),
