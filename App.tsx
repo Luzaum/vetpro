@@ -273,6 +273,52 @@ const QuestionCard: React.FC<{
     );
 };
 
+// --- REDUCER E LÓGICA DO SIMULADO ---
+type SimState = {
+    status: 'config' | 'running' | 'finished';
+    questions: Question[];
+    answers: Record<string, string>;
+    currentIndex: number;
+    config: { n: number; areas: Set<string> };
+}
+type SimAction = 
+    | { type: 'START_SIM'; payload: { questions: Question[] } }
+    | { type: 'ANSWER'; payload: { questionId: string; answer: string } }
+    | { type: 'FINISH_SIM' }
+    | { type: 'RESET_SIM' }
+    | { type: 'SET_CONFIG'; payload: { n?: number, areas?: Set<string> } };
+
+const initialSimState: SimState = {
+    status: 'config',
+    questions: [],
+    answers: {},
+    currentIndex: 0,
+    config: { n: 10, areas: new Set() }
+};
+
+function simReducer(state: SimState, action: SimAction): SimState {
+    switch(action.type) {
+        case 'SET_CONFIG':
+            return { ...state, config: { ...state.config, ...action.payload } };
+        case 'START_SIM':
+            return { ...state, status: 'running', questions: action.payload.questions, currentIndex: 0, answers: {} };
+        case 'ANSWER': {
+            const newAnswers = { ...state.answers, [action.payload.questionId]: action.payload.answer };
+            const isLastQuestion = state.currentIndex === state.questions.length - 1;
+            return {
+                ...state,
+                answers: newAnswers,
+                currentIndex: isLastQuestion ? state.currentIndex : state.currentIndex + 1,
+                status: isLastQuestion ? 'finished' : 'running',
+            };
+        }
+        case 'RESET_SIM':
+            return initialSimState;
+        default:
+            return state;
+    }
+}
+
 // --- APP PRINCIPAL ---
 const App: React.FC = () => {
     const [mode, setMode] = useState<AppMode>('home');
