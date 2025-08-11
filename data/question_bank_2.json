@@ -318,7 +318,7 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
       "source_pages": {"start": null, "end": null},
-      "area_tags": ["ANESTESIOLOGIA", "FARMACOLOGIA"],
+      "area_tags": ["ANESTESIOLOGIA"],
       "topic_tags": ["BLOQUEADORES NEUROMUSCULARES", "SUXAMETÔNIO", "ATRACÚRIO"],
       "classification_meta": { "area_confidence": {"ANESTESIOLOGIA": 0.98}, "topic_confidence": {"BLOQUEADORES NEUROMUSCULARES": 0.95}, "evidence_spans": ["bloqueador neuromuscular", "despolarizante", "adespolarizante", "suxametônio", "atracúrio"], "ambiguities": [] },
       "difficulty": "M",
@@ -355,7 +355,7 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
       "source_pages": {"start": null, "end": null},
-      "area_tags": ["ANESTESIOLOGIA", "FARMACOLOGIA"],
+      "area_tags": ["ANESTESIOLOGIA"],
       "topic_tags": ["ANESTÉSICOS LOCAIS", "TOXICIDADE", "BUPIVACAÍNA"],
       "classification_meta": { "area_confidence": {"ANESTESIOLOGIA": 0.98}, "topic_confidence": {"ANESTÉSICOS LOCAIS": 0.95, "TOXICIDADE": 0.9}, "evidence_spans": ["anestésico local", "bupivacaína", "cardiotoxicidade", "intoxicação sistêmica"], "ambiguities": [] },
       "difficulty": "M",
@@ -927,7 +927,7 @@
       "answer_type": "single",
       "answer_key": "C",
       "rationales": {
-        "A": "Incorreta. Levar um paciente em choque para a anestesia sem estabilização prévia tem um altíssimo risco de óbito.",
+        "A": "Incorreta. Levar um paciente em choque para la anestesia sem estabilização prévia tem um altíssimo risco de óbito.",
         "B": "Incorreta. A estabilização hemodinâmica (tratamento do choque) deve ocorrer simultaneamente ou antes da descompressão.",
         "C": "Correta. O manejo da DVG segue a lógica de tratar primeiro o que mata primeiro. O choque hipovolêmico e distributivo é a maior ameaça imediata. Portanto, a prioridade é a estabilização hemodinâmica com fluidoterapia agressiva (idealmente com cateteres de grosso calibre em veias jugulares ou cefálicas). Simultaneamente, tenta-se a descompressão gástrica (por sonda ou trocater) para aliviar a pressão sobre os grandes vasos. Apenas após a estabilização inicial o paciente é levado para a cirurgia definitiva.",
         "D": "Incorreta. A gastropexia profilática é um procedimento para prevenir a DVG em cães de risco, não um tratamento para um episódio agudo.",
@@ -952,178 +952,67 @@
       "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.98}, "topic_confidence": {"RUPTURA DE LIGAMENTO CRUZADO": 0.95}, "evidence_spans": ["ligamento cruzado cranial", "sinal da gaveta", "teste de compressão tibial", "osteotomia", "TPLO", "TTA"], "ambiguities": [] },
       "difficulty": "M",
       "cognitive_level": "Análise",
-      "stem": "A ruptura do ligamento cruzado cranial (RLCCr) é a principal causa de claudicação do membro pélvico em cães. Sobre esta afecção, qual afirmação é a mais correta?",
+      "stem": "Sobre o tratamento da ruptura do ligamento cruzado cranial (RLCC) em cães, qual das seguintes afirmações sobre as osteotomias corretivas (como TPLO e TTA) é a mais correta?",
       "media": [],
       "options": [
-        {"label": "A", "text": "É uma doença primariamente traumática, ocorrendo por hiperextensão aguda do joelho em cães jovens e atléticos."},
-        {"label": "B", "text": "O diagnóstico é confirmado pelo 'sinal da gaveta' positivo, que é facilmente eliciado em todos os cães acordados."},
-        {"label": "C", "text": "O tratamento conservador com repouso e anti-inflamatórios é curativo para a maioria dos cães, especialmente os de grande porte."},
-        {"label": "D", "text": "As técnicas de osteotomia, como a TPLO e a TTA, neutralizam a força de impulso tibial cranial, estabilizando dinamicamente o joelho, e são consideradas o padrão-ouro para cães de médio a grande porte."},
-        {"label": "E", "text": "A meniscectomia total é recomendada em todos os casos de cirurgia de RLCCr para prevenir lesões meniscais futuras."}
+        {"label": "A", "text": "Elas visam substituir o ligamento rompido por um material sintético ou um enxerto de fáscia."},
+        {"label": "B", "text": "Elas alteram a biomecânica do joelho para neutralizar o impulso tibial cranial, tornando o LCC redundante durante o apoio de peso."},
+        {"label": "C", "text": "São procedimentos menos invasivos do que as técnicas de estabilização extra-capsular (fabelo-tibial)."},
+        {"label": "D", "text": "São indicadas principalmente para cães pequenos e inativos (< 15 kg)."},
+        {"label": "E", "text": "A recuperação pós-operatória é mais rápida e com menos restrições do que as técnicas extra-capsulares."}
       ],
       "answer_type": "single",
-      "answer_key": "D",
+      "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. A RLCCr em cães é, na maioria dos casos, uma doença DEGENERATIVA crônica, não traumática. O ligamento se enfraquece ao longo do tempo até romper com um trauma mínimo ou mesmo espontaneamente.",
-        "B": "Incorreta. O sinal da gaveta pode ser difícil de eliciar em cães acordados devido à contração muscular. A sedação ou anestesia é frequentemente necessária. Em casos crônicos, a fibrose periarticular também pode limitar o movimento de gaveta.",
-        "C": "Incorreta. O tratamento conservador raramente é curativo e geralmente leva a osteoartrite progressiva e instabilidade crônica. O tratamento cirúrgico é recomendado para a maioria dos cães, exceto talvez para os muito pequenos (<5 kg).",
-        "D": "Correta. As osteotomias de nivelamento do platô tibial (TPLO) ou de avanço da tuberosidade tibial (TTA) são técnicas que alteram a biomecânica do joelho para eliminar a necessidade funcional do ligamento cruzado cranial. Elas oferecem uma estabilização dinâmica e são o padrão de tratamento para cães ativos e de porte maior, com resultados superiores às técnicas de substituição do ligamento.",
-        "E": "Incorreta. A inspeção do menisco é obrigatória durante a cirurgia. Apenas a porção danificada do menisco (geralmente o corno caudal do menisco medial) deve ser removida (meniscectomia parcial). A remoção de um menisco saudável é prejudicial à articulação."
+        "A": "Incorreta. Isso descreve as técnicas de substituição intra-articulares, que são raramente usadas hoje.",
+        "B": "Correta. A TPLO (Osteotomia de Nivelamento do Platô Tibial) e a TTA (Avanço da Tuberosidade Tibial) não reparam o ligamento. Em vez disso, elas mudam a geometria da articulação do joelho para que o impulso tibial cranial (a força que o LCC normalmente combate) seja eliminado ou neutralizado, estabilizando dinamicamente a articulação quando o animal apoia o peso.",
+        "C": "Incorreta. As osteotomias são procedimentos muito mais invasivos, pois envolvem cortar o osso (tíbia).",
+        "D": "Incorreta. As osteotomias são as técnicas de escolha para cães de médio a grande porte, ativos, devido à sua superioridade na estabilização e retorno à função.",
+        "E": "Incorreta. A recuperação de uma osteotomia é mais longa e requer restrição de atividade rigorosa para permitir a cicatrização óssea."
       },
       "review": {
-        "fisiologia": "A RLCCr é uma doença ortopédica complexa. A instabilidade resultante do joelho leva a uma cascata de eventos, incluindo lesão meniscal e osteoartrite progressiva. O tratamento cirúrgico visa restaurar a estabilidade articular para retardar a progressão da osteoartrite e restaurar a função do membro.",
-        "high_yield": ["RLCCr em cães = doença DEGENERATIVA.", "Diagnóstico: Sinal da gaveta e Teste de compressão tibial (muitas vezes sob sedação).", "Padrão-ouro de tratamento para cães maiores: TPLO ou TTA.", "Sempre inspecionar os meniscos durante a cirurgia."],
-        "pegadinhas": ["Achar que a RLCCr é uma lesão aguda como em humanos.", "Remover um menisco saudável."]
+        "fisiologia": "A RLCC leva à instabilidade do joelho, manifestada pelo impulso tibial cranial. As técnicas tradicionais tentavam substituir o ligamento. As osteotomias corretivas modernas mudam a física da articulação para que a instabilidade não ocorra durante o apoio.",
+        "high_yield": ["Osteotomias corretivas (TPLO, TTA) = mudam a biomecânica do joelho, não reparam o ligamento.", "Indicação: cães de porte médio a grande e ativos.", "São mais invasivas, mas oferecem melhor resultado funcional a longo prazo."],
+        "pegadinhas": ["Achar que a TPLO ou TTA 'conserta' o ligamento."]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:6z7a8b9c0d1e" },
+      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:6p7q8r9s0t1u" },
       "status": "approved", "version": 1, "issues": []
     },
     {
-      "id": "UFV-2023-LC-0037",
-      "year": 2023,
-      "exam": "UFV",
-      "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["ANÁLISE DE EFUSÕES", "CITOLOGIA"],
-      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"ANÁLISE DE EFUSÕES": 0.95}, "evidence_spans": ["efusão", "transudato", "exsudato", "quilosa", "hemorrágica"], "ambiguities": [] },
-      "difficulty": "M",
-      "cognitive_level": "Aplicação",
-      "stem": "Um gato apresenta uma efusão torácica de aparência leitosa. A análise do fluido revela uma alta concentração de triglicerídeos (maior que a do plasma) e uma população celular predominante de pequenos linfócitos. Qual é a classificação mais provável para esta efusão?",
-      "media": [],
-      "options": [
-        {"label": "A", "text": "Transudato puro"},
-        {"label": "B", "text": "Exsudato séptico"},
-        {"label": "C", "text": "Efusão neoplásica (carcinoma)"},
-        {"label": "D", "text": "Efusão quilosa (quilotórax)"},
-        {"label": "E", "text": "Hemorragia aguda"}
-      ],
-      "answer_type": "single",
-      "answer_key": "D",
-      "rationales": {
-        "A": "Incorreta. Transudatos puros têm baixa celularidade e baixa proteína, com aparência clara.",
-        "B": "Incorreta. Exsudatos sépticos são purulentos e têm predomínio de neutrófilos degenerados e bactérias.",
-        "C": "Incorreta. Efusões por carcinoma teriam células epiteliais malignas, não linfócitos.",
-        "D": "Correta. A descrição é clássica de uma efusão quilosa (quilotórax). O quilo é o fluido linfático rico em gordura (quilomícrons, triglicerídeos) absorvido do intestino. A aparência leitosa, a alta concentração de triglicerídeos e o predomínio de pequenos linfócitos são as características definidoras.",
-        "E": "Incorreta. Uma hemorragia teria aparência sanguinolenta e um hematócrito semelhante ao do sangue periférico."
-      },
-      "review": {
-        "fisiologia": "O quilotórax resulta do extravasamento de quilo do ducto torácico para o espaço pleural. As causas podem ser variadas, incluindo cardiomiopatias, neoplasias mediastinais, trombose de veia cava, ou pode ser idiopático, que é a causa mais comum em gatos.",
-        "high_yield": ["Diagnóstico de quilotórax:", "1. Aparência leitosa.", "2. Citologia: predomínio de pequenos linfócitos.", "3. Bioquímica: Triglicerídeos do fluido > Triglicerídeos do soro."],
-        "pegadinhas": ["Confundir uma efusão quilosa com uma efusão purulenta (piotórax) apenas pela aparência turva."]
-      },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:7a8b9c0d1e2f" },
-      "status": "approved", "version": 1, "issues": []
-    },
-    {
-      "id": "UFV-2023-CM-0038",
+      "id": "UFV-2023-CM-0037",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
       "source_pages": {"start": null, "end": null},
       "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "PÊNFIGO FOLIÁCEO", "DOENÇAS AUTOIMUNES"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"PÊNFIGO FOLIÁCEO": 0.98}, "evidence_spans": ["pênfigo foliáceo", "autoimune", "pústulas", "acantólise", "imunossupressão"], "ambiguities": [] },
+      "topic_tags": ["GASTROENTEROLOGIA", "MEGAESÔFAGO", "REGURGITAÇÃO"],
+      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"MEGAESÔFAGO": 0.95}, "evidence_spans": ["megaesôfago", "regurgitação", "vômito", "cadeira de Bailey"], "ambiguities": [] },
       "difficulty": "M",
       "cognitive_level": "Análise",
-      "stem": "O Pênfigo Foliáceo é a doença de pele autoimune mais comum em cães e gatos. Qual é o achado citológico e histopatológico característico que confirma o diagnóstico?",
+      "stem": "A principal complicação associada ao megaesôfago em cães, que frequentemente leva ao óbito ou à eutanásia, é:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Infiltrado de neutrófilos e macrófagos na derme profunda."},
-        {"label": "B", "text": "Presença de células acantolíticas (queratinócitos arredondados) rodeadas por neutrófilos."},
-        {"label": "C", "text": "Hiperplasia epidérmica com espessamento acentuado da camada córnea (hiperqueratose)."},
-        {"label": "D", "text": "Infiltrado perivascular de linfócitos e plasmócitos."},
-        {"label": "E", "text": "Presença de hifas fúngicas e esporos na epiderme."}
+        {"label": "A", "text": "Desnutrição e perda de peso severa."},
+        {"label": "B", "text": "Pneumonia por aspiração."},
+        {"label": "C", "text": "Esofagite de refluxo grave."},
+        {"label": "D", "text": "Obstrução esofágica por alimento impactado."},
+        {"label": "E", "text": "Ruptura esofágica."}
       ],
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. O processo ocorre na epiderme, não na derme profunda.",
-        "B": "Correta. A patogenia do pênfigo foliáceo envolve a produção de autoanticorpos contra as desmogleínas, proteínas que unem os queratinócitos. A destruição dessas junções (acantólise) leva à separação das células epidérmicas (células acantolíticas) e à formação de pústulas subcorneanas. A citologia ou histopatologia dessas pústulas revela a presença das células acantolíticas, geralmente cercadas por neutrófilos (e ocasionalmente eosinófilos), o que é o achado diagnóstico.",
-        "C": "Incorreta. Hiperqueratose é um achado inespecífico de doenças crônicas da pele.",
-        "D": "Incorreta. Este padrão é visto em dermatites alérgicas ou outras doenças imunomediadas, mas não é específico do pênfigo.",
-        "E": "Incorreta. Isso indicaria uma infecção fúngica (dermatofitose). As pústulas do pênfigo são estéreis."
+        "A": "Incorreta. Embora a desnutrição ocorra, ela pode ser manejada com alimentação adequada e não é a complicação mais fatal.",
+        "B": "Correta. O megaesôfago é a dilatação e hipomotilidade do esôfago. Isso leva à regurgitação passiva de comida e saliva. O material regurgitado pode ser facilmente aspirado para os pulmões, causando pneumonia por aspiração recorrente e grave, que é a principal causa de morbidade e mortalidade em pacientes com megaesôfago.",
+        "C": "Incorreta. Esofagite pode ocorrer, mas não é a principal causa de morte.",
+        "D": "Incorreta. Obstrução é possível, mas menos comum e grave do que a pneumonia.",
+        "E": "Incorreta. A ruptura esofágica é rara."
       },
       "review": {
-        "fisiologia": "O Pênfigo Foliáceo (PF) é uma doença pustular autoimune. As lesões clássicas são grandes pústulas que coalescem e formam crostas, tipicamente afetando a ponte nasal, o plano nasal, as orelhas e os coxins. O diagnóstico é confirmado pela identificação de células acantolíticas na citologia ou histopatologia.",
-        "high_yield": ["Diagnóstico de Pênfigo Foliáceo = Células Acantolíticas.", "Acometimento clássico: face (ponte nasal), orelhas, coxins.", "Tratamento: imunossupressão (glicocorticoides, azatioprina, ciclosporina)."],
-        "pegadinhas": ["Confundir as pústulas do pênfigo com piodermite bacteriana. A chave é a citologia: piodermite terá bactérias, pênfigo terá células acantolíticas."]
+        "fisiologia": "No megaesôfago, a falha da peristalse esofágica faz com que o alimento se acumule no esôfago em vez de ir para o estômago. A pneumonia por aspiração ocorre quando este material acumulado entra nas vias aéreas. O manejo visa minimizar a regurgitação e a aspiração, principalmente através da alimentação em posição elevada (ex: cadeira de Bailey).",
+        "high_yield": ["Megaesôfago -> Regurgitação -> Pneumonia por Aspiração.", "Diferenciar regurgitação (passiva, sem esforço) de vômito (ativa, com contração abdominal).", "Manejo: Alimentação elevada (cadeira de Bailey), consistência alimentar adequada, tratamento da causa base (se houver, como miastenia gravis)."],
+        "pegadinhas": ["Confundir regurgitação com vômito."]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:8b9c0d1e2f3g" },
-      "status": "approved", "version": 1, "issues": []
-    },
-    {
-      "id": "UFV-2023-FAR-0039",
-      "year": 2023,
-      "exam": "UFV",
-      "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["FARMACOLOGIA", "CLÍNICA MÉDICA"],
-      "topic_tags": ["ANTIBIÓTICOS", "FLUOROQUINOLONAS", "ENROFLOXACINA", "TOXICIDADE"],
-      "classification_meta": { "area_confidence": {"FARMACOLOGIA": 0.98}, "topic_confidence": {"FLUOROQUINOLONAS": 0.95}, "evidence_spans": ["fluoroquinolonas", "enrofloxacina", "gatos", "retinopatia", "cegueira"], "ambiguities": [] },
-      "difficulty": "M",
-      "cognitive_level": "Lembrar",
-      "stem": "As fluoroquinolonas são uma classe importante de antibióticos na medicina veterinária. O uso de enrofloxacina em gatos, especialmente em doses altas ou em animais com insuficiência renal, está associado a qual efeito adverso idiossincrático e grave?",
-      "media": [],
-      "options": [
-        {"label": "A", "text": "Nefrotoxicidade aguda."},
-        {"label": "B", "text": "Hepatopatia colestática."},
-        {"label": "C", "text": "Artrose em animais jovens."},
-        {"label": "D", "text": "Degeneração retiniana aguda e cegueira súbita."},
-        {"label": "E", "text": "Anemia aplástica."}
-      ],
-      "answer_type": "single",
-      "answer_key": "D",
-      "rationales": {
-        "A": "Incorreta. Nefrotoxicidade é mais associada a aminoglicosídeos.",
-        "B": "Incorreta. Hepatopatia é um efeito adverso raro, mais associado a outros fármacos como as sulfonamidas.",
-        "C": "Incorreta. As fluoroquinolonas podem causar erosões na cartilagem articular em CÃES jovens em crescimento, não em gatos, e não é um efeito idiossincrático.",
-        "D": "Correta. A enrofloxacina pode causar uma retinopatia tóxica aguda e idiossincrática em gatos, que leva à degeneração dos fotorreceptores e resulta em cegueira súbita e, na maioria das vezes, irreversível. Por isso, a dose recomendada para gatos (5 mg/kg/dia) não deve ser excedida.",
-        "E": "Incorreta. Anemia aplástica é classicamente associada ao cloranfenicol em humanos e, raramente, a outros fármacos como o fenilbutazona."
-      },
-      "review": {
-        "fisiologia": "A toxicidade da enrofloxacina na retina felina é um efeito adverso específico da espécie e relacionado à dose. Acredita-se que o fármaco interfira no metabolismo dos fotorreceptores. Outras fluoroquinolonas, como marbofloxacina e pradofloxacina, parecem ter uma margem de segurança maior em gatos.",
-        "high_yield": ["Enrofloxacina em GATOS: Risco de CEGUEIRA súbita e irreversível.", "Não exceder a dose de 5 mg/kg/dia em gatos.", "Enrofloxacina em CÃES JOVENS: Risco de lesão na cartilagem articular."],
-        "pegadinhas": ["Confundir a toxicidade ocular em gatos com a toxicidade articular em cães."]
-      },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:9c0d1e2f3g4h" },
-      "status": "approved", "version": 1, "issues": []
-    },
-    {
-      "id": "UFV-2023-FAR-0040",
-      "year": 2023,
-      "exam": "UFV",
-      "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["FARMACOLOGIA", "CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "ANTIEMÉTICOS", "MAROPITANT"],
-      "classification_meta": { "area_confidence": {"FARMACOLOGIA": 0.98}, "topic_confidence": {"MAROPITANT": 0.95}, "evidence_spans": ["maropitant", "antagonista do receptor NK1", "substância P", "vômito", "analgesia visceral"], "ambiguities": [] },
-      "difficulty": "M",
-      "cognitive_level": "Análise",
-      "stem": "O maropitant é um antiemético amplamente utilizado em cães e gatos. Qual é o seu mecanismo de ação?",
-      "media": [],
-      "options": [
-        {"label": "A", "text": "É um antagonista dos receptores de dopamina D2 no centro do vômito."},
-        {"label": "B", "text": "É um antagonista dos receptores de serotonina 5-HT3 na zona quimiorreceptora gatilho e no trato gastrointestinal."},
-        {"label": "C", "text": "É um antagonista dos receptores de neurocinina-1 (NK1), bloqueando a ação da Substância P no centro do vômito."},
-        {"label": "D", "text": "É um agonista dos receptores opioides mu, diminuindo a motilidade gastrointestinal."},
-        {"label": "E", "text": "É um anti-histamínico H1 que atua no aparelho vestibular."}
-      ],
-      "answer_type": "single",
-      "answer_key": "C",
-      "rationales": {
-        "A": "Incorreta. Este é o mecanismo da metoclopramida.",
-        "B": "Incorreta. Este é o mecanismo da ondansetrona.",
-        "C": "Correta. O maropitant é um antagonista seletivo do receptor NK1. A Substância P é o neurotransmissor que atua nesses receptores e é considerada a via final comum para o estímulo do vômito, independentemente da causa (central, periférica ou vestibular). Ao bloquear esta via final, o maropitant é um antiemético de amplo espectro e muito eficaz. A Substância P também está envolvida na transmissão da dor, o que confere ao maropitant propriedades de analgesia visceral.",
-        "D": "Incorreta. Opioides causam constipação, mas não são usados primariamente como antieméticos e têm outros mecanismos.",
-        "E": "Incorreta. Este é o mecanismo do dimenidrinato, usado para enjoo de movimento."
-      },
-      "review": {
-        "fisiologia": "O controle do vômito envolve múltiplos neurotransmissores e receptores (dopamina, serotonina, histamina, acetilcolina, neurocinina). Fármacos que atuam em vias específicas são eficazes para causas específicas de vômito. O maropitant é único por atuar na via final comum, tornando-o eficaz contra quase todos os tipos de êmese.",
-        "high_yield": ["Maropitant = Antagonista NK1 (bloqueia Substância P).", "Mecanismo que o torna um antiemético de amplo espectro.", "Também possui efeito de analgesia visceral.", "Metoclopramida = antagonista D2.", "Ondansetrona = antagonista 5-HT3."],
-        "pegadinhas": ["Confundir o mecanismo de ação dos diferentes antieméticos."]
-      },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:0d1e2f3g4h5i" },
+      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:7q8r9s0t1u2v" },
       "status": "approved", "version": 1, "issues": []
     }
   ]

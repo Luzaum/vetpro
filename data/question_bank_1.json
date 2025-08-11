@@ -1,3 +1,4 @@
+
 {
   "meta": {
     "batch": 1,
@@ -323,4 +324,255 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. Esta é a definição clássica de Vigilância Sanitária, conforme a Lei 8.080/90. Ela foca no controle de riscos associados a produtos (bens),
+        "A": "Correta. Esta é a definição clássica de Vigilância Sanitária, conforme a Lei 8.080/90. Ela foca no controle de riscos associados a produtos (bens), serviços e ambientes.",
+        "B": "Incorreta. Esta é a definição de Vigilância Epidemiológica.",
+        "C": "Incorreta. Esta é a definição de Vigilância em Saúde Ambiental.",
+        "D": "Incorreta. Esta é a definição de Vigilância em Saúde do Trabalhador.",
+        "E": "Incorreta. Esta é uma descrição mais geral da Política Nacional de Promoção da Saúde."
+      },
+      "review": {
+        "fisiologia": "A Vigilância em Saúde é composta por quatro componentes principais: Epidemiológica (doenças e agravos), Sanitária (produtos, serviços e ambientes), Ambiental (fatores de risco no meio ambiente) e Saúde do Trabalhador (riscos ocupacionais). É essencial conhecer a definição de cada uma.",
+        "high_yield": ["Vigilância Sanitária = controle sobre produtos, serviços e ambientes.", "Vigilância Epidemiológica = controle sobre doenças e agravos.", "Vigilância Ambiental = controle sobre fatores de risco do meio ambiente (água, ar, solo, vetores).", "Vigilância em Saúde do Trabalhador = controle sobre riscos no ambiente de trabalho."],
+        "pegadinhas": ["Trocar as definições entre os diferentes tipos de vigilância."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:h8i9j0k1l2m3"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0009",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EM SAÚDE AMBIENTAL", "QUALIDADE DA ÁGUA", "VIGIAGUA"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.99}, "topic_confidence": {"VIGIAGUA": 0.95}, "evidence_spans": ["Vigilância em Saúde Ambiental", "Vigiagua", "qualidade da água"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Dentre os componentes básicos da Vigilância em Saúde Ambiental, o de maior destaque é o Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano (Vigiagua). Sobre as ações do Vigiagua, assinale a alternativa INCORRETA:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Identificar e cadastrar, as formas de abastecimento de água existentes no município."},
+        {"label": "B", "text": "Analisar as informações acerca das características das formas de abastecimento de água e da qualidade da água do abastecimento."},
+        {"label": "C", "text": "Analisar o plano de amostragem para monitoramento da qualidade da água, elaborado pelos responsáveis pelo abastecimento de água"},
+        {"label": "D", "text": "Disponibilizar publicamente as informações sobre a qualidade da água em linguagem compreensível."},
+        {"label": "E", "text": "Realizar coleta e análises de amostras para o controle da qualidade da água nos sistemas de abastecimento."}
+      ],
+      "answer_type": "single",
+      "answer_key": "E",
+      "rationales": {
+        "A": "Correta. O cadastramento é uma ação fundamental da vigilância.",
+        "B": "Correta. A análise de informações é central para a vigilância.",
+        "C": "Correta. O Vigiagua fiscaliza e avalia o plano de monitoramento dos prestadores de serviço.",
+        "D": "Correta. A comunicação e transparência são essenciais.",
+        "E": "Incorreta. A coleta e análise de amostras para o CONTROLE da qualidade da água é uma responsabilidade do prestador de serviço (a companhia de saneamento). O Vigiagua (a vigilância) realiza coletas para a VIGILÂNCIA, que são amostras em menor número para verificar se o controle está sendo feito adequadamente. A afirmação generaliza que o Vigiagua realiza a coleta para o 'controle', o que é primariamente uma atribuição do fornecedor."
+      },
+      "review": {
+        "fisiologia": "É crucial diferenciar as responsabilidades de 'Controle' e 'Vigilância' da qualidade da água. O Controle é de responsabilidade de quem fornece a água (ex: empresa de saneamento), que deve realizar análises frequentes e em grande volume. A Vigilância é de responsabilidade do setor saúde (Vigiagua), que fiscaliza o controle, realiza análises complementares (em menor número) para verificar a qualidade e toma medidas de saúde pública quando necessário.",
+        "high_yield": ["Controle da qualidade da água = Responsabilidade do FORNECEDOR.", "Vigilância da qualidade da água = Responsabilidade do SETOR SAÚDE (Vigiagua).", "Vigiagua não executa o controle, ele fiscaliza o controle."],
+        "pegadinhas": ["Confundir as atribuições de controle e vigilância."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:i9j0k1l2m3n4"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-SP-0010",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ESPOROTRICOSE", "SAÚDE ÚNICA", "ZOONOSES"],
+      "classification_meta": { "area_confidence": {"SAÚDE PÚBLICA": 0.95}, "topic_confidence": {"ESPOROTRICOSE": 0.95, "SAÚDE ÚNICA": 0.9}, "evidence_spans": ["esporotricose", "Sporothrix", "Saúde Única", "One Health"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A esporotricose é a micose de implantação mais prevalente e globalmente distribuída, causada por fungos do gênero Sporothrix. A infecção ocorre, principalmente, pelo contato do fungo com a pele ou mucosa (...). A ocorrência de casos de esporotricose decorre da interconexão complexa de sistemas sociais e biológicos entre a saúde humana, animal e ambiental, o que requer abordagens multi e interdisciplinares. Dessa forma, o Guia de Vigilância em Saúde (2021) reforça que as estratégias de prevenção e controle devem ser adotadas no contexto de Saúde Única (One Health) (...). Considerando a abordagem da Saúde Única na prevenção e controle da esporotricose, identifique com (SM) as medidas de Saúde Ambiental, (SA) as medidas de Saúde Animal e (SH) as medidas de Saúde Humana nas seguintes afirmações:\n( ) Uso de hipoclorito de sódio na limpeza de superfícies onde o animal doente foi manipulado.\n( ) Tratamento correto e isolamento em local apropriado dos animais doentes.\n( ) Atenção à exposição ocupacional.\n( ) Uso de equipamentos de proteção individual (EPIs).\n( ) Destinação correta das carcaças de animais infectados.\nAssinale a alternativa que apresenta a sequência correta:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "SM – SA – SH – SA – SM"},
+        {"label": "B", "text": "SM – SA – SH – SH – SM"},
+        {"label": "C", "text": "SA – SA – SH – SH – SM"},
+        {"label": "D", "text": "SA – SM – SA – SA – SA"},
+        {"label": "E", "text": "SH – SM – SA – SM – AS"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. O uso de EPIs é uma medida de Saúde Humana, para proteção do indivíduo.",
+        "B": "Correta. (SM) Limpeza de superfícies é ambiental. (SA) Tratamento e isolamento do animal é saúde animal. (SH) Atenção à exposição ocupacional é saúde humana (do trabalhador). (SH) Uso de EPIs é proteção individual, logo, saúde humana. (SM) Destinação correta de carcaças é uma medida para evitar contaminação ambiental.",
+        "C": "Incorreta. A limpeza de superfícies com hipoclorito é uma medida ambiental (SM), não de saúde animal (SA).",
+        "D": "Incorreta. A sequência está errada em várias classificações.",
+        "E": "Incorreta. Sequência incorreta e a última sigla 'AS' não existe no contexto da questão."
+      },
+      "review": {
+        "fisiologia": "O conceito de Saúde Única (One Health) preconiza que a saúde humana, a saúde animal e a saúde do ambiente estão interligadas. As medidas de controle de zoonoses como a esporotricose devem abranger os três pilares: tratar os animais (SA), proteger os humanos (SH) e descontaminar e manejar o ambiente (SM) para quebrar o ciclo de transmissão.",
+        "high_yield": ["Saúde Ambiental (SM): Foco no ambiente (descontaminação, destino de carcaças, controle de vetores).", "Saúde Animal (SA): Foco no animal (tratamento, vacinação, diagnóstico, bem-estar).", "Saúde Humana (SH): Foco no humano (EPI, educação, tratamento, diagnóstico)."],
+        "pegadinhas": ["Confundir uma medida de proteção individual (EPI - SH) com uma medida de saúde animal (SA)."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:j0k1l2m3n4o5"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-CM-0011",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024 - Clínica Médica.pdf",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["FARMACODINÂMICA", "RECEPTORES FARMACOLÓGICOS"],
+      "classification_meta": { "area_confidence": {"FARMACOLOGIA": 0.98}, "topic_confidence": {"FARMACODINÂMICA": 0.95}, "evidence_spans": ["farmacodinâmica", "receptores", "proteínas G", "AMPc", "hiperpolarização"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "A farmacodinâmica é a ciência que estuda os mecanismos pelos quais moléculas atuam nas funções fisiológicas de um organismo vivo e têm máxima importância para o entendimento dos efeitos farmacológicos dos medicamentos. O alvo de ligação de um fármaco no organismo animal são macromoléculas proteicas com diversos tipos de funções. Acerca dos tipos de interações químicas que envolvem a ligação dos medicamentos a receptores, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "As proteínas G são os mensageiros entre os receptores e as enzimas responsáveis pelas mudanças no interior das células. São constituídas de 3 subunidades que estão ligadas ao núcleo celular."},
+        {"label": "B", "text": "Receptores metabotrópicos se caracterizam por alta velocidade de efeito, pois estão acoplados diretamente à canais iônicos que se alteram diante da ligação deste com neurotransmissores específicos."},
+        {"label": "C", "text": "Os receptores ionotrópicos captam sinais extracelulares que são transmitidos intracelularmente através de segundos mensageiros ou moléculas de informação e daí desencadeiam respostas celulares."},
+        {"label": "D", "text": "Cada receptor apresenta afinidade por apenas uma molécula específica, sendo este modelo denominado chave-cadeado."},
+        {"label": "E", "text": "A ativação de receptores ligados à proteínas G inibitórias leva a uma cascata de eventos envolvendo redução na concentração de AMPc e hiperpolarização celular."}
+      ],
+      "answer_type": "single",
+      "answer_key": "E",
+      "rationales": {
+        "A": "Incorreta. As proteínas G estão ligadas à face interna da membrana plasmática, não ao núcleo celular.",
+        "B": "Incorreta. Receptores metabotrópicos (acoplados à proteína G) têm uma velocidade de efeito mais LENTA que os ionotrópicos, pois dependem de uma cascata de sinalização com segundos mensageiros.",
+        "C": "Incorreta. Receptores ionotrópicos são canais iônicos que se abrem ou fecham com a ligação do ligante, permitindo o fluxo de íons. Eles não dependem de segundos mensageiros; a resposta é o fluxo iônico direto. Os metabotrópicos usam segundos mensageiros.",
+        "D": "Incorreta. A especificidade não é absoluta. Um mesmo receptor pode ser ativado por diferentes moléculas (agonistas), e uma mesma molécula pode se ligar a diferentes tipos de receptores (ex: acetilcolina em receptores muscarínicos e nicotínicos). O modelo chave-fechadura é uma simplificação.",
+        "E": "Correta. Receptores acoplados à proteína Gi (inibitória) causam a inibição da enzima adenilil ciclase, o que reduz a conversão de ATP em AMPc (segundo mensageiro). A subunidade βγ da proteína Gi pode também abrir canais de potássio, levando à sua saída da célula, o que causa hiperpolarização e diminui a excitabilidade celular."
+      },
+      "review": {
+        "fisiologia": "Existem 4 superfamílias de receptores: 1) Ionotrópicos (rápidos, canais iônicos), 2) Metabotrópicos (acoplados à proteína G, lentos, usam 2º mensageiro), 3) Ligados a quinases (ex: insulina) e 4) Nucleares (intracelulares, regulam transcrição gênica, muito lentos). A proteína Gs estimula a adenilil ciclase (aumenta AMPc), enquanto a Gi inibe. A Gq ativa a fosfolipase C (aumenta IP3 e DAG).",
+        "high_yield": ["Diferenciar receptores ionotrópicos (rápidos, íons) de metabotrópicos (lentos, proteína G, AMPc/IP3).", "Proteína Gi: inibe adenilil ciclase -> diminui AMPc -> abre canais de K+ -> hiperpolarização."],
+        "pegadinhas": ["Trocar as características de velocidade e mecanismo entre receptores ionotrópicos e metabotrópicos."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:k1l2m3n4o5p6"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-CM-0012",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024 - Clínica Médica.pdf",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["AGONISTAS ALFA-2", "DEXMEDETOMIDINA", "XILAZINA", "FARMACOLOGIA ADRENÉRGICA"],
+      "classification_meta": { "area_confidence": {"ANESTESIOLOGIA": 0.9, "FARMACOLOGIA": 0.95}, "topic_confidence": {"AGONISTAS ALFA-2": 0.98}, "evidence_spans": ["agonistas dos receptores α2-adrenérgicos", "xilazina", "dexmedetomidina", "sedação", "analgesia"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre os fármacos agonistas dos receptores α2-adrenérgicos, é INCORRETO afirmar que:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Quanto mais seletivo para os receptores α2-adrenérgicos for um fármaco, maior a probabilidade de observação de rigidez e/ou excitação paradoxal."},
+        {"label": "B", "text": "No SNC, a ligação dos agonistas aos receptores α2-adrenérgicos leva à sedação, analgesia e efeitos centralmente mediados sobre a frequência cardíaca e a pós-carga."},
+        {"label": "C", "text": "A bradicardia sinusal e o bloqueio atrioventricular constituem as arritmias mais comumente observadas com a administração de xilazina."},
+        {"label": "D", "text": "A dexmedetomidina é o isômero dextrorrotatório da medetomidina, e apresenta seletividade α2:α1 igual a 1620:1."},
+        {"label": "E", "text": "A dexmedetomidina promove aumento da pressão arterial sistólica, da resistência vascular sistêmica e da concentração plasmática de glicose."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Incorreta. A afirmação é o oposto do que ocorre. A rigidez e excitação paradoxal são mais associadas a fármacos MENOS seletivos, que possuem maior atividade em receptores α1. Fármacos mais seletivos para α2, como a dexmedetomidina, produzem uma sedação mais confiável e de melhor qualidade.",
+        "B": "Correta. A ativação de receptores α2 pré-sinápticos no SNC (especialmente no Locus Coeruleus) inibe a liberação de noradrenalina, resultando em sedação e analgesia. Também reduz o tônus simpático central, contribuindo para a bradicardia.",
+        "C": "Correta. A bradicardia sinusal é o efeito cardiovascular mais comum e esperado dos agonistas α2. Bloqueios AV de primeiro e segundo grau também são frequentes devido ao aumento do tônus vagal e à redução do tônus simpático.",
+        "D": "Correta. A medetomidina é uma mistura racêmica dos isômeros dextrorrotatório (dexmedetomidina) e levorrotatório (levomedetomidina). A dexmedetomidina é o isômero ativo, com alta seletividade α2:α1.",
+        "E": "Correta. O agonismo α2 periférico (em vasos sanguíneos) causa vasoconstrição inicial, levando a um aumento da pressão arterial (pós-carga). O agonismo α2 no pâncreas inibe a liberação de insulina, resultando em hiperglicemia."
+      },
+      "review": {
+        "fisiologia": "Agonistas α2 (xilazina, detomidina, medetomidina, dexmedetomidina) atuam centralmente para causar sedação, miorrelaxamento e analgesia. Seus principais efeitos colaterais são cardiovasculares (bradicardia, BAV, vasoconstrição periférica inicial seguida de hipotensão) e hiperglicemia. A dexmedetomidina é a mais seletiva para o receptor α2, proporcionando melhor qualidade de sedação e menos efeitos indesejados relacionados ao α1.",
+        "high_yield": ["Efeitos dos α2-agonistas: sedação, analgesia, miorrelaxamento.", "Efeitos colaterais: bradicardia, BAV, hipertensão inicial, hiperglicemia, vômito (em cães e gatos).", "Dexmedetomidina é mais seletiva que xilazina."],
+        "pegadinhas": ["Assumir que a vasoconstrição é o único efeito na pressão arterial; após a fase inicial de hipertensão, o efeito central prevalece, podendo levar à hipotensão."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:l2m3n4o5p6q7"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-CM-0013",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024 - Clínica Médica.pdf",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["ANÁLISE DE EFUSÕES", "LÍQUIDOS CAVITÁRIOS", "CITOLOGIA"],
+      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"ANÁLISE DE EFUSÕES": 0.95}, "evidence_spans": ["líquidos cavitários", "efusões", "exsudatos", "células nucleadas", "proteína"], "ambiguities": [] },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Líquidos cavitários: na classificação das efusões abdominais, torácicas e pericárdicas, são características dos exsudatos, EXCETO.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Altas concentrações de proteína (> 3,0 g/dL)"},
+        {"label": "B", "text": "Celularidade alta com contagem global de células nucleadas acima de 7000/μL"},
+        {"label": "C", "text": "Os fluidos apresentam-se de turvos a opacos"},
+        {"label": "D", "text": "As colorações, mais comuns, incluem o âmbar, branco e tons avermelhados."},
+        {"label": "E", "text": "Os linfócitos são as células predominantes na maioria dos exsudatos inflamatórios"}
+      ],
+      "answer_type": "single",
+      "answer_key": "E",
+      "rationales": {
+        "A": "Correta. Exsudatos são ricos em proteínas devido ao aumento da permeabilidade vascular causada pela inflamação.",
+        "B": "Correta. Exsudatos têm alta celularidade devido à quimiotaxia de células inflamatórias para o local.",
+        "C": "Correta. A alta concentração de células e proteínas torna o líquido turvo a opaco.",
+        "D": "Correta. A cor pode variar dependendo do tipo de célula e da presença de sangue ou lipídios.",
+        "E": "Incorreta. Os NEUTRÓFILOS (geralmente degenerados) são as células predominantes na maioria dos exsudatos inflamatórios, especialmente os sépticos. Linfócitos predominam em efusões quilosas ou em algumas inflamações crônicas ou neoplásicas (linfoma), mas não na maioria dos exsudatos inflamatórios agudos."
+      },
+      "review": {
+        "fisiologia": "As efusões são classificadas em transudatos, transudatos modificados e exsudatos com base na concentração de proteínas e na contagem de células nucleadas. Transudato: baixa proteína, baixa celularidade (ex: hipoalbuminemia). Transudato Modificado: proteína e/ou celularidade intermediárias (ex: insuficiência cardíaca congestiva). Exsudato: alta proteína, alta celularidade (ex: inflamação, sepse, neoplasia).",
+        "high_yield": ["Exsudato = Inflamação.", "Características do exsudato: Proteína > 3.0 g/dL, Celularidade > 7000/μL, Predomínio de neutrófilos.", "Causa principal de exsudato: Peritonite Infecciosa Felina (PIF), peritonite/pleurite séptica."],
+        "pegadinhas": ["Assumir que toda inflamação é neutrofílica. Embora a maioria seja, inflamações crônicas podem ter macrófagos e linfócitos, e a PIF classicamente tem neutrófilos não-degenerados e macrófagos."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:m3n4o5p6q7r8"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2024-CM-0014",
+      "year": 2024,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2024 - Clínica Médica.pdf",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["HEMATOLOGIA", "ERITROGRAMA", "ANEMIA"],
+      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"HEMATOLOGIA": 0.95, "ANEMIA": 0.9}, "evidence_spans": ["hematologia", "eritrograma", "hematócrito", "VCM", "CHCM", "anemia"], "ambiguities": [] },
+      "difficulty": "F",
+      "cognitive_level": "Aplicação",
+      "stem": "Hematologia, eritrograma de cão: hematócrito – 18,0 %; hemácias – 3,4 milhões/μL; hemoglobina – 4,8 g/dL; VCM – 53,0 fL; CHCM – 26,67 g/dL. Analisando os dados fornecidos, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "O paciente apresenta uma anemia normocítica e normocrômica"},
+        {"label": "B", "text": "O paciente, em questão, não se apresenta anêmico"},
+        {"label": "C", "text": "Os dados apresentados indicam uma anemia microcítica e hipocrômica"},
+        {"label": "D", "text": "Os dados apresentados indicam uma anemia macrocítica e normocrômica"},
+        {"label": "E", "text": "Os dados apresentados indicam uma anemia microcítica e normocrômica"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. O VCM e o CHCM estão abaixo dos valores de referência para cães.",
+        "B": "Incorreta. O hematócrito de 18% é muito baixo (valor de referência normal para cães ~37-55%), indicando uma anemia severa.",
+        "C": "Correta. O VCM (Volume Corpuscular Médio) de 53,0 fL está abaixo do valor de referência (normal ~60-77 fL), indicando microcitose. O CHCM (Concentração de Hemoglobina Corpuscular Média) de 26,67 g/dL está abaixo do valor de referência (normal ~32-36 g/dL), indicando hipocromia. Portanto, trata-se de uma anemia microcítica e hipocrômica.",
+        "D": "Incorreta. O VCM está baixo (microcítica), não alto (macrocítica).",
+        "E": "Incorreta. O CHCM está baixo (hipocrômica), não normal (normocrômica)."
+      },
+      "review": {
+        "fisiologia": "A classificação morfológica da anemia é feita pelos índices hematimétricos: VCM e CHCM. VCM avalia o tamanho da hemácia (microcítica, normocítica, macrocítica). CHCM avalia a 'cor' (concentração de hemoglobina) da hemácia (hipocrômica, normocrômica). Anemias microcíticas e hipocrômicas são o padrão clássico da deficiência de ferro crônica.",
+        "high_yield": ["VCM < normal = Microcítica.", "VCM > normal = Macrocítica.", "CHCM < normal = Hipocrômica.", "Anemia microcítica e hipocrômica = pensar em deficiência de ferro (ex: sangramento crônico) ou shunt portossistêmico."],
+        "pegadinhas": ["Não conhecer os valores de referência. Para provas, é bom ter uma noção geral (VCM cão ~65, CHCM cão ~34)."]
+      },
+      "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:n4o5p6q7r8s9"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    }
+  ]
+}

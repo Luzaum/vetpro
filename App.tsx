@@ -1,10 +1,11 @@
 
+
 import React, { useState, useMemo, useEffect, useCallback, useReducer } from 'react';
 import { AppMode, Attempt, Option, Question, Stats, Review } from './types';
 import * as db from './data/db';
 import { LogoIcon, HomeIcon, BookOpenIcon, CompassIcon, BookmarkIcon, ThumbsDownIcon, ActivityIcon, FileTextIcon, StarIcon, SparklesIcon, ArrowRightIcon, ChevronDownIcon, CheckCircleIcon, XCircleIcon, InfoIcon, LoaderIcon, SunIcon, MoonIcon } from './components/Icons';
 
-const AREAS = [ "CLÍNICA MÉDICA", "CLÍNICA CIRÚRGICA", "DIAGNÓSTICO POR IMAGEM", "ANESTESIOLOGIA", "LABORATÓRIO CLÍNICO", "SAÚDE PÚBLICA", "FARMACOLOGIA" ];
+const AREAS = [ "CLÍNICA MÉDICA", "CLÍNICA CIRÚRGICA", "DIAGNÓSTICO POR IMAGEM", "ANESTESIOLOGIA", "LABORATÓRIO CLÍNICO", "SAÚDE PÚBLICA" ];
 
 const cx = (...classes: (string | boolean | undefined)[]) => classes.filter(Boolean).join(' ');
 
@@ -104,6 +105,10 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
 const QuestionReviewDisplay: React.FC<{ review: Review }> = ({ review }) => {
     const renderList = (items: string[] | undefined) => items && items.length > 0 && <ul>{items.map((item, i) => <li key={i}>{item}</li>)}</ul>;
     
+    if (!review || Object.keys(review).length === 0) {
+      return null;
+    }
+
     return (
         <div className="mt-6 border-t border-slate-200 dark:border-slate-700 pt-6">
             <h3 className="inline-flex items-center gap-2 text-xl font-bold text-slate-800 dark:text-slate-100 mb-4">
@@ -167,8 +172,7 @@ const QuestionCard: React.FC<{
         <div className="bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
             <div className="flex justify-between items-start mb-4">
                 <div>
-                    <span className="text-xs font-semibold uppercase tracking-wider text-sky-700 dark:text-sky-400 bg-sky-100 dark:bg-sky-900/50 px-2 py-1 rounded-full">{q.area_tags.map(a => a.charAt(0) + a.slice(1).toLowerCase()).join(', ')}</span>
-                    <p className="text-sm text-slate-500 dark:text-slate-400 mt-2">{q.exam} {q.year > 0 ? `(${q.year})` : ''} — {q.topic_tags.join(' / ')}</p>
+                     <p className="text-sm font-semibold text-sky-700 dark:text-sky-400">({q.exam}-{q.year}) {q.area_tags.join(', ')}</p>
                 </div>
                 <div className="flex items-center gap-2">
                     <button onClick={() => onToggleFavorite(q.id)} title="Favoritar">
@@ -199,7 +203,7 @@ const QuestionCard: React.FC<{
                         <div className="flex-shrink-0 font-bold text-sm w-6 h-6 flex items-center justify-center rounded-full border-2 border-current">{option.label}</div>
                         <div className="flex-grow">
                             <p className="font-medium text-sm">{option.text}</p>
-                            { (confirmed || mode === 'sim_review') && (
+                            { (confirmed || mode === 'sim_review') && q.rationales && q.rationales[option.label] && (
                                 <div className="mt-2 text-xs flex items-start gap-2">
                                     {q.answer_key === option.label ? <CheckCircleIcon className="w-4 h-4 text-emerald-600 dark:text-emerald-500 flex-shrink-0 mt-0.5"/> : <XCircleIcon className="w-4 h-4 text-red-600 dark:text-red-500 flex-shrink-0 mt-0.5" />}
                                     <p className="text-slate-600 dark:text-slate-300">{q.rationales[option.label]}</p>
@@ -318,28 +322,22 @@ export default function App() {
         async function initApp() {
             try {
                 // Etapa 1: Carregar os bancos de questões via fetch.
-                const questionFiles = ['./data/question_bank_1.json', './data/question_bank_2.json'];
+                const questionFiles = ['./data/question_bank_1.json', './data/question_bank_2.json', './data/question_bank_3.json'];
                 const responses = await Promise.all(questionFiles.map(file => fetch(file)));
 
                 for (const response of responses) {
                     if (!response.ok) {
-                        throw new Error(`Falha ao carregar o banco de questões: ${response.url} ${response.statusText}`);
+                        console.warn(`Falha ao carregar o banco de questões: ${response.url} ${response.statusText}. Pulando este arquivo.`);
                     }
                 }
 
-                const questionBanks = await Promise.all(responses.map(res => res.json()));
+                const questionBanks = await Promise.all(responses.filter(r => r.ok).map(res => res.json()));
                 const questionBankItems: Question[] = questionBanks.reduce((acc, bank) => acc.concat(bank.items || []), []);
 
                 // Etapa 2: Sincronizar com o IndexedDB para persistência e uso offline.
                 try {
-                    const dbQuestions = await db.getAllQuestions();
-                    
-                    // Compara o número de questões para decidir se atualiza o DB.
-                    if (dbQuestions.length !== questionBankItems.length) {
-                        console.log("Banco de dados local desatualizado ou vazio. Atualizando...");
-                        await db.clearQuestions();
-                        await db.bulkInsertQuestions(questionBankItems);
-                    }
+                    console.log("Sincronizando banco de dados local via upsert incremental...");
+                    await db.upsertQuestionsInChunks(questionBankItems, 50);
 
                     const [questions, favs, revs, atts] = await Promise.all([
                         db.getAllQuestions(), // Pega as questões atualizadas do DB
@@ -409,9 +407,11 @@ export default function App() {
                 if (attempt.correct) acc.byArea[area].correct++;
             });
 
-            if (!acc.byTopic[attempt.topic]) acc.byTopic[attempt.topic] = { total: 0, correct: 0, area: attempt.areas[0] };
-            acc.byTopic[attempt.topic].total++;
-            if (attempt.correct) acc.byTopic[attempt.topic].correct++;
+            if(attempt.topic) {
+                if (!acc.byTopic[attempt.topic]) acc.byTopic[attempt.topic] = { total: 0, correct: 0, area: attempt.areas[0] };
+                acc.byTopic[attempt.topic].total++;
+                if (attempt.correct) acc.byTopic[attempt.topic].correct++;
+            }
             
             return acc;
         }, initialStats);
