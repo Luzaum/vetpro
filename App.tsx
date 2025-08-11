@@ -1,5 +1,3 @@
-
-
 import React, { useState, useMemo, useEffect, useCallback, useReducer } from 'react';
 import { AppMode, Attempt, Option, Question, Stats, Review } from './types';
 import * as db from './data/db';
@@ -321,17 +319,20 @@ export default function App() {
     useEffect(() => {
         async function initApp() {
             try {
-                // Etapa 1: Carregar os bancos de questões via fetch.
-                const questionFiles = ['./data/question_bank_1.json', './data/question_bank_2.json', './data/question_bank_3.json'];
-                const responses = await Promise.all(questionFiles.map(file => fetch(file)));
+                // Etapa 1: Carregar os bancos de questões via fetch para evitar problemas de resolução de módulo.
+                const responses = await Promise.all([
+                    fetch('./data/question_bank_1.json'),
+                    fetch('./data/question_bank_2.json'),
+                    fetch('./data/question_bank_3.json')
+                ]);
 
                 for (const response of responses) {
                     if (!response.ok) {
-                        console.warn(`Falha ao carregar o banco de questões: ${response.url} ${response.statusText}. Pulando este arquivo.`);
+                        throw new Error(`Falha ao carregar banco de questões: ${response.statusText}`);
                     }
                 }
 
-                const questionBanks = await Promise.all(responses.filter(r => r.ok).map(res => res.json()));
+                const questionBanks = await Promise.all(responses.map(res => res.json()));
                 const questionBankItems: Question[] = questionBanks.reduce((acc, bank) => acc.concat(bank.items || []), []);
 
                 // Etapa 2: Sincronizar com o IndexedDB para persistência e uso offline.
