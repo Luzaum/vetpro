@@ -332,17 +332,11 @@ export default function App() {
 
                 // Etapa 2: Sincronizar com o IndexedDB para persistência e uso offline.
                 try {
-                    const dbQuestions = await db.getAllQuestions();
-                    
-                    // Compara o número de questões para decidir se atualiza o DB.
-                    if (dbQuestions.length !== questionBankItems.length) {
-                        console.log("Banco de dados local desatualizado ou vazio. Atualizando...");
-                        await db.clearQuestions();
-                        await db.bulkInsertQuestions(questionBankItems);
-                    }
+                    console.log("Sincronizando banco de dados local via upsert incremental...");
+                    await db.upsertQuestionsInChunks(questionBankItems, 50);
 
                     const [questions, favs, revs, atts] = await Promise.all([
-                        db.getAllQuestions(), // Pega as questões atualizadas do DB
+                        db.getAllQuestions(),
                         db.getSet('favorites'),
                         db.getSet('to_review'),
                         db.getAllAttempts()
