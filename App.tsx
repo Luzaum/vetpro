@@ -318,7 +318,7 @@ export default function App() {
         async function initApp() {
             try {
                 // Etapa 1: Carregar os bancos de questões via fetch.
-                const questionFiles = ['./data/question_bank_1.json', './data/question_bank_2.json'];
+                const questionFiles = Object.keys(import.meta.glob('./data/question_bank_*.json'));
                 const responses = await Promise.all(questionFiles.map(file => fetch(file)));
 
                 for (const response of responses) {
@@ -332,17 +332,11 @@ export default function App() {
 
                 // Etapa 2: Sincronizar com o IndexedDB para persistência e uso offline.
                 try {
-                    const dbQuestions = await db.getAllQuestions();
-                    
-                    // Compara o número de questões para decidir se atualiza o DB.
-                    if (dbQuestions.length !== questionBankItems.length) {
-                        console.log("Banco de dados local desatualizado ou vazio. Atualizando...");
-                        await db.clearQuestions();
-                        await db.bulkInsertQuestions(questionBankItems);
-                    }
+                    console.log("Sincronizando banco de dados local via upsert incremental...");
+                    await db.upsertQuestionsInChunks(questionBankItems, 50);
 
                     const [questions, favs, revs, atts] = await Promise.all([
-                        db.getAllQuestions(), // Pega as questões atualizadas do DB
+                        db.getAllQuestions(),
                         db.getSet('favorites'),
                         db.getSet('to_review'),
                         db.getAllAttempts()
