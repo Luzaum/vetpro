@@ -318,7 +318,7 @@ export default function App() {
         async function initApp() {
             try {
                 // Etapa 1: Carregar os bancos de questões via fetch.
-                const questionFiles = ['./data/question_bank_1.json', './data/question_bank_2.json'];
+                const questionFiles = Object.keys(import.meta.glob('./data/question_bank_*.json'));
                 const responses = await Promise.all(questionFiles.map(file => fetch(file)));
 
                 for (const response of responses) {
