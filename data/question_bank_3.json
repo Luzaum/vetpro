@@ -5,7 +5,7 @@
     "total_batches": 3,
     "taxonomy_version": "v1.0",
     "generator": "manual-entry",
-    "notes": ["Questões da prova UFV para ingresso em 2023 (realizada em 2022)."],
+    "notes": ["Questões UFV 2023 (corrigido rotulagem de ano)."],
     "persistence": {
       "strategy": ["json_canonical"],
       "conflicts": "upsert_on_checksum",
@@ -15,7 +15,7 @@
   "items": [
     {
       "id": "UFV-2022-DI-0015",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -34,11 +34,28 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. A avaliação prostática por imagem é indicada em cães com sinais compatíveis (tenesmo, dificuldade de levantar, disquesia).",
+        "B": "Correta. A radiografia torácica é exame de triagem para diversas afecções respiratórias, digestivas e cardiovasculares.",
+        "C": "Correta. O ultrassom é útil para identificar padrão obstrutivo e pode visualizar o corpo estranho.",
+        "D": "Correta. O ultrassom auxilia a identificar conteúdo herniário e complicações.",
+        "E": "Incorreta. Os métodos são complementares. A radiografia não substitui o ultrassom na urolitíase; o US detecta cálculos radiolucentes e avalia uropatia obstrutiva, enquanto a radiografia é melhor para cálculos radiopacos e planejamento cirúrgico."
+      },
+      "review": {
+        "fisiologia": "Radiografia e ultrassonografia possuem sensibilidades distintas para diferentes materiais (radiopacos vs radioluscentes) e fornecem informações complementares de anatomia e conteúdo.",
+        "high_yield": [
+          "Urolitíase: US vê cálculos radioluscentes e hidronefrose; RX melhor para mineral densamente radiopaco.",
+          "Hérnias: US identifica conteúdo e vascularização.",
+          "RX torácico = triagem ampla."
+        ],
+        "pegadinhas": [
+          "Achar que um método substitui o outro na urolitíase."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-DI-0016",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -57,11 +74,27 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta como opção (o exame é capaz). US detecta ausência de deslizamento pleural e 'lung point' → diagnóstico de pneumotórax.",
+        "B": "Incorreta como opção. RX geralmente confirma hérnia diafragmática (alças/órgãos abdominais no tórax, perda do contorno diafragmático).",
+        "C": "Correta. O diagnóstico definitivo de ureter ectópico requer uro-TC/cistoscopia; o US levanta suspeita (hidroureter, jato ureteral anômalo) mas não é confirmatório em muitos casos.",
+        "D": "Incorreta como opção. Intussuscepção possui imagem ultrassonográfica típica em 'alvo'.",
+        "E": "Incorreta como opção. Fratura de osso longo é diagnosticada por RX."
+      },
+      "review": {
+        "fisiologia": "US é diagnóstico para padrões patognomônicos (ex.: intussuscepção). Ureter ectópico exige método contrastado/endo para localização do óstio.",
+        "high_yield": [
+          "Pneumotórax no US: ausência de 'lung sliding' e 'B-lines'.",
+          "Ureter ectópico: padrão‑ouro = uro-TC/cistoscopia."
+        ],
+        "pegadinhas": [
+          "Confundir capacidade diagnóstica do US entre condições muito distintas."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0017",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -80,11 +113,27 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta como INCORRETA. Antibiótico não é indicado em todos os casos; a maioria das gastroenterites é autolimitada/viral/alimentar.",
+        "B": "Correta. Hemorragia intestinal severa pode cursar com sepse e choque.",
+        "C": "Correta. Perdas gastrointestinais importantes causam hipovolemia/hipotensão.",
+        "D": "Correta. Vômitos prolongados e anorexia levam à depleção de K+.",
+        "E": "Correta. Dieta de alta digestibilidade auxilia recuperação da mucosa."
+      },
+      "review": {
+        "fisiologia": "Antibiótico só quando há suspeita de infecção bacteriana invasiva, translocação ou fatores de risco (neutropenia, hematoquezia grave, leptospirose, parvovirose complicada).",
+        "high_yield": [
+          "Reposição volêmica e antieméticos são pilares.",
+          "Evitar antibiótico empírico rotineiro."
+        ],
+        "pegadinhas": [
+          "Pressupor antibiótico para qualquer diarreia/vômito."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0018",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -103,11 +152,27 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Torasemida é mais potente que furosemida (aprox. 10–20×).",
+        "B": "Correta. Contraindicações clássicas incluem hipersensibilidade, desidratação e distúrbios eletrolíticos severos.",
+        "C": "Incorreta. O risco é de azotemia PRÉ‑renal por hipovolemia; 'pós‑renal' não é mecanismo típico do diurético.",
+        "D": "Correta. Efeitos adversos gastrointestinais e renais são descritos.",
+        "E": "Correta. É alternativa em ICC refratária à furosemida."
+      },
+      "review": {
+        "fisiologia": "Diurético de alça com maior biodisponibilidade e meia‑vida. Monitorar eletrólitos e função renal para evitar azotemia pré‑renal.",
+        "high_yield": [
+          "Torasemida em ICC refratária.",
+          "Azotemia pré‑renal por hipovolemia, não pós‑renal."
+        ],
+        "pegadinhas": [
+          "Confundir mecanismos de azotemia."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CC-0019",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -126,11 +191,27 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta.",
+        "B": "Correta.",
+        "C": "Correta. Descrição clássica das fases 'ebb' e 'flow'.",
+        "D": "Correta.",
+        "E": "Incorreta. A catecolaminemia aumenta o consumo miocárdico de O2; há hiperlipidemia (não hipolipidemia) por lipólise; vasoconstrição (não vasodilatação) na fase inicial; o excesso de cortisol causa catabolismo e perda de peso; não há 'anabolismo' com ganho ponderal."
+      },
+      "review": {
+        "fisiologia": "Resposta ao trauma: fase 'ebb' (hipodinâmica) → restauração da perfusão; fase 'flow' (hiperdinâmica) com catabolismo, hipermetabolismo e resposta inflamatória sistêmica.",
+        "high_yield": [
+          "Catecolaminas ↑ consumo O2, taquicardia; cortisol = catabolismo.",
+          "Complicações de resposta exacerbada: SIRS, sepse, falência orgânica."
+        ],
+        "pegadinhas": [
+          "Trocar catabolismo por anabolismo."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0020",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -149,11 +230,24 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. (1) cerebelo ↔ tremor de intenção/hipermetria; (3) vestibular ↔ quedas/círculos/Horner; (2) medular cervical ↔ tetraparesia espástica (hiperreflexia 4M); (6) cervico‑torácica ↔ LMN torácicos + UMN pélvicos; (1) toraco‑lombar ↔ UMN pélvicos; (4) lombo‑sacra ↔ LMN pélvicos.",
+        "B": "Incorreta.",
+        "C": "Incorreta.",
+        "D": "Incorreta.",
+        "E": "Incorreta."
+      },
+      "review": {
+        "fisiologia": "Síndromes medulares: lesão cranial ao intumescimento torácico → UMN em 4M; cervico‑torácica → LMN torácico/UMN pélvico; toraco‑lombar → UMN pélvico; lombo‑sacro → LMN pélvico.",
+        "high_yield": [
+          "Cerebelo = tremor de intenção/hipermetria.",
+          "Vestibular = quedas/círculos/nistagmo."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0021",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -172,11 +266,27 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Em cães idosos e em gatos, a EPI pode ser secundária à pancreatite crônica.",
+        "B": "Incorreta. O diagnóstico é sorológico pelo TLI (tripsina‑like immunoreactivity). US é pouco sensível para EPI.",
+        "C": "Incorreta. O teste TLI é o padrão de referência; histo não é necessária.",
+        "D": "Incorreta. Esteatorreia também ocorre em outras enteropatias/má‑absorção.",
+        "E": "Incorreta. EPI acomete também felinos."
+      },
+      "review": {
+        "fisiologia": "EPI = produção insuficiente de enzimas pancreáticas → má digestão/má absorção. Diagnóstico: TLI baixo; tratamento: reposição enzimática + dieta.",
+        "high_yield": [
+          "Teste TLI para EPI.",
+          "EPI em gatos existe e é relevante."
+        ],
+        "pegadinhas": [
+          "Confiar no US para EPI."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0022",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -195,11 +305,27 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Hiperlipidemia crônica pode induzir vacuolização hepática (esteatose).",
+        "B": "Incorreta. Hipertrigliceridemia é fator de risco para pancreatite em cães.",
+        "C": "Incorreta. HAC frequentemente cursa com hiperlipidemia.",
+        "D": "Incorreta. Fibratos podem ser utilizados como hipolipemiantes em cães selecionados.",
+        "E": "Incorreta. Hiperlipidemia familiar é clássica em Schnauzer Miniatura."
+      },
+      "review": {
+        "fisiologia": "Hiperlipidemias podem ser primárias (familiares) ou secundárias (HAC, diabetes, hipotireoidismo).",
+        "high_yield": [
+          "Risco de pancreatite com TG altos.",
+          "Schnauzer Miniatura = predisposição."
+        ],
+        "pegadinhas": [
+          "Atribuir quadro a Pastor Alemão; negligenciar causas secundárias."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0023",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -218,11 +344,27 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Mais comum em cães do que em gatos.",
+        "B": "Incorreta. Lama biliar não é mucocele.",
+        "C": "Incorreta. Na maioria dos casos, o tratamento definitivo é cirúrgico (colecistectomia).",
+        "D": "Incorreta. Ocorre mais em cães de meia‑idade a idosos.",
+        "E": "Correta. HAC é fator de risco descrito para mucocele biliar."
+      },
+      "review": {
+        "fisiologia": "Mucocele biliar = depósito de mucina e material gelatinoso na vesícula, associado a hipomotilidade e endocrinopatias.",
+        "high_yield": [
+          "Tratamento: colecistectomia quando viável.",
+          "Associação com HAC e hipotireoidismo."
+        ],
+        "pegadinhas": [
+          "Chamar lama biliar de mucocele."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0024",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -241,11 +383,26 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. US não confirma DII; é exame auxiliar.",
+        "B": "Incorreta. A biópsia confirma inflamação, mas é preciso excluir outras causas e ter cronicidade.",
+        "C": "Incorreta. DII é condição crônica; diarreias agudas não definem o quadro.",
+        "D": "Correta. Critérios para diagnóstico de DII em cães e gatos.",
+        "E": "Incorreta. DII e linfoma de pequenas células têm apresentação muito semelhante em felinos."
+      },
+      "review": {
+        "fisiologia": "DII é diagnóstico de exclusão: sinais crônicos, inflamação histológica e exclusão de parasitas, dietas responsivas e outras enteropatias.",
+        "high_yield": [
+          "DII felina x linfoma de pequenas células: sobreposição; PCR/imuno-histo pode ajudar."
+        ],
+        "pegadinhas": [
+          "Basear-se apenas no US ou na biópsia isoladamente."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0025",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -264,11 +421,23 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Nistagmo horizontal pode ocorrer em vestibular periférico ou central.",
+        "B": "Incorreta. Tônus facial/mandibular relaciona‑se ao nervo facial/trigêmeo; não caracteriza vestibular.",
+        "C": "Incorreta. Otite INTERNA/media (não externa) é causa de vestibular periférico.",
+        "D": "Correta. Déficits proprioceptivos indicam acometimento de vias ascendentes no tronco encefálico/cérebro (lesão central).",
+        "E": "Incorreta. Vestibular periférico envolve VIII par ou labirinto, não o VII diretamente (apesar de paresia facial poder coexistir por lesão conjunta)."
+      },
+      "review": {
+        "fisiologia": "Vestibular periférico: ataxia, head tilt, nistagmo horizontal/rotatório, propriocepção preservada. Central: déficits proprioceptivos, alteração de pares cranianos múltiplos, nistagmo vertical possível.",
+        "high_yield": [
+          "Propriocepção ↓ = sugere central."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0026",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -287,11 +456,26 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Três copro negativos e sinais típicos em bulldog jovem tornam Giardia menos provável.",
+        "B": "Incorreta. Pode ocorrer, mas a raça/idade e quadro sugerem fortemente colite ulcerativa histiocítica.",
+        "C": "Correta. Colite ulcerativa histiocítica é típica de raças braquicefálicas jovens como Bulldog Francês.",
+        "D": "Incorreta. Quadro não é típico de pseudomembranosa.",
+        "E": "Incorreta. Histoplasmose é rara e teria outras pistas sistêmicas."
+      },
+      "review": {
+        "fisiologia": "Colite ulcerativa histiocítica (E. coli invasiva) cursa com hematoquezia e tenesmo em jovens braquicefálicos; diagnóstico por biópsia/ISH e tratamento com fluoroquinolonas dirigidas.",
+        "high_yield": [
+          "Raça/idade são pistas importantes."
+        ],
+        "pegadinhas": [
+          "Atribuir a parasitas com copro negativo reiterado."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0027",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -310,11 +494,26 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta.",
+        "B": "Correta.",
+        "C": "Correta.",
+        "D": "Incorreta como afirmação. A pos‑carga tende a estar aumentada/normal; o que reduz é o débito cardíaco levando a sinais de baixo fluxo.",
+        "E": "Correta. Remodelamento causa insuficiências valvares funcionais."
+      },
+      "review": {
+        "fisiologia": "CMD canina = disfunção sistólica com dilatação e remodelamento → baixo débito, ICC, arritmias.",
+        "high_yield": [
+          "Baixo débito ≠ baixa pós‑carga."
+        ],
+        "pegadinhas": [
+          "Confundir variáveis hemodinâmicas."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CC-0029",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -333,11 +532,26 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Miastenia gravis pode cursar com paralisia laríngea.",
+        "B": "Correta. Neuropatia por hipotireoidismo é associada.",
+        "C": "Correta. Lesões cervicais ventrais podem danificar o nervo laringo recorrente.",
+        "D": "Correta. Lesões no tórax cranial também podem afetá‑lo.",
+        "E": "Incorreta. O diagnóstico por laringoscopia deve ser feito em plano anestésico leve para não abolir a movimentação; e a avaliação do movimento exige técnicas adequadas (eventualmente doxapram)."
+      },
+      "review": {
+        "fisiologia": "Paralisia laríngea = falha na abdução das aritenoides durante a inspiração. Exame endoscópico requer plano leve e estímulo respiratório.",
+        "high_yield": [
+          "Avaliar em plano leve; considerar doxapram."
+        ],
+        "pegadinhas": [
+          "Avaliar sob anestesia profunda e concluir falsamente paralisia."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0030",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -356,11 +570,26 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta.",
+        "B": "Correta.",
+        "C": "Correta.",
+        "D": "Incorreta como afirmação. A pos‑carga tende a estar aumentada/normal; o que reduz é o débito cardíaco levando a sinais de baixo fluxo.",
+        "E": "Correta. Remodelamento causa insuficiências valvares funcionais."
+      },
+      "review": {
+        "fisiologia": "CMD canina = disfunção sistólica com dilatação e remodelamento → baixo débito, ICC, arritmias.",
+        "high_yield": [
+          "Baixo débito ≠ baixa pós‑carga."
+        ],
+        "pegadinhas": [
+          "Confundir variáveis hemodinâmicas."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0031",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -379,11 +608,23 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta.",
+        "B": "Incorreta.",
+        "C": "Incorreta.",
+        "D": "Correta. Hipocalemia é causa frequente de fraqueza em gatos com DRC (perda renal de K+).",
+        "E": "Incorreta."
+      },
+      "review": {
+        "fisiologia": "DRC felina pode cursar com hipocalemia por perda tubular → fraqueza cervical ventroflexora.",
+        "high_yield": [
+          "Sempre dosar K+ em DRC felina."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0032",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -402,11 +643,23 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Ausência de azotemia não exclui LRA inicial.",
+        "B": "Incorreta. Creatinina é usada nos critérios IRIS de LRA.",
+        "C": "Correta. Aumento ≥ 0,3 mg/dL em 48 h já caracteriza LRA mesmo sem azotemia.",
+        "D": "Incorreta. O diagnóstico já pode ser estabelecido antes de se tornar azotêmico.",
+        "E": "Incorreta. É necessária interpretação contextual; não 'qualquer' elevação."
+      },
+      "review": {
+        "fisiologia": "Critérios IRIS de LRA consideram incrementos absolutos de creatinina em curto período e/ou oligúria.",
+        "high_yield": [
+          "ΔCr ≥ 0,3 mg/dL em 48 h = LRA."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0034",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -424,12 +677,23 @@
         {"label": "E", "text": "Ácido fusídico e mupirocina são opões tópicas para as lesões piodermiticas focais."}
       ],
       "answer_type": "single",
-      "answer_key": "B",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Acidentes crotálicos têm manifestações sistêmicas neuromusculares significativas, não apenas locais.",
+        "B": "Correta. O soro antibotrópico tem pouca ação sobre necrose local; desbridamento/medidas locais são necessárias.",
+        "C": "Incorreta. Escorpionismo costuma causar dor local discreta e manifestações autonômicas/sistêmicas, não intensa necrose.",
+        "D": "Incorreta. Acidentes laquéticos são menos incidentes que botrópicos.",
+        "E": "Incorreta. Loxoscelismo x phoneutrismo têm quadros e manejo diferentes; a distinção é clinicamente relevante."
+      },
+      "review": {
+        "fisiologia": "Soroterapia neutraliza frações sistêmicas; lesão local necrosante por Bothrops pode persistir. Acidentes variam conforme o animal: serpentes (Bothrops, Crotalus, Lachesis), aranhas (Loxosceles, Phoneutria), escorpiões.",
+        "high_yield": [
+          "Soro antibotrópico com pouca ação na necrose local."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0035",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -448,11 +712,24 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Anti-histamínicos e ácidos graxos têm efeito modesto; ciclosporina é útil em controle crônico, mas crise aguda responde melhor a corticoide de curta duração + manejo de gatilhos.",
+        "B": "Incorreta. Oclacitinibe (JAK1) é útil tanto em fase aguda quanto crônica.",
+        "C": "Incorreta. Testes in vitro/intradérmicos auxiliam imunoterapia, não são padrão‑ouro diagnóstico; diagnóstico é clínico por exclusão.",
+        "D": "Incorreta. Corticoides são eficazes para controle de crise, porém uso prolongado exige cautela; nem sempre indicados para todas as etiologias.",
+        "E": "Correta. Identificar alérgenos/infecções secundárias é essencial."
+      },
+      "review": {
+        "fisiologia": "Dermatite atópica canina é reação de hipersensibilidade a alérgenos ambientais com disfunção de barreira cutânea. Tratamento multimodal inclui controle de crise (corticoide curto), controle crônico (oclacitinibe/ciclosporina/lofexidina tópica), controle de infecção secundária e imunoterapia específica quando possível.",
+        "high_yield": [
+          "Oclacitinibe pode ser usado em crise.",
+          "Testes alérgicos não diagnosticam DAC sozinhos."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0036",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -471,11 +748,27 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. M. pachydermatis é comensal em muitos cães.",
+        "B": "Correta. A resposta imune e disfunção de barreira estão envolvidas.",
+        "C": "Correta. Alergias, endocrinopatias e seborreia predisponentes.",
+        "D": "Correta. Relatos associam timoma e alopecia paraneoplásica.",
+        "E": "Incorreta. O método recomendado é a citologia por fita adesiva/impressão; raspado não é o mais indicado para Malassezia."
+      },
+      "review": {
+        "fisiologia": "Malassezia é levedura oportunista; prolifera quando há ruptura de barreira cutânea ou alterações lipídicas/umidade.",
+        "high_yield": [
+          "Diagnóstico: citologia com fita adesiva, coloração Dif-Quick.",
+          "Terapia: shampoos azólicos; tratar causa de base."
+        ],
+        "pegadinhas": [
+          "Usar raspado em vez de citologia com fita"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0037",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -494,11 +787,24 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Não são fármacos muito eficientes para crise aguda.",
+        "B": "Incorreta. Oclacitinibe pode ser usado em crise e controle crônico.",
+        "C": "Incorreta. Testes não são padrão-ouro diagnóstico; servem para imunoterapia.",
+        "D": "Incorreta. Corticoide não é sempre indicado para todas as causas; uso criterioso.",
+        "E": "Correta. Identificação de alérgenos e infecções secundárias é fundamental para controle da crise."
+      },
+      "review": {
+        "fisiologia": "DAC = hipersensibilidade a alérgenos ambientais; manejo multimodal com controle de crise, infecção e alérgenos.",
+        "high_yield": [
+          "Oclacitinibe pode ser usado em crise",
+          "Testes alérgicos não diagnosticam DAC isoladamente"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0038",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -517,11 +823,23 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta.",
+        "B": "Correta.",
+        "C": "Incorreta. Em doença sistêmica não-tireoidiana, o T4 total pode estar baixo; usa-se T4 livre por diálise e TSH canino para melhor acurácia.",
+        "D": "Correta.",
+        "E": "Correta."
+      },
+      "review": {
+        "fisiologia": "Síndrome do eutireoideu doente reduz T4 total sem hipotireoidismo verdadeiro. Diagnóstico de hipotireoidismo: T4 livre (diálise) baixo + TSH alto + clínica.",
+        "high_yield": [
+          "Evitar interpretar T4 total isolado em doentes sistêmicos."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-CM-0039",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -540,11 +858,23 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Escabiose (Sarcoptes) e esporotricose são dermatozoonoses.",
+        "B": "Incorreta. Demodiciose não é zoonose.",
+        "C": "Incorreta. Pediculose canina não é zoonose relevante.",
+        "D": "Incorreta. Otoacaríase não é clássica zoonose; leishmaniose é zoonose mas não é dermatozoonose típica.",
+        "E": "Incorreta. A está correta, D não."
+      },
+      "review": {
+        "fisiologia": "Dermatozoonoses são doenças de pele transmissíveis entre animais e humanos. Sarna sarcóptica e esporotricose são exemplos clássicos.",
+        "high_yield": [
+          "Demodiciose não é zoonótica."
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-SP-0040",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
@@ -563,11 +893,23 @@
       ],
       "answer_type": "single",
       "answer_key": "B",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. Acidentes botrópicos/crotálicos cursam com manifestações sistêmicas.",
+        "B": "Correta. Antiveneno tem pouca ação na necrose local.",
+        "C": "Incorreta. Escorpionismo não causa intensa necrose como regra.",
+        "D": "Incorreta. Incidência laquética é menor.",
+        "E": "Incorreta. Loxoscelismo vs phoneutrismo importam para manejo."
+      },
+      "review": {
+        "fisiologia": "Soros atuam em frações sistêmicas; necrose local requer manejo específico.",
+        "high_yield": [
+          "Soro antibotrópico ≠ antídoto para necrose local"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-SP-0001",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
@@ -585,12 +927,30 @@
         {"label": "E", "text": "Tanto a primeira quanto a segunda asserções são proposições falsas."}
       ],
       "answer_type": "single",
-      "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Embora as duas sentenças sejam verdadeiras, a segunda NÃO justifica a primeira.",
+        "B": "Correta. O humano é hospedeiro acidental/terminal na leptospirose, e a exposição ocorre sobretudo à urina de animais infectados; contudo, essa descrição do modo de infecção não explica o fato de o humano ser terminal.",
+        "C": "Incorreta. A primeira asserção é verdadeira.",
+        "D": "Incorreta. A primeira é verdadeira e a segunda também é verdadeira.",
+        "E": "Incorreta. Ambas as asserções são verdadeiras."
+      },
+      "review": {
+        "fisiologia": "O humano é hospedeiro acidental e terminal porque, diferentemente dos reservatórios (ex.: roedores), não mantém a eliminação ambiental eficaz e sustentada de Leptospira. A infecção humana decorre do contato direto/indireto com urina de animais infectados; a transmissão pessoa‑pessoa é rara.",
+        "high_yield": [
+          "Reservatório principal: roedores; eliminação crônica renal",
+          "Transmissão humana: água/solo contaminados; pele lesada ou mucosas",
+          "Transmissão pessoa‑pessoa é rara (contato com fluidos)"
+        ],
+        "pegadinhas": [
+          "Confundir 'modo de infecção' com 'razão de ser terminal'",
+          "Assumir que pessoa‑pessoa é comum"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-SP-0002",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
@@ -609,11 +969,28 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. Medida clássica de antirratização (ambiente desfavorável).",
+        "B": "Correta. Armazenamento adequado e distante do domicílio.",
+        "C": "Incorreta. Enterrar lixo com adição de raticida é perigoso e incorreto (risco ambiental e de intoxicação).",
+        "D": "Correta. Retirar alimento disponível aos roedores.",
+        "E": "Correta. Armazenamento vedado e elevado facilita higiene e reduz acesso."
+      },
+      "review": {
+        "fisiologia": "Antirratização = saneamento ambiental (eliminar abrigo, água e alimento). Desratização = controle químico/físico. Adicionar raticida ao lixo enterrado é prática insegura e não recomendada.",
+        "high_yield": [
+          "Priorizar manejo ambiental antes de venenos",
+          "Armazenar alimentos vedados e elevados",
+          "Retirar ração noturna dos animais domésticos"
+        ],
+        "pegadinhas": [
+          "Confundir antirratização (ambiente) com desratização (veneno)"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-SP-0004",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
@@ -632,11 +1009,28 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Parcial. I é verdadeira, mas V é falsa.",
+        "B": "Incorreta. V é falsa.",
+        "C": "Incorreta. V é falsa; III também deve constar entre as corretas.",
+        "D": "Correta. I, II, III e IV estão corretas.",
+        "E": "Incorreta. V é falsa."
+      },
+      "review": {
+        "fisiologia": "Ciclos: urbano (cães/gatos), rural (herbívoros acometidos por morcegos hematófagos), silvestre aéreo (morcegos reservatórios) e silvestre terrestre (carnívoros/primatas/marsupiais). O ciclo rural não é eliminável devido ao reservatório silvestre (morcegos).",
+        "high_yield": [
+          "Hoje, morcegos são o principal reservatório",
+          "Ciclo rural depende do silvestre aéreo",
+          "Eliminação é inviável quando há reservatório silvestre"
+        ],
+        "pegadinhas": [
+          "Achar que o ciclo rural é eliminável"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-SP-0005",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
@@ -655,11 +1049,28 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Correta. A eliminação salivar antecede em poucos dias os sinais; 10 dias de observação garantem segurança.",
+        "B": "Incorreta. A segunda asserção justifica a primeira.",
+        "C": "Incorreta. A segunda é verdadeira.",
+        "D": "Incorreta. A primeira é verdadeira.",
+        "E": "Incorreta. Ambas são verdadeiras."
+      },
+      "review": {
+        "fisiologia": "O vírus da raiva atinge as glândulas salivares pouco antes dos sinais clínicos e o curso é rapidamente fatal. Animal agressor sadio por 10 dias no pós‑acidente não transmitia no momento da agressão.",
+        "high_yield": [
+          "Período de observação de 10 dias",
+          "Eliminação viral 2–5 dias antes dos sinais",
+          "Conduta humana depende do desfecho da observação"
+        ],
+        "pegadinhas": [
+          "Interromper observação antes de 10 dias"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
     {
       "id": "UFV-2022-SP-0006",
-      "year": 2022,
+      "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
@@ -678,7 +1089,25 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {}, "review": {}, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      "rationales": {
+        "A": "Incorreta. A manutenção principal em epidemias é o ciclo humano‑vetor; transovariana existe, mas não é a via principal.",
+        "B": "Correta. Início do PIE ao picar humano virêmico.",
+        "C": "Incorreta (no enunciado). O Aedes também funciona como reservatório; negar isso é erro conceitual.",
+        "D": "Correta. Definição de PIE.",
+        "E": "Correta. Após o PIE, o vetor permanece infectante até o fim da vida."
+      },
+      "review": {
+        "fisiologia": "Aedes aegypti é vetor competente e, considerando a transmissão vertical, contribui como reservatório. PIE encurta com temperaturas mais altas; após o PIE, o mosquito transmite até o final da vida.",
+        "high_yield": [
+          "PIE: sangue virêmico → replicação → glândulas salivares",
+          "Transovariana: persistência entre safras, não motor principal de epidemias",
+          "Vetor infectante por toda a vida"
+        ],
+        "pegadinhas": [
+          "Tratar transovariana como principal via de manutenção",
+          "Negar papel de reservatório do vetor"
+        ]
+      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     }
   ]
 }

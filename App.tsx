@@ -6,6 +6,7 @@ import { LogoIcon, HomeIcon, BookOpenIcon, CompassIcon, BookmarkIcon, ThumbsDown
 import questionBank1 from './data/question_bank_1.json';
 import questionBank2 from './data/question_bank_2.json';
 import questionBank3 from './data/question_bank_3.json';
+import questionBank4 from './data/question_bank_4.json';
 
 const AREAS = [ 'CLÍNICA MÉDICA', 'CLÍNICA CIRÚRGICA', 'DIAGNÓSTICO POR IMAGEM', 'ANESTESIOLOGIA', 'LABORATÓRIO CLÍNICO', 'SAÚDE PÚBLICA' ];
 
@@ -244,7 +245,7 @@ const QuestionCard: React.FC<{
 
       <p className="text-slate-800 dark:text-slate-200 text-base leading-relaxed mb-4 whitespace-pre-wrap">{q.stem}</p>
 
-      {q.media[0]?.uri && <img src={q.media[0].uri} alt={q.media[0].alt} className="my-4 rounded-lg w-full max-w-lg mx-auto bg-white p-2" />}
+      {q.media?.[0]?.uri && <img src={q.media?.[0]?.uri} alt={q.media?.[0]?.alt} className="my-4 rounded-lg w-full max-w-lg mx-auto bg-white p-2" />}
 
       <div className="space-y-3">
         {q.options
@@ -387,7 +388,8 @@ export default function App() {
         const questionBankItems: Question[] = [
           ...(questionBank1 as any).items,
           ...(questionBank2 as any).items,
-          ...(questionBank3 as any).items
+          ...(questionBank3 as any).items,
+          ...(questionBank4 as any).items
         ];
         try {
           await db.upsertQuestionsInChunks(questionBankItems, 50);
@@ -722,7 +724,7 @@ const SimulationView: React.FC<{
         <div className="bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
           <p className="text-xs font-semibold uppercase text-sky-600 dark:text-sky-400 bg-sky-100 dark:bg-sky-900/50 px-2 py-1 rounded-full inline-block mb-2">{q.area_tags.map(a => a.charAt(0) + a.slice(1).toLowerCase()).join(', ')}</p>
           <p className="text-slate-800 dark:text-slate-200 leading-relaxed whitespace-pre-wrap mb-4">{q.stem}</p>
-          {q.media[0]?.uri && <img src={q.media[0].uri} alt={q.media[0].alt} className="my-4 rounded-lg w-full max-w-lg mx-auto" />}
+          {q.media?.[0]?.uri && <img src={q.media?.[0]?.uri} alt={q.media?.[0]?.alt} className="my-4 rounded-lg w-full max-w-lg mx-auto" />}
           <div className="space-y-3">
             {q.options.filter(o => o.text !== '—' && o.text).map(option => (
               <button
