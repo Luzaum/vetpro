@@ -102,6 +102,39 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
     );
 };
 
+// Seleção de múltiplas áreas para Estudar/Simulado
+const AreaMultiSelect: React.FC<{
+    selected: Set<string>;
+    onToggle: (area: string) => void;
+    onSelectAll: () => void;
+    onClear: () => void;
+}> = ({ selected, onToggle, onSelectAll, onClear }) => {
+    return (
+        <div className="space-y-3">
+            <div className="flex flex-wrap gap-2">
+                {AREAS.map(area => (
+                    <button
+                        key={area}
+                        onClick={() => onToggle(area)}
+                        className={cx(
+                            'px-3 py-1 rounded-full border text-sm',
+                            selected.has(area)
+                                ? 'bg-sky-600 text-white border-sky-600'
+                                : 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border-slate-300 dark:border-slate-600'
+                        )}
+                    >
+                        {area}
+                    </button>
+                ))}
+            </div>
+            <div className="flex gap-2">
+                <button onClick={onSelectAll} className="px-3 py-1 rounded-md bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-white">Selecionar todas</button>
+                <button onClick={onClear} className="px-3 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-600">Limpar</button>
+            </div>
+        </div>
+    );
+};
+
 const QuestionReviewDisplay: React.FC<{ review: Review }> = ({ review }) => {
     const renderList = (items: string[] | undefined) => items && items.length > 0 && <ul>{items.map((item, i) => <li key={i}>{item}</li>)}</ul>;
     
@@ -244,7 +277,8 @@ const QuestionCard: React.FC<{
 const App: React.FC = () => {
     const [mode, setMode] = useState<AppMode>('home');
     const [theme, setTheme] = useState<string>(() => (document.documentElement.classList.contains('dark') ? 'dark' : 'light'));
-    const [selectedArea, setSelectedArea] = useState<string>('Todas');
+    const [selectedArea, setSelectedArea] = useState<string>('Todas'); // Navegar
+    const [selectedAreas, setSelectedAreas] = useState<Set<string>>(new Set(AREAS)); // Estudar/Simulado
     const [questions, setQuestions] = useState<Question[]>([]);
     const [currentIndex, setCurrentIndex] = useState<number>(0);
     const [favorites, setFavorites] = useState<Set<string>>(new Set());
@@ -293,11 +327,33 @@ const App: React.FC = () => {
         return questions.filter(q => q.area_tags.includes(selectedArea));
     }, [questions, selectedArea]);
 
+    const quizPool = useMemo(() => {
+        if (selectedAreas.size === 0) return [] as Question[];
+        return questions.filter(q => q.area_tags.some(a => selectedAreas.has(a)));
+    }, [questions, selectedAreas]);
+
+    const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
+    const [quizIndex, setQuizIndex] = useState<number>(0);
+
+    const startQuiz = useCallback(() => {
+        const pool = quizPool.length > 0 ? quizPool : questions;
+        const shuffled = shuffle(pool);
+        setQuizQuestions(shuffled);
+        setQuizIndex(0);
+        setMode('quiz');
+    }, [quizPool, questions]);
+
+    const currentQuizQuestion = quizQuestions[quizIndex] || null;
+
     const currentQuestion = filteredQuestions[currentIndex] || null;
 
     const handleNext = useCallback(() => {
         setCurrentIndex(i => (i + 1) % Math.max(filteredQuestions.length || 1, 1));
     }, [filteredQuestions.length]);
+
+    const handleNextQuiz = useCallback(() => {
+        setQuizIndex(i => (i + 1) % Math.max(quizQuestions.length || 1, 1));
+    }, [quizQuestions.length]);
 
     const handleToggleFavorite = useCallback(async (id: string) => {
         const set = await db.toggleInSet('favorites' as any, id);
@@ -314,15 +370,69 @@ const App: React.FC = () => {
             <Header mode={mode} setMode={setMode} theme={theme} toggleTheme={toggleTheme} />
             <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                 {mode === 'home' && (
-                    <div className="space-y-4">
+                    <div className="space-y-6">
                         <h1 className="text-2xl font-bold">Bem-vindo ao VetPro</h1>
-                        {loading ? (
+                        <p className="text-slate-700 dark:text-slate-300">Total de questões: {questions.length}</p>
+                        <section className="space-y-3">
+                            <h2 className="font-semibold">Selecione as áreas para estudar/simulado</h2>
+                            <AreaMultiSelect
+                                selected={selectedAreas}
+                                onToggle={(area) => {
+                                    setSelectedAreas(prev => {
+                                        const next = new Set(prev);
+                                        if (next.has(area)) next.delete(area); else next.add(area);
+                                        return next;
+                                    });
+                                }}
+                                onSelectAll={() => setSelectedAreas(new Set(AREAS))}
+                                onClear={() => setSelectedAreas(new Set())}
+                            />
+                        </section>
+                        <div className="flex flex-wrap gap-3">
+                            <button
+                                onClick={startQuiz}
+                                disabled={loading || questions.length === 0}
+                                className={cx('px-4 py-2 rounded-lg font-semibold', loading || questions.length === 0 ? 'bg-slate-400 cursor-not-allowed' : 'bg-sky-600 hover:bg-sky-700 text-white')}
+                            >
+                                Iniciar Estudo
+                            </button>
+                            <button
+                                onClick={() => setMode('browse')}
+                                className="px-4 py-2 rounded-lg font-semibold bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900"
+                            >
+                                Navegar
+                            </button>
+                            <button
+                                onClick={() => setMode('review')}
+                                className="px-4 py-2 rounded-lg font-semibold bg-amber-600 hover:bg-amber-700 text-white"
+                            >
+                                Revisar marcadas
+                            </button>
+                        </div>
+                    </div>
+                )}
+
+                {mode === 'quiz' && (
+                    <div>
+                        {loading && (
                             <p className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300">
                                 <LoaderIcon className="w-4 h-4 animate-spin" />
                                 Carregando questões...
                             </p>
-                        ) : (
-                            <p className="text-slate-700 dark:text-slate-300">Total de questões: {questions.length}</p>
+                        )}
+                        {!loading && !currentQuizQuestion && (
+                            <p className="text-slate-700 dark:text-slate-300">Nenhuma questão encontrada para as áreas selecionadas.</p>
+                        )}
+                        {currentQuizQuestion && (
+                            <QuestionCard
+                                q={currentQuizQuestion}
+                                mode="quiz"
+                                onNext={handleNextQuiz}
+                                onToggleFavorite={handleToggleFavorite}
+                                onToggleToReview={handleToggleToReview}
+                                isFavorite={favorites.has(currentQuizQuestion.id)}
+                                isToReview={toReview.has(currentQuizQuestion.id)}
+                            />
                         )}
                     </div>
                 )}
@@ -358,8 +468,35 @@ const App: React.FC = () => {
                     </div>
                 )}
 
-                {mode !== 'home' && mode !== 'browse' && (
-                    <p className="text-slate-700 dark:text-slate-300">Seção “{mode}” em construção.</p>
+                {mode === 'review' && (
+                    <div>
+                        <h2 className="text-xl font-semibold mb-4">Marcadas para revisar</h2>
+                        {loading && (
+                            <p className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300">
+                                <LoaderIcon className="w-4 h-4 animate-spin" />
+                                Carregando questões...
+                            </p>
+                        )}
+                        {!loading && (
+                            <div className="space-y-6">
+                                {questions.filter(q => toReview.has(q.id)).length === 0 && (
+                                    <p className="text-slate-700 dark:text-slate-300">Você ainda não marcou questões para revisar.</p>
+                                )}
+                                {questions.filter(q => toReview.has(q.id)).slice(0, 1).map(q => (
+                                    <QuestionCard
+                                        key={q.id}
+                                        q={q}
+                                        mode="browse"
+                                        onNext={() => {}}
+                                        onToggleFavorite={handleToggleFavorite}
+                                        onToggleToReview={handleToggleToReview}
+                                        isFavorite={favorites.has(q.id)}
+                                        isToReview={toReview.has(q.id)}
+                                    />
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 )}
             </main>
         </div>
