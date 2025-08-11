@@ -3,9 +3,7 @@ import React, { useState, useMemo, useEffect, useCallback, useReducer } from 're
 import { AppMode, Attempt, Option, Question, Stats, Review } from './types';
 import * as db from './data/db';
 import { LogoIcon, HomeIcon, BookOpenIcon, CompassIcon, BookmarkIcon, ThumbsDownIcon, ActivityIcon, FileTextIcon, StarIcon, SparklesIcon, ArrowRightIcon, ChevronDownIcon, CheckCircleIcon, XCircleIcon, InfoIcon, LoaderIcon, SunIcon, MoonIcon } from './components/Icons';
-import questionBank1 from './data/question_bank_1.json';
-import questionBank2 from './data/question_bank_2.json';
-import questionBank3 from './data/question_bank_3.json';
+// question banks são importados e semeados em index.tsx
 
 const AREAS = [ "CLÍNICA MÉDICA", "CLÍNICA CIRÚRGICA", "DIAGNÓSTICO POR IMAGEM", "ANESTESIOLOGIA", "LABORATÓRIO CLÍNICO", "SAÚDE PÚBLICA" ];
 
@@ -242,8 +240,130 @@ const QuestionCard: React.FC<{
     );
 };
 
-// --- REDUCER E LÓGICA DO SIMULADO ---
-type SimState = {
-    status: 'config' | 'running' | 'finished';
-    questions: Question[];
-    answers: Record
+// --- APP PRINCIPAL ---
+const App: React.FC = () => {
+    const [mode, setMode] = useState<AppMode>('home');
+    const [theme, setTheme] = useState<string>(() => (document.documentElement.classList.contains('dark') ? 'dark' : 'light'));
+    const [selectedArea, setSelectedArea] = useState<string>('Todas');
+    const [questions, setQuestions] = useState<Question[]>([]);
+    const [currentIndex, setCurrentIndex] = useState<number>(0);
+    const [favorites, setFavorites] = useState<Set<string>>(new Set());
+    const [toReview, setToReview] = useState<Set<string>>(new Set());
+    const [loading, setLoading] = useState<boolean>(true);
+
+    const toggleTheme = useCallback(() => {
+        setTheme(prev => {
+            const next = prev === 'light' ? 'dark' : 'light';
+            if (next === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+            localStorage.theme = next;
+            return next;
+        });
+    }, []);
+
+    useEffect(() => {
+        let cancelled = false;
+        (async () => {
+            try {
+                setLoading(true);
+                const all = await db.getAllQuestions();
+                if (!cancelled) setQuestions(all);
+                const fav = await db.getSet('favorites' as any);
+                const tr = await db.getSet('to_review' as any);
+                if (!cancelled) {
+                    setFavorites(fav);
+                    setToReview(tr);
+                }
+            } finally {
+                if (!cancelled) setLoading(false);
+            }
+        })();
+        return () => { cancelled = true; };
+    }, []);
+
+    useEffect(() => {
+        setCurrentIndex(0);
+    }, [selectedArea]);
+
+    const filteredQuestions = useMemo(() => {
+        if (selectedArea === 'Todas') return questions;
+        return questions.filter(q => q.area_tags.includes(selectedArea));
+    }, [questions, selectedArea]);
+
+    const currentQuestion = filteredQuestions[currentIndex] || null;
+
+    const handleNext = useCallback(() => {
+        setCurrentIndex(i => (i + 1) % Math.max(filteredQuestions.length || 1, 1));
+    }, [filteredQuestions.length]);
+
+    const handleToggleFavorite = useCallback(async (id: string) => {
+        const set = await db.toggleInSet('favorites' as any, id);
+        setFavorites(set);
+    }, []);
+
+    const handleToggleToReview = useCallback(async (id: string) => {
+        const set = await db.toggleInSet('to_review' as any, id);
+        setToReview(set);
+    }, []);
+
+    return (
+        <div className={cx('min-h-screen', 'bg-slate-50 dark:bg-slate-900')}>
+            <Header mode={mode} setMode={setMode} theme={theme} toggleTheme={toggleTheme} />
+            <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                {mode === 'home' && (
+                    <div className="space-y-4">
+                        <h1 className="text-2xl font-bold">Bem-vindo ao VetPro</h1>
+                        {loading ? (
+                            <p className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300">
+                                <LoaderIcon className="w-4 h-4 animate-spin" />
+                                Carregando questões...
+                            </p>
+                        ) : (
+                            <p className="text-slate-700 dark:text-slate-300">Total de questões: {questions.length}</p>
+                        )}
+                    </div>
+                )}
+
+                {mode === 'browse' && (
+                    <div>
+                        <AreaFilter selectedArea={selectedArea} onSelectArea={setSelectedArea} />
+                        {loading && (
+                            <p className="inline-flex items-center gap-2 text-slate-600 dark:text-slate-300">
+                                <LoaderIcon className="w-4 h-4 animate-spin" />
+                                Carregando questões...
+                            </p>
+                        )}
+                        {!loading && !currentQuestion && (
+                            <p className="text-slate-700 dark:text-slate-300">Nenhuma questão encontrada para o filtro.</p>
+                        )}
+                        {currentQuestion && (
+                            <div className="space-y-4">
+                                <QuestionCard
+                                    q={currentQuestion}
+                                    mode="browse"
+                                    onNext={handleNext}
+                                    onToggleFavorite={handleToggleFavorite}
+                                    onToggleToReview={handleToggleToReview}
+                                    isFavorite={favorites.has(currentQuestion.id)}
+                                    isToReview={toReview.has(currentQuestion.id)}
+                                />
+                                <div className="flex justify-end">
+                                    <button onClick={handleNext} className="px-4 py-2 rounded-md bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900">Próxima</button>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                )}
+
+                {mode !== 'home' && mode !== 'browse' && (
+                    <p className="text-slate-700 dark:text-slate-300">Seção “{mode}” em construção.</p>
+                )}
+            </main>
+        </div>
+    );
+};
+
+export default App;
