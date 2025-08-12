@@ -9,12 +9,13 @@ Este projeto implementa um sistema completo de questões da prova UFV 2021 para 
 - Funcionalidade **"Treine seu aprendizado"** com questões de treino
 - Classificação por áreas de conhecimento
 - Interface moderna e responsiva
+- **Explicações educativas completas** para todas as alternativas
 
 ## Funcionalidades Implementadas
 
 ### 1. Banco de Questões UFV 2021
 - **40 questões** da prova UFV 2021
-- Explicações detalhadas para alternativas corretas e incorretas
+- **Explicações detalhadas e educativas** para alternativas corretas e incorretas
 - Classificação por área de conhecimento e tópicos
 - Sistema de metadados para rastreabilidade
 
@@ -30,7 +31,14 @@ Este projeto implementa um sistema completo de questões da prova UFV 2021 para 
 - Feedback imediato com explicação da resposta
 - Questões de treino com diferenças sutis para testar conhecimento
 
-### 4. Áreas de Conhecimento Cobertas
+### 4. Explicações Educativas Completas
+- **Explicações detalhadas** para todas as alternativas (corretas e incorretas)
+- **Contexto fisiopatológico** para facilitar compreensão
+- **Mecanismos de ação** explicados de forma didática
+- **Correlações clínicas** para aplicação prática
+- **Identificação de erros comuns** e confusões frequentes
+
+### 5. Áreas de Conhecimento Cobertas
 - **Saúde Pública** (10 questões)
 - **Clínica Médica** (8 questões)
 - **Clínica Cirúrgica** (4 questões)
@@ -38,7 +46,7 @@ Este projeto implementa um sistema completo de questões da prova UFV 2021 para 
 - **Diagnóstico por Imagem** (6 questões)
 - **Laboratório Clínico** (6 questões)
 
-### 5. Temas Abordados
+### 6. Temas Abordados
 - Vigilância Epidemiológica e Sanitária
 - Transição Epidemiológica
 - Zoonoses e Classificação
@@ -80,6 +88,13 @@ Este projeto implementa um sistema completo de questões da prova UFV 2021 para 
 interface Question {
   // ... campos existentes ...
   training_question?: TrainingQuestion; // Nova funcionalidade
+  rationales: {
+    A: string; // Explicação detalhada da alternativa A
+    B: string; // Explicação detalhada da alternativa B
+    C: string; // Explicação detalhada da alternativa C
+    D: string; // Explicação detalhada da alternativa D
+    E?: string; // Explicação detalhada da alternativa E (quando aplicável)
+  };
 }
 
 interface TrainingQuestion {
@@ -106,6 +121,12 @@ interface TrainingQuestion {
 - Inclui pontos de alto rendimento e identificação de pegadinhas
 - Referências bibliográficas para aprofundamento
 
+### 4. Explicações Educativas
+- **Alternativas corretas**: Explicação detalhada do porquê está correta
+- **Alternativas incorretas**: Explicação do erro e conceito correto
+- **Contexto fisiopatológico**: Mecanismos de ação e correlações clínicas
+- **Identificação de confusões**: Erros comuns e como evitá-los
+
 ## Benefícios Pedagógicos
 
 ### 1. Aprendizado Ativo
@@ -123,12 +144,35 @@ interface TrainingQuestion {
 - Classificação por áreas facilita estudo direcionado
 - Referências para aprofundamento
 
+### 4. Compreensão Profunda
+- Explicações detalhadas facilitam aprendizado
+- Contexto fisiopatológico melhora retenção
+- Identificação de erros comuns previne confusões
+
+## Melhorias Implementadas
+
+### Explicações Educativas Completas
+- **Todas as 40 questões** do banco UFV 2021 foram revisadas
+- **Explicações detalhadas** para alternativas corretas e incorretas
+- **Contexto fisiopatológico** incluído em todas as explicações
+- **Mecanismos de ação** explicados de forma didática
+- **Correlações clínicas** para aplicação prática
+- **Identificação de erros comuns** e confusões frequentes
+
+### Exemplos de Melhorias
+- **Questões de Saúde Pública**: Explicações sobre critérios de notificação, diferenças entre vigilâncias
+- **Questões de Clínica**: Mecanismos fisiopatológicos detalhados
+- **Questões de Anestesiologia**: Farmacologia e indicações específicas
+- **Questões de Laboratório**: Interpretação de resultados e limitações
+- **Questões de Imagem**: Indicações e limitações de cada método
+
 ## Atualizações Futuras
 
 - Adição de mais bancos de questões de outras instituições
 - Sistema de estatísticas de desempenho
 - Modo de simulado cronometrado
 - Exportação de relatórios de estudo
+- Melhorias contínuas nas explicações educativas
 
 ## Tecnologias Utilizadas
 
@@ -140,4 +184,4 @@ interface TrainingQuestion {
 
 ---
 
-**Desenvolvido para otimizar a preparação para residência veterinária com foco em aprendizado eficiente e retenção de conhecimento.**
+**Desenvolvido para otimizar a preparação para residência veterinária com foco em aprendizado eficiente e retenção de conhecimento através de explicações educativas completas e sistema de treino interativo.**

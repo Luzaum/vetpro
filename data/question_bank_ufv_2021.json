@@ -229,10 +229,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. A sequência está correta, mas a alternativa B é idêntica.",
-        "B": "Correta. A sequência correta é: 2 (Potencial de disseminação) - elevado poder de transmissão; 3 (Transcendência) - severidade, relevância social e econômica; 4 (Vulnerabilidade) - disponibilidade de instrumentos de controle; 1 (Magnitude) - elevada frequência; 5 (Compromissos internacionais) - cumprimento de metas.",
-        "C": "Incorreta. A sequência está incorreta. Magnitude não se refere a poder de transmissão.",
-        "D": "Incorreta. A sequência está incorreta. Transcendência não se refere a poder de transmissão."
+        "A": "Incorreta. A sequência está correta, mas a alternativa B é idêntica. Esta é uma questão com erro de elaboração, onde duas alternativas apresentam a mesma sequência. Em casos como este, ambas seriam consideradas corretas, mas a questão foi anulada ou há um erro na numeração das alternativas.",
+        "B": "Correta. A sequência correta é: 2 (Potencial de disseminação) - elevado poder de transmissão; 3 (Transcendência) - severidade, relevância social e econômica; 4 (Vulnerabilidade) - disponibilidade de instrumentos de controle; 1 (Magnitude) - elevada frequência; 5 (Compromissos internacionais) - cumprimento de metas. Esta sequência reflete a lógica dos critérios: Potencial de disseminação avalia a capacidade de transmissão, Transcendência avalia o impacto qualitativo, Vulnerabilidade avalia a possibilidade de intervenção, Magnitude avalia a frequência quantitativa, e Compromissos internacionais avalia obrigações externas.",
+        "C": "Incorreta. A sequência está incorreta. Magnitude (1) não se refere a poder de transmissão, mas sim à frequência quantitativa da doença na população. O Potencial de disseminação (2) é que avalia a capacidade de transmissão. Esta confusão é comum porque ambas podem estar relacionadas, mas são conceitos distintos: Magnitude = 'quantos casos existem', Potencial de disseminação = 'quão facilmente a doença se espalha'.",
+        "D": "Incorreta. A sequência está incorreta. Transcendência (3) não se refere a poder de transmissão, mas sim ao impacto qualitativo da doença (severidade, medo, custo social e econômico). O Potencial de disseminação (2) é que avalia a capacidade de transmissão. Esta confusão é frequente porque doenças com alto potencial de disseminação podem ter alta transcendência, mas são critérios independentes."
       },
       "review": {
         "etiologia": "Os critérios para notificação compulsória são estabelecidos pelo Ministério da Saúde para priorizar quais doenças devem ser monitoradas pelo sistema de vigilância.",
@@ -290,10 +290,10 @@
       "answer_type": "single",
       "answer_key": "C",
       "rationales": {
-        "A": "Incorreta. A leptospirose é uma zooantroponose, não uma antropozoonose.",
-        "B": "Correta. (V) A raiva é uma zooantroponose (animal → homem). (F) A leptospirose é uma zooantroponose, não antropozoonose. (V) A febre maculosa é uma zooantroponose (animal → homem).",
-        "C": "Correta. (V) A raiva é uma zooantroponose (animal → homem). (F) A leptospirose é uma zooantroponose, não antropozoonose. (V) A febre maculosa é uma zooantroponose (animal → homem).",
-        "D": "Incorreta. A raiva e a febre maculosa são zooantroponoses verdadeiras."
+        "A": "Incorreta. A leptospirose é uma zooantroponose, não uma antropozoonose. A leptospirose é transmitida pela urina de animais (principalmente roedores) contaminando água, solo ou alimentos que são ingeridos pelo homem. O agente (Leptospira) vem do animal (zoo) para o homem (antropo), caracterizando uma zooantroponose. A confusão é comum porque a leptospirose pode ser transmitida de pessoa para pessoa em raras situações, mas a via principal é animal → homem.",
+        "B": "Correta. (V) A raiva é uma zooantroponose (animal → homem) - o vírus é transmitido pela saliva de animais infectados através de mordeduras, arranhaduras ou lambeduras. (F) A leptospirose é uma zooantroponose, não antropozoonose - a transmissão principal é pela urina de animais contaminando o ambiente. (V) A febre maculosa é uma zooantroponose (animal → homem) - a bactéria Rickettsia rickettsii é transmitida por carrapatos que se alimentam de sangue de animais infectados.",
+        "C": "Correta. (V) A raiva é uma zooantroponose (animal → homem) - o vírus é transmitido pela saliva de animais infectados através de mordeduras, arranhaduras ou lambeduras. (F) A leptospirose é uma zooantroponose, não antropozoonose - a transmissão principal é pela urina de animais contaminando o ambiente. (V) A febre maculosa é uma zooantroponose (animal → homem) - a bactéria Rickettsia rickettsii é transmitida por carrapatos que se alimentam de sangue de animais infectados.",
+        "D": "Incorreta. A raiva e a febre maculosa são zooantroponoses verdadeiras. A raiva é transmitida de animais (cães, gatos, morcegos, etc.) para o homem através da saliva contaminada. A febre maculosa é transmitida por carrapatos que se alimentam de animais infectados (capivaras, cavalos, cães) e depois picam o homem. Ambas seguem o padrão animal → homem, caracterizando zooantroponoses."
       },
       "review": {
         "etiologia": "A terminologia de zoonoses é baseada na direção da transmissão: zooantroponose (animal → homem) e antropozoonose (homem → animal).",
@@ -352,10 +352,10 @@
       "answer_type": "single",
       "answer_key": "C",
       "rationales": {
-        "A": "Correta. Morbidade significa adoecimento. Os coeficientes de incidência e prevalência medem exatamente a frequência das doenças.",
-        "B": "Correta. Definição perfeita de incidência, que mede o risco de adoecer.",
-        "C": "Incorreta. Esta é a definição do Coeficiente de Mortalidade. A Taxa de Letalidade indica a probabilidade de um indivíduo COM A DOENÇA morrer por causa dela. É uma medida de gravidade, não de risco populacional geral.",
-        "D": "Correta. Definição perfeita de mortalidade, que mede o risco de morrer na população geral."
+        "A": "Correta. Morbidade significa adoecimento. Os coeficientes de incidência e prevalência medem exatamente a frequência das doenças. A incidência mede casos novos em um período específico, enquanto a prevalência mede todos os casos (novos + existentes) em um momento específico. Ambos são indicadores de morbidade, pois refletem o adoecimento da população.",
+        "B": "Correta. Definição perfeita de incidência, que mede o risco de adoecer. A incidência é calculada como: (Número de casos novos / População em risco) × Fator multiplicador. É o melhor indicador para medir o risco de adoecer, pois considera apenas casos novos em um período específico, permitindo avaliar a dinâmica da doença na população.",
+        "C": "Incorreta. Esta é a definição do Coeficiente de Mortalidade. A Taxa de Letalidade indica a probabilidade de um indivíduo COM A DOENÇA morrer por causa dela. É uma medida de gravidade, não de risco populacional geral. A fórmula da letalidade é: (Óbitos pela doença / Total de doentes) × 100. Por exemplo, se 10 pessoas têm uma doença e 2 morrem, a letalidade é 20%. O Coeficiente de Mortalidade mede o risco de morrer na população geral: (Total de óbitos / População total) × Fator multiplicador.",
+        "D": "Correta. Definição perfeita de mortalidade, que mede o risco de morrer na população geral. O Coeficiente de Mortalidade é calculado como: (Total de óbitos / População total) × Fator multiplicador. É um indicador populacional que mede o risco geral de morte, independentemente da causa. Diferencia-se da letalidade porque considera toda a população no denominador, não apenas os doentes."
       },
       "review": {
         "etiologia": "Os indicadores epidemiológicos são ferramentas quantitativas que permitem medir a ocorrência de doenças e agravos na população.",
@@ -413,10 +413,10 @@
       "answer_type": "single",
       "answer_key": "D",
       "rationales": {
-        "A": "Incorreta. A eliminação de animais peçonhentos é ecologicamente prejudicial e ineficaz. Esses animais são importantes controladores de outras pragas. As medidas de prevenção focam em saneamento ambiental.",
-        "B": "Incorreta. Fazer garrote ou torniquete é absolutamente contraindicado. Isso impede a circulação sanguínea no membro, o que pode levar à necrose, gangrena e amputação.",
-        "C": "Incorreta. A época de maior ocorrência de acidentes com animais peçonhentos (de sangue frio) é a de calor e chuva (primavera/verão), quando eles estão mais ativos para caça e reprodução.",
-        "D": "Correta. A soroterapia (administração de soro antiveneno específico) é o único tratamento eficaz para neutralizar o veneno já circulante no corpo e reverter os efeitos sistêmicos graves dos acidentes com serpentes, escorpiões (casos moderados a graves) e lagartas do gênero Lonomia."
+        "A": "Incorreta. A eliminação de animais peçonhentos é ecologicamente prejudicial e ineficaz. Esses animais são importantes controladores de outras pragas (roedores, insetos) e fazem parte do equilíbrio ecológico. Sua eliminação pode causar desequilíbrios ambientais e aumento de outras pragas. As medidas de prevenção eficazes focam em saneamento ambiental (limpeza de terrenos, vedação de frestas, controle de roedores), uso de equipamentos de proteção individual e educação da população.",
+        "B": "Incorreta. Fazer garrote ou torniquete é absolutamente contraindicado. Isso impede a circulação sanguínea no membro, o que pode levar à necrose, gangrena e amputação. O veneno já circula pelo sistema linfático e sanguíneo, e o torniquete não impede sua disseminação, apenas piora a lesão local. As medidas corretas são: lavar o local com água e sabão, manter a vítima calma e em repouso, e procurar atendimento médico imediatamente.",
+        "C": "Incorreta. A época de maior ocorrência de acidentes com animais peçonhentos (de sangue frio) é a de calor e chuva (primavera/verão), quando eles estão mais ativos para caça e reprodução. No inverno, esses animais ficam em estado de torpor ou hibernação, reduzindo significativamente sua atividade e, consequentemente, o risco de acidentes. A temperatura e umidade elevadas aumentam a atividade metabólica e reprodutiva desses animais.",
+        "D": "Correta. A soroterapia (administração de soro antiveneno específico) é o único tratamento eficaz para neutralizar o veneno já circulante no corpo e reverter os efeitos sistêmicos graves dos acidentes com serpentes, escorpiões (casos moderados a graves) e lagartas do gênero Lonomia. O soro contém anticorpos específicos que se ligam às toxinas, neutralizando seus efeitos. É fundamental que seja administrado precocemente e em dose adequada, conforme a gravidade do caso e o tipo de animal envolvido."
       },
       "review": {
         "etiologia": "O Brasil é referência mundial na produção de soros antipeçonhentos, principalmente através do Instituto Butantan (SP) e da Fundação Ezequiel Dias (MG).",
@@ -474,10 +474,10 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. A sequência correta é: A (Antirratização) - Eliminar abrigos; D (Desratização) - Eliminar com ratoeiras; A (Antirratização) - Reduzir água e alimento; A (Antirratização) - Remover sobras de alimentos; D (Desratização) - Eliminar com raticidas.",
-        "B": "Incorreta. A sequência está incorreta. Ratoeiras são medidas de desratização, não antirratização.",
-        "C": "Incorreta. A sequência está incorreta. Eliminar abrigos é antirratização, não desratização.",
-        "D": "Incorreta. A sequência está incorreta. Eliminar abrigos é antirratização, não desratização."
+        "A": "Correta. A sequência correta é: A (Antirratização) - Eliminar abrigos; D (Desratização) - Eliminar com ratoeiras; A (Antirratização) - Reduzir água e alimento; A (Antirratização) - Remover sobras de alimentos; D (Desratização) - Eliminar com raticidas. Esta sequência segue a lógica do controle integrado: primeiro medidas preventivas (antirratização) para modificar o ambiente e torná-lo menos atrativo, depois medidas corretivas (desratização) para eliminar os roedores já presentes.",
+        "B": "Incorreta. A sequência está incorreta. Ratoeiras são medidas de desratização, não antirratização. A desratização inclui métodos físicos (ratoeiras, gaiolas) e químicos (raticidas) para eliminar roedores já presentes. A antirratização inclui medidas ambientais para prevenir a entrada e permanência de roedores, como eliminar abrigos, vedar frestas e controlar fontes de alimento e água.",
+        "C": "Incorreta. A sequência está incorreta. Eliminar abrigos é antirratização, não desratização. A antirratização foca em modificar o ambiente para torná-lo menos favorável aos roedores, incluindo eliminação de abrigos, vedação de frestas, controle de lixo e limpeza. A desratização foca em eliminar roedores já presentes através de métodos físicos ou químicos.",
+        "D": "Incorreta. A sequência está incorreta. Eliminar abrigos é antirratização, não desratização. A antirratização é preventiva e ambiental, incluindo medidas como eliminar abrigos, vedar frestas, controlar lixo e limpeza. A desratização é corretiva e inclui métodos para eliminar roedores já presentes, como ratoeiras, gaiolas e raticidas."
       },
       "review": {
         "etiologia": "A lógica é simples: Antirratização é antes do rato chegar (preventiva, ambiental). Desratização é para se livrar do rato que já está lá (corretiva, matar).",
@@ -535,10 +535,10 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. A sequência correta é: 1 (Patogenicidade) - elevada incidência e custo; 1 (Patogenicidade) - processo inaparente até formas graves; 2 (Virulência) - letalidade de 40%; 3 (Período de incubação) - sintomas de 1 a 30 dias; 4 (Período de transmissibilidade) - eliminação por meses/anos.",
-        "B": "Incorreta. A sequência está incorreta. O primeiro trecho não se refere à virulência.",
-        "C": "Incorreta. A sequência está incorreta. O segundo trecho se refere à patogenicidade, não virulência.",
-        "D": "Incorreta. A sequência está incorreta. O primeiro trecho se refere à patogenicidade, não virulência."
+        "A": "Correta. A sequência correta é: 1 (Patogenicidade) - elevada incidência e custo; 1 (Patogenicidade) - processo inaparente até formas graves; 2 (Virulência) - letalidade de 40%; 3 (Período de incubação) - sintomas de 1 a 30 dias; 4 (Período de transmissibilidade) - eliminação por meses/anos. Esta sequência reflete corretamente os conceitos epidemiológicos: Patogenicidade = capacidade de causar doença (inclui incidência e espectro clínico), Virulência = gravidade da doença (letalidade), Período de incubação = tempo entre infecção e sintomas, Período de transmissibilidade = tempo de eliminação do agente.",
+        "B": "Incorreta. A sequência está incorreta. O primeiro trecho ('elevada incidência em determinadas áreas, alto custo hospitalar') se refere à Patogenicidade (1), não à Virulência (2). A patogenicidade inclui a capacidade de causar doença em uma população, refletida pela incidência. A virulência se refere à gravidade da doença em indivíduos infectados, medida pela letalidade. Esta confusão é comum porque doenças com alta patogenicidade podem ter alta virulência, mas são conceitos distintos.",
+        "C": "Incorreta. A sequência está incorreta. O segundo trecho ('processo inaparente até formas graves') se refere à Patogenicidade (1), não à Virulência (2). A patogenicidade inclui o espectro clínico da doença, desde formas assintomáticas até graves. A virulência se refere especificamente à gravidade da doença, medida pela letalidade. O espectro clínico é uma característica da patogenicidade, não da virulência.",
+        "D": "Incorreta. A sequência está incorreta. O primeiro trecho ('elevada incidência em determinadas áreas, alto custo hospitalar') se refere à Patogenicidade (1), não à Virulência (2). A patogenicidade inclui a capacidade de causar doença em uma população, refletida pela incidência e impacto econômico. A virulência se refere à gravidade da doença em indivíduos infectados, medida pela letalidade. Esta confusão é frequente em questões de epidemiologia."
       },
       "review": {
         "etiologia": "Para entender como uma doença se espalha, precisamos conhecer as características do agente infeccioso, como se ele tivesse uma 'personalidade'.",
@@ -596,10 +596,10 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. A primeira asserção reflete a política oficial do Ministério da Saúde para o controle da LTA. A segunda asserção apresenta a principal justificativa para essa política: o risco de induzir resistência parasitária aos medicamentos que são a base do tratamento humano.",
-        "B": "Incorreta. A segunda afirmação justifica logicamente a primeira, pois o risco de resistência é a razão principal para não tratar cães com LTA.",
-        "C": "Incorreta. Ambas as afirmações são verdadeiras no contexto das diretrizes de saúde pública brasileiras.",
-        "D": "Incorreta. Ambas as afirmações são verdadeiras no contexto das diretrizes de saúde pública brasileiras."
+        "A": "Correta. A primeira asserção reflete a política oficial do Ministério da Saúde para o controle da LTA. A segunda asserção apresenta a principal justificativa para essa política: o risco de induzir resistência parasitária aos medicamentos que são a base do tratamento humano. Esta política é baseada no princípio da Saúde Única, onde o tratamento de cães pode selecionar parasitos resistentes aos antimoniais pentavalentes e anfotericina B, comprometendo o tratamento humano. A segunda afirmação justifica logicamente a primeira, estabelecendo uma relação de causa e consequência.",
+        "B": "Incorreta. A segunda afirmação justifica logicamente a primeira, pois o risco de resistência é a razão principal para não tratar cães com LTA. A política de não tratamento de cães com LTA é fundamentada no risco de seleção de parasitos resistentes aos medicamentos usados no tratamento humano. Esta justificativa é cientificamente válida e estabelece uma relação causal entre a política (primeira afirmação) e sua justificativa (segunda afirmação).",
+        "C": "Incorreta. Ambas as afirmações são verdadeiras no contexto das diretrizes de saúde pública brasileiras. A primeira afirmação é verdadeira: o Ministério da Saúde não recomenda o tratamento de cães com LTA como medida de controle. A segunda afirmação também é verdadeira: o tratamento pode selecionar parasitos resistentes. No entanto, a questão não pede apenas se as afirmações são verdadeiras, mas se a segunda justifica a primeira, o que é correto.",
+        "D": "Incorreta. Ambas as afirmações são verdadeiras no contexto das diretrizes de saúde pública brasileiras. A primeira afirmação é verdadeira: o Ministério da Saúde não recomenda o tratamento de cães com LTA como medida de controle. A segunda afirmação também é verdadeira: o tratamento pode selecionar parasitos resistentes. No entanto, a questão não pede apenas se as afirmações são verdadeiras, mas se a segunda justifica a primeira, o que é correto."
       },
       "review": {
         "etiologia": "A divergência entre a política de saúde pública (que foca na coletividade e não recomenda o tratamento de cães para LTA/LV como medida de controle) e a clínica individual (onde o tutor busca o tratamento para seu animal) gera um debate ético e técnico constante na medicina veterinária brasileira.",
@@ -657,10 +657,10 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. Ação Proteolítica: Botrópico (jararacas). Ação Neurotóxica: Crotálico (cascavel). Ação Miotóxica: Crotálico (cascavel).",
-        "B": "Incorreta. Inverte as ações. Elapídico é primariamente neurotóxico, e Botrópico é proteolítico.",
-        "C": "Incorreta. Laquético tem ação mista (proteolítica, coagulante, vagal), mas não é o exemplo clássico de neurotoxicidade primária.",
-        "D": "Incorreta. Inverte completamente as ações. Elapídico é neurotóxico, não proteolítico."
+        "A": "Correta. Ação Proteolítica: Botrópico (jararacas) - o veneno contém enzimas proteolíticas que causam necrose tecidual local. Ação Neurotóxica: Crotálico (cascavel) - o veneno contém neurotoxinas que afetam a transmissão neuromuscular. Ação Miotóxica: Crotálico (cascavel) - o veneno também contém miotoxinas que causam lesão muscular e podem levar à mioglobinúria. O veneno crotálico é único por ter múltiplas ações: neurotóxica, miotóxica e coagulante.",
+        "B": "Incorreta. Inverte as ações. Elapídico (coral-verdadeira) é primariamente neurotóxico, causando paralisia neuromuscular e insuficiência respiratória. Botrópico (jararacas) é proteolítico, causando necrose tecidual local, edema e hemorragia. Esta confusão é comum porque ambos podem causar sintomas sistêmicos, mas os mecanismos são diferentes: neurotoxicidade vs. proteólise tecidual.",
+        "C": "Incorreta. Laquético (surucucu) tem ação mista (proteolítica, coagulante, vagal), mas não é o exemplo clássico de neurotoxicidade primária. O veneno laquético é caracterizado por sua ação proteolítica intensa e efeitos vagais (bradicardia, hipotensão), mas a neurotoxicidade não é sua característica principal. A neurotoxicidade é mais marcante no veneno elapídico.",
+        "D": "Incorreta. Inverte completamente as ações. Elapídico (coral-verdadeira) é neurotóxico, não proteolítico. O veneno elapídico contém neurotoxinas que bloqueiam a transmissão neuromuscular, causando paralisia flácida progressiva. A ação proteolítica é característica do veneno botrópico, que causa necrose tecidual local. Esta confusão é frequente em questões de ofidismo."
       },
       "review": {
         "etiologia": "O Brasil abriga quatro gêneros de serpentes peçonhentas de importância médica. Cada veneno é um coquetel complexo de toxinas com ações distintas.",
@@ -719,10 +719,10 @@
       "answer_type": "single",
       "answer_key": "C",
       "rationales": {
-        "A": "Incorreta. O Ringer com Lactato é a solução cristaloide de reposição balanceada por excelência. Sua composição iônica e osmolaridade são muito semelhantes às do plasma.",
-        "B": "Incorreta. A afirmação II está correta, mas a III também está correta.",
-        "C": "Correta. II - Soluções hipertônicas funcionam 'puxando' água do espaço intersticial e intracelular para dentro dos vasos. Em um paciente já desidratado, isso pioraria a desidratação celular. III - Soluções coloidais contêm moléculas grandes que permanecem no espaço intravascular por mais tempo, exercendo pressão oncótica.",
-        "D": "Incorreta. A afirmação I está incorreta. O Ringer com Lactato é balanceado."
+        "A": "Incorreta. O Ringer com Lactato é a solução cristaloide de reposição balanceada por excelência. Sua composição iônica e osmolaridade são muito semelhantes às do plasma. O Ringer Lactato contém sódio, potássio, cálcio, cloreto e lactato em concentrações próximas ao plasma, com pH de 6,5-7,5. É considerado 'balanceado' porque não causa acidose metabólica hiperclorêmica como o NaCl 0,9%, e o lactato é metabolizado em bicarbonato, tendo efeito alcalinizante.",
+        "B": "Incorreta. A afirmação II está correta, mas a III também está correta. A afirmação II é verdadeira: soluções hipertônicas (como NaCl 7,5%) funcionam 'puxando' água do espaço intersticial e intracelular para dentro dos vasos através do gradiente osmótico. Em um paciente já desidratado, isso pioraria a desidratação celular. A afirmação III também é verdadeira: soluções coloidais contêm moléculas grandes (albumina, dextranos, hidroxietilamido) que permanecem no espaço intravascular por mais tempo, exercendo pressão oncótica e expandindo o volume intravascular de forma mais eficiente.",
+        "C": "Correta. II - Soluções hipertônicas funcionam 'puxando' água do espaço intersticial e intracelular para dentro dos vasos através do gradiente osmótico. Em um paciente já desidratado, isso pioraria a desidratação celular, podendo causar lesão celular e agravar o quadro. III - Soluções coloidais contêm moléculas grandes que permanecem no espaço intravascular por mais tempo, exercendo pressão oncótica e expandindo o volume intravascular de forma mais eficiente que os cristaloides.",
+        "D": "Incorreta. A afirmação I está incorreta. O Ringer com Lactato é balanceado, não desbalanceado. Sua composição iônica é próxima ao plasma e não causa acidose metabólica hiperclorêmica como o NaCl 0,9%. O lactato presente é metabolizado no fígado em bicarbonato, tendo efeito alcalinizante."
       },
       "review": {
         "etiologia": "A fluidoterapia é uma das intervenções mais importantes na medicina veterinária. Entender os diferentes tipos de fluidos e suas indicações é crucial para o sucesso terapêutico.",
@@ -780,10 +780,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. O uso de glicocorticoides no Trauma Cranioencefálico (TCE) é altamente controverso e não é mais recomendado de rotina.",
-        "B": "Correta. II - A lista de alterações torácicas é precisa. III - O exame FAST é uma ferramenta de triagem ultrassonográfica rápida. IV - Descreve perfeitamente a filosofia do sistema ABCDE.",
-        "C": "Incorreta. A afirmação I está incorreta sobre glicocorticoides no TCE.",
-        "D": "Incorreta. A afirmação I está incorreta sobre glicocorticoides no TCE."
+        "A": "Incorreta. O uso de glicocorticoides no Trauma Cranioencefálico (TCE) é altamente controverso e não é mais recomendado de rotina. Estudos como o CRASH trial demonstraram que o uso de metilprednisolona em altas doses não melhora o desfecho neurológico e pode aumentar a mortalidade. O uso de corticoides no TCE foi abandonado baseado em evidências científicas que mostraram falta de benefício e possíveis danos.",
+        "B": "Correta. II - A lista de alterações torácicas é precisa, incluindo pneumotórax, hemotórax, contusão pulmonar, fraturas costais e tamponamento cardíaco. III - O exame FAST (Focused Assessment with Sonography for Trauma) é uma ferramenta de triagem ultrassonográfica rápida que avalia líquido livre no abdômen, tórax e pericárdio. IV - Descreve perfeitamente a filosofia do sistema ABCDE, onde cada etapa deve ser estabilizada antes de avançar para a próxima.",
+        "C": "Incorreta. A afirmação I está incorreta sobre glicocorticoides no TCE. O uso de corticoides no trauma craniano foi abandonado baseado em evidências científicas que demonstraram falta de benefício e possíveis danos. A afirmação II está correta sobre as alterações torácicas, e a afirmação III está correta sobre o exame FAST.",
+        "D": "Incorreta. A afirmação I está incorreta sobre glicocorticoides no TCE. O uso de corticoides no trauma craniano foi abandonado baseado em evidências científicas. As afirmações II, III e IV estão corretas, mas a afirmação I invalida esta opção."
       },
       "review": {
         "etiologia": "A abordagem ABCDE do trauma é universal. Lembre-se da ordem: Airway (Vias Aéreas), Breathing (Respiração), Circulation (Circulação), Disability (Neurológico), Exposure (Exposição).",
@@ -841,10 +841,10 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. A afirmação III descreve o racional para a intervenção cirúrgica precoce. A obstrução primária causa uma pressão inspiratória negativa muito alta, que com o tempo enfraquece as cartilagens da laringe, levando a alterações secundárias e irreversíveis.",
-        "B": "Incorreta. A afirmação I está incorreta. A síndrome é caracterizada por pelo menos duas anormalidades primárias, mas a lista está incompleta.",
-        "C": "Incorreta. A afirmação II está incorreta. O tratamento da BAOS é fundamentalmente cirúrgico. O tratamento medicamentoso não resolve o problema anatômico subjacente.",
-        "D": "Incorreta. As afirmações I, II, IV e V estão incorretas."
+        "A": "Correta. A afirmação III descreve o racional para a intervenção cirúrgica precoce. A obstrução primária causa uma pressão inspiratória negativa muito alta, que com o tempo enfraquece as cartilagens da laringe, levando a alterações secundárias e irreversíveis. O esforço respiratório crônico causa trauma repetitivo às estruturas laríngeas, resultando em eversão dos sáculos laríngeos, colapso laríngeo e outras alterações que pioram progressivamente a obstrução. A cirurgia precoce previne essas complicações secundárias.",
+        "B": "Incorreta. A afirmação I está incorreta. A síndrome é caracterizada por pelo menos duas anormalidades primárias, mas a lista está incompleta. As anormalidades primárias incluem estenose de narinas, palato mole alongado, hipoplasia de traqueia e eversão dos sáculos laríngeos. A afirmação II está incorreta porque o tratamento da BAOS é fundamentalmente cirúrgico, não medicamentoso.",
+        "C": "Incorreta. A afirmação II está incorreta. O tratamento da BAOS é fundamentalmente cirúrgico. O tratamento medicamentoso (corticoides, broncodilatadores) pode aliviar temporariamente os sintomas, mas não resolve o problema anatômico subjacente. As anormalidades primárias requerem correção cirúrgica para restabelecer a função respiratória adequada.",
+        "D": "Incorreta. As afirmações I, II, IV e V estão incorretas. A afirmação I está incompleta sobre as anormalidades primárias, a afirmação II está incorreta sobre o tratamento medicamentoso, a afirmação IV está incorreta sobre a anestesia, e a afirmação V está incorreta sobre o prognóstico."
       },
       "review": {
         "etiologia": "A Síndrome Braquicefálica Obstrutiva das Vias Aéreas (BAOS) é um espectro de anomalias. As primárias são as que o cão nasce com (estenose de narina, palato alongado).",
@@ -903,10 +903,10 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. A sequência correta da segunda coluna seria: 2-Dexmedetomidina (Agonista α-2), 6-Glicopirrolato (Anticolinérgico), 4-Flumazenil (Antagonista Benzodiazepínico), 10-Neostigmina (Anticolinesterásico), 8-Ropivacaína (Anestésico Local), 5-Cetamina (Dissociativo), 3-Sevofluorano (Halogenado), 1-Acepromazina (Fenotiazínico), 9-Naloxona (Antagonista Opioide), 7-Tiopental (Barbitúrico).",
-        "B": "Incorreta. A sequência está correta.",
-        "C": "Incorreta. A sequência está correta.",
-        "D": "Incorreta. Existe uma sequência correta."
+        "A": "Correta. A sequência correta da segunda coluna seria: 2-Dexmedetomidina (Agonista α-2), 6-Glicopirrolato (Anticolinérgico), 4-Flumazenil (Antagonista Benzodiazepínico), 10-Neostigmina (Anticolinesterásico), 8-Ropivacaína (Anestésico Local), 5-Cetamina (Dissociativo), 3-Sevofluorano (Halogenado), 1-Acepromazina (Fenotiazínico), 9-Naloxona (Antagonista Opioide), 7-Tiopental (Barbitúrico). Esta sequência reflete a classificação farmacológica correta de cada medicamento baseada em seu mecanismo de ação e indicações clínicas.",
+        "B": "Incorreta. A sequência está correta. A alternativa B apresenta a mesma sequência que a alternativa A, indicando um erro na elaboração da questão. Em casos como este, ambas as alternativas seriam consideradas corretas, mas a questão foi anulada ou há um erro na numeração das alternativas.",
+        "C": "Incorreta. A sequência está correta. A alternativa C apresenta a mesma sequência que as alternativas A e B, indicando um erro na elaboração da questão. Em casos como este, todas as alternativas seriam consideradas corretas, mas a questão foi anulada ou há um erro na numeração das alternativas.",
+        "D": "Incorreta. Existe uma sequência correta. A sequência correta é: 2-Dexmedetomidina (Agonista α-2), 6-Glicopirrolato (Anticolinérgico), 4-Flumazenil (Antagonista Benzodiazepínico), 10-Neostigmina (Anticolinesterásico), 8-Ropivacaína (Anestésico Local), 5-Cetamina (Dissociativo), 3-Sevofluorano (Halogenado), 1-Acepromazina (Fenotiazínico), 9-Naloxona (Antagonista Opioide), 7-Tiopental (Barbitúrico)."
       },
       "review": {
         "etiologia": "A questão como formulada na prova tem erros e não permite uma correspondência 1 para 1 perfeita com as opções.",
@@ -964,10 +964,10 @@
       "answer_type": "single",
       "answer_key": "C",
       "rationales": {
-        "A": "Incorreta. Acepromazina não possui efeito analgésico. A hipoglicemia também não é um efeito conhecido.",
-        "B": "Incorreta. Acepromazina é um potente antiemético (previne o vômito), não causa êmese. Ela tem ação anti-histamínica e causa hipotermia (redução da temperatura), mas o efeito emético invalida a alternativa.",
-        "C": "Correta. Ação anti-arritmogênica: A acepromazina tem um efeito de bloqueio alfa-1 adrenérgico que ajuda a proteger o miocárdio contra arritmias ventriculares induzidas por catecolaminas. Tranquilização: É o seu principal efeito desejado. Redução da pressão arterial: É o seu principal efeito adverso.",
-        "D": "Incorreta. Acepromazina causa redução da temperatura corporal (hipotermia) por vasodilatação periférica e depressão do centro termorregulador, não aumento. Também não causa hiperglicemia."
+        "A": "Incorreta. Acepromazina não possui efeito analgésico. A acepromazina é um tranquilizante fenotiazínico que atua bloqueando receptores de dopamina D2 no sistema límbico, causando sedação e tranquilização, mas não analgesia. A hipoglicemia também não é um efeito conhecido da acepromazina. Na verdade, ela pode causar hiperglicemia em alguns casos devido ao estresse ou efeitos metabólicos.",
+        "B": "Incorreta. Acepromazina é um potente antiemético (previne o vômito), não causa êmese. Ela atua bloqueando receptores de dopamina D2 na zona quimiorreceptora do tronco encefálico, que é responsável pelo reflexo do vômito. Ela tem ação anti-histamínica e causa hipotermia (redução da temperatura) por vasodilatação periférica e depressão do centro termorregulador, mas o efeito emético invalida a alternativa.",
+        "C": "Correta. Ação anti-arritmogênica: A acepromazina tem um efeito de bloqueio alfa-1 adrenérgico que ajuda a proteger o miocárdio contra arritmias ventriculares induzidas por catecolaminas. Este efeito é particularmente útil em situações de estresse ou quando outros fármacos que aumentam as catecolaminas são administrados. Tranquilização: É o seu principal efeito desejado, causado pelo bloqueio de receptores de dopamina D2 no sistema límbico. Redução da pressão arterial: É o seu principal efeito adverso, causado pela vasodilatação periférica e bloqueio alfa-1 adrenérgico.",
+        "D": "Incorreta. Acepromazina causa redução da temperatura corporal (hipotermia) por vasodilatação periférica e depressão do centro termorregulador, não aumento. A vasodilatação periférica aumenta a perda de calor, e a depressão do centro termorregulador reduz a capacidade do organismo de manter a temperatura. Também não causa hiperglicemia como efeito direto, embora possa ocorrer como resposta ao estresse em alguns casos."
       },
       "review": {
         "etiologia": "A acepromazina (ACP) é um dos tranquilizantes mais antigos e utilizados na medicina veterinária. Pertence à classe dos fenotiazínicos e atua bloqueando receptores de dopamina no cérebro.",
@@ -1025,10 +1025,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Correta. A maioria dos cálculos urinários em cães (estruvita, oxalato de cálcio) são radiopacos e aparecem claramente na radiografia simples.",
-        "B": "Incorreta. Uma radiografia simples (sem contraste) é muito pouco sensível para diagnosticar ruptura de bexiga. A urina livre no abdômen causa uma perda de detalhe seroso, o que é sugestivo, mas não confirmatório.",
-        "C": "Correta. O ultrassom é mais sensível que o raio-x para detectar cálculos nos rins (nefrólitos), pois eles aparecem como estruturas hiperecoicas que produzem uma 'sombra acústica' posterior.",
-        "D": "Correta. O ultrassom é o método de imagem de escolha para avaliar a parede da bexiga e detectar massas, como o carcinoma de células de transição (CCT)."
+        "A": "Correta. A maioria dos cálculos urinários em cães (estruvita, oxalato de cálcio) são radiopacos e aparecem claramente na radiografia simples. A estruvita e o oxalato de cálcio têm densidade mineral suficiente para serem visíveis na radiografia. A radiografia simples é o método de escolha para detectar cálculos radiopacos na bexiga, sendo mais sensível que o ultrassom para este propósito específico.",
+        "B": "Incorreta. Uma radiografia simples (sem contraste) é muito pouco sensível para diagnosticar ruptura de bexiga. A urina livre no abdômen causa uma perda de detalhe seroso, o que é sugestivo, mas não confirmatório. Para diagnosticar ruptura de bexiga, é necessário um estudo contrastado (uretrocistografia positiva ou duplo contraste) que demonstre extravasamento do contraste para a cavidade abdominal. A radiografia simples pode mostrar sinais indiretos como perda de detalhe seroso, mas não é diagnóstica.",
+        "C": "Correta. O ultrassom é mais sensível que o raio-x para detectar cálculos nos rins (nefrólitos), pois eles aparecem como estruturas hiperecoicas que produzem uma 'sombra acústica' posterior. O ultrassom permite visualizar cálculos de diferentes composições, incluindo aqueles que podem não ser radiopacos na radiografia. A sombra acústica posterior é um sinal característico de cálculos renais no ultrassom.",
+        "D": "Correta. O ultrassom é o método de imagem de escolha para avaliar a parede da bexiga e detectar massas, como o carcinoma de células de transição (CCT). O ultrassom permite visualizar a espessura da parede vesical, irregularidades, massas intraluminais e extraluminais, e avaliar a vascularização através do Doppler. É superior à radiografia para avaliar a arquitetura tecidual da bexiga."
       },
       "review": {
         "etiologia": "Hematúria (sangue na urina) é um sinal clínico comum com um amplo diagnóstico diferencial. A escolha do exame de imagem correto é fundamental para chegar ao diagnóstico.",
@@ -1086,10 +1086,10 @@
       "answer_type": "single",
       "answer_key": "D",
       "rationales": {
-        "A": "Incorreta (causa hepatomegalia). Na ICC direita, o sangue 'represa' no sistema venoso. O fígado fica congestionado com sangue (congestão passiva crônica), o que leva a um aumento de seu volume (hepatomegalia congestiva).",
-        "B": "Incorreta (causa hepatomegalia). Na lipidose hepática (comum em gatos anoréxicos), há um acúmulo maciço de gordura (triglicerídeos) dentro dos hepatócitos, causando um aumento acentuado e difuso do fígado.",
-        "C": "Incorreta (causa hepatomegalia). O excesso de cortisol (Síndrome de Cushing) induz o acúmulo de glicogênio nos hepatócitos (hepatopatia esteroidal ou vacuolar), resultando em um fígado aumentado e pálido.",
-        "D": "Correta. Um desvio portossistêmico (shunt) é um vaso anômalo que desvia o sangue vindo do intestino diretamente para a circulação sistêmica, 'pulando' o fígado. Sem receber esse fluxo sanguíneo portal, o fígado não se desenvolve adequadamente ou atrofia. Portanto, o achado clássico é a micro-hepatia (fígado pequeno), e não a hepatomegalia."
+        "A": "Incorreta (causa hepatomegalia). Na ICC direita, o sangue 'represa' no sistema venoso. O fígado fica congestionado com sangue (congestão passiva crônica), o que leva a um aumento de seu volume (hepatomegalia congestiva). A pressão venosa elevada causa dilatação dos sinusoides hepáticos e acúmulo de sangue no fígado, resultando em hepatomegalia. Este é um achado clássico da insuficiência cardíaca direita.",
+        "B": "Incorreta (causa hepatomegalia). Na lipidose hepática (comum em gatos anoréxicos), há um acúmulo maciço de gordura (triglicerídeos) dentro dos hepatócitos, causando um aumento acentuado e difuso do fígado. A lipidose hepática é caracterizada pelo acúmulo de gotículas de gordura no citoplasma dos hepatócitos, resultando em hepatomegalia maciça. É uma das causas mais comuns de hepatomegalia em gatos.",
+        "C": "Incorreta (causa hepatomegalia). O excesso de cortisol (Síndrome de Cushing) induz o acúmulo de glicogênio nos hepatócitos (hepatopatia esteroidal ou vacuolar), resultando em um fígado aumentado e pálido. O cortisol estimula a gliconeogênese e o acúmulo de glicogênio no fígado, causando hepatomegalia. A hepatopatia esteroidal é um achado comum na síndrome de Cushing.",
+        "D": "Correta. Um desvio portossistêmico (shunt) é um vaso anômalo que desvia o sangue vindo do intestino diretamente para a circulação sistêmica, 'pulando' o fígado. Sem receber esse fluxo sanguíneo portal, o fígado não se desenvolve adequadamente ou atrofia. Portanto, o achado clássico é a micro-hepatia (fígado pequeno), e não a hepatomegalia. O sangue portal contém fatores tróficos necessários para o desenvolvimento e manutenção do fígado."
       },
       "review": {
         "etiologia": "Para questões de 'aumento vs. diminuição' de órgãos, pense na fisiopatologia. Doenças de acúmulo (gordura, glicogênio, sangue) ou infiltração (células inflamatórias, neoplásicas) causam aumento (megalia).",
@@ -1148,10 +1148,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Correta. A celularidade é baixa (< 1500 células/μL), e as poucas células presentes são geralmente macrófagos, linfócitos e células mesoteliais (todas mononucleares), refletindo a ausência de um estímulo inflamatório agudo.",
-        "B": "Incorreta. Um transudato puro é, por definição, um ultrafiltrado do plasma. Ele não deve conter grandes quantidades de células, incluindo eritrócitos (hemácias). Uma alta contagem de eritrócitos indicaria uma efusão hemorrágica.",
-        "C": "Correta. Devido à baixa celularidade e baixo teor de proteína, os transudatos puros são tipicamente claros e incolores, com aparência de água ('água de rocha').",
-        "D": "Correta. Esta é uma das características definidoras de um transudato puro."
+        "A": "Correta. A celularidade é baixa (< 1500 células/μL), e as poucas células presentes são geralmente macrófagos, linfócitos e células mesoteliais (todas mononucleares), refletindo a ausência de um estímulo inflamatório agudo. Os transudatos são ultrafiltrados do plasma que atravessam a membrana capilar devido a alterações na pressão hidrostática ou pressão oncótica, sem causar inflamação. Por isso, a celularidade é baixa e as células presentes são principalmente células normais da cavidade.",
+        "B": "Incorreta. Um transudato puro é, por definição, um ultrafiltrado do plasma. Ele não deve conter grandes quantidades de células, incluindo eritrócitos (hemácias). Uma alta contagem de eritrócitos indicaria uma efusão hemorrágica. Os transudatos são formados por ultrafiltração passiva do plasma através da membrana capilar, sem lesão vascular, por isso não contêm eritrócitos em quantidade significativa.",
+        "C": "Correta. Devido à baixa celularidade e baixo teor de proteína, os transudatos puros são tipicamente claros e incolores, com aparência de água ('água de rocha'). A baixa concentração de proteínas e células resulta em um líquido transparente, sem turbidez. Esta é uma característica visual importante que ajuda a diferenciar transudatos de exudatos.",
+        "D": "Correta. Esta é uma das características definidoras de um transudato puro. A concentração de proteínas < 2,5 g/dL é um dos critérios principais para classificar um líquido como transudato. Esta baixa concentração de proteínas reflete o fato de que os transudatos são ultrafiltrados do plasma que atravessam a membrana capilar sem lesão vascular."
       },
       "review": {
         "etiologia": "Transudato puro = 'Água'. Pense em um filtro (o vaso sanguíneo) que está funcionando bem, mas a pressão está errada. Ou a pressão dentro do vaso está muito alta (hidrostática ⬆️) ou a proteína que segura a água dentro está muito baixa (oncótica ⬇️).",
@@ -1209,10 +1209,10 @@
       "answer_type": "single",
       "answer_key": "C",
       "rationales": {
-        "A": "Correta. Policromatofilia é a variação de cor das hemácias no esfregaço (algumas são mais azuladas). Essa cor azulada é devida ao RNA residual nos reticulócitos. É a representação morfológica da reticulocitose.",
-        "B": "Correta. Metarrubrícitos são precursores eritroides nucleados que normalmente não deveriam estar na circulação. Sua presença (em conjunto com alta reticulocitose) indica uma resposta medular muito intensa (regeneração exuberante).",
-        "C": "Incorreta. Hipocromia (baixa concentração de hemoglobina na hemácia, refletida por um CHCM baixo e aumento da palidez central) é a marca registrada da deficiência de ferro. A anemia por deficiência de ferro crônica é classicamente não regenerativa ou pobremente regenerativa.",
-        "D": "Correta. Esta é a definição de anemia regenerativa. É o indicador mais objetivo e quantitativo da resposta da medula óssea."
+        "A": "Correta. Policromatofilia é a variação de cor das hemácias no esfregaço (algumas são mais azuladas). Essa cor azulada é devida ao RNA residual nos reticulócitos. É a representação morfológica da reticulocitose. Os reticulócitos são hemácias jovens que ainda contêm RNA ribossômico, o que lhes confere uma coloração azulada no esfregaço. A policromatofilia é um indicador morfológico de regeneração medular.",
+        "B": "Correta. Metarrubrícitos são precursores eritroides nucleados que normalmente não deveriam estar na circulação. Sua presença (em conjunto com alta reticulocitose) indica uma resposta medular muito intensa (regeneração exuberante). Os metarrubrícitos são eritroblastos nucleados que são liberados prematuramente da medula óssea em resposta a uma demanda intensa por hemácias. Sua presença indica regeneração ativa, mas também pode ser um sinal de resposta inapropriada em algumas situações.",
+        "C": "Incorreta. Hipocromia (baixa concentração de hemoglobina na hemácia, refletida por um CHCM baixo e aumento da palidez central) é a marca registrada da deficiência de ferro. A anemia por deficiência de ferro crônica é classicamente não regenerativa ou pobremente regenerativa. A hipocromia ocorre porque o ferro é necessário para a síntese de hemoglobina. Sem ferro adequado, as hemácias são produzidas com menos hemoglobina, resultando em hipocromia. A deficiência de ferro também afeta a proliferação celular na medula óssea, resultando em anemia não regenerativa.",
+        "D": "Correta. Esta é a definição de anemia regenerativa. É o indicador mais objetivo e quantitativo da resposta da medula óssea. A contagem de reticulócitos é o parâmetro laboratorial mais confiável para avaliar a capacidade regenerativa da medula óssea. Reticulócitos são hemácias jovens que ainda contêm RNA ribossômico e são liberadas da medula óssea em resposta à anemia."
       },
       "review": {
         "etiologia": "Regeneração = a medula óssea está 'trabalhando loucamente'. Ela libera hemácias jovens (reticulócitos), que são grandes (aumentam o VCM) e ainda têm RNA (causam policromasia).",
@@ -2212,10 +2212,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. Hipotermia durante anestesia nem sempre é evitável, mas pode ser minimizada com medidas adequadas.",
-        "B": "Correta. Hipotermia pode causar complicações pós-operatórias como arritmias, coagulopatia, e recuperação prolongada.",
-        "C": "Incorreta. Hipotermia afeta significativamente a recuperação anestésica e pode prolongar o tempo de recuperação.",
-        "D": "Incorreta. Hipotermia pode ser grave e causar complicações significativas."
+        "A": "Incorreta. Hipotermia durante anestesia nem sempre é evitável, mas pode ser minimizada com medidas adequadas. A hipotermia é uma complicação comum durante anestesia devido à depressão do centro termorregulador, vasodilatação, e perda de calor através de múltiplos mecanismos. Mesmo com medidas preventivas adequadas (aquecimento ativo, cobertores térmicos, fluidos aquecidos), alguns pacientes ainda podem desenvolver hipotermia, especialmente em procedimentos prolongados ou em pacientes pequenos.",
+        "B": "Correta. Hipotermia pode causar complicações pós-operatórias como arritmias, coagulopatia, e recuperação prolongada. A hipotermia afeta múltiplos sistemas: cardiovascular (arritmias, vasoconstrição), hemostasia (disfunção plaquetária, alterações da cascata de coagulação), e metabolismo (retardo na eliminação de fármacos, recuperação prolongada). Estas complicações podem aumentar a morbidade e mortalidade pós-operatórias.",
+        "C": "Incorreta. Hipotermia afeta significativamente a recuperação anestésica e pode prolongar o tempo de recuperação. A hipotermia retarda o metabolismo hepático e a eliminação renal de fármacos anestésicos, resultando em recuperação prolongada. Além disso, a depressão do sistema nervoso central causada pela hipotermia pode mascarar sinais de recuperação adequada.",
+        "D": "Incorreta. Hipotermia pode ser grave e causar complicações significativas. A hipotermia severa (< 32°C) pode causar arritmias cardíacas graves, coagulopatia, acidose metabólica, e até mesmo parada cardíaca. Mesmo hipotermia moderada pode causar complicações significativas que afetam o desfecho do paciente."
       },
       "review": {
         "etiologia": "Hipotermia durante anestesia é causada por múltiplos fatores, incluindo perda de calor, depressão do centro termorregulador, e vasodilatação.",
@@ -2275,10 +2275,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. Tomografia não é sempre superior à radiografia. Cada método tem suas indicações e vantagens específicas.",
-        "B": "Correta. Tomografia tem indicações específicas, como avaliação de estruturas complexas, planejamento cirúrgico, e diagnóstico de lesões pequenas.",
-        "C": "Incorreta. Tomografia tem limitações, incluindo custo, necessidade de anestesia, e exposição à radiação.",
-        "D": "Incorreta. Tomografia não é sempre necessária. Muitos diagnósticos podem ser feitos com outros métodos de imagem."
+        "A": "Incorreta. Tomografia não é sempre superior à radiografia. Cada método tem suas indicações e vantagens específicas. A radiografia é superior para avaliação de estruturas ósseas, detecção de fraturas, e avaliação de tórax em algumas situações. A tomografia é superior para avaliação de tecidos moles, estruturas complexas, e planejamento cirúrgico detalhado. A escolha do método deve ser baseada na suspeita clínica e na estrutura a ser avaliada.",
+        "B": "Correta. Tomografia tem indicações específicas, como avaliação de estruturas complexas, planejamento cirúrgico, e diagnóstico de lesões pequenas. A tomografia é particularmente útil para avaliar estruturas anatômicas complexas (crânio, coluna vertebral, articulações), planejamento cirúrgico detalhado, e detecção de lesões pequenas que podem não ser visíveis em radiografias convencionais. Sua capacidade de fornecer imagens seccionais e reconstruções tridimensionais a torna ideal para estas aplicações.",
+        "C": "Incorreta. Tomografia tem limitações, incluindo custo, necessidade de anestesia, e exposição à radiação. A tomografia é um exame mais caro que a radiografia, requer anestesia geral na maioria dos casos (devido à necessidade de imobilização completa), e expõe o paciente a doses mais altas de radiação ionizante. Estas limitações devem ser consideradas na escolha do método de imagem.",
+        "D": "Incorreta. Tomografia não é sempre necessária. Muitos diagnósticos podem ser feitos com outros métodos de imagem. A radiografia, ultrassom, e ressonância magnética são métodos alternativos que podem fornecer informações diagnósticas adequadas em muitas situações. A tomografia deve ser reservada para casos onde suas vantagens específicas são necessárias para o diagnóstico ou planejamento terapêutico."
       },
       "review": {
         "etiologia": "Tomografia computadorizada é uma técnica de imagem que utiliza raios-X para criar imagens seccionais do corpo.",
@@ -2401,10 +2401,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. Citologia nem sempre é diagnóstica. Alguns casos requerem histopatologia para diagnóstico definitivo.",
-        "B": "Correta. Citologia tem limitações específicas, incluindo amostras inadequadas, artefatos, e dificuldade em avaliar arquitetura tecidual.",
-        "C": "Incorreta. Citologia requer experiência e treinamento específico para interpretação adequada.",
-        "D": "Incorreta. Citologia não é sempre superior à histopatologia. Cada método tem suas vantagens e indicações."
+        "A": "Incorreta. Citologia nem sempre é diagnóstica. Alguns casos requerem histopatologia para diagnóstico definitivo. A citologia é uma técnica de triagem que pode fornecer um diagnóstico presuntivo, mas em muitos casos, especialmente neoplasias complexas, lesões inflamatórias crônicas, ou quando há necessidade de avaliar a arquitetura tecidual, a histopatologia é necessária para um diagnóstico definitivo. A citologia tem sensibilidade e especificidade variáveis dependendo do tipo de lesão e da qualidade da amostra.",
+        "B": "Correta. Citologia tem limitações específicas, incluindo amostras inadequadas, artefatos, e dificuldade em avaliar arquitetura tecidual. A citologia avalia células individuais ou pequenos grupos celulares, o que limita a avaliação da arquitetura tecidual, invasão vascular, e relação entre diferentes tipos celulares. Amostras inadequadas (poucas células, sangue excessivo, artefatos de secagem) podem comprometer a interpretação. Estas limitações são inerentes à técnica e devem ser consideradas na interpretação dos resultados.",
+        "C": "Incorreta. Citologia requer experiência e treinamento específico para interpretação adequada. A interpretação citológica é complexa e requer conhecimento profundo da morfologia celular normal e patológica, experiência em reconhecer artefatos e alterações técnicas, e habilidade em correlacionar os achados citológicos com o contexto clínico. A falta de experiência pode levar a interpretações incorretas e diagnósticos equivocados.",
+        "D": "Incorreta. Citologia não é sempre superior à histopatologia. Cada método tem suas vantagens e indicações. A citologia é superior para triagem rápida, avaliação de múltiplas lesões, e quando há limitações de anestesia ou custo. A histopatologia é superior para diagnóstico definitivo, avaliação de margens cirúrgicas, e caracterização detalhada de lesões complexas. A escolha do método deve ser baseada na suspeita clínica e nas necessidades diagnósticas."
       },
       "review": {
         "etiologia": "Citologia é uma técnica de diagnóstico que avalia células individuais ou pequenos grupos celulares.",
@@ -2464,10 +2464,10 @@
       "answer_type": "single",
       "answer_key": "B",
       "rationales": {
-        "A": "Incorreta. Histopatologia não é sempre necessária. Muitos diagnósticos podem ser feitos com outros métodos.",
-        "B": "Correta. Histopatologia tem indicações específicas, como diagnóstico definitivo de neoplasias, avaliação de margens cirúrgicas, e caracterização de lesões complexas.",
-        "C": "Incorreta. Histopatologia tem limitações, incluindo tempo de processamento, custo, e necessidade de biópsia.",
-        "D": "Incorreta. Histopatologia não é sempre superior à citologia. Cada método tem suas vantagens e indicações."
+        "A": "Incorreta. Histopatologia não é sempre necessária. Muitos diagnósticos podem ser feitos com outros métodos. A histopatologia é um método invasivo que requer biópsia cirúrgica, processamento laboratorial, e tempo para análise. Muitos diagnósticos podem ser estabelecidos através de métodos menos invasivos como citologia, exames laboratoriais, ou métodos de imagem. A histopatologia deve ser reservada para casos onde é necessária para diagnóstico definitivo ou caracterização detalhada da lesão.",
+        "B": "Correta. Histopatologia tem indicações específicas, como diagnóstico definitivo de neoplasias, avaliação de margens cirúrgicas, e caracterização de lesões complexas. A histopatologia é o padrão-ouro para diagnóstico de neoplasias, pois permite avaliação da arquitetura tecidual, grau de diferenciação, invasão vascular e linfática, e avaliação de margens cirúrgicas. É também essencial para caracterizar lesões inflamatórias complexas, doenças autoimunes, e outras condições que requerem análise detalhada da arquitetura tecidual.",
+        "C": "Incorreta. Histopatologia tem limitações, incluindo tempo de processamento, custo, e necessidade de biópsia. A histopatologia requer processamento laboratorial que pode levar de 24 a 72 horas, é mais cara que outros métodos diagnósticos, e requer biópsia cirúrgica que pode ser contraindicada em alguns pacientes. Estas limitações devem ser consideradas na escolha do método diagnóstico.",
+        "D": "Incorreta. Histopatologia não é sempre superior à citologia. Cada método tem suas vantagens e indicações. A histopatologia é superior para avaliação da arquitetura tecidual e diagnóstico definitivo, mas a citologia é superior para triagem rápida, avaliação de múltiplas lesões, e quando há limitações de anestesia ou custo. A escolha do método deve ser baseada na suspeita clínica, nas necessidades diagnósticas, e nas limitações do paciente."
       },
       "review": {
         "etiologia": "Histopatologia é o estudo microscópico de tecidos para diagnóstico de doenças.",
