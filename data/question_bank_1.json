@@ -214,9 +214,24 @@
         "E": "Incorreta. Ambas as afirmações são verdadeiras."
       },
       "review": {
-        "fisiologia": "O vírus da raiva viaja do ponto de inoculação até o SNC através dos nervos periféricos (transporte axonal retrógrado). Portanto, a distância do ferimento até o cérebro é um dos fatores mais críticos para o período de incubação. Ferimentos na face e cabeça levam a períodos de incubação mais curtos do que ferimentos nos pés.",
-        "high_yield": ["O período de incubação da raiva é variável.", "Fatores que influenciam o período de incubação: local da lesão (distância do SNC), gravidade da lesão (carga viral inoculada), e cepa viral."],
-        "pegadinhas": ["Achar que o período de incubação é fixo."]
+        "etiologia": "A raiva é uma encefalite viral aguda causada pelo vírus da raiva (Lyssavirus), um vírus RNA de fita simples que afeta o sistema nervoso central. É uma zoonose fatal que pode afetar todos os mamíferos, incluindo humanos.",
+        "epidemiologia": "A raiva é endêmica em muitas regiões do mundo, especialmente em países em desenvolvimento. No Brasil, a raiva urbana (transmitida por cães e gatos) foi controlada, mas a raiva silvestre (transmitida por morcegos) ainda representa um risco significativo.",
+        "fisiologia": "O vírus da raiva viaja do ponto de inoculação até o SNC através dos nervos periféricos (transporte axonal retrógrado). Portanto, a distância do ferimento até o cérebro é um dos fatores mais críticos para o período de incubação. Ferimentos na face e cabeça levam a períodos de incubação mais curtos do que ferimentos nos pés. A carga viral inoculada e a cepa viral também influenciam o período de incubação. O vírus se replica localmente antes de entrar nos nervos periféricos e viajar para o SNC.",
+        "high_yield": [
+          "O período de incubação da raiva é variável (dias a anos)",
+          "Fatores que influenciam o período de incubação: local da lesão (distância do SNC), gravidade da lesão (carga viral inoculada), e cepa viral",
+          "Transporte axonal retrógrado é o mecanismo de disseminação",
+          "Ferimentos na cabeça/face = período de incubação mais curto"
+        ],
+        "pegadinhas": [
+          "Achar que o período de incubação é fixo",
+          "Esquecer que a distância do ferimento ao SNC é crucial",
+          "Confundir período de incubação com período de transmissibilidade"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Doenças Virais", "pg": "Raiva"},
+          {"obra": "Cunningham", "cap": "Neurologia", "pg": "Encefalites virais"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:e5f6g7h8i9j0"},
       "status": "approved",
@@ -253,9 +268,24 @@
         "E": "É um PRINCÍPIO do SUS (Art. 7º - integralidade de assistência), mas é frequentemente citado no contexto dos objetivos de forma ampla. No entanto, a Universalidade (D) é mais claramente definida como um princípio distinto dos objetivos listados no Art. 5º. A opção E, 'realização integrada', está alinhada com o objetivo de 'assistência' (C). A distinção mais clara é entre os Objetivos do Art. 5º e os Princípios do Art. 7º."
       },
       "review": {
-        "fisiologia": "A Lei 8.080/90 estrutura o SUS. É fundamental diferenciar os Objetivos (Art. 5º) dos Princípios e Diretrizes (Art. 7º). Os objetivos são as metas finais do sistema (ex: identificar determinantes da saúde, formular políticas, prestar assistência). Os princípios são as regras e valores que guiam o funcionamento do sistema (ex: Universalidade, Integralidade, Equidade, Descentralização).",
-        "high_yield": ["Diferenciar Objetivos (Art. 5º) de Princípios (Art. 7º) da Lei 8.080.", "Objetivos: O que o SUS quer alcançar.", "Princípios: Como o SUS deve funcionar para alcançar seus objetivos."],
-        "pegadinhas": ["Confundir objetivos com princípios, como na questão."]
+        "etiologia": "O Sistema Único de Saúde (SUS) foi criado pela Constituição Federal de 1988 e regulamentado pela Lei 8.080/90, estabelecendo um sistema público de saúde universal, integral e equitativo para todos os brasileiros.",
+        "epidemiologia": "O SUS é um dos maiores sistemas públicos de saúde do mundo, atendendo mais de 200 milhões de pessoas. É responsável por mais de 80% dos atendimentos de saúde no Brasil, incluindo transplantes, vacinação, tratamento de câncer e emergências.",
+        "fisiologia": "A Lei 8.080/90 estrutura o SUS. É fundamental diferenciar os Objetivos (Art. 5º) dos Princípios e Diretrizes (Art. 7º). Os objetivos são as metas finais do sistema (ex: identificar determinantes da saúde, formular políticas, prestar assistência). Os princípios são as regras e valores que guiam o funcionamento do sistema (ex: Universalidade, Integralidade, Equidade, Descentralização). A Universalidade é um princípio que garante acesso universal aos serviços de saúde, não um objetivo específico.",
+        "high_yield": [
+          "Diferenciar Objetivos (Art. 5º) de Princípios (Art. 7º) da Lei 8.080",
+          "Objetivos: O que o SUS quer alcançar (identificar determinantes, formular políticas, prestar assistência)",
+          "Princípios: Como o SUS deve funcionar (Universalidade, Integralidade, Equidade, Descentralização)",
+          "Universalidade = princípio, não objetivo"
+        ],
+        "pegadinhas": [
+          "Confundir objetivos com princípios, como na questão",
+          "Achar que Universalidade é um objetivo quando é um princípio",
+          "Esquecer que a Lei 8.080/90 é a Lei Orgânica do SUS"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 5º e 7º", "pg": "Objetivos e Princípios do SUS"},
+          {"obra": "Constituição Federal 1988", "cap": "Art. 196-200", "pg": "Direito à Saúde"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:f6g7h8i9j0k1"},
       "status": "approved",
@@ -292,9 +322,24 @@
         "E": "Correta. A comunicação do risco e a divulgação de informações são funções essenciais."
       },
       "review": {
-        "fisiologia": "A Vigilância Epidemiológica (VE) é um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva. Seu foco é a informação para a ação. Ela monitora doenças, recomenda controle, avalia intervenções e divulga informações, mas a prestação de serviços de saúde (assistência) é de responsabilidade de outra esfera do SUS.",
-        "high_yield": ["O papel da VE é 'informação para ação'.", "VE não faz assistência médica direta.", "O ciclo da VE: Coleta -> Análise -> Recomendação -> Avaliação -> Divulgação."],
-        "pegadinhas": ["Atribuir à vigilância a função de tratar pacientes."]
+        "etiologia": "A Vigilância Epidemiológica (VE) é uma das quatro vigilâncias em saúde previstas na Lei 8.080/90, focada no monitoramento de doenças e agravos para subsidiar ações de prevenção e controle. É um sistema de informação para ação.",
+        "epidemiologia": "A VE é fundamental para o conhecimento da situação de saúde da população, permitindo a detecção precoce de problemas e a avaliação da efetividade das intervenções. É responsável por monitorar mais de 100 doenças e agravos no Brasil.",
+        "fisiologia": "A Vigilância Epidemiológica (VE) é um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva. Seu foco é a informação para a ação. Ela monitora doenças, recomenda controle, avalia intervenções e divulga informações, mas a prestação de serviços de saúde (assistência) é de responsabilidade de outra esfera do SUS. O ciclo da VE inclui coleta, processamento, análise, recomendação, promoção, avaliação e divulgação.",
+        "high_yield": [
+          "O papel da VE é 'informação para ação'",
+          "VE não faz assistência médica direta",
+          "O ciclo da VE: Coleta -> Processamento -> Análise -> Recomendação -> Promoção -> Avaliação -> Divulgação",
+          "VE monitora doenças, rede de atenção trata pacientes"
+        ],
+        "pegadinhas": [
+          "Atribuir à vigilância a função de tratar pacientes",
+          "Confundir VE com assistência à saúde",
+          "Esquecer que VE é informação, não ação direta"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 6º, § 2º", "pg": "Definição de Vigilância Epidemiológica"},
+          {"obra": "Manual de Vigilância Epidemiológica", "cap": "Conceitos Básicos", "pg": "Ciclo da Vigilância"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:g7h8i9j0k1l2"},
       "status": "approved",
@@ -448,9 +493,24 @@
         "E": "Correta. Receptores acoplados à proteína Gi (inibitória) causam a inibição da enzima adenilil ciclase, o que reduz a conversão de ATP em AMPc (segundo mensageiro). A subunidade βγ da proteína Gi pode também abrir canais de potássio, levando à sua saída da célula, o que causa hiperpolarização e diminui a excitabilidade celular."
       },
       "review": {
-        "fisiologia": "Existem 4 superfamílias de receptores: 1) Ionotrópicos (rápidos, canais iônicos), 2) Metabotrópicos (acoplados à proteína G, lentos, usam 2º mensageiro), 3) Ligados a quinases (ex: insulina) e 4) Nucleares (intracelulares, regulam transcrição gênica, muito lentos). A proteína Gs estimula a adenilil ciclase (aumenta AMPc), enquanto a Gi inibe. A Gq ativa a fosfolipase C (aumenta IP3 e DAG).",
-        "high_yield": ["Diferenciar receptores ionotrópicos (rápidos, íons) de metabotrópicos (lentos, proteína G, AMPc/IP3).", "Proteína Gi: inibe adenilil ciclase -> diminui AMPc -> abre canais de K+ -> hiperpolarização."],
-        "pegadinhas": ["Trocar as características de velocidade e mecanismo entre receptores ionotrópicos e metabotrópicos."]
+        "etiologia": "A farmacodinâmica estuda como os fármacos interagem com seus alvos moleculares (receptores, enzimas, canais iônicos) para produzir efeitos farmacológicos. Os receptores são proteínas que medeiam a comunicação celular e são os principais alvos dos fármacos.",
+        "epidemiologia": "O entendimento da farmacodinâmica é fundamental para o uso racional de medicamentos em medicina veterinária, permitindo prever efeitos terapêuticos e adversos, bem como interações medicamentosas.",
+        "fisiologia": "Existem 4 superfamílias de receptores: 1) Ionotrópicos (rápidos, canais iônicos que se abrem/fecham diretamente), 2) Metabotrópicos (acoplados à proteína G, lentos, usam 2º mensageiro como AMPc/IP3), 3) Ligados a quinases (ex: insulina, fatores de crescimento) e 4) Nucleares (intracelulares, regulam transcrição gênica, muito lentos). A proteína Gs estimula a adenilil ciclase (aumenta AMPc), enquanto a Gi inibe. A Gq ativa a fosfolipase C (aumenta IP3 e DAG). A ativação de receptores acoplados à proteína Gi inibe a adenilil ciclase, reduzindo AMPc e causando hiperpolarização celular.",
+        "high_yield": [
+          "Diferenciar receptores ionotrópicos (rápidos, íons) de metabotrópicos (lentos, proteína G, AMPc/IP3)",
+          "Proteína Gi: inibe adenilil ciclase -> diminui AMPc -> abre canais de K+ -> hiperpolarização",
+          "Receptores ionotrópicos = resposta rápida, metabotrópicos = resposta lenta",
+          "Proteína Gs = estimula adenilil ciclase, Gi = inibe adenilil ciclase"
+        ],
+        "pegadinhas": [
+          "Trocar as características de velocidade e mecanismo entre receptores ionotrópicos e metabotrópicos",
+          "Confundir proteína Gs (estimuladora) com Gi (inibitória)",
+          "Esquecer que receptores ionotrópicos não usam segundos mensageiros"
+        ],
+        "referencias": [
+          {"obra": "Rang & Dale's Pharmacology", "cap": "Receptores e Sinalização", "pg": "Proteínas G e segundos mensageiros"},
+          {"obra": "Cunningham", "cap": "Farmacologia", "pg": "Mecanismos de ação dos fármacos"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:k1l2m3n4o5p6"},
       "status": "approved",
@@ -487,9 +547,24 @@
         "E": "Correta. O agonismo α2 periférico (em vasos sanguíneos) causa vasoconstrição inicial, levando a um aumento da pressão arterial (pós-carga). O agonismo α2 no pâncreas inibe a liberação de insulina, resultando em hiperglicemia."
       },
       "review": {
-        "fisiologia": "Agonistas α2 (xilazina, detomidina, medetomidina, dexmedetomidina) atuam centralmente para causar sedação, miorrelaxamento e analgesia. Seus principais efeitos colaterais são cardiovasculares (bradicardia, BAV, vasoconstrição periférica inicial seguida de hipotensão) e hiperglicemia. A dexmedetomidina é a mais seletiva para o receptor α2, proporcionando melhor qualidade de sedação e menos efeitos indesejados relacionados ao α1.",
-        "high_yield": ["Efeitos dos α2-agonistas: sedação, analgesia, miorrelaxamento.", "Efeitos colaterais: bradicardia, BAV, hipertensão inicial, hiperglicemia, vômito (em cães e gatos).", "Dexmedetomidina é mais seletiva que xilazina."],
-        "pegadinhas": ["Assumir que a vasoconstrição é o único efeito na pressão arterial; após a fase inicial de hipertensão, o efeito central prevalece, podendo levar à hipotensão."]
+        "etiologia": "Os agonistas alfa-2 adrenérgicos são fármacos que atuam estimulando os receptores α2-adrenérgicos, resultando em sedação, analgesia e miorrelaxamento. A dexmedetomidina é o isômero ativo da medetomidina, com alta seletividade para receptores α2.",
+        "epidemiologia": "A dexmedetomidina é amplamente utilizada em medicina veterinária para sedação e analgesia, especialmente em procedimentos diagnósticos e cirúrgicos menores. É particularmente útil em pacientes que não toleram outros sedativos ou quando se deseja sedação reversível.",
+        "fisiologia": "Agonistas α2 (xilazina, detomidina, medetomidina, dexmedetomidina) atuam centralmente para causar sedação, miorrelaxamento e analgesia. Seus principais efeitos colaterais são cardiovasculares (bradicardia, BAV, vasoconstrição periférica inicial seguida de hipotensão) e hiperglicemia. A dexmedetomidina é a mais seletiva para o receptor α2, proporcionando melhor qualidade de sedação e menos efeitos indesejados relacionados ao α1. A ativação de receptores α2 pré-sinápticos inibe a liberação de noradrenalina, resultando em redução do tônus simpático central.",
+        "high_yield": [
+          "Efeitos dos α2-agonistas: sedação, analgesia, miorrelaxamento",
+          "Efeitos colaterais: bradicardia, BAV, hipertensão inicial, hiperglicemia, vômito (em cães e gatos)",
+          "Dexmedetomidina é mais seletiva que xilazina (seletividade α2:α1 = 1620:1)",
+          "Fármacos menos seletivos podem causar rigidez e excitação paradoxal"
+        ],
+        "pegadinhas": [
+          "Assumir que a vasoconstrição é o único efeito na pressão arterial; após a fase inicial de hipertensão, o efeito central prevalece, podendo levar à hipotensão",
+          "Confundir seletividade: fármacos MENOS seletivos causam mais efeitos α1 (rigidez, excitação)",
+          "Esquecer que a hiperglicemia é um efeito esperado dos agonistas α2"
+        ],
+        "referencias": [
+          {"obra": "Plumb's Veterinary Drug Handbook", "cap": "Dexmedetomidina", "pg": "Farmacologia dos agonistas α2"},
+          {"obra": "Cunningham", "cap": "Farmacologia", "pg": "Receptores adrenérgicos"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:l2m3n4o5p6q7"},
       "status": "approved",
@@ -526,9 +601,24 @@
         "E": "Incorreta. Os NEUTRÓFILOS (geralmente degenerados) são as células predominantes na maioria dos exsudatos inflamatórios, especialmente os sépticos. Linfócitos predominam em efusões quilosas ou em algumas inflamações crônicas ou neoplásicas (linfoma), mas não na maioria dos exsudatos inflamatórios agudos."
       },
       "review": {
-        "fisiologia": "As efusões são classificadas em transudatos, transudatos modificados e exsudatos com base na concentração de proteínas e na contagem de células nucleadas. Transudato: baixa proteína, baixa celularidade (ex: hipoalbuminemia). Transudato Modificado: proteína e/ou celularidade intermediárias (ex: insuficiência cardíaca congestiva). Exsudato: alta proteína, alta celularidade (ex: inflamação, sepse, neoplasia).",
-        "high_yield": ["Exsudato = Inflamação.", "Características do exsudato: Proteína > 3.0 g/dL, Celularidade > 7000/μL, Predomínio de neutrófilos.", "Causa principal de exsudato: Peritonite Infecciosa Felina (PIF), peritonite/pleurite séptica."],
-        "pegadinhas": ["Assumir que toda inflamação é neutrofílica. Embora a maioria seja, inflamações crônicas podem ter macrófagos e linfócitos, e a PIF classicamente tem neutrófilos não-degenerados e macrófagos."]
+        "etiologia": "Os exsudatos são efusões que resultam de processos inflamatórios que aumentam a permeabilidade vascular e atraem células inflamatórias para a cavidade. As principais causas incluem infecções bacterianas, virais (como PIF), neoplasias e processos inflamatórios não infecciosos.",
+        "epidemiologia": "A Peritonite Infecciosa Felina (PIF) é uma das causas mais comuns de exsudato abdominal em gatos jovens, especialmente em ambientes com múltiplos gatos. Em cães, peritonites sépticas secundárias a perfuração intestinal ou ruptura de abscessos são frequentes.",
+        "fisiologia": "As efusões são classificadas em transudatos, transudatos modificados e exsudatos com base na concentração de proteínas e na contagem de células nucleadas. Transudato: baixa proteína (< 2.5 g/dL), baixa celularidade (< 1500/μL) - ex: hipoalbuminemia. Transudato Modificado: proteína e/ou celularidade intermediárias - ex: insuficiência cardíaca congestiva. Exsudato: alta proteína (> 3.0 g/dL), alta celularidade (> 7000/μL) - ex: inflamação, sepse, neoplasia. A inflamação aumenta a permeabilidade vascular, permitindo extravasamento de proteínas e migração de células inflamatórias.",
+        "high_yield": [
+          "Exsudato = Inflamação (proteína > 3.0 g/dL, celularidade > 7000/μL)",
+          "Predomínio de neutrófilos na maioria dos exsudatos inflamatórios agudos",
+          "Causas principais: PIF (gatos), peritonite/pleurite séptica, neoplasias",
+          "Transudato: proteína < 2.5 g/dL, celularidade < 1500/μL"
+        ],
+        "pegadinhas": [
+          "Assumir que toda inflamação é neutrofílica. Embora a maioria seja, inflamações crônicas podem ter macrófagos e linfócitos",
+          "PIF classicamente tem neutrófilos não-degenerados e macrófagos, não apenas neutrófilos degenerados",
+          "Confundir exsudato com transudato modificado"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Análise de Líquidos Cavitários", "pg": "Classificação das efusões"},
+          {"obra": "Cunningham", "cap": "Citologia", "pg": "Análise de efusões"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:m3n4o5p6q7r8"},
       "status": "approved",
@@ -565,9 +655,25 @@
         "E": "Incorreta. O CHCM está baixo (hipocrômica), não normal (normocrômica)."
       },
       "review": {
-        "fisiologia": "A classificação morfológica da anemia é feita pelos índices hematimétricos: VCM e CHCM. VCM avalia o tamanho da hemácia (microcítica, normocítica, macrocítica). CHCM avalia a 'cor' (concentração de hemoglobina) da hemácia (hipocrômica, normocrômica). Anemias microcíticas e hipocrômicas são o padrão clássico da deficiência de ferro crônica.",
-        "high_yield": ["VCM < normal = Microcítica.", "VCM > normal = Macrocítica.", "CHCM < normal = Hipocrômica.", "Anemia microcítica e hipocrômica = pensar em deficiência de ferro (ex: sangramento crônico) ou shunt portossistêmico."],
-        "pegadinhas": ["Não conhecer os valores de referência. Para provas, é bom ter uma noção geral (VCM cão ~65, CHCM cão ~34)."]
+        "etiologia": "A anemia microcítica e hipocrômica é caracterizada por hemácias menores que o normal (microcitose) e com menor concentração de hemoglobina (hipocromia). Esta é a apresentação clássica da deficiência de ferro, que pode ocorrer por perda crônica de sangue, má absorção ou deficiência nutricional.",
+        "epidemiologia": "A deficiência de ferro é uma das causas mais comuns de anemia em medicina veterinária, especialmente em cães com sangramento crônico (parasitas intestinais, neoplasias, úlceras) ou em filhotes com dieta inadequada.",
+        "fisiologia": "A classificação morfológica da anemia é feita pelos índices hematimétricos: VCM e CHCM. VCM avalia o tamanho da hemácia (microcítica, normocítica, macrocítica). CHCM avalia a 'cor' (concentração de hemoglobina) da hemácia (hipocrômica, normocrômica). Anemias microcíticas e hipocrômicas são o padrão clássico da deficiência de ferro crônica. O ferro é essencial para a síntese de hemoglobina, e sua deficiência resulta em hemácias menores e menos pigmentadas.",
+        "high_yield": [
+          "VCM < normal = Microcítica (VCM cão normal: 60-77 fL)",
+          "VCM > normal = Macrocítica (VCM cão normal: 60-77 fL)", 
+          "CHCM < normal = Hipocrômica (CHCM cão normal: 32-36 g/dL)",
+          "Anemia microcítica e hipocrômica = pensar em deficiência de ferro (ex: sangramento crônico) ou shunt portossistêmico",
+          "Hematócrito cão normal: 37-55%"
+        ],
+        "pegadinhas": [
+          "Não conhecer os valores de referência. Para provas, é bom ter uma noção geral (VCM cão ~65, CHCM cão ~34)",
+          "Confundir microcitose com macrocitose",
+          "Esquecer que shunt portossistêmico também pode causar anemia microcítica e hipocrômica"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Hematologia", "pg": "Classificação das anemias"},
+          {"obra": "Cunningham", "cap": "Eritrograma", "pg": "Índices hematimétricos"}
+        ]
       },
       "provenance": {"extracted_at": "2024-05-24T10:00:00Z", "checksum": "sha256:n4o5p6q7r8s9"},
       "status": "approved",
