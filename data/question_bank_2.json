@@ -1,15 +1,24 @@
-
 {
   "meta": {
     "batch": 2,
     "total_batches": 2,
     "taxonomy_version": "v1.0",
     "generator": "google-ai-studio",
-    "notes": ["Segunda parte do banco de questões, contendo 30 itens da prova UFV 2023."],
+    "notes": [
+      "Segunda parte do banco de questões, contendo 30 itens da prova UFV 2023."
+    ],
     "persistence": {
-      "strategy": ["json_canonical", "postgres", "firestore", "local_cache"],
+      "strategy": [
+        "json_canonical",
+        "postgres",
+        "firestore",
+        "local_cache"
+      ],
       "conflicts": "upsert_on_checksum",
-      "defaults": { "namespace": "vet-residencia", "schema_version": 1 }
+      "defaults": {
+        "namespace": "vet-residencia",
+        "schema_version": 1
+      }
     }
   },
   "items": [
@@ -18,20 +27,60 @@
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["DIAGNÓSTICO POR IMAGEM", "CLÍNICA MÉDICA"],
-      "topic_tags": ["ODONTOLOGIA", "RADIOGRAFIA", "ESTOMATITE"],
-      "classification_meta": { "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.9, "CLÍNICA MÉDICA": 0.8}, "topic_confidence": {"ODONTOLOGIA": 0.95}, "evidence_spans": ["radiografia", "abscesso periapical", "reabsorção odontoclástica", "Estomatite linfoplasmocitária"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "DIAGNÓSTICO POR IMAGEM",
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ODONTOLOGIA",
+        "RADIOGRAFIA",
+        "ESTOMATITE"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "DIAGNÓSTICO POR IMAGEM": 0.9,
+          "CLÍNICA MÉDICA": 0.8
+        },
+        "topic_confidence": {
+          "ODONTOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "radiografia",
+          "abscesso periapical",
+          "reabsorção odontoclástica",
+          "Estomatite linfoplasmocitária"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Um felino de dois anos de idade foi trazido ao Hospital Veterinário para consulta, com queixa principal de não estar se alimentando bem, estar salivando muito e com traços de sangue na saliva. Após exame físico, o médico veterinário solicitou uma radiografia com o animal anestesiado. Assinale a alternativa com a doença cujo exame complementar de escolha NÃO é a radiografia para o diagnóstico final.",
       "media": [],
       "options": [
-        {"label": "A", "text": "Abscesso periapical"},
-        {"label": "B", "text": "Reabsorção odontoclástica dos felinos"},
-        {"label": "C", "text": "Fratura dentária estendendo-se abaixo da gengiva"},
-        {"label": "D", "text": "Estomatite linfoplasmocitária dos felinos"},
-        {"label": "E", "text": "Nenhuma das anteriores"}
+        {
+          "label": "A",
+          "text": "Abscesso periapical"
+        },
+        {
+          "label": "B",
+          "text": "Reabsorção odontoclástica dos felinos"
+        },
+        {
+          "label": "C",
+          "text": "Fratura dentária estendendo-se abaixo da gengiva"
+        },
+        {
+          "label": "D",
+          "text": "Estomatite linfoplasmocitária dos felinos"
+        },
+        {
+          "label": "E",
+          "text": "Nenhuma das anteriores"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -43,32 +92,101 @@
         "E": "Incorreta, pois a alternativa D está correta."
       },
       "review": {
+        "etiologia": "A estomatite linfoplasmocitária dos felinos é uma doença inflamatória crônica das mucosas orais, caracterizada por infiltração de linfócitos e plasmócitos. A etiologia exata é desconhecida, mas fatores imunomediados, virais (calicivírus, herpesvírus) e bacterianos podem estar envolvidos.",
+        "epidemiologia": "A estomatite linfoplasmocitária é mais comum em gatos adultos jovens a de meia-idade, sem predileção sexual clara. A prevalência varia entre 0.7% a 4% da população felina, sendo uma das causas mais frequentes de doença oral em gatos.",
         "fisiologia": "A radiografia é um exame de imagem excelente para avaliar tecidos duros, como ossos e dentes. Condições como abscessos (que causam lise óssea), fraturas e reabsorção dentária são diagnosticadas ou estadiadas com radiografias. Doenças de tecidos moles, como a estomatite, requerem avaliação clínica e histopatológica, pois não são visíveis na radiografia.",
-        "high_yield": ["Radiografia = Tecidos duros (osso, dente).", "Estomatite = Doença de tecidos moles (mucosa), diagnóstico por biópsia.", "Abscesso periapical, fratura de raiz e reabsorção odontoclástica requerem radiografia para diagnóstico/avaliação."],
-        "pegadinhas": ["Confundir o diagnóstico de doenças periodontais (que precisam de raio-x) com o de estomatites (que não precisam)."]
+        "high_yield": [
+          "Radiografia = Tecidos duros (osso, dente)",
+          "Estomatite = Doença de tecidos moles (mucosa), diagnóstico por biópsia",
+          "Abscesso periapical, fratura de raiz e reabsorção odontoclástica requerem radiografia para diagnóstico/avaliação"
+        ],
+        "pegadinhas": [
+          "Confundir o diagnóstico de doenças periodontais (que precisam de raio-x) com o de estomatites (que não precisam)",
+          "Achar que radiografia pode diagnosticar inflamação de tecidos moles",
+          "Esquecer que estomatite é diagnóstico clínico e histopatológico"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Odontologia",
+            "pg": "Doenças Orais"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Diagnóstico por Imagem",
+            "pg": "Radiografia"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Medicina Felina",
+            "pg": "Estomatite"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:1k2l3m4n5o6p" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:1k2l3m4n5o6p"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0012",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
-      "topic_tags": ["ULTRASSONOGRAFIA", "DIAGNÓSTICO DEFINITIVO"],
-      "classification_meta": { "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99}, "topic_confidence": {"ULTRASSONOGRAFIA": 0.95}, "evidence_spans": ["ultrassonografia", "diagnóstico final", "intussuscepção", "ureter ectópico"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "DIAGNÓSTICO POR IMAGEM"
+      ],
+      "topic_tags": [
+        "ULTRASSONOGRAFIA",
+        "DIAGNÓSTICO DEFINITIVO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "DIAGNÓSTICO POR IMAGEM": 0.99
+        },
+        "topic_confidence": {
+          "ULTRASSONOGRAFIA": 0.95
+        },
+        "evidence_spans": [
+          "ultrassonografia",
+          "diagnóstico final",
+          "intussuscepção",
+          "ureter ectópico"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A ultrassonografia é um exame de imagem cada vez mais utilizado na medicina veterinária por fornecer informações importantes para o diagnóstico de uma doença, para direcionar o tratamento e permitir avaliação de prognóstico. Quanto a esse exame, assinale a alternativa CORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "É o exame de escolha para diagnóstico final de ureter ectópico em fêmeas com incontinência urinária."},
-        {"label": "B", "text": "A ultrassonografia é altamente específica no exame de massas esplênicas, permitindo a diferenciação entre neoplasia e abscesso esplênicos."},
-        {"label": "C", "text": "As características ultrassonográficas de uma intussuscepção permitem seu diagnóstico final pela ultrassonografia."},
-        {"label": "D", "text": "As características ultrassonográficas observadas em alterações prostáticas permitem a diferenciação entre neoplasia prostática e prostatite e, portanto, o diagnóstico final."},
-        {"label": "E", "text": "A ultrassonografia é altamente sensível para detectar nódulos pulmonares pela técnica de FAST torácico."}
+        {
+          "label": "A",
+          "text": "É o exame de escolha para diagnóstico final de ureter ectópico em fêmeas com incontinência urinária."
+        },
+        {
+          "label": "B",
+          "text": "A ultrassonografia é altamente específica no exame de massas esplênicas, permitindo a diferenciação entre neoplasia e abscesso esplênicos."
+        },
+        {
+          "label": "C",
+          "text": "As características ultrassonográficas de uma intussuscepção permitem seu diagnóstico final pela ultrassonografia."
+        },
+        {
+          "label": "D",
+          "text": "As características ultrassonográficas observadas em alterações prostáticas permitem a diferenciação entre neoplasia prostática e prostatite e, portanto, o diagnóstico final."
+        },
+        {
+          "label": "E",
+          "text": "A ultrassonografia é altamente sensível para detectar nódulos pulmonares pela técnica de FAST torácico."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -80,35 +198,102 @@
         "E": "Incorreta. A ultrassonografia torácica (TFAST) é muito insensível para nódulos pulmonares, a menos que sejam grandes e localizados na periferia do pulmão, junto à pleura. A radiografia e a tomografia são muito superiores para essa avaliação."
       },
       "review": {
+        "etiologia": "A ultrassonografia utiliza ondas sonoras de alta frequência para criar imagens em tempo real dos tecidos internos. A intussuscepção é uma condição onde um segmento intestinal se invagina em outro, criando uma imagem característica.",
+        "epidemiologia": "A intussuscepção é mais comum em cães jovens, especialmente em raças grandes, e pode ocorrer em qualquer parte do trato gastrointestinal. A ultrassonografia é o exame de escolha para seu diagnóstico devido à aparência patognomônica.",
         "fisiologia": "A ultrassonografia se destaca na avaliação da arquitetura interna de órgãos de tecido mole e na identificação de condições com aparência patognomônica. A intussuscepção é um exemplo clássico, onde a imagem de 'alvo' é diagnóstica. No entanto, para muitas outras condições, como massas em órgãos ou anomalias congênitas complexas, o ultrassom é uma ferramenta de triagem ou suspeita, mas não de diagnóstico definitivo.",
         "high_yield": [
-          "Intussuscepção no US = imagem em 'alvo' ou 'múltiplas camadas' é diagnóstica.",
-          "A ultrassonografia não diferencia lesões benignas de malignas em órgãos como baço ou próstata; requer citologia/histopatologia.",
-          "O US é insensível para a maioria dos nódulos pulmonares e não é o exame de escolha para ureter ectópico (padrão-ouro é uro-TC ou cistoscopia)."
+          "Intussuscepção no US = imagem em 'alvo' ou 'múltiplas camadas' é diagnóstica",
+          "A ultrassonografia não diferencia lesões benignas de malignas em órgãos como baço ou próstata; requer citologia/histopatologia",
+          "O US é insensível para a maioria dos nódulos pulmonares e não é o exame de escolha para ureter ectópico (padrão-ouro é uro-TC ou cistoscopia)"
+        ],
+        "pegadinhas": [
+          "Achar que US pode diagnosticar definitivamente todas as massas",
+          "Confundir capacidade diagnóstica do US entre condições distintas",
+          "Esquecer que US é operador-dependente"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Diagnóstico por Imagem",
+            "pg": "Ultrassonografia"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Gastroenterologia",
+            "pg": "Intussuscepção"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Diagnóstico",
+            "pg": "Imagem"
+          }
         ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:2k3l4m5n6o7p" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:2k3l4m5n6o7p"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0013",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["ORTOPEDIA", "FRATURAS", "FIXAÇÃO ESQUELÉTICA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.95}, "topic_confidence": {"ORTOPEDIA": 0.9}, "evidence_spans": ["fratura", "fixador esquelético externo", "pino intramedular", "placa óssea"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "ORTOPEDIA",
+        "FRATURAS",
+        "FIXAÇÃO ESQUELÉTICA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.95
+        },
+        "topic_confidence": {
+          "ORTOPEDIA": 0.9
+        },
+        "evidence_spans": [
+          "fratura",
+          "fixador esquelético externo",
+          "pino intramedular",
+          "placa óssea"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre os métodos de fixação de fraturas em pequenos animais, qual das seguintes afirmações sobre o fixador esquelético externo (FEE) é a mais correta?",
       "media": [],
       "options": [
-        {"label": "A", "text": "É o método de escolha para fraturas articulares complexas devido à sua alta estabilidade rotacional."},
-        {"label": "B", "text": "Permite o manejo de feridas abertas associadas à fratura e o ajuste pós-operatório da redução da fratura."},
-        {"label": "C", "text": "O uso de pinos de Steinmann como pinos de fixação é ideal para resistir a forças de flexão."},
-        {"label": "D", "text": "A remoção do aparelho requer um segundo procedimento cirúrgico anestésico na maioria dos casos."},
-        {"label": "E", "text": "A sua aplicação não danifica o suprimento sanguíneo do periósteo, ao contrário das placas ósseas."}
+        {
+          "label": "A",
+          "text": "É o método de escolha para fraturas articulares complexas devido à sua alta estabilidade rotacional."
+        },
+        {
+          "label": "B",
+          "text": "Permite o manejo de feridas abertas associadas à fratura e o ajuste pós-operatório da redução da fratura."
+        },
+        {
+          "label": "C",
+          "text": "O uso de pinos de Steinmann como pinos de fixação é ideal para resistir a forças de flexão."
+        },
+        {
+          "label": "D",
+          "text": "A remoção do aparelho requer um segundo procedimento cirúrgico anestésico na maioria dos casos."
+        },
+        {
+          "label": "E",
+          "text": "A sua aplicação não danifica o suprimento sanguíneo do periósteo, ao contrário das placas ósseas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -120,32 +305,101 @@
         "E": "Incorreta. Embora menos invasivo que uma placa, a inserção dos pinos do FEE ainda causa algum dano ao periósteo e ao suprimento sanguíneo local."
       },
       "review": {
+        "etiologia": "O Fixador Esquelético Externo (FEE) foi desenvolvido como uma alternativa menos invasiva para fixação de fraturas, especialmente em casos onde há comprometimento de tecidos moles ou necessidade de ajustes pós-operatórios.",
+        "epidemiologia": "O FEE é mais comumente utilizado em fraturas expostas, fraturas cominutivas complexas, e em situações onde há comprometimento de tecidos moles. É especialmente útil em fraturas de membros pélvicos e torácicos.",
         "fisiologia": "O Fixador Esquelético Externo é um sistema versátil que utiliza pinos transósseos conectados por uma barra externa. Suas principais indicações são fraturas expostas, fraturas cominutivas onde a reconstrução com placa seria difícil, e para artrodeses ou correção de deformidades angulares.",
-        "high_yield": ["Vantagens do FEE: manejo de feridas abertas, ajuste pós-operatório, menor invasão do foco da fratura.", "Desvantagens: cuidado intensivo pelo tutor, risco de infecção no trajeto dos pinos, menor rigidez que placas."],
-        "pegadinhas": ["Confundir as indicações e vantagens/desvantagens entre FEE, placas e pinos intramedulares."]
+        "high_yield": [
+          "Vantagens do FEE: manejo de feridas abertas, ajuste pós-operatório, menor invasão do foco da fratura",
+          "Desvantagens: cuidado intensivo pelo tutor, risco de infecção no trajeto dos pinos, menor rigidez que placas"
+        ],
+        "pegadinhas": [
+          "Confundir as indicações e vantagens/desvantagens entre FEE, placas e pinos intramedulares",
+          "Achar que FEE é ideal para fraturas articulares",
+          "Esquecer que FEE requer cuidados especiais pelo tutor"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Ortopedia",
+            "pg": "Fixação de Fraturas"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "Fixadores Externos"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "Ortopedia"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:3l4m5n6o7p8q" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:3l4m5n6o7p8q"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0014",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["NEUROCIRURGIA", "DOENÇA DO DISCO INTERVERTEBRAL", "HEMILAMINECTOMIA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.98}, "topic_confidence": {"DOENÇA DO DISCO INTERVERTEBRAL": 0.95}, "evidence_spans": ["doença do disco intervertebral", "Hansen tipo I", "descompressão cirúrgica", "hemilaminectomia"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "NEUROCIRURGIA",
+        "DOENÇA DO DISCO INTERVERTEBRAL",
+        "HEMILAMINECTOMIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.98
+        },
+        "topic_confidence": {
+          "DOENÇA DO DISCO INTERVERTEBRAL": 0.95
+        },
+        "evidence_spans": [
+          "doença do disco intervertebral",
+          "Hansen tipo I",
+          "descompressão cirúrgica",
+          "hemilaminectomia"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Um cão da raça Dachshund, de 5 anos, apresenta-se com paralisia aguda dos membros pélvicos e retenção urinária. O exame neurológico revela ausência de dor profunda nos membros pélvicos. Qual é a abordagem cirúrgica mais apropriada e qual o prognóstico?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Fenestração do disco intervertebral afetado apenas; prognóstico bom."},
-        {"label": "B", "text": "Hemilaminectomia para descompressão medular; prognóstico bom (cerca de 90% de recuperação)."},
-        {"label": "C", "text": "Tratamento conservador com repouso e anti-inflamatórios; prognóstico excelente."},
-        {"label": "D", "text": "Hemilaminectomia para descompressão medular; prognóstico reservado a ruim (menos de 50% de chance de recuperação da deambulação)."},
-        {"label": "E", "text": "Slot ventral; prognóstico reservado."}
+        {
+          "label": "A",
+          "text": "Fenestração do disco intervertebral afetado apenas; prognóstico bom."
+        },
+        {
+          "label": "B",
+          "text": "Hemilaminectomia para descompressão medular; prognóstico bom (cerca de 90% de recuperação)."
+        },
+        {
+          "label": "C",
+          "text": "Tratamento conservador com repouso e anti-inflamatórios; prognóstico excelente."
+        },
+        {
+          "label": "D",
+          "text": "Hemilaminectomia para descompressão medular; prognóstico reservado a ruim (menos de 50% de chance de recuperação da deambulação)."
+        },
+        {
+          "label": "E",
+          "text": "Slot ventral; prognóstico reservado."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -157,32 +411,103 @@
         "E": "Incorreta. O slot ventral é a abordagem cirúrgica para a coluna cervical, não para a toracolombar."
       },
       "review": {
+        "etiologia": "A Doença do Disco Intervertebral (DDIV) é causada pela degeneração do disco intervertebral, resultando em extrusão ou protrusão do material discal que comprime a medula espinhal. É mais comum em raças condrodistróficas como Dachshund, Basset Hound e Beagle.",
+        "epidemiologia": "A DDIV é uma das causas mais comuns de déficit neurológico em cães, especialmente em raças condrodistróficas. A incidência é maior em cães de meia-idade (3-7 anos) e pode ocorrer em qualquer região da coluna vertebral.",
         "fisiologia": "A Doença do Disco Intervertebral (DDIV) é classificada em graus de 1 a 5. Grau 5 é a paralisia com ausência de percepção de dor profunda. Este é o grau mais severo, indicando dano extenso à medula espinhal. A cirurgia descompressiva de emergência (hemilaminectomia) é indicada para tentar salvar a função medular, mas o prognóstico para retorno da função motora é muito incerto.",
-        "high_yield": ["Estadiamento da DDIV: Grau 1 (dor) a Grau 5 (paralisia sem dor profunda).", "Ausência de dor profunda = pior prognóstico.", "Cirurgia para DDIV toracolombar = Hemilaminectomia.", "Cirurgia para DDIV cervical = Slot Ventral."],
-        "pegadinhas": ["Ter um prognóstico otimista para um caso grau 5.", "Confundir as abordagens cirúrgicas para diferentes regiões da coluna."]
+        "high_yield": [
+          "Estadiamento da DDIV: Grau 1 (dor) a Grau 5 (paralisia sem dor profunda)",
+          "Ausência de dor profunda = pior prognóstico",
+          "Cirurgia para DDIV toracolombar = Hemilaminectomia",
+          "Cirurgia para DDIV cervical = Slot Ventral"
+        ],
+        "pegadinhas": [
+          "Ter um prognóstico otimista para um caso grau 5",
+          "Confundir as abordagens cirúrgicas para diferentes regiões da coluna",
+          "Esquecer que ausência de dor profunda é o pior sinal prognóstico"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Neurologia",
+            "pg": "Doença do Disco Intervertebral"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Neurocirurgia",
+            "pg": "DDIV"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Neurologia",
+            "pg": "Compressão Medular"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:4d5e6f7g8h9i" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:4d5e6f7g8h9i"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-LC-0015",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["URINÁLISE", "SEDIMENTO URINÁRIO", "CILINDROS"],
-      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"URINÁLISE": 0.95}, "evidence_spans": ["urinálise", "cilindros", "túbulos renais", "doença renal"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "topic_tags": [
+        "URINÁLISE",
+        "SEDIMENTO URINÁRIO",
+        "CILINDROS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "LABORATÓRIO CLÍNICO": 0.98
+        },
+        "topic_confidence": {
+          "URINÁLISE": 0.95
+        },
+        "evidence_spans": [
+          "urinálise",
+          "cilindros",
+          "túbulos renais",
+          "doença renal"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Na análise do sedimento urinário, a presença de cilindros é sempre um achado significativo, pois eles se formam nos túbulos renais. Qual tipo de cilindro é mais indicativo de uma lesão renal grave e degeneração tubular?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Cilindros hialinos"},
-        {"label": "B", "text": "Cilindros granulosos"},
-        {"label": "C", "text": "Cilindros céreos"},
-        {"label": "D", "text": "Cilindros eritrocitários"},
-        {"label": "E", "text": "Cilindros leucocitários"}
+        {
+          "label": "A",
+          "text": "Cilindros hialinos"
+        },
+        {
+          "label": "B",
+          "text": "Cilindros granulosos"
+        },
+        {
+          "label": "C",
+          "text": "Cilindros céreos"
+        },
+        {
+          "label": "D",
+          "text": "Cilindros eritrocitários"
+        },
+        {
+          "label": "E",
+          "text": "Cilindros leucocitários"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -195,31 +520,102 @@
       },
       "review": {
         "fisiologia": "Os cilindros urinários são moldes dos túbulos renais. O tipo de cilindro reflete o que está acontecendo dentro do néfron. A progressão da gravidade da lesão tubular pode ser vista pela 'evolução' dos cilindros: Celular -> Granuloso -> Céreo. Os cilindros céreos, portanto, representam o estágio final de degeneração e estase tubular.",
-        "high_yield": ["Cilindro hialino: pode ser normal.", "Cilindro celular (leucocitário, eritrocitário, epitelial): indica processo agudo (inflamação, hemorragia, necrose).", "Cilindro granuloso: indica degeneração celular.", "Cilindro céreo: indica estase e doença crônica grave. Pior prognóstico."],
-        "pegadinhas": ["Não saber a hierarquia de gravidade dos cilindros."]
+        "high_yield": [
+          "Cilindro hialino: pode ser normal.",
+          "Cilindro celular (leucocitário, eritrocitário, epitelial): indica processo agudo (inflamação, hemorragia, necrose).",
+          "Cilindro granuloso: indica degeneração celular.",
+          "Cilindro céreo: indica estase e doença crônica grave. Pior prognóstico."
+        ],
+        "pegadinhas": [
+          "Não saber a hierarquia de gravidade dos cilindros."
+        ],
+        "etiologia": "A urinálise é um exame fundamental para avaliação da função renal. URINÁLISE pode ser identificado através de alterações específicas no sedimento urinário.",
+        "epidemiologia": "URINÁLISE apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Laboratório Clínico",
+            "pg": "URINÁLISE"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Laboratório",
+            "pg": "URINÁLISE"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Laboratório",
+            "pg": "URINÁLISE"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:5e6f7g8h9i0j" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:5e6f7g8h9i0j"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-LC-0016",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["HEMATOLOGIA", "HEMOSTASIA", "TESTES DE COAGULAÇÃO"],
-      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"HEMOSTASIA": 0.95}, "evidence_spans": ["coagulação", "hemostasia", "via intrínseca", "via extrínseca", "TTPA", "TP"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "topic_tags": [
+        "HEMATOLOGIA",
+        "HEMOSTASIA",
+        "TESTES DE COAGULAÇÃO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "LABORATÓRIO CLÍNICO": 0.98
+        },
+        "topic_confidence": {
+          "HEMOSTASIA": 0.95
+        },
+        "evidence_spans": [
+          "coagulação",
+          "hemostasia",
+          "via intrínseca",
+          "via extrínseca",
+          "TTPA",
+          "TP"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Um cão é atendido com histórico de sangramento após um procedimento de rotina. Suspeita-se de uma coagulopatia. Os testes de triagem mostram: Tempo de Protrombina (TP) normal e Tempo de Tromboplastina Parcial Ativada (TTPA) prolongado. Qual via da cascata de coagulação está mais provavelmente afetada?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A via extrínseca."},
-        {"label": "B", "text": "A via intrínseca."},
-        {"label": "C", "text": "A via comum."},
-        {"label": "D", "text": "A função plaquetária."},
-        {"label": "E", "text": "A fibrinólise."}
+        {
+          "label": "A",
+          "text": "A via extrínseca."
+        },
+        {
+          "label": "B",
+          "text": "A via intrínseca."
+        },
+        {
+          "label": "C",
+          "text": "A via comum."
+        },
+        {
+          "label": "D",
+          "text": "A função plaquetária."
+        },
+        {
+          "label": "E",
+          "text": "A fibrinólise."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -232,31 +628,100 @@
       },
       "review": {
         "fisiologia": "A hemostasia secundária (cascata de coagulação) tem duas vias de ativação que convergem para uma via comum. O TP avalia a via extrínseca (Fator VII) e a comum (Fatores X, V, II, I). O TTPA avalia a via intrínseca (Fatores XII, XI, IX, VIII) e a comum. Analisando os dois testes em conjunto, é possível localizar o defeito.",
-        "high_yield": ["TP prolongado, TTPA normal = defeito na via EXTRÍNSECA (Fator VII).", "TP normal, TTPA prolongado = defeito na via INTRÍNSECA (ex: Hemofilia).", "TP e TTPA prolongados = defeito na via COMUM ou múltiplos defeitos (ex: intoxicação por rodenticida, CIVD)."],
-        "pegadinhas": ["Não lembrar qual teste avalia qual via."]
+        "high_yield": [
+          "TP prolongado, TTPA normal = defeito na via EXTRÍNSECA (Fator VII).",
+          "TP normal, TTPA prolongado = defeito na via INTRÍNSECA (ex: Hemofilia).",
+          "TP e TTPA prolongados = defeito na via COMUM ou múltiplos defeitos (ex: intoxicação por rodenticida, CIVD)."
+        ],
+        "pegadinhas": [
+          "Não lembrar qual teste avalia qual via."
+        ],
+        "etiologia": "HEMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "HEMATOLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Laboratório Clínico",
+            "pg": "HEMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Laboratório",
+            "pg": "HEMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Laboratório",
+            "pg": "HEMATOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:6f7g8h9i0j1k" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:6f7g8h9i0j1k"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0017",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEUROLOGIA", "CONVULSÕES", "STATUS EPILEPTICUS"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"CONVULSÕES": 0.95}, "evidence_spans": ["convulsão", "status epilepticus", "diazepam", "fenobarbital", "propofol"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA",
+        "CONVULSÕES",
+        "STATUS EPILEPTICUS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "CONVULSÕES": 0.95
+        },
+        "evidence_spans": [
+          "convulsão",
+          "status epilepticus",
+          "diazepam",
+          "fenobarbital",
+          "propofol"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Um cão de 3 anos, sem raça definida, é apresentado em status epilepticus. Qual é a sequência correta de intervenção farmacológica para controlar as convulsões?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Primeiro, administrar fenobarbital oral; se não houver controle, usar diazepam intravenoso."},
-        {"label": "B", "text": "Primeiro, administrar diazepam intravenoso (ou midazolam); se as convulsões persistirem, administrar uma dose de carga de fenobarbital intravenoso."},
-        {"label": "C", "text": "Primeiro, iniciar uma infusão contínua de propofol; depois, administrar diazepam para manutenção."},
-        {"label": "D", "text": "Primeiro, administrar brometo de potássio por via retal; se não houver controle, administrar fenobarbital oral."},
-        {"label": "E", "text": "Aguardar a convulsão cessar espontaneamente e então iniciar o tratamento de manutenção com fenobarbital."}
+        {
+          "label": "A",
+          "text": "Primeiro, administrar fenobarbital oral; se não houver controle, usar diazepam intravenoso."
+        },
+        {
+          "label": "B",
+          "text": "Primeiro, administrar diazepam intravenoso (ou midazolam); se as convulsões persistirem, administrar uma dose de carga de fenobarbital intravenoso."
+        },
+        {
+          "label": "C",
+          "text": "Primeiro, iniciar uma infusão contínua de propofol; depois, administrar diazepam para manutenção."
+        },
+        {
+          "label": "D",
+          "text": "Primeiro, administrar brometo de potássio por via retal; se não houver controle, administrar fenobarbital oral."
+        },
+        {
+          "label": "E",
+          "text": "Aguardar a convulsão cessar espontaneamente e então iniciar o tratamento de manutenção com fenobarbital."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -269,31 +734,101 @@
       },
       "review": {
         "fisiologia": "Status epilepticus é definido como uma convulsão que dura mais de 5 minutos ou duas ou mais convulsões sem recuperação da consciência entre elas. É uma emergência que requer tratamento agressivo para prevenir danos neurológicos permanentes. O tratamento segue um protocolo escalonado.",
-        "high_yield": ["Protocolo de Status Epilepticus:", "1ª Linha: Benzodiazepínico IV (Diazepam, Midazolam).", "2ª Linha: Anticonvulsivante de carga IV (Fenobarbital, Levetiracetam).", "3ª Linha: Anestesia geral (Infusão de Propofol ou Midazolam)."],
-        "pegadinhas": ["Confundir a ordem dos fármacos ou usar fármacos de manutenção para tratar uma emergência."]
+        "high_yield": [
+          "Protocolo de Status Epilepticus:",
+          "1ª Linha: Benzodiazepínico IV (Diazepam, Midazolam).",
+          "2ª Linha: Anticonvulsivante de carga IV (Fenobarbital, Levetiracetam).",
+          "3ª Linha: Anestesia geral (Infusão de Propofol ou Midazolam)."
+        ],
+        "pegadinhas": [
+          "Confundir a ordem dos fármacos ou usar fármacos de manutenção para tratar uma emergência."
+        ],
+        "etiologia": "NEUROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEUROLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEUROLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:7g8h9i0j1k2l" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:7g8h9i0j1k2l"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0018",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ENDOCRINOLOGIA", "DIABETES MELLITUS", "CETOACIDOSE DIABÉTICA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"CETOACIDOSE DIABÉTICA": 0.95}, "evidence_spans": ["cetoacidose diabética", "insulina regular", "fluidoterapia", "hipocalemia", "hipofosfatemia"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ENDOCRINOLOGIA",
+        "DIABETES MELLITUS",
+        "CETOACIDOSE DIABÉTICA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "CETOACIDOSE DIABÉTICA": 0.95
+        },
+        "evidence_spans": [
+          "cetoacidose diabética",
+          "insulina regular",
+          "fluidoterapia",
+          "hipocalemia",
+          "hipofosfatemia"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "D",
       "cognitive_level": "Análise",
       "stem": "Sobre o tratamento da cetoacidose diabética (CAD) em cães e gatos, qual das seguintes afirmações é INCORRETA?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A fluidoterapia é a parte mais crucial do tratamento inicial, visando corrigir a desidratação, a hipovolemia e melhorar a perfusão renal."},
-        {"label": "B", "text": "A insulina regular é a única indicada para a fase inicial do tratamento, preferencialmente por infusão contínua ou injeções intramusculares horárias."},
-        {"label": "C", "text": "A suplementação de potássio na fluidoterapia é quase sempre necessária, pois os pacientes frequentemente apresentam depleção corporal total de potássio, mesmo que a calemia inicial seja normal ou alta."},
-        {"label": "D", "text": "A suplementação de bicarbonato de sódio deve ser realizada rotineiramente em todos os pacientes com pH sanguíneo abaixo de 7,2 para acelerar a resolução da acidose."},
-        {"label": "E", "text": "A hipofosfatemia pode se desenvolver durante o tratamento e, se severa, pode causar hemólise e fraqueza muscular, necessitando de suplementação."}
+        {
+          "label": "A",
+          "text": "A fluidoterapia é a parte mais crucial do tratamento inicial, visando corrigir a desidratação, a hipovolemia e melhorar a perfusão renal."
+        },
+        {
+          "label": "B",
+          "text": "A insulina regular é a única indicada para a fase inicial do tratamento, preferencialmente por infusão contínua ou injeções intramusculares horárias."
+        },
+        {
+          "label": "C",
+          "text": "A suplementação de potássio na fluidoterapia é quase sempre necessária, pois os pacientes frequentemente apresentam depleção corporal total de potássio, mesmo que a calemia inicial seja normal ou alta."
+        },
+        {
+          "label": "D",
+          "text": "A suplementação de bicarbonato de sódio deve ser realizada rotineiramente em todos os pacientes com pH sanguíneo abaixo de 7,2 para acelerar a resolução da acidose."
+        },
+        {
+          "label": "E",
+          "text": "A hipofosfatemia pode se desenvolver durante o tratamento e, se severa, pode causar hemólise e fraqueza muscular, necessitando de suplementação."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -306,31 +841,102 @@
       },
       "review": {
         "fisiologia": "A CAD é uma emergência metabólica complexa caracterizada por hiperglicemia, cetonemia e acidose metabólica. O tratamento se baseia em três pilares: 1) Fluidoterapia agressiva para reidratação e correção eletrolítica, 2) Insulinoterapia com insulina regular para cessar a cetogênese e reduzir a glicemia, e 3) Identificação e tratamento da doença concomitante que desencadeou a crise.",
-        "high_yield": ["Pilares do tratamento da CAD: Fluidoterapia, Insulina Regular, Tratamento da causa base.", "Sempre suplementar potássio (K+).", "Suplementar fósforo (P) se estiver muito baixo.", "NÃO usar bicarbonato rotineiramente."],
-        "pegadinhas": ["Querer dar bicarbonato para toda acidose.", "Esquecer de suplementar potássio."]
+        "high_yield": [
+          "Pilares do tratamento da CAD: Fluidoterapia, Insulina Regular, Tratamento da causa base.",
+          "Sempre suplementar potássio (K+).",
+          "Suplementar fósforo (P) se estiver muito baixo.",
+          "NÃO usar bicarbonato rotineiramente."
+        ],
+        "pegadinhas": [
+          "Querer dar bicarbonato para toda acidose.",
+          "Esquecer de suplementar potássio."
+        ],
+        "etiologia": "ENDOCRINOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ENDOCRINOLOGIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ENDOCRINOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:8h9i0j1k2l3m" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:8h9i0j1k2l3m"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-AN-0019",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["ANESTESIOLOGIA"],
-      "topic_tags": ["BLOQUEADORES NEUROMUSCULARES", "SUXAMETÔNIO", "ATRACÚRIO"],
-      "classification_meta": { "area_confidence": {"ANESTESIOLOGIA": 0.98}, "topic_confidence": {"BLOQUEADORES NEUROMUSCULARES": 0.95}, "evidence_spans": ["bloqueador neuromuscular", "despolarizante", "adespolarizante", "suxametônio", "atracúrio"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "ANESTESIOLOGIA"
+      ],
+      "topic_tags": [
+        "BLOQUEADORES NEUROMUSCULARES",
+        "SUXAMETÔNIO",
+        "ATRACÚRIO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "ANESTESIOLOGIA": 0.98
+        },
+        "topic_confidence": {
+          "BLOQUEADORES NEUROMUSCULARES": 0.95
+        },
+        "evidence_spans": [
+          "bloqueador neuromuscular",
+          "despolarizante",
+          "adespolarizante",
+          "suxametônio",
+          "atracúrio"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Em relação aos bloqueadores neuromusculares utilizados em anestesiologia veterinária, assinale a alternativa CORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "O suxametônio é um bloqueador neuromuscular adespolarizante que causa fasciculações musculares iniciais e pode levar à hipercalemia."},
-        {"label": "B", "text": "O atracúrio é um bloqueador neuromuscular despolarizante cuja duração de ação não é afetada pela função hepática ou renal."},
-        {"label": "C", "text": "O atracúrio sofre degradação espontânea no plasma (eliminação de Hofmann), tornando-o uma boa escolha para pacientes com insuficiência hepática ou renal."},
-        {"label": "D", "text": "A neostigmina é um agente de reversão eficaz tanto para o suxametônio quanto para o atracúrio."},
-        {"label": "E", "text": "Bloqueadores neuromusculares fornecem analgesia e inconsciência, sendo uma alternativa aos anestésicos gerais."}
+        {
+          "label": "A",
+          "text": "O suxametônio é um bloqueador neuromuscular adespolarizante que causa fasciculações musculares iniciais e pode levar à hipercalemia."
+        },
+        {
+          "label": "B",
+          "text": "O atracúrio é um bloqueador neuromuscular despolarizante cuja duração de ação não é afetada pela função hepática ou renal."
+        },
+        {
+          "label": "C",
+          "text": "O atracúrio sofre degradação espontânea no plasma (eliminação de Hofmann), tornando-o uma boa escolha para pacientes com insuficiência hepática ou renal."
+        },
+        {
+          "label": "D",
+          "text": "A neostigmina é um agente de reversão eficaz tanto para o suxametônio quanto para o atracúrio."
+        },
+        {
+          "label": "E",
+          "text": "Bloqueadores neuromusculares fornecem analgesia e inconsciência, sendo uma alternativa aos anestésicos gerais."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -343,31 +949,101 @@
       },
       "review": {
         "fisiologia": "Bloqueadores neuromusculares (BNM) atuam na junção neuromuscular. Despolarizantes (suxametônio) mimetizam a acetilcolina, causando uma despolarização persistente. Adespolarizantes (atracúrio, rocurônio, pancurônio) são antagonistas competitivos do receptor nicotínico. O uso de BNM exige ventilação mecânica controlada.",
-        "high_yield": ["Suxametônio = despolarizante, ação curta, causa fasciculação/hipercalemia.", "Atracúrio = adespolarizante, eliminação de Hofmann (seguro para renais/hepáticos).", "BNM não são anestésicos nem analgésicos. Sempre usar com anestesia geral."],
-        "pegadinhas": ["Confundir despolarizante com adespolarizante.", "Achar que paralisia é o mesmo que anestesia."]
+        "high_yield": [
+          "Suxametônio = despolarizante, ação curta, causa fasciculação/hipercalemia.",
+          "Atracúrio = adespolarizante, eliminação de Hofmann (seguro para renais/hepáticos).",
+          "BNM não são anestésicos nem analgésicos. Sempre usar com anestesia geral."
+        ],
+        "pegadinhas": [
+          "Confundir despolarizante com adespolarizante.",
+          "Achar que paralisia é o mesmo que anestesia."
+        ],
+        "etiologia": "BLOQUEADORES NEUROMUSCULARES é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "BLOQUEADORES NEUROMUSCULARES apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Anestesiologia",
+            "pg": "BLOQUEADORES NEUROMUSCULARES"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Anestesia",
+            "pg": "BLOQUEADORES NEUROMUSCULARES"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Anestesia",
+            "pg": "BLOQUEADORES NEUROMUSCULARES"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:9i0j1k2l3m4n" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:9i0j1k2l3m4n"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-AN-0020",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["ANESTESIOLOGIA"],
-      "topic_tags": ["ANESTÉSICOS LOCAIS", "TOXICIDADE", "BUPIVACAÍNA"],
-      "classification_meta": { "area_confidence": {"ANESTESIOLOGIA": 0.98}, "topic_confidence": {"ANESTÉSICOS LOCAIS": 0.95, "TOXICIDADE": 0.9}, "evidence_spans": ["anestésico local", "bupivacaína", "cardiotoxicidade", "intoxicação sistêmica"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "ANESTESIOLOGIA"
+      ],
+      "topic_tags": [
+        "ANESTÉSICOS LOCAIS",
+        "TOXICIDADE",
+        "BUPIVACAÍNA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "ANESTESIOLOGIA": 0.98
+        },
+        "topic_confidence": {
+          "ANESTÉSICOS LOCAIS": 0.95,
+          "TOXICIDADE": 0.9
+        },
+        "evidence_spans": [
+          "anestésico local",
+          "bupivacaína",
+          "cardiotoxicidade",
+          "intoxicação sistêmica"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "A toxicidade sistêmica por anestésicos locais é uma complicação temida. Qual anestésico local é notoriamente associado a um maior risco de cardiotoxicidade severa (arritmias ventriculares, parada cardíaca) em caso de injeção intravascular acidental?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Lidocaína"},
-        {"label": "B", "text": "Mepivacaína"},
-        {"label": "C", "text": "Bupivacaína"},
-        {"label": "D", "text": "Ropivacaína"},
-        {"label": "E", "text": "Procaína"}
+        {
+          "label": "A",
+          "text": "Lidocaína"
+        },
+        {
+          "label": "B",
+          "text": "Mepivacaína"
+        },
+        {
+          "label": "C",
+          "text": "Bupivacaína"
+        },
+        {
+          "label": "D",
+          "text": "Ropivacaína"
+        },
+        {
+          "label": "E",
+          "text": "Procaína"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -380,31 +1056,98 @@
       },
       "review": {
         "fisiologia": "A toxicidade dos anestésicos locais (AL) afeta primeiro o SNC (sinais de excitação seguidos de depressão) e depois o sistema cardiovascular. A cardiotoxicidade está relacionada à potência e lipossolubilidade do AL. A bupivacaína, por ser muito potente e lipossolúvel, tem a maior afinidade pelos canais de sódio cardíacos, explicando sua alta cardiotoxicidade.",
-        "high_yield": ["Anestésico local mais cardiotóxico: Bupivacaína.", "Tratamento da toxicidade por AL: emulsão lipídica intravenosa (Intralipid®)."],
-        "pegadinhas": ["Não diferenciar o perfil de toxicidade dos diferentes anestésicos locais."]
+        "high_yield": [
+          "Anestésico local mais cardiotóxico: Bupivacaína.",
+          "Tratamento da toxicidade por AL: emulsão lipídica intravenosa (Intralipid®)."
+        ],
+        "pegadinhas": [
+          "Não diferenciar o perfil de toxicidade dos diferentes anestésicos locais."
+        ],
+        "etiologia": "As arritmias cardíacas são distúrbios do ritmo cardíaco que podem ter múltiplas etiologias. ANESTÉSICOS LOCAIS requer interpretação eletrocardiográfica específica.",
+        "epidemiologia": "ANESTÉSICOS LOCAIS apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Anestesiologia",
+            "pg": "ANESTÉSICOS LOCAIS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Anestesia",
+            "pg": "ANESTÉSICOS LOCAIS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Anestesia",
+            "pg": "ANESTÉSICOS LOCAIS"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:0j1k2l3m4n5o" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:0j1k2l3m4n5o"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0021",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "SÍNCOPE", "ARRITMIAS"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"SÍNCOPE": 0.95}, "evidence_spans": ["síncope", "convulsão", "evento transitório", "tônus postural"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "SÍNCOPE",
+        "ARRITMIAS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "SÍNCOPE": 0.95
+        },
+        "evidence_spans": [
+          "síncope",
+          "convulsão",
+          "evento transitório",
+          "tônus postural"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Síncope é a perda transitória de consciência e do tônus postural, causada por hipoperfusão cerebral global. Qual das seguintes características ajuda a diferenciar um episódio de síncope de uma convulsão?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A presença de um período pós-ictal com desorientação prolongada."},
-        {"label": "B", "text": "O episódio é tipicamente desencadeado por excitação, tosse ou exercício."},
-        {"label": "C", "text": "O animal apresenta movimentos tônico-clônicos rígidos e salivação durante o evento."},
-        {"label": "D", "text": "A incontinência urinária e fecal ocorre exclusivamente em convulsões."},
-        {"label": "E", "text": "A duração do evento é geralmente superior a 5 minutos."}
+        {
+          "label": "A",
+          "text": "A presença de um período pós-ictal com desorientação prolongada."
+        },
+        {
+          "label": "B",
+          "text": "O episódio é tipicamente desencadeado por excitação, tosse ou exercício."
+        },
+        {
+          "label": "C",
+          "text": "O animal apresenta movimentos tônico-clônicos rígidos e salivação durante o evento."
+        },
+        {
+          "label": "D",
+          "text": "A incontinência urinária e fecal ocorre exclusivamente em convulsões."
+        },
+        {
+          "label": "E",
+          "text": "A duração do evento é geralmente superior a 5 minutos."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -417,31 +1160,99 @@
       },
       "review": {
         "fisiologia": "Diferenciar síncope de convulsão é um desafio diagnóstico comum. A chave está na anamnese detalhada, focando no que aconteceu antes, durante e depois do evento.",
-        "high_yield": ["Síncope: gatilho (tosse, excitação), animal fica flácido, recuperação rápida (segundos), sem fase pós-ictal.", "Convulsão: sem gatilho óbvio, movimentos tônico-clônicos, rigidez, salivação, recuperação lenta (minutos/horas), com fase pós-ictal (desorientação)."],
-        "pegadinhas": ["Confundir os tremores hipóxicos da síncope com uma convulsão verdadeira."]
+        "high_yield": [
+          "Síncope: gatilho (tosse, excitação), animal fica flácido, recuperação rápida (segundos), sem fase pós-ictal.",
+          "Convulsão: sem gatilho óbvio, movimentos tônico-clônicos, rigidez, salivação, recuperação lenta (minutos/horas), com fase pós-ictal (desorientação)."
+        ],
+        "pegadinhas": [
+          "Confundir os tremores hipóxicos da síncope com uma convulsão verdadeira."
+        ],
+        "etiologia": "CARDIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:1k2l3m4n5o6p" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:1k2l3m4n5o6p"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0022",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEFROLOGIA", "DOENÇA RENAL CRÔNICA", "ESTADIAMENTO IRIS"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"DOENÇA RENAL CRÔNICA": 0.95}, "evidence_spans": ["doença renal crônica", "IRIS", "creatinina", "SDMA", "proteinúria"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEFROLOGIA",
+        "DOENÇA RENAL CRÔNICA",
+        "ESTADIAMENTO IRIS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "DOENÇA RENAL CRÔNICA": 0.95
+        },
+        "evidence_spans": [
+          "doença renal crônica",
+          "IRIS",
+          "creatinina",
+          "SDMA",
+          "proteinúria"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "O estadiamento da Doença Renal Crônica (DRC) pela International Renal Interest Society (IRIS) é fundamental para o manejo e prognóstico. O estadiamento principal baseia-se na concentração de creatinina sérica. Quais outros dois parâmetros são usados para subestadiar a DRC, de acordo com as diretrizes da IRIS?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Concentração de ureia e densidade urinária."},
-        {"label": "B", "text": "Proteinúria e pressão arterial sistêmica."},
-        {"label": "C", "text": "Concentração de fósforo e hematócrito."},
-        {"label": "D", "text": "Concentração de SDMA e potássio sérico."},
-        {"label": "E", "text": "Idade do paciente e escore de condição corporal."}
+        {
+          "label": "A",
+          "text": "Concentração de ureia e densidade urinária."
+        },
+        {
+          "label": "B",
+          "text": "Proteinúria e pressão arterial sistêmica."
+        },
+        {
+          "label": "C",
+          "text": "Concentração de fósforo e hematócrito."
+        },
+        {
+          "label": "D",
+          "text": "Concentração de SDMA e potássio sérico."
+        },
+        {
+          "label": "E",
+          "text": "Idade do paciente e escore de condição corporal."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -454,31 +1265,101 @@
       },
       "review": {
         "fisiologia": "O sistema de estadiamento da IRIS para DRC é uma ferramenta prognóstica e terapêutica. Ele classifica a severidade da doença com base em marcadores da taxa de filtração glomerular (creatinina, SDMA) e em marcadores de dano renal e risco de progressão (proteinúria, pressão arterial).",
-        "high_yield": ["Estadiamento IRIS = Creatinina (ou SDMA) -> Estágios 1, 2, 3, 4.", "Subestadiamento IRIS = Proteinúria (RPC) + Pressão Arterial."],
-        "pegadinhas": ["Confundir os parâmetros de estadiamento com os de subestadiamento."]
+        "high_yield": [
+          "Estadiamento IRIS = Creatinina (ou SDMA) -> Estágios 1, 2, 3, 4.",
+          "Subestadiamento IRIS = Proteinúria (RPC) + Pressão Arterial."
+        ],
+        "pegadinhas": [
+          "Confundir os parâmetros de estadiamento com os de subestadiamento."
+        ],
+        "etiologia": "A urinálise é um exame fundamental para avaliação da função renal. NEFROLOGIA pode ser identificado através de alterações específicas no sedimento urinário.",
+        "epidemiologia": "NEFROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEFROLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:2l3m4n5o6p7q" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:2l3m4n5o6p7q"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0023",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA", "SAÚDE PÚBLICA"],
-      "topic_tags": ["LEISHMANIOSE", "DOENÇAS INFECCIOSAS", "ZOONOSES"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.95, "SAÚDE PÚBLICA": 0.9}, "topic_confidence": {"LEISHMANIOSE": 0.98}, "evidence_spans": ["leishmaniose visceral canina", "sinais clínicos", "onicogrifose", "lesões cutâneas", "epistaxe"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA",
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "LEISHMANIOSE",
+        "DOENÇAS INFECCIOSAS",
+        "ZOONOSES"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.95,
+          "SAÚDE PÚBLICA": 0.9
+        },
+        "topic_confidence": {
+          "LEISHMANIOSE": 0.98
+        },
+        "evidence_spans": [
+          "leishmaniose visceral canina",
+          "sinais clínicos",
+          "onicogrifose",
+          "lesões cutâneas",
+          "epistaxe"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "A Leishmaniose Visceral Canina (LVC) é uma doença sistêmica com uma ampla variedade de manifestações clínicas. Qual dos seguintes sinais clínicos é considerado um dos mais característicos, embora não patognomônico, da LVC?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Tosse e dispneia."},
-        {"label": "B", "text": "Vômito e diarreia hemorrágica."},
-        {"label": "C", "text": "Dermatite úmida e pruriginosa."},
-        {"label": "D", "text": "Dermatite esfoliativa (caspa), onicogrifose e emagrecimento progressivo."},
-        {"label": "E", "text": "Icterícia e ascite."}
+        {
+          "label": "A",
+          "text": "Tosse e dispneia."
+        },
+        {
+          "label": "B",
+          "text": "Vômito e diarreia hemorrágica."
+        },
+        {
+          "label": "C",
+          "text": "Dermatite úmida e pruriginosa."
+        },
+        {
+          "label": "D",
+          "text": "Dermatite esfoliativa (caspa), onicogrifose e emagrecimento progressivo."
+        },
+        {
+          "label": "E",
+          "text": "Icterícia e ascite."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -491,31 +1372,98 @@
       },
       "review": {
         "fisiologia": "A LVC é uma doença crônica que afeta múltiplos sistemas. Os sinais mais comuns e sugestivos são os dermatológicos e a perda de condição corporal. A deposição de imunocomplexos é um mecanismo chave na patogenia, levando a problemas renais (glomerulonefrite), articulares (poliartrite) e vasculares (vasculite).",
-        "high_yield": ["Sinais clássicos da LVC: dermatite esfoliativa seca, onicogrifose, emagrecimento, linfadenomegalia, epistaxe.", "A principal causa de morte em cães com LVC é a doença renal crônica por deposição de imunocomplexos."],
-        "pegadinhas": ["Focar em sinais menos comuns e esquecer a apresentação dermatológica clássica."]
+        "high_yield": [
+          "Sinais clássicos da LVC: dermatite esfoliativa seca, onicogrifose, emagrecimento, linfadenomegalia, epistaxe.",
+          "A principal causa de morte em cães com LVC é a doença renal crônica por deposição de imunocomplexos."
+        ],
+        "pegadinhas": [
+          "Focar em sinais menos comuns e esquecer a apresentação dermatológica clássica."
+        ],
+        "etiologia": "LEISHMANIOSE é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "LEISHMANIOSE apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "LEISHMANIOSE"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "LEISHMANIOSE"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "LEISHMANIOSE"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:3m4n5o6p7q8r" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:3m4n5o6p7q8r"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0024",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["ONCOLOGIA", "MASTOCITOMA", "CIRURGIA ONCOLÓGICA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.98}, "topic_confidence": {"MASTOCITOMA": 0.95}, "evidence_spans": ["mastocitoma cutâneo", "margens cirúrgicas", "citologia aspirativa", "sinal de Darier"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "ONCOLOGIA",
+        "MASTOCITOMA",
+        "CIRURGIA ONCOLÓGICA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.98
+        },
+        "topic_confidence": {
+          "MASTOCITOMA": 0.95
+        },
+        "evidence_spans": [
+          "mastocitoma cutâneo",
+          "margens cirúrgicas",
+          "citologia aspirativa",
+          "sinal de Darier"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "O mastocitoma cutâneo é a neoplasia de pele mais comum em cães. Sobre seu manejo cirúrgico, qual afirmação é a mais correta?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A biópsia incisional é contraindicada devido ao alto risco de degranulação e disseminação de metástases."},
-        {"label": "B", "text": "Margens cirúrgicas de 1 cm lateralmente e um plano de fáscia muscular profundo são suficientes para todos os graus de mastocitoma."},
-        {"label": "C", "text": "A excisão cirúrgica com margens amplas é o tratamento de escolha, e a recomendação clássica é de 2-3 cm de margem lateral e um plano de fáscia profundo."},
-        {"label": "D", "text": "A quimioterapia neoadjuvante (pré-operatória) não tem utilidade para reduzir o tamanho do tumor antes da cirurgia."},
-        {"label": "E", "text": "O diagnóstico pode ser confirmado apenas pela aparência clínica e pelo Sinal de Darier positivo."}
+        {
+          "label": "A",
+          "text": "A biópsia incisional é contraindicada devido ao alto risco de degranulação e disseminação de metástases."
+        },
+        {
+          "label": "B",
+          "text": "Margens cirúrgicas de 1 cm lateralmente e um plano de fáscia muscular profundo são suficientes para todos os graus de mastocitoma."
+        },
+        {
+          "label": "C",
+          "text": "A excisão cirúrgica com margens amplas é o tratamento de escolha, e a recomendação clássica é de 2-3 cm de margem lateral e um plano de fáscia profundo."
+        },
+        {
+          "label": "D",
+          "text": "A quimioterapia neoadjuvante (pré-operatória) não tem utilidade para reduzir o tamanho do tumor antes da cirurgia."
+        },
+        {
+          "label": "E",
+          "text": "O diagnóstico pode ser confirmado apenas pela aparência clínica e pelo Sinal de Darier positivo."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -528,31 +1476,104 @@
       },
       "review": {
         "fisiologia": "O comportamento do mastocitoma varia muito com o seu grau histológico. O tratamento e prognóstico dependem fundamentalmente do grau. Cirurgia com margens amplas é o pilar do tratamento. O manejo perioperatório com anti-histamínicos (H1 e H2) é importante para prevenir os efeitos da degranulação dos mastócitos.",
-        "high_yield": ["Diagnóstico presuntivo de mastocitoma = Citologia (grânulos roxos).", "Diagnóstico definitivo e grau = Histopatologia.", "Tratamento de eleição = Cirurgia com margens amplas (2-3 cm + 1 fáscia).", "Fatores prognósticos: Grau histológico, margens cirúrgicas, localização, estadiamento clínico."],
-        "pegadinhas": ["Basear o plano cirúrgico apenas na aparência do tumor, sem uma citologia.", "Achar que 1 cm de margem é sempre suficiente."]
+        "high_yield": [
+          "Diagnóstico presuntivo de mastocitoma = Citologia (grânulos roxos).",
+          "Diagnóstico definitivo e grau = Histopatologia.",
+          "Tratamento de eleição = Cirurgia com margens amplas (2-3 cm + 1 fáscia).",
+          "Fatores prognósticos: Grau histológico, margens cirúrgicas, localização, estadiamento clínico."
+        ],
+        "pegadinhas": [
+          "Basear o plano cirúrgico apenas na aparência do tumor, sem uma citologia.",
+          "Achar que 1 cm de margem é sempre suficiente."
+        ],
+        "etiologia": "As doenças dermatológicas são comuns na medicina veterinária. ONCOLOGIA pode ter etiologia multifatorial incluindo fatores alérgicos, infecciosos e parasitários.",
+        "epidemiologia": "ONCOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "ONCOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:4n5o6p7q8r9s" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:4n5o6p7q8r9s"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0025",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA", "CLÍNICA MÉDICA"],
-      "topic_tags": ["SISTEMA URINÁRIO", "OBSTRUÇÃO URETRAL", "UROLITÍASE"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.95, "CLÍNICA MÉDICA": 0.85}, "topic_confidence": {"OBSTRUÇÃO URETRAL": 0.98}, "evidence_spans": ["obstrução uretral", "gato macho", "hipocalemia", "hipercalemia", "uretrostomia"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA",
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "SISTEMA URINÁRIO",
+        "OBSTRUÇÃO URETRAL",
+        "UROLITÍASE"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.95,
+          "CLÍNICA MÉDICA": 0.85
+        },
+        "topic_confidence": {
+          "OBSTRUÇÃO URETRAL": 0.98
+        },
+        "evidence_spans": [
+          "obstrução uretral",
+          "gato macho",
+          "hipocalemia",
+          "hipercalemia",
+          "uretrostomia"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Um gato macho, de 4 anos, é apresentado com histórico de estrangúria, vocalização e anúria há 24 horas. O exame físico revela uma bexiga grande, firme e dolorosa. Qual é a alteração eletrolítica e acidobásica mais provável de ser encontrada neste paciente, e qual o risco imediato associado a ela?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Hipocalemia e alcalose metabólica, com risco de fraqueza muscular."},
-        {"label": "B", "text": "Hipercalemia e acidose metabólica, com risco de arritmias cardíacas fatais."},
-        {"label": "C", "text": "Hipocalcemia e acidose respiratória, com risco de tremores musculares."},
-        {"label": "D", "text": "Hipernatremia e alcalose respiratória, com risco de edema cerebral."},
-        {"label": "E", "text": "Hiponatremia e acidose metabólica, com risco de convulsões."}
+        {
+          "label": "A",
+          "text": "Hipocalemia e alcalose metabólica, com risco de fraqueza muscular."
+        },
+        {
+          "label": "B",
+          "text": "Hipercalemia e acidose metabólica, com risco de arritmias cardíacas fatais."
+        },
+        {
+          "label": "C",
+          "text": "Hipocalcemia e acidose respiratória, com risco de tremores musculares."
+        },
+        {
+          "label": "D",
+          "text": "Hipernatremia e alcalose respiratória, com risco de edema cerebral."
+        },
+        {
+          "label": "E",
+          "text": "Hiponatremia e acidose metabólica, com risco de convulsões."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -565,31 +1586,99 @@
       },
       "review": {
         "fisiologia": "A obstrução do trato urinário inferior felino (DTUIF) é uma emergência médica. A anúria leva a uma azotemia pós-renal e a desequilíbrios eletrolíticos e acidobásicos potencialmente fatais. O manejo inicial foca na estabilização do paciente (fluidoterapia, correção da hipercalemia) e na desobstrução uretral.",
-        "high_yield": ["Gato obstruído = Azotemia Pós-Renal + Hipercalemia + Acidose Metabólica.", "A hipercalemia é a maior ameaça à vida (cardiotoxicidade).", "Tratamento da hipercalemia: Fluidoterapia IV (diluição), gluconato de cálcio IV (protege o coração), insulina/glicose (desloca K+ para dentro da célula)."],
-        "pegadinhas": ["Confundir a alteração de potássio da obstrução (hipercalemia) com a da DRC poliúrica (hipocalemia)."]
+        "high_yield": [
+          "Gato obstruído = Azotemia Pós-Renal + Hipercalemia + Acidose Metabólica.",
+          "A hipercalemia é a maior ameaça à vida (cardiotoxicidade).",
+          "Tratamento da hipercalemia: Fluidoterapia IV (diluição), gluconato de cálcio IV (protege o coração), insulina/glicose (desloca K+ para dentro da célula)."
+        ],
+        "pegadinhas": [
+          "Confundir a alteração de potássio da obstrução (hipercalemia) com a da DRC poliúrica (hipocalemia)."
+        ],
+        "etiologia": "O laboratório clínico fornece informações essenciais para o diagnóstico. SISTEMA URINÁRIO requer interpretação adequada dos resultados laboratoriais.",
+        "epidemiologia": "SISTEMA URINÁRIO é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "SISTEMA URINÁRIO"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "SISTEMA URINÁRIO"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "SISTEMA URINÁRIO"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:5o6p7q8r9s0t" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:5o6p7q8r9s0t"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0026",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["OFTALMOLOGIA", "ÚLCERA DE CÓRNEA", "FLAP CONJUNTIVAL"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.98}, "topic_confidence": {"OFTALMOLOGIA": 0.95}, "evidence_spans": ["úlcera de córnea", "descemetocele", "flap conjuntival", "ceratotomia"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "OFTALMOLOGIA",
+        "ÚLCERA DE CÓRNEA",
+        "FLAP CONJUNTIVAL"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.98
+        },
+        "topic_confidence": {
+          "OFTALMOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "úlcera de córnea",
+          "descemetocele",
+          "flap conjuntival",
+          "ceratotomia"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Um cão da raça Shih-Tzu é diagnosticado com uma úlcera de córnea profunda, uma descemetocele, no centro do olho. Qual dos seguintes procedimentos é o mais indicado para o tratamento?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Tratamento clínico com colírio antibiótico e anti-inflamatório não esteroidal (AINE) tópico."},
-        {"label": "B", "text": "Ceratotomia em grade ou punctata para estimular a cicatrização."},
-        {"label": "C", "text": "Flap de terceira pálpebra para proteger a córnea."},
-        {"label": "D", "text": "Enxerto ou flap conjuntival pediculado."},
-        {"label": "E", "text": "Tarsorrafia temporária e uso de lente de contato terapêutica."}
+        {
+          "label": "A",
+          "text": "Tratamento clínico com colírio antibiótico e anti-inflamatório não esteroidal (AINE) tópico."
+        },
+        {
+          "label": "B",
+          "text": "Ceratotomia em grade ou punctata para estimular a cicatrização."
+        },
+        {
+          "label": "C",
+          "text": "Flap de terceira pálpebra para proteger a córnea."
+        },
+        {
+          "label": "D",
+          "text": "Enxerto ou flap conjuntival pediculado."
+        },
+        {
+          "label": "E",
+          "text": "Tarsorrafia temporária e uso de lente de contato terapêutica."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -602,31 +1691,100 @@
       },
       "review": {
         "fisiologia": "A córnea é avascular. Úlceras profundas que atingem a membrana de Descemet (descemetocele) representam uma emergência, pois apenas uma fina camada impede a perfuração do globo ocular. O tratamento deve fornecer suporte estrutural e vascularização para a área, o que é alcançado com um flap conjuntival.",
-        "high_yield": ["Úlcera superficial indolente = ceratotomia.", "Úlcera profunda / descemetocele = Flap conjuntival.", "Flap conjuntival = suporte tectônico + suprimento sanguíneo."],
-        "pegadinhas": ["Indicar ceratotomia para uma úlcera profunda."]
+        "high_yield": [
+          "Úlcera superficial indolente = ceratotomia.",
+          "Úlcera profunda / descemetocele = Flap conjuntival.",
+          "Flap conjuntival = suporte tectônico + suprimento sanguíneo."
+        ],
+        "pegadinhas": [
+          "Indicar ceratotomia para uma úlcera profunda."
+        ],
+        "etiologia": "OFTALMOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "OFTALMOLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "OFTALMOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "OFTALMOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "OFTALMOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:6p7q8r9s0t1u" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:6p7q8r9s0t1u"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0027",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["INFECTOLOGIA", "PIF", "CORONAVÍRUS FELINO"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"PIF": 0.98}, "evidence_spans": ["Peritonite Infecciosa Felina", "efusiva", "não efusiva", "relação A:G", "teste de Rivalta"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "INFECTOLOGIA",
+        "PIF",
+        "CORONAVÍRUS FELINO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "PIF": 0.98
+        },
+        "evidence_spans": [
+          "Peritonite Infecciosa Felina",
+          "efusiva",
+          "não efusiva",
+          "relação A:G",
+          "teste de Rivalta"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre a Peritonite Infecciosa Felina (PIF), qual das seguintes afirmações é a mais correta?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A PIF é causada por uma infecção direta pelo coronavírus felino entérico (FECV), que é altamente patogênico."},
-        {"label": "B", "text": "O diagnóstico da PIF efusiva (úmida) pode ser confirmado com alta certeza pela detecção de anticorpos para coronavírus na efusão."},
-        {"label": "C", "text": "A forma não efusiva (seca) da PIF é caracterizada por lesões piogranulomatosas em vários órgãos e o diagnóstico é mais desafiador do que na forma efusiva."},
-        {"label": "D", "text": "Uma relação Albumina:Globulina (A:G) alta (> 0.8) na efusão é fortemente sugestiva de PIF."},
-        {"label": "E", "text": "O tratamento com antivirais como o remdesivir e o GS-441524 é ineficaz e a eutanásia é a única recomendação."}
+        {
+          "label": "A",
+          "text": "A PIF é causada por uma infecção direta pelo coronavírus felino entérico (FECV), que é altamente patogênico."
+        },
+        {
+          "label": "B",
+          "text": "O diagnóstico da PIF efusiva (úmida) pode ser confirmado com alta certeza pela detecção de anticorpos para coronavírus na efusão."
+        },
+        {
+          "label": "C",
+          "text": "A forma não efusiva (seca) da PIF é caracterizada por lesões piogranulomatosas em vários órgãos e o diagnóstico é mais desafiador do que na forma efusiva."
+        },
+        {
+          "label": "D",
+          "text": "Uma relação Albumina:Globulina (A:G) alta (> 0.8) na efusão é fortemente sugestiva de PIF."
+        },
+        {
+          "label": "E",
+          "text": "O tratamento com antivirais como o remdesivir e o GS-441524 é ineficaz e a eutanásia é a única recomendação."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -639,31 +1797,102 @@
       },
       "review": {
         "fisiologia": "A PIF é uma vasculite imunomediada fatal causada por um coronavírus felino mutado. O diagnóstico antemortem é um desafio, especialmente na forma seca. Ele se baseia na combinação de sinais clínicos, achados laboratoriais (hiperglobulinemia, linfopenia), análise da efusão (teste de Rivalta positivo, alta proteína, baixa celularidade, A:G baixa) e, idealmente, detecção do vírus no tecido afetado (imuno-histoquímica).",
-        "high_yield": ["PIF é causada por uma MUTAÇÃO do coronavírus entérico.", "Diagnóstico da forma úmida: efusão amarela, viscosa, rica em proteína, Rivalta positivo, A:G < 0.4.", "Forma seca: diagnóstico muito difícil, sinais neurológicos ou oculares são comuns.", "O tratamento com antivirais (GS-441524) agora é possível e eficaz."],
-        "pegadinhas": ["Confiar na sorologia para diagnosticar PIF.", "Pensar que uma A:G alta sugere PIF."]
+        "high_yield": [
+          "PIF é causada por uma MUTAÇÃO do coronavírus entérico.",
+          "Diagnóstico da forma úmida: efusão amarela, viscosa, rica em proteína, Rivalta positivo, A:G < 0.4.",
+          "Forma seca: diagnóstico muito difícil, sinais neurológicos ou oculares são comuns.",
+          "O tratamento com antivirais (GS-441524) agora é possível e eficaz."
+        ],
+        "pegadinhas": [
+          "Confiar na sorologia para diagnosticar PIF.",
+          "Pensar que uma A:G alta sugere PIF."
+        ],
+        "etiologia": "INFECTOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "INFECTOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "INFECTOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "INFECTOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "INFECTOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:7q8r9s0t1u2v" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:7q8r9s0t1u2v"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-DI-0028",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
-      "topic_tags": ["RADIOGRAFIA", "TÓRAX", "PADRÕES PULMONARES"],
-      "classification_meta": { "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99}, "topic_confidence": {"PADRÕES PULMONARES": 0.95}, "evidence_spans": ["padrão pulmonar", "radiografia torácica", "alveolar", "intersticial", "brônquico"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "DIAGNÓSTICO POR IMAGEM"
+      ],
+      "topic_tags": [
+        "RADIOGRAFIA",
+        "TÓRAX",
+        "PADRÕES PULMONARES"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "DIAGNÓSTICO POR IMAGEM": 0.99
+        },
+        "topic_confidence": {
+          "PADRÕES PULMONARES": 0.95
+        },
+        "evidence_spans": [
+          "padrão pulmonar",
+          "radiografia torácica",
+          "alveolar",
+          "intersticial",
+          "brônquico"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A interpretação dos padrões pulmonares em radiografias torácicas é essencial para o diagnóstico de doenças respiratórias. Um cão apresenta uma radiografia torácica com opacidades pulmonares que obscurecem as margens dos vasos e das paredes brônquicas, e a presença de broncogramas aéreos. Qual padrão pulmonar está sendo descrito?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Padrão brônquico"},
-        {"label": "B", "text": "Padrão intersticial não estruturado"},
-        {"label": "C", "text": "Padrão alveolar"},
-        {"label": "D", "text": "Padrão vascular"},
-        {"label": "E", "text": "Padrão intersticial nodular"}
+        {
+          "label": "A",
+          "text": "Padrão brônquico"
+        },
+        {
+          "label": "B",
+          "text": "Padrão intersticial não estruturado"
+        },
+        {
+          "label": "C",
+          "text": "Padrão alveolar"
+        },
+        {
+          "label": "D",
+          "text": "Padrão vascular"
+        },
+        {
+          "label": "E",
+          "text": "Padrão intersticial nodular"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -676,31 +1905,99 @@
       },
       "review": {
         "fisiologia": "A identificação de padrões pulmonares ajuda a diminuir a lista de diagnósticos diferenciais. Padrão Brônquico: bronquite crônica, asma felina. Padrão Alveolar: pneumonia bacteriana, edema pulmonar, hemorragia. Padrão Intersticial (não estruturado): fibrose, edema inicial, pneumonia viral. Padrão Intersticial (nodular): metástase, micose.",
-        "high_yield": ["Padrão Alveolar = Sinal do apagamento (vasos não visíveis) + Broncograma aéreo.", "Padrão Brônquico = Donuts e trilhos de trem.", "Padrão Intersticial Nodular = Múltiplos nódulos (metástase)."],
-        "pegadinhas": ["Confundir o padrão intersticial (onde os vasos ainda são parcialmente visíveis) com o alveolar (onde os vasos são obscurecidos)."]
+        "high_yield": [
+          "Padrão Alveolar = Sinal do apagamento (vasos não visíveis) + Broncograma aéreo.",
+          "Padrão Brônquico = Donuts e trilhos de trem.",
+          "Padrão Intersticial Nodular = Múltiplos nódulos (metástase)."
+        ],
+        "pegadinhas": [
+          "Confundir o padrão intersticial (onde os vasos ainda são parcialmente visíveis) com o alveolar (onde os vasos são obscurecidos)."
+        ],
+        "etiologia": "O diagnóstico por imagem é fundamental na medicina veterinária para identificar alterações estruturais e funcionais. RADIOGRAFIA requer avaliação específica através de diferentes modalidades de imagem.",
+        "epidemiologia": "RADIOGRAFIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Diagnóstico por Imagem",
+            "pg": "RADIOGRAFIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Diagnóstico",
+            "pg": "RADIOGRAFIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Diagnóstico",
+            "pg": "RADIOGRAFIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:8r9s0t1u2v3w" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:8r9s0t1u2v3w"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-DI-0029",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
-      "topic_tags": ["ULTRASSONOGRAFIA", "GASTROINTESTINAL", "CORPO ESTRANHO"],
-      "classification_meta": { "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99}, "topic_confidence": {"GASTROINTESTINAL": 0.95}, "evidence_spans": ["ultrassonografia abdominal", "obstrução intestinal", "plissamento", "corpo estranho linear"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "DIAGNÓSTICO POR IMAGEM"
+      ],
+      "topic_tags": [
+        "ULTRASSONOGRAFIA",
+        "GASTROINTESTINAL",
+        "CORPO ESTRANHO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "DIAGNÓSTICO POR IMAGEM": 0.99
+        },
+        "topic_confidence": {
+          "GASTROINTESTINAL": 0.95
+        },
+        "evidence_spans": [
+          "ultrassonografia abdominal",
+          "obstrução intestinal",
+          "plissamento",
+          "corpo estranho linear"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Durante um exame de ultrassonografia abdominal em um gato com histórico de vômitos, o intestino delgado apresenta-se com um aspecto ondulado e agrupado, descrito como 'pregueado' ou 'em sanfona'. Qual é a principal suspeita diagnóstica para este achado?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Intussuscepção"},
-        {"label": "B", "text": "Doença inflamatória intestinal"},
-        {"label": "C", "text": "Corpo estranho linear"},
-        {"label": "D", "text": "Linfoma alimentar"},
-        {"label": "E", "text": "Enterite viral"}
+        {
+          "label": "A",
+          "text": "Intussuscepção"
+        },
+        {
+          "label": "B",
+          "text": "Doença inflamatória intestinal"
+        },
+        {
+          "label": "C",
+          "text": "Corpo estranho linear"
+        },
+        {
+          "label": "D",
+          "text": "Linfoma alimentar"
+        },
+        {
+          "label": "E",
+          "text": "Enterite viral"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -713,31 +2010,100 @@
       },
       "review": {
         "fisiologia": "A ultrassonografia é a modalidade de imagem de escolha para a suspeita de corpos estranhos gastrointestinais. Corpos estranhos discretos podem ser visualizados diretamente. Corpos estranhos lineares produzem um sinal secundário clássico (plissamento) que permite o diagnóstico mesmo quando o próprio fio não é visível.",
-        "high_yield": ["US gastrointestinal:", "Imagem em 'alvo' = Intussuscepção.", "Plissamento / pregueamento = Corpo estranho linear.", "Perda de estratificação = Doença inflamatória ou Neoplasia (Linfoma)."],
-        "pegadinhas": ["Não reconhecer o sinal de plissamento como indicativo de corpo estranho linear."]
+        "high_yield": [
+          "US gastrointestinal:",
+          "Imagem em 'alvo' = Intussuscepção.",
+          "Plissamento / pregueamento = Corpo estranho linear.",
+          "Perda de estratificação = Doença inflamatória ou Neoplasia (Linfoma)."
+        ],
+        "pegadinhas": [
+          "Não reconhecer o sinal de plissamento como indicativo de corpo estranho linear."
+        ],
+        "etiologia": "O diagnóstico por imagem é fundamental na medicina veterinária para identificar alterações estruturais e funcionais. ULTRASSONOGRAFIA requer avaliação específica através de diferentes modalidades de imagem.",
+        "epidemiologia": "ULTRASSONOGRAFIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Diagnóstico por Imagem",
+            "pg": "ULTRASSONOGRAFIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Diagnóstico",
+            "pg": "ULTRASSONOGRAFIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Diagnóstico",
+            "pg": "ULTRASSONOGRAFIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:9s0t1u2v3w4x" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:9s0t1u2v3w4x"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0030",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ENDOCRINOLOGIA", "HIPERADRENOCORTICISMO", "TESTES DIAGNÓSTICOS"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"HIPERADRENOCORTICISMO": 0.95}, "evidence_spans": ["hiperadrenocorticismo", "teste de supressão com dexametasona", "HAC hipófise-dependente", "tumor adrenal"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ENDOCRINOLOGIA",
+        "HIPERADRENOCORTICISMO",
+        "TESTES DIAGNÓSTICOS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "HIPERADRENOCORTICISMO": 0.95
+        },
+        "evidence_spans": [
+          "hiperadrenocorticismo",
+          "teste de supressão com dexametasona",
+          "HAC hipófise-dependente",
+          "tumor adrenal"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "D",
       "cognitive_level": "Análise",
       "stem": "O teste de supressão com baixa dose de dexametasona (TSBD) é considerado o teste de triagem de escolha para o hiperadrenocorticismo (HAC) canino. Como a interpretação dos resultados deste teste pode ajudar a diferenciar entre HAC hipófise-dependente (HDH) e tumor adrenal (TA)?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A diferenciação não é possível com este teste; é necessário um teste de estimulação com ACTH."},
-        {"label": "B", "text": "Em um cão com HDH, o cortisol sempre permanecerá alto em todas as coletas. Em um cão com TA, o cortisol será suprimido."},
-        {"label": "C", "text": "Se houver supressão do cortisol em 4 horas, seguida por um 'escape' da supressão em 8 horas, o diagnóstico é de TA."},
-        {"label": "D", "text": "A falta de supressão em 8 horas confirma HAC, e se o cortisol em 4 ou 8 horas for inferior a 50% do valor basal, há forte suspeita de HDH."},
-        {"label": "E", "text": "Se o cortisol em 8 horas for suprimido para menos de 1.4 µg/dL, o cão não tem HAC."}
+        {
+          "label": "A",
+          "text": "A diferenciação não é possível com este teste; é necessário um teste de estimulação com ACTH."
+        },
+        {
+          "label": "B",
+          "text": "Em um cão com HDH, o cortisol sempre permanecerá alto em todas as coletas. Em um cão com TA, o cortisol será suprimido."
+        },
+        {
+          "label": "C",
+          "text": "Se houver supressão do cortisol em 4 horas, seguida por um 'escape' da supressão em 8 horas, o diagnóstico é de TA."
+        },
+        {
+          "label": "D",
+          "text": "A falta de supressão em 8 horas confirma HAC, e se o cortisol em 4 ou 8 horas for inferior a 50% do valor basal, há forte suspeita de HDH."
+        },
+        {
+          "label": "E",
+          "text": "Se o cortisol em 8 horas for suprimido para menos de 1.4 µg/dL, o cão não tem HAC."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -750,31 +2116,99 @@
       },
       "review": {
         "fisiologia": "O TSBD avalia o feedback negativo do eixo hipotálamo-hipófise-adrenal. Em um animal normal, a dexametasona suprime a produção de ACTH e, consequentemente, a de cortisol. Em um cão com HAC, essa supressão falha na 8ª hora. Tumores adrenais são autônomos e nunca suprimem. Tumores hipofisários (HDH) são resistentes, mas não totalmente imunes à dexametasona, podendo mostrar supressão parcial.",
-        "high_yield": ["Diagnóstico de HAC (triagem): Teste de Supressão com Baixa Dose de Dexametasona (TSBD). Falha em suprimir em 8h.", "Diferenciação das causas de HAC: TSBD (supressão parcial sugere HDH), ACTH endógeno (alto=HDH, baixo=TA), ultrassom abdominal."],
-        "pegadinhas": ["Interpretar incorretamente os padrões de supressão do TSBD."]
+        "high_yield": [
+          "Diagnóstico de HAC (triagem): Teste de Supressão com Baixa Dose de Dexametasona (TSBD). Falha em suprimir em 8h.",
+          "Diferenciação das causas de HAC: TSBD (supressão parcial sugere HDH), ACTH endógeno (alto=HDH, baixo=TA), ultrassom abdominal."
+        ],
+        "pegadinhas": [
+          "Interpretar incorretamente os padrões de supressão do TSBD."
+        ],
+        "etiologia": "A urinálise é um exame fundamental para avaliação da função renal. ENDOCRINOLOGIA pode ser identificado através de alterações específicas no sedimento urinário.",
+        "epidemiologia": "ENDOCRINOLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ENDOCRINOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:0t1u2v3w4x5y" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:0t1u2v3w4x5y"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-LC-0031",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["HEMATOLOGIA", "HEMOGRAMA", "LEUCOGRAMA DE ESTRESSE"],
-      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"LEUCOGRAMA DE ESTRESSE": 0.95}, "evidence_spans": ["leucograma de estresse", "cortisol", "neutrofilia", "linfopenia", "eosinopenia"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "topic_tags": [
+        "HEMATOLOGIA",
+        "HEMOGRAMA",
+        "LEUCOGRAMA DE ESTRESSE"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "LABORATÓRIO CLÍNICO": 0.98
+        },
+        "topic_confidence": {
+          "LEUCOGRAMA DE ESTRESSE": 0.95
+        },
+        "evidence_spans": [
+          "leucograma de estresse",
+          "cortisol",
+          "neutrofilia",
+          "linfopenia",
+          "eosinopenia"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "O leucograma de estresse é um padrão de alterações no leucograma causado pela liberação endógena de corticosteroides. Quais são as alterações clássicas que compõem um leucograma de estresse?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Neutrofilia com desvio à esquerda, linfocitose e monocitose."},
-        {"label": "B", "text": "Neutropenia, linfopenia e eosinofilia."},
-        {"label": "C", "text": "Neutrofilia madura, linfopenia, eosinopenia e monocitose."},
-        {"label": "D", "text": "Neutrofilia com desvio à esquerda degenerativo e linfopenia."},
-        {"label": "E", "text": "Pancitopenia."}
+        {
+          "label": "A",
+          "text": "Neutrofilia com desvio à esquerda, linfocitose e monocitose."
+        },
+        {
+          "label": "B",
+          "text": "Neutropenia, linfopenia e eosinofilia."
+        },
+        {
+          "label": "C",
+          "text": "Neutrofilia madura, linfopenia, eosinopenia e monocitose."
+        },
+        {
+          "label": "D",
+          "text": "Neutrofilia com desvio à esquerda degenerativo e linfopenia."
+        },
+        {
+          "label": "E",
+          "text": "Pancitopenia."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -787,31 +2221,102 @@
       },
       "review": {
         "fisiologia": "O cortisol tem múltiplos efeitos nas células sanguíneas. Causa a demarginação de neutrófilos do endotélio vascular, aumentando seu número na circulação (neutrofilia). Induz a apoptose e o sequestro de linfócitos e eosinófilos em órgãos linfoides, diminuindo seus números (linfopenia, eosinopenia). Em cães, também pode causar uma leve monocitose.",
-        "high_yield": ["Leucograma de Estresse (Cortisol): Neutrofilia (madura), Linfopenia, Eosinopenia, Monocitose (cão).", "Acrônimo: SMILED (Segs, Monos Increased, Lymphs, Eos Decreased) - em inglês.", "É diferente de um leucograma inflamatório (que tem desvio à esquerda) ou de excitação (que tem neutrofilia e linfocitose)."],
-        "pegadinhas": ["Confundir leucograma de estresse com leucograma inflamatório."]
+        "high_yield": [
+          "Leucograma de Estresse (Cortisol): Neutrofilia (madura), Linfopenia, Eosinopenia, Monocitose (cão).",
+          "Acrônimo: SMILED (Segs, Monos Increased, Lymphs, Eos Decreased) - em inglês.",
+          "É diferente de um leucograma inflamatório (que tem desvio à esquerda) ou de excitação (que tem neutrofilia e linfocitose)."
+        ],
+        "pegadinhas": [
+          "Confundir leucograma de estresse com leucograma inflamatório."
+        ],
+        "etiologia": "HEMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "HEMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Laboratório Clínico",
+            "pg": "HEMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Laboratório",
+            "pg": "HEMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Laboratório",
+            "pg": "HEMATOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:1u2v3w4x5y6z" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:1u2v3w4x5y6z"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-LC-0032",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["BIOQUÍMICA", "FUNÇÃO HEPÁTICA", "ENZIMAS HEPÁTICAS"],
-      "classification_meta": { "area_confidence": {"LABORATÓRIO CLÍNICO": 0.98}, "topic_confidence": {"FUNÇÃO HEPÁTICA": 0.95}, "evidence_spans": ["enzimas hepáticas", "ALT", "AST", "FA", "GGT", "lesão hepatocelular", "colestase"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "topic_tags": [
+        "BIOQUÍMICA",
+        "FUNÇÃO HEPÁTICA",
+        "ENZIMAS HEPÁTICAS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "LABORATÓRIO CLÍNICO": 0.98
+        },
+        "topic_confidence": {
+          "FUNÇÃO HEPÁTICA": 0.95
+        },
+        "evidence_spans": [
+          "enzimas hepáticas",
+          "ALT",
+          "AST",
+          "FA",
+          "GGT",
+          "lesão hepatocelular",
+          "colestase"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A avaliação das enzimas hepáticas é fundamental na investigação de hepatopatias. ALT e AST são consideradas enzimas de lesão hepatocelular, enquanto FA e GGT são enzimas de colestase. Qual das seguintes afirmações sobre a interpretação dessas enzimas é a mais precisa?",
       "media": [],
       "options": [
-        {"label": "A", "text": "A magnitude do aumento de ALT e AST se correlaciona diretamente com a gravidade da disfunção hepática."},
-        {"label": "B", "text": "A AST é uma enzima específica do fígado, e seu aumento indica exclusivamente lesão hepatocelular."},
-        {"label": "C", "text": "Um aumento da Fosfatase Alcalina (FA) em um gato é sempre um achado mais significativo e preocupante do que o mesmo aumento em um cão."},
-        {"label": "D", "text": "A GGT (Gama-glutamil transferase) é menos sensível que a FA para detectar colestase em cães, mas mais específica."},
-        {"label": "E", "text": "Um aumento de ALT e AST sempre indica uma doença hepática primária."}
+        {
+          "label": "A",
+          "text": "A magnitude do aumento de ALT e AST se correlaciona diretamente com a gravidade da disfunção hepática."
+        },
+        {
+          "label": "B",
+          "text": "A AST é uma enzima específica do fígado, e seu aumento indica exclusivamente lesão hepatocelular."
+        },
+        {
+          "label": "C",
+          "text": "Um aumento da Fosfatase Alcalina (FA) em um gato é sempre um achado mais significativo e preocupante do que o mesmo aumento em um cão."
+        },
+        {
+          "label": "D",
+          "text": "A GGT (Gama-glutamil transferase) é menos sensível que a FA para detectar colestase em cães, mas mais específica."
+        },
+        {
+          "label": "E",
+          "text": "Um aumento de ALT e AST sempre indica uma doença hepática primária."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -824,31 +2329,102 @@
       },
       "review": {
         "fisiologia": "A avaliação hepática requer a diferenciação entre enzimas de lesão (ALT, AST) e de colestase (FA, GGT), além de testes de função (albumina, bilirrubina, ureia, glicose, fatores de coagulação). Existem importantes diferenças entre espécies na interpretação dessas enzimas.",
-        "high_yield": ["ALT = enzima de lesão hepática mais específica em cães e gatos.", "AST = enzima de lesão hepática E muscular (checar CK).", "Aumento de FA em gato = sempre investigar, muito significativo.", "FA em cães pode ser induzida por corticoides, fenobarbital e doença óssea."],
-        "pegadinhas": ["Interpretar a FA de um gato da mesma forma que a de um cão.", "Esquecer que a AST não é específica do fígado."]
+        "high_yield": [
+          "ALT = enzima de lesão hepática mais específica em cães e gatos.",
+          "AST = enzima de lesão hepática E muscular (checar CK).",
+          "Aumento de FA em gato = sempre investigar, muito significativo.",
+          "FA em cães pode ser induzida por corticoides, fenobarbital e doença óssea."
+        ],
+        "pegadinhas": [
+          "Interpretar a FA de um gato da mesma forma que a de um cão.",
+          "Esquecer que a AST não é específica do fígado."
+        ],
+        "etiologia": "BIOQUÍMICA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "BIOQUÍMICA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Laboratório Clínico",
+            "pg": "BIOQUÍMICA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Laboratório",
+            "pg": "BIOQUÍMICA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Laboratório",
+            "pg": "BIOQUÍMICA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:2v3w4x5y6z7a" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:2v3w4x5y6z7a"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0033",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "INSUFICIÊNCIA CARDÍACA CONGESTIVA", "EDEMA PULMONAR"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"INSUFICIÊNCIA CARDÍACA CONGESTIVA": 0.95}, "evidence_spans": ["insuficiência cardíaca congestiva", "ICC esquerda", "ICC direita", "edema pulmonar", "ascite"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "INSUFICIÊNCIA CARDÍACA CONGESTIVA",
+        "EDEMA PULMONAR"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "INSUFICIÊNCIA CARDÍACA CONGESTIVA": 0.95
+        },
+        "evidence_spans": [
+          "insuficiência cardíaca congestiva",
+          "ICC esquerda",
+          "ICC direita",
+          "edema pulmonar",
+          "ascite"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A insuficiência cardíaca congestiva (ICC) ocorre quando o coração é incapaz de bombear sangue suficiente para atender às necessidades metabólicas do corpo, levando ao acúmulo de fluido. Qual é a manifestação clínica primária da insuficiência cardíaca congestiva ESQUERDA e da insuficiência cardíaca congestiva DIREITA, respectivamente?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Ascite; Edema pulmonar"},
-        {"label": "B", "text": "Edema pulmonar; Ascite e efusão pleural"},
-        {"label": "C", "text": "Efusão pleural; Síncope"},
-        {"label": "D", "text": "Tosse; Cianose"},
-        {"label": "E", "text": "Ascite; Efusão pericárdica"}
+        {
+          "label": "A",
+          "text": "Ascite; Edema pulmonar"
+        },
+        {
+          "label": "B",
+          "text": "Edema pulmonar; Ascite e efusão pleural"
+        },
+        {
+          "label": "C",
+          "text": "Efusão pleural; Síncope"
+        },
+        {
+          "label": "D",
+          "text": "Tosse; Cianose"
+        },
+        {
+          "label": "E",
+          "text": "Ascite; Efusão pericárdica"
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -861,31 +2437,99 @@
       },
       "review": {
         "fisiologia": "A fisiopatologia da ICC pode ser entendida como um problema de 'encanamento'. Se a bomba esquerda falha, o fluido acumula-se 'para trás', nos pulmões. Se a bomba direita falha, o fluido acumula-se 'para trás', no resto do corpo (cavidade abdominal, pleural, etc.).",
-        "high_yield": ["ICC Esquerda = Edema Pulmonar (dispneia, taquipneia, tosse em cães).", "ICC Direita = Ascite, Efusão Pleural, Edema de membros, Ingurgitamento da jugular."],
-        "pegadinhas": ["Inverter os sinais de ICC esquerda e direita."]
+        "high_yield": [
+          "ICC Esquerda = Edema Pulmonar (dispneia, taquipneia, tosse em cães).",
+          "ICC Direita = Ascite, Efusão Pleural, Edema de membros, Ingurgitamento da jugular."
+        ],
+        "pegadinhas": [
+          "Inverter os sinais de ICC esquerda e direita."
+        ],
+        "etiologia": "CARDIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta variação sazonal, sendo mais comum em determinadas épocas do ano.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:3w4x5y6z7a8b" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:3w4x5y6z7a8b"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0034",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["SISTEMA RESPIRATÓRIO", "ASMA FELINA", "BRONQUITE CRÔNICA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"ASMA FELINA": 0.95}, "evidence_spans": ["asma felina", "bronquite crônica", "glicocorticoides", "broncodilatadores", "aerossolterapia"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "SISTEMA RESPIRATÓRIO",
+        "ASMA FELINA",
+        "BRONQUITE CRÔNICA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "ASMA FELINA": 0.95
+        },
+        "evidence_spans": [
+          "asma felina",
+          "bronquite crônica",
+          "glicocorticoides",
+          "broncodilatadores",
+          "aerossolterapia"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre o tratamento da doença inflamatória das vias aéreas inferiores em felinos (asma/bronquite crônica), qual das seguintes afirmações é INCORRETA?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Os glicocorticoides são a base do tratamento crônico para controlar a inflamação das vias aéreas."},
-        {"label": "B", "text": "Os broncodilatadores (ex: salbutamol, terbutalina) são úteis para o alívio rápido da broncoconstrição em crises agudas, mas não devem ser usados como monoterapia crônica."},
-        {"label": "C", "text": "A aerossolterapia (uso de 'bombinhas') com espaçadores específicos para gatos é uma forma eficaz de administrar glicocorticoides e broncodilatadores, minimizando os efeitos colaterais sistêmicos."},
-        {"label": "D", "text": "A antibioticoterapia é indicada rotineiramente para prevenir infecções bacterianas secundárias em todos os gatos com asma."},
-        {"label": "E", "text": "O manejo ambiental, incluindo a redução da exposição a poeira, fumaça e aerossóis, é uma parte importante do tratamento."}
+        {
+          "label": "A",
+          "text": "Os glicocorticoides são a base do tratamento crônico para controlar a inflamação das vias aéreas."
+        },
+        {
+          "label": "B",
+          "text": "Os broncodilatadores (ex: salbutamol, terbutalina) são úteis para o alívio rápido da broncoconstrição em crises agudas, mas não devem ser usados como monoterapia crônica."
+        },
+        {
+          "label": "C",
+          "text": "A aerossolterapia (uso de 'bombinhas') com espaçadores específicos para gatos é uma forma eficaz de administrar glicocorticoides e broncodilatadores, minimizando os efeitos colaterais sistêmicos."
+        },
+        {
+          "label": "D",
+          "text": "A antibioticoterapia é indicada rotineiramente para prevenir infecções bacterianas secundárias em todos os gatos com asma."
+        },
+        {
+          "label": "E",
+          "text": "O manejo ambiental, incluindo a redução da exposição a poeira, fumaça e aerossóis, é uma parte importante do tratamento."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -898,31 +2542,98 @@
       },
       "review": {
         "fisiologia": "A asma felina é uma doença inflamatória crônica das vias aéreas inferiores, caracterizada por inflamação eosinofílica e hiper-reatividade brônquica. O tratamento visa controlar a inflamação (corticoides) e aliviar a broncoconstrição (broncodilatadores).",
-        "high_yield": ["Base do tratamento da asma felina: Glicocorticoides (para inflamação).", "Tratamento de crise aguda: Oxigênio + Broncodilatador de ação rápida (Salbutamol/Terbutalina) + Corticoide injetável.", "Antibióticos NÃO são indicados rotineiramente."],
-        "pegadinhas": ["Tratar asma felina como uma doença infecciosa e prescrever antibióticos de rotina."]
+        "high_yield": [
+          "Base do tratamento da asma felina: Glicocorticoides (para inflamação).",
+          "Tratamento de crise aguda: Oxigênio + Broncodilatador de ação rápida (Salbutamol/Terbutalina) + Corticoide injetável.",
+          "Antibióticos NÃO são indicados rotineiramente."
+        ],
+        "pegadinhas": [
+          "Tratar asma felina como uma doença infecciosa e prescrever antibióticos de rotina."
+        ],
+        "etiologia": "SISTEMA RESPIRATÓRIO é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "SISTEMA RESPIRATÓRIO é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "SISTEMA RESPIRATÓRIO"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "SISTEMA RESPIRATÓRIO"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "SISTEMA RESPIRATÓRIO"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:4x5y6z7a8b9c" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:4x5y6z7a8b9c"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0035",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["GASTROINTESTINAL", "DILATAÇÃO VÓLVULO-GÁSTRICA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.98}, "topic_confidence": {"DILATAÇÃO VÓLVULO-GÁSTRICA": 0.98}, "evidence_spans": ["dilatação vólvulo-gástrica", "descompressão", "gastropexia", "choque hipovolêmico"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "GASTROINTESTINAL",
+        "DILATAÇÃO VÓLVULO-GÁSTRICA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.98
+        },
+        "topic_confidence": {
+          "DILATAÇÃO VÓLVULO-GÁSTRICA": 0.98
+        },
+        "evidence_spans": [
+          "dilatação vólvulo-gástrica",
+          "descompressão",
+          "gastropexia",
+          "choque hipovolêmico"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A síndrome da dilatação vólvulo-gástrica (DVG) é uma emergência cirúrgica em cães. Qual é a sequência de manejo mais apropriada para um paciente com DVG?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Primeiro, levar para cirurgia para corrigir a torção e realizar a gastropexia; depois, estabilizar o choque."},
-        {"label": "B", "text": "Primeiro, realizar a descompressão gástrica com sonda orogástrica; depois, levar para a cirurgia."},
-        {"label": "C", "text": "Primeiro, tratar o choque com fluidoterapia agressiva em duas veias cefálicas e tentar a descompressão gástrica; depois, realizar a cirurgia para corrigir a torção e fazer a gastropexia."},
-        {"label": "D", "text": "Primeiro, realizar a gastropexia profilática para prevenir o episódio."},
-        {"label": "E", "text": "Primeiro, administrar antibióticos e analgésicos; depois, avaliar a necessidade de cirurgia com base em radiografias seriadas."}
+        {
+          "label": "A",
+          "text": "Primeiro, levar para cirurgia para corrigir a torção e realizar a gastropexia; depois, estabilizar o choque."
+        },
+        {
+          "label": "B",
+          "text": "Primeiro, realizar a descompressão gástrica com sonda orogástrica; depois, levar para a cirurgia."
+        },
+        {
+          "label": "C",
+          "text": "Primeiro, tratar o choque com fluidoterapia agressiva em duas veias cefálicas e tentar a descompressão gástrica; depois, realizar a cirurgia para corrigir a torção e fazer a gastropexia."
+        },
+        {
+          "label": "D",
+          "text": "Primeiro, realizar a gastropexia profilática para prevenir o episódio."
+        },
+        {
+          "label": "E",
+          "text": "Primeiro, administrar antibióticos e analgésicos; depois, avaliar a necessidade de cirurgia com base em radiografias seriadas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -935,31 +2646,102 @@
       },
       "review": {
         "fisiologia": "Na DVG, o estômago dilatado e torcido comprime a veia cava caudal e a veia porta, diminuindo drasticamente o retorno venoso ao coração. Isso causa um choque hipovolêmico e obstrutivo severo, que é a principal causa da alta mortalidade. O tratamento deve focar em reverter o choque e descomprimir o estômago antes da correção cirúrgica.",
-        "high_yield": ["Manejo da DVG: ESTABILIZAR PRIMEIRO!", "Sequência: 1) Fluidoterapia para choque. 2) Descompressão gástrica. 3) Cirurgia (derotação + avaliação de necrose + gastropexia).", "Radiografia característica: Sinal do 'Popeye' ou 'Smurf' (compartimentalização do estômago)."],
-        "pegadinhas": ["Correr para a cirurgia sem estabilizar o paciente."]
+        "high_yield": [
+          "Manejo da DVG: ESTABILIZAR PRIMEIRO!",
+          "Sequência: 1) Fluidoterapia para choque. 2) Descompressão gástrica. 3) Cirurgia (derotação + avaliação de necrose + gastropexia).",
+          "Radiografia característica: Sinal do 'Popeye' ou 'Smurf' (compartimentalização do estômago)."
+        ],
+        "pegadinhas": [
+          "Correr para a cirurgia sem estabilizar o paciente."
+        ],
+        "etiologia": "GASTROINTESTINAL é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROINTESTINAL apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "GASTROINTESTINAL"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "GASTROINTESTINAL"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "GASTROINTESTINAL"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:5y6z7a8b9c0d" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:5y6z7a8b9c0d"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CC-0036",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["ORTOPEDIA", "RUPTURA DE LIGAMENTO CRUZADO", "TPLO", "TTA"],
-      "classification_meta": { "area_confidence": {"CLÍNICA CIRÚRGICA": 0.98}, "topic_confidence": {"RUPTURA DE LIGAMENTO CRUZADO": 0.95}, "evidence_spans": ["ligamento cruzado cranial", "sinal da gaveta", "teste de compressão tibial", "osteotomia", "TPLO", "TTA"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "ORTOPEDIA",
+        "RUPTURA DE LIGAMENTO CRUZADO",
+        "TPLO",
+        "TTA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.98
+        },
+        "topic_confidence": {
+          "RUPTURA DE LIGAMENTO CRUZADO": 0.95
+        },
+        "evidence_spans": [
+          "ligamento cruzado cranial",
+          "sinal da gaveta",
+          "teste de compressão tibial",
+          "osteotomia",
+          "TPLO",
+          "TTA"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre o tratamento da ruptura do ligamento cruzado cranial (RLCC) em cães, qual das seguintes afirmações sobre as osteotomias corretivas (como TPLO e TTA) é a mais correta?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Elas visam substituir o ligamento rompido por um material sintético ou um enxerto de fáscia."},
-        {"label": "B", "text": "Elas alteram a biomecânica do joelho para neutralizar o impulso tibial cranial, tornando o LCC redundante durante o apoio de peso."},
-        {"label": "C", "text": "São procedimentos menos invasivos do que as técnicas de estabilização extra-capsular (fabelo-tibial)."},
-        {"label": "D", "text": "São indicadas principalmente para cães pequenos e inativos (< 15 kg)."},
-        {"label": "E", "text": "A recuperação pós-operatória é mais rápida e com menos restrições do que as técnicas extra-capsulares."}
+        {
+          "label": "A",
+          "text": "Elas visam substituir o ligamento rompido por um material sintético ou um enxerto de fáscia."
+        },
+        {
+          "label": "B",
+          "text": "Elas alteram a biomecânica do joelho para neutralizar o impulso tibial cranial, tornando o LCC redundante durante o apoio de peso."
+        },
+        {
+          "label": "C",
+          "text": "São procedimentos menos invasivos do que as técnicas de estabilização extra-capsular (fabelo-tibial)."
+        },
+        {
+          "label": "D",
+          "text": "São indicadas principalmente para cães pequenos e inativos (< 15 kg)."
+        },
+        {
+          "label": "E",
+          "text": "A recuperação pós-operatória é mais rápida e com menos restrições do que as técnicas extra-capsulares."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -972,31 +2754,99 @@
       },
       "review": {
         "fisiologia": "A RLCC leva à instabilidade do joelho, manifestada pelo impulso tibial cranial. As técnicas tradicionais tentavam substituir o ligamento. As osteotomias corretivas modernas mudam a física da articulação para que a instabilidade não ocorra durante o apoio.",
-        "high_yield": ["Osteotomias corretivas (TPLO, TTA) = mudam a biomecânica do joelho, não reparam o ligamento.", "Indicação: cães de porte médio a grande e ativos.", "São mais invasivas, mas oferecem melhor resultado funcional a longo prazo."],
-        "pegadinhas": ["Achar que a TPLO ou TTA 'conserta' o ligamento."]
+        "high_yield": [
+          "Osteotomias corretivas (TPLO, TTA) = mudam a biomecânica do joelho, não reparam o ligamento.",
+          "Indicação: cães de porte médio a grande e ativos.",
+          "São mais invasivas, mas oferecem melhor resultado funcional a longo prazo."
+        ],
+        "pegadinhas": [
+          "Achar que a TPLO ou TTA 'conserta' o ligamento."
+        ],
+        "etiologia": "ORTOPEDIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ORTOPEDIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "ORTOPEDIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "ORTOPEDIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "ORTOPEDIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:6p7q8r9s0t1u" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:6p7q8r9s0t1u"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2023-CM-0037",
       "year": 2023,
       "exam": "UFV",
       "source_file": "Prova UFV 2023.pdf",
-      "source_pages": {"start": null, "end": null},
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "MEGAESÔFAGO", "REGURGITAÇÃO"],
-      "classification_meta": { "area_confidence": {"CLÍNICA MÉDICA": 0.98}, "topic_confidence": {"MEGAESÔFAGO": 0.95}, "evidence_spans": ["megaesôfago", "regurgitação", "vômito", "cadeira de Bailey"], "ambiguities": [] },
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "MEGAESÔFAGO",
+        "REGURGITAÇÃO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.98
+        },
+        "topic_confidence": {
+          "MEGAESÔFAGO": 0.95
+        },
+        "evidence_spans": [
+          "megaesôfago",
+          "regurgitação",
+          "vômito",
+          "cadeira de Bailey"
+        ],
+        "ambiguities": []
+      },
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A principal complicação associada ao megaesôfago em cães, que frequentemente leva ao óbito ou à eutanásia, é:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Desnutrição e perda de peso severa."},
-        {"label": "B", "text": "Pneumonia por aspiração."},
-        {"label": "C", "text": "Esofagite de refluxo grave."},
-        {"label": "D", "text": "Obstrução esofágica por alimento impactado."},
-        {"label": "E", "text": "Ruptura esofágica."}
+        {
+          "label": "A",
+          "text": "Desnutrição e perda de peso severa."
+        },
+        {
+          "label": "B",
+          "text": "Pneumonia por aspiração."
+        },
+        {
+          "label": "C",
+          "text": "Esofagite de refluxo grave."
+        },
+        {
+          "label": "D",
+          "text": "Obstrução esofágica por alimento impactado."
+        },
+        {
+          "label": "E",
+          "text": "Ruptura esofágica."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -1009,11 +2859,41 @@
       },
       "review": {
         "fisiologia": "No megaesôfago, a falha da peristalse esofágica faz com que o alimento se acumule no esôfago em vez de ir para o estômago. A pneumonia por aspiração ocorre quando este material acumulado entra nas vias aéreas. O manejo visa minimizar a regurgitação e a aspiração, principalmente através da alimentação em posição elevada (ex: cadeira de Bailey).",
-        "high_yield": ["Megaesôfago -> Regurgitação -> Pneumonia por Aspiração.", "Diferenciar regurgitação (passiva, sem esforço) de vômito (ativa, com contração abdominal).", "Manejo: Alimentação elevada (cadeira de Bailey), consistência alimentar adequada, tratamento da causa base (se houver, como miastenia gravis)."],
-        "pegadinhas": ["Confundir regurgitação com vômito."]
+        "high_yield": [
+          "Megaesôfago -> Regurgitação -> Pneumonia por Aspiração.",
+          "Diferenciar regurgitação (passiva, sem esforço) de vômito (ativa, com contração abdominal).",
+          "Manejo: Alimentação elevada (cadeira de Bailey), consistência alimentar adequada, tratamento da causa base (se houver, como miastenia gravis)."
+        ],
+        "pegadinhas": [
+          "Confundir regurgitação com vômito."
+        ],
+        "etiologia": "GASTROENTEROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
+        ]
       },
-      "provenance": { "extracted_at": "2024-05-28T14:00:00Z", "checksum": "sha256:7q8r9s0t1u2v" },
-      "status": "approved", "version": 1, "issues": []
+      "provenance": {
+        "extracted_at": "2024-05-28T14:00:00Z",
+        "checksum": "sha256:7q8r9s0t1u2v"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
     }
   ]
 }

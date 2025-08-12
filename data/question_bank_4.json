@@ -4,25 +4,57 @@
     "total_batches": 4,
     "taxonomy_version": "v1.0",
     "generator": "manual-entry",
-    "notes": ["UFV 2022 – Primeiras 20 questões (SP 01–10; Multidisciplinares/Clínica 11–20)"],
-    "persistence": { "strategy": ["json_canonical"], "conflicts": "upsert_on_checksum", "defaults": { "namespace": "vet-residencia", "schema_version": 1 } }
+    "notes": [
+      "UFV 2022 – Primeiras 20 questões (SP 01–10; Multidisciplinares/Clínica 11–20)"
+    ],
+    "persistence": {
+      "strategy": [
+        "json_canonical"
+      ],
+      "conflicts": "upsert_on_checksum",
+      "defaults": {
+        "namespace": "vet-residencia",
+        "schema_version": 1
+      }
+    }
   },
   "items": [
     {
       "id": "UFV-2022-CM4-0021",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "BAV", "ECG"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "BAV",
+        "ECG"
+      ],
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Qual a alteração observada no traçado eletrocardiográfico (D2, 25 mm/s, 1 mV) ilustrado (não exibido)?",
       "options": [
-        {"label": "A", "text": "Bloqueio atrioventricular de 2º grau."},
-        {"label": "B", "text": "Taquicardia sinusal."},
-        {"label": "C", "text": "Taquicardia ventricular."},
-        {"label": "D", "text": "Taquicardia atrial."},
-        {"label": "E", "text": "Arritmia sinusal."}
+        {
+          "label": "A",
+          "text": "Bloqueio atrioventricular de 2º grau."
+        },
+        {
+          "label": "B",
+          "text": "Taquicardia sinusal."
+        },
+        {
+          "label": "C",
+          "text": "Taquicardia ventricular."
+        },
+        {
+          "label": "D",
+          "text": "Taquicardia atrial."
+        },
+        {
+          "label": "E",
+          "text": "Arritmia sinusal."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -35,25 +67,70 @@
       },
       "review": {
         "fisiologia": "BAV 2º grau Mobitz I: alongamento progressivo do PR até uma onda P não ser conduzida. Causado por aumento da refratariedade do nódulo AV.",
-        "high_yield": ["Wenckebach = Mobitz I", "PR progressivamente longo", "Ciclo Wenckebach típico"],
-        "pegadinhas": ["Confundir com Mobitz II (PR fixo)"]
+        "high_yield": [
+          "Wenckebach = Mobitz I",
+          "PR progressivamente longo",
+          "Ciclo Wenckebach típico"
+        ],
+        "pegadinhas": [
+          "Confundir com Mobitz II (PR fixo)"
+        ],
+        "etiologia": "CARDIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta predisposição racial, indicando componente genético na etiologia da doença.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0022",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["UROLOGIA", "INCONTINÊNCIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "UROLOGIA",
+        "INCONTINÊNCIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre a incompetência do esfíncter uretral nas cadelas, assinale a alternativa INCORRETA:",
       "options": [
-        {"label": "A", "text": "Causa comum de incontinência urinária não neurogênica."},
-        {"label": "B", "text": "Pode predispor o animal a infecções bacterianas urinárias."},
-        {"label": "C", "text": "A reposição de estrógenos é uma opção terapêutica."},
-        {"label": "D", "text": "Agentes alfa-adrenérgicos podem ser utilizados no tratamento."},
-        {"label": "E", "text": "Agentes parassimpatomiméticos podem ser utilizados no tratamento."}
+        {
+          "label": "A",
+          "text": "Causa comum de incontinência urinária não neurogênica."
+        },
+        {
+          "label": "B",
+          "text": "Pode predispor o animal a infecções bacterianas urinárias."
+        },
+        {
+          "label": "C",
+          "text": "A reposição de estrógenos é uma opção terapêutica."
+        },
+        {
+          "label": "D",
+          "text": "Agentes alfa-adrenérgicos podem ser utilizados no tratamento."
+        },
+        {
+          "label": "E",
+          "text": "Agentes parassimpatomiméticos podem ser utilizados no tratamento."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -66,25 +143,68 @@
       },
       "review": {
         "fisiologia": "Simpático (α1) mantém continência; parassimpático promove micção. IEU = fraqueza do esfíncter interno.",
-        "high_yield": ["Primeira linha: PPA (α1-agonista)", "Adjuvante: estriol"],
-        "pegadinhas": ["Usar betanecol em IEU"]
+        "high_yield": [
+          "Primeira linha: PPA (α1-agonista)",
+          "Adjuvante: estriol"
+        ],
+        "pegadinhas": [
+          "Usar betanecol em IEU"
+        ],
+        "etiologia": "UROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "UROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "UROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "UROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "UROLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0023",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DISTÚRBIOS ÁCIDO-BASE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DISTÚRBIOS ÁCIDO-BASE"
+      ],
       "difficulty": "F",
       "cognitive_level": "Aplicação",
       "stem": "Correlacione: 1 Obstrução urinária, 2 Vômito, 3 Hiperventilação, 4 Asma ↔ A Acidose metabólica, B Acidose respiratória, C Alcalose metabólica, D Alcalose respiratória.",
       "options": [
-        {"label": "A", "text": "1A, 2C, 3D, 4B."},
-        {"label": "B", "text": "1C, 2A, 3D, 4B"},
-        {"label": "C", "text": "1A, 2C, 3B, 4D"},
-        {"label": "D", "text": "1A, 2B, 3C, 4D"},
-        {"label": "E", "text": "1B, 2D, 3B, 4A."}
+        {
+          "label": "A",
+          "text": "1A, 2C, 3D, 4B."
+        },
+        {
+          "label": "B",
+          "text": "1C, 2A, 3D, 4B"
+        },
+        {
+          "label": "C",
+          "text": "1A, 2C, 3B, 4D"
+        },
+        {
+          "label": "D",
+          "text": "1A, 2B, 3C, 4D"
+        },
+        {
+          "label": "E",
+          "text": "1B, 2D, 3B, 4A."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -94,19 +214,68 @@
         "C": "Incorreta. Sequência incorreta das correlações.",
         "D": "Incorreta. Sequência incorreta das correlações.",
         "E": "Incorreta. Sequência incorreta das correlações."
+      },
+      "review": {
+        "etiologia": "As doenças gastrointestinais são frequentes na clínica veterinária. DISTÚRBIOS ÁCIDO-BASE pode ter etiologia infecciosa, inflamatória, neoplásica ou tóxica.",
+        "epidemiologia": "DISTÚRBIOS ÁCIDO-BASE apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DISTÚRBIOS ÁCIDO-BASE"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DISTÚRBIOS ÁCIDO-BASE"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DISTÚRBIOS ÁCIDO-BASE"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0024",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["TOXICOLOGIA", "DIROFILARIOSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "TOXICOLOGIA",
+        "DIROFILARIOSE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Lembrar",
       "stem": "Edema pulmonar pós-melarsomina: qual quelante é indicado?",
       "options": [
-        {"label": "A", "text": "Penicilamina"}, {"label": "B", "text": "EDTA"}, {"label": "C", "text": "Dimercaprol"}, {"label": "D", "text": "Quitosamina"}, {"label": "E", "text": "Zinco"}
+        {
+          "label": "A",
+          "text": "Penicilamina"
+        },
+        {
+          "label": "B",
+          "text": "EDTA"
+        },
+        {
+          "label": "C",
+          "text": "Dimercaprol"
+        },
+        {
+          "label": "D",
+          "text": "Quitosamina"
+        },
+        {
+          "label": "E",
+          "text": "Zinco"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -119,21 +288,71 @@
       },
       "review": {
         "fisiologia": "Melarsomina contém arsênio trivalente que pode causar edema pulmonar por toxicidade. Dimercaprol (BAL) forma complexos estáveis com arsênio, facilitando sua excreção.",
-        "high_yield": ["BAL = antídoto para arsênio", "Edema pulmonar = complicação da melarsomina", "Quelantes específicos para cada metal"],
-        "pegadinhas": ["Usar penicilamina para arsênio", "EDTA para todos os metais"]
+        "high_yield": [
+          "BAL = antídoto para arsênio",
+          "Edema pulmonar = complicação da melarsomina",
+          "Quelantes específicos para cada metal"
+        ],
+        "pegadinhas": [
+          "Usar penicilamina para arsênio",
+          "EDTA para todos os metais"
+        ],
+        "etiologia": "TOXICOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "TOXICOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "TOXICOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "TOXICOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "TOXICOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0025",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "VASODILATADORES"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "VASODILATADORES"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Vasodilatador com ação inibitória seletiva de PDE-5.",
       "options": [
-        {"label": "A", "text": "Nitroglicerina"}, {"label": "B", "text": "Sildenafila"}, {"label": "C", "text": "Anlodipino"}, {"label": "D", "text": "Nitroprussiato"}, {"label": "E", "text": "Hidralazina"}
+        {
+          "label": "A",
+          "text": "Nitroglicerina"
+        },
+        {
+          "label": "B",
+          "text": "Sildenafila"
+        },
+        {
+          "label": "C",
+          "text": "Anlodipino"
+        },
+        {
+          "label": "D",
+          "text": "Nitroprussiato"
+        },
+        {
+          "label": "E",
+          "text": "Hidralazina"
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -146,21 +365,71 @@
       },
       "review": {
         "fisiologia": "PDE-5 degrada GMPc, que promove vasodilatação. Inibição da PDE-5 aumenta GMPc, causando vasodilatação pulmonar seletiva.",
-        "high_yield": ["Sildenafila = inibidor PDE-5", "Vasodilatação pulmonar seletiva", "Hipertensão pulmonar"],
-        "pegadinhas": ["Confundir com nitratos (NO)", "Pensar que é inotrópico"]
+        "high_yield": [
+          "Sildenafila = inibidor PDE-5",
+          "Vasodilatação pulmonar seletiva",
+          "Hipertensão pulmonar"
+        ],
+        "pegadinhas": [
+          "Confundir com nitratos (NO)",
+          "Pensar que é inotrópico"
+        ],
+        "etiologia": "CARDIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0026",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "INOTRÓPICOS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "INOTRÓPICOS"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Inotrópico positivo inodilatador, inibidor de PDE-3, usado em cães com cardiopatias.",
       "options": [
-        {"label": "A", "text": "Dopamina"}, {"label": "B", "text": "Dobutamina"}, {"label": "C", "text": "Metoprolol"}, {"label": "D", "text": "Pimobendan"}, {"label": "E", "text": "Atenolol"}
+        {
+          "label": "A",
+          "text": "Dopamina"
+        },
+        {
+          "label": "B",
+          "text": "Dobutamina"
+        },
+        {
+          "label": "C",
+          "text": "Metoprolol"
+        },
+        {
+          "label": "D",
+          "text": "Pimobendan"
+        },
+        {
+          "label": "E",
+          "text": "Atenolol"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -173,25 +442,71 @@
       },
       "review": {
         "fisiologia": "Pimobendan inibe PDE-3 (aumenta AMPc) e sensibiliza troponina C ao cálcio. Resultado: inotropismo positivo + vasodilatação (inodilatador).",
-        "high_yield": ["Pimobendan = inodilatador", "PDE-3 inibição", "Insuficiência cardíaca congestiva"],
-        "pegadinhas": ["Confundir com catecolaminas", "Pensar que é apenas inotrópico"]
+        "high_yield": [
+          "Pimobendan = inodilatador",
+          "PDE-3 inibição",
+          "Insuficiência cardíaca congestiva"
+        ],
+        "pegadinhas": [
+          "Confundir com catecolaminas",
+          "Pensar que é apenas inotrópico"
+        ],
+        "etiologia": "CARDIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0027",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "DEMODICIOSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "DEMODICIOSE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a alternativa INCORRETA sobre demodiciose e escabiose.",
       "options": [
-        {"label": "A", "text": "Demodex gatoi habita o estrato córneo superficial..."},
-        {"label": "B", "text": "O diagnóstico da demodiciose canina não pode ser feito pela tricografia..."},
-        {"label": "C", "text": "Não há deficiência documentada da imunidade inata em demodiciose canina."},
-        {"label": "D", "text": "É importante distinguir demodiciose crônica de início adulto..."},
-        {"label": "E", "text": "Escabiose pode ser diagnosticada por partículas fecais no raspado."}
+        {
+          "label": "A",
+          "text": "Demodex gatoi habita o estrato córneo superficial..."
+        },
+        {
+          "label": "B",
+          "text": "O diagnóstico da demodiciose canina não pode ser feito pela tricografia..."
+        },
+        {
+          "label": "C",
+          "text": "Não há deficiência documentada da imunidade inata em demodiciose canina."
+        },
+        {
+          "label": "D",
+          "text": "É importante distinguir demodiciose crônica de início adulto..."
+        },
+        {
+          "label": "E",
+          "text": "Escabiose pode ser diagnosticada por partículas fecais no raspado."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -204,25 +519,70 @@
       },
       "review": {
         "fisiologia": "Demodex spp. são ácaros foliculares normais que proliferam quando há imunossupressão. Tricografia arranca pelos com ácaros foliculares.",
-        "high_yield": ["Tricografia = diagnóstico válido", "Demodex = ácaros foliculares", "Escabiose = ácaros superficiais"],
-        "pegadinhas": ["Pensar que tricografia não serve", "Confundir localização dos ácaros"]
+        "high_yield": [
+          "Tricografia = diagnóstico válido",
+          "Demodex = ácaros foliculares",
+          "Escabiose = ácaros superficiais"
+        ],
+        "pegadinhas": [
+          "Pensar que tricografia não serve",
+          "Confundir localização dos ácaros"
+        ],
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0028",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a alternativa correta sobre afecções dermatológicas.",
       "options": [
-        {"label": "A", "text": "Lynxacarus radovsky pode dar aspecto 'sal e pimenta' e responder a acaricidas"},
-        {"label": "B", "text": "Macroconídeos no exame direto confirmam dermatofitose"},
-        {"label": "C", "text": "Biópsia punch: coletar apenas áreas transicionais"},
-        {"label": "D", "text": "Foliculite canina: estafilococos, dermatófitos e Sarcoptes sp."},
-        {"label": "E", "text": "Foliculite/furunculose nasal têm DDx: pênfigo foliáceo, lúpus e dermatofibrose nodular"}
+        {
+          "label": "A",
+          "text": "Lynxacarus radovsky pode dar aspecto 'sal e pimenta' e responder a acaricidas"
+        },
+        {
+          "label": "B",
+          "text": "Macroconídeos no exame direto confirmam dermatofitose"
+        },
+        {
+          "label": "C",
+          "text": "Biópsia punch: coletar apenas áreas transicionais"
+        },
+        {
+          "label": "D",
+          "text": "Foliculite canina: estafilococos, dermatófitos e Sarcoptes sp."
+        },
+        {
+          "label": "E",
+          "text": "Foliculite/furunculose nasal têm DDx: pênfigo foliáceo, lúpus e dermatofibrose nodular"
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -235,25 +595,71 @@
       },
       "review": {
         "fisiologia": "Lynxacarus radovsky é ácaro felino que causa prurido e aspecto 'sal e pimenta' por hiperpigmentação. Macroconídeos são estruturas reprodutivas fúngicas.",
-        "high_yield": ["Lynxacarus = aspecto 'sal e pimenta'", "Macroconídeos = estruturas fúngicas", "Biópsia = lesada + normal"],
-        "pegadinhas": ["Confundir macroconídeos com ácaros", "Pensar que Sarcoptes causa foliculite"]
+        "high_yield": [
+          "Lynxacarus = aspecto 'sal e pimenta'",
+          "Macroconídeos = estruturas fúngicas",
+          "Biópsia = lesada + normal"
+        ],
+        "pegadinhas": [
+          "Confundir macroconídeos com ácaros",
+          "Pensar que Sarcoptes causa foliculite"
+        ],
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0029",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "PIODERMITE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "PIODERMITE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a alternativa INCORRETA sobre piodermites e infecções cutâneas.",
       "options": [
-        {"label": "A", "text": "Alergias, ectoparasitoses, endocrinopatias e seborreia estão entre as principais causas"},
-        {"label": "B", "text": "Paniculite piogranulomatosa: pesquisar agentes com colorações especiais e cultura"},
-        {"label": "C", "text": "Micetoma, criptococose, esporotricose, malasseziose e dermatofitose podem causar pododermatite"},
-        {"label": "D", "text": "Comparado ao cetoconazol, o itraconazol tem menor espectro e mais efeitos adversos"},
-        {"label": "E", "text": "Esporotricose, escabiose e dermatofitose são zoonoses"}
+        {
+          "label": "A",
+          "text": "Alergias, ectoparasitoses, endocrinopatias e seborreia estão entre as principais causas"
+        },
+        {
+          "label": "B",
+          "text": "Paniculite piogranulomatosa: pesquisar agentes com colorações especiais e cultura"
+        },
+        {
+          "label": "C",
+          "text": "Micetoma, criptococose, esporotricose, malasseziose e dermatofitose podem causar pododermatite"
+        },
+        {
+          "label": "D",
+          "text": "Comparado ao cetoconazol, o itraconazol tem menor espectro e mais efeitos adversos"
+        },
+        {
+          "label": "E",
+          "text": "Esporotricose, escabiose e dermatofitose são zoonoses"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -266,25 +672,72 @@
       },
       "review": {
         "fisiologia": "Piodermite é infecção bacteriana secundária a doenças predisponentes. Paniculite piogranulomatosa indica infecção profunda que requer investigação específica.",
-        "high_yield": ["Itraconazol > cetoconazol", "Pododermatite = múltiplas causas", "Zoonoses dermatológicas"],
-        "pegadinhas": ["Pensar que cetoconazol é melhor", "Esquecer colorações especiais"]
+        "high_yield": [
+          "Itraconazol > cetoconazol",
+          "Pododermatite = múltiplas causas",
+          "Zoonoses dermatológicas"
+        ],
+        "pegadinhas": [
+          "Pensar que cetoconazol é melhor",
+          "Esquecer colorações especiais"
+        ],
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0030",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ENDOCRINOLOGIA", "DIABETES", "HIPOTIREOIDISMO"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ENDOCRINOLOGIA",
+        "DIABETES",
+        "HIPOTIREOIDISMO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a alternativa INCORRETA sobre endocrinologia clínica.",
       "options": [
-        {"label": "A", "text": "Cushing deve ser considerado na calcinose cutis"},
-        {"label": "B", "text": "Facies trágica por mucina dérmica no hipotireoidismo"},
-        {"label": "C", "text": "Aparecimento agudo de flebectasias pode ser observado no hipotireoidismo"},
-        {"label": "D", "text": "Frutosamina auxilia no controle do diabético"},
-        {"label": "E", "text": "Efeito Somogyi corrige-se reduzindo a dose de insulina"}
+        {
+          "label": "A",
+          "text": "Cushing deve ser considerado na calcinose cutis"
+        },
+        {
+          "label": "B",
+          "text": "Facies trágica por mucina dérmica no hipotireoidismo"
+        },
+        {
+          "label": "C",
+          "text": "Aparecimento agudo de flebectasias pode ser observado no hipotireoidismo"
+        },
+        {
+          "label": "D",
+          "text": "Frutosamina auxilia no controle do diabético"
+        },
+        {
+          "label": "E",
+          "text": "Efeito Somogyi corrige-se reduzindo a dose de insulina"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -297,26 +750,73 @@
       },
       "review": {
         "fisiologia": "Calcinose cutis ocorre por deposição de cálcio na pele, comum no Cushing. Hipotireoidismo causa acúmulo de mucina dérmica. Efeito Somogyi = hipoglicemia seguida de hiperglicemia rebote.",
-        "high_yield": ["Calcinose = Cushing", "Facies trágica = hipotireoidismo", "Somogyi = reduzir insulina"],
-        "pegadinhas": ["Pensar que flebectasias são do hipotireoidismo", "Aumentar insulina no Somogyi"]
+        "high_yield": [
+          "Calcinose = Cushing",
+          "Facies trágica = hipotireoidismo",
+          "Somogyi = reduzir insulina"
+        ],
+        "pegadinhas": [
+          "Pensar que flebectasias são do hipotireoidismo",
+          "Aumentar insulina no Somogyi"
+        ],
+        "etiologia": "ENDOCRINOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ENDOCRINOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ENDOCRINOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0001",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["SUS", "LEI 8.080", "VIGILÂNCIA EM SAÚDE"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "SUS",
+        "LEI 8.080",
+        "VIGILÂNCIA EM SAÚDE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "De acordo com a Lei 8.080 de 1990, no que se refere a execução das ações de Vigilância em Saúde é CORRETO afirmar:\n(A) Vigilância sanitária: conjunto de ações que proporcionam o conhecimento e a detecção de mudança nos fatores determinantes e condicionantes do meio ambiente que interferem na saúde humana, com a finalidade de identificar as medidas de prevenção e controle dos fatores de risco ambientais relacionados às doenças ou a outros agravos à saúde.\n(B) Vigilância epidemiológica: conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde.\n(C) Saúde do trabalhador: conjunto de atividades que se destina à promoção e proteção da saúde dos trabalhadores, assim como visa à recuperação e reabilitação da saúde dos trabalhadores submetidos aos riscos e agravos advindos das condições de trabalho.\n(D) Vigilância ambiental: conjunto de ações que proporcionam o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva, com a finalidade de recomendar e adotar as medidas de prevenção e controle das doenças ou agravos.\n(E) Todas as afirmações estão corretas",
       "media": [],
       "options": [
-        {"label": "A", "text": "Vigilância sanitária..."},
-        {"label": "B", "text": "Vigilância epidemiológica..."},
-        {"label": "C", "text": "Saúde do trabalhador..."},
-        {"label": "D", "text": "Vigilância ambiental..."},
-        {"label": "E", "text": "Todas as afirmações estão corretas"}
+        {
+          "label": "A",
+          "text": "Vigilância sanitária..."
+        },
+        {
+          "label": "B",
+          "text": "Vigilância epidemiológica..."
+        },
+        {
+          "label": "C",
+          "text": "Saúde do trabalhador..."
+        },
+        {
+          "label": "D",
+          "text": "Vigilância ambiental..."
+        },
+        {
+          "label": "E",
+          "text": "Todas as afirmações estão corretas"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -329,25 +829,71 @@
       },
       "review": {
         "fisiologia": "Lei 8.080/90 define as competências do SUS. Vigilância sanitária controla produtos/serviços; epidemiológica monitora doenças; ambiental controla fatores ambientais; saúde do trabalhador protege trabalhadores.",
-        "high_yield": ["Lei 8.080/90 = SUS", "Vigilância sanitária = produtos/serviços", "Saúde do trabalhador = promoção/proteção"],
-        "pegadinhas": ["Trocar definições entre vigilâncias", "Esquecer promoção na saúde do trabalhador"]
+        "high_yield": [
+          "Lei 8.080/90 = SUS",
+          "Vigilância sanitária = produtos/serviços",
+          "Saúde do trabalhador = promoção/proteção"
+        ],
+        "pegadinhas": [
+          "Trocar definições entre vigilâncias",
+          "Esquecer promoção na saúde do trabalhador"
+        ],
+        "etiologia": "SUS é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "SUS apresenta variação sazonal, sendo mais comum em determinadas épocas do ano.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "SUS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "SUS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "SUS"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0002",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "NOTIFICAÇÃO"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "VIGILÂNCIA EPIDEMIOLÓGICA",
+        "NOTIFICAÇÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Historicamente, a notificação compulsória... Os parâmetros para inclusão... Assinale a alternativa que apresente associação INCORRETA entre o parâmetro e sua definição: (A) Magnitude ... apenas em doenças de elevada letalidade... (B) Potencial de disseminação... (C) Transcendência... (D) Vulnerabilidade... (E) Compromissos internacionais...",
       "options": [
-        {"label": "A", "text": "Magnitude... apenas em doenças de elevada letalidade..."},
-        {"label": "B", "text": "Potencial de disseminação..."},
-        {"label": "C", "text": "Transcendência..."},
-        {"label": "D", "text": "Vulnerabilidade..."},
-        {"label": "E", "text": "Compromissos internacionais..."}
+        {
+          "label": "A",
+          "text": "Magnitude... apenas em doenças de elevada letalidade..."
+        },
+        {
+          "label": "B",
+          "text": "Potencial de disseminação..."
+        },
+        {
+          "label": "C",
+          "text": "Transcendência..."
+        },
+        {
+          "label": "D",
+          "text": "Vulnerabilidade..."
+        },
+        {
+          "label": "E",
+          "text": "Compromissos internacionais..."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -360,25 +906,71 @@
       },
       "review": {
         "fisiologia": "Magnitude refere-se à frequência da doença (incidência/prevalência), não apenas letalidade. Parâmetros de notificação incluem magnitude, potencial de disseminação, transcendência, vulnerabilidade e compromissos internacionais.",
-        "high_yield": ["Magnitude = frequência da doença", "Letalidade ≠ magnitude", "Parâmetros de notificação"],
-        "pegadinhas": ["Restringir magnitude à letalidade", "Esquecer incidência/prevalência"]
+        "high_yield": [
+          "Magnitude = frequência da doença",
+          "Letalidade ≠ magnitude",
+          "Parâmetros de notificação"
+        ],
+        "pegadinhas": [
+          "Restringir magnitude à letalidade",
+          "Esquecer incidência/prevalência"
+        ],
+        "etiologia": "VIGILÂNCIA EPIDEMIOLÓGICA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "VIGILÂNCIA EPIDEMIOLÓGICA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "VIGILÂNCIA EPIDEMIOLÓGICA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "VIGILÂNCIA EPIDEMIOLÓGICA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "VIGILÂNCIA EPIDEMIOLÓGICA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0003",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["RAIVA", "ZOONOSES"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "RAIVA",
+        "ZOONOSES"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A raiva é uma zoonose viral... 'sentido da transmissão'... considerada uma antropozoonose. PORQUE ... transmitida ao homem, por reservatório animal... ciclos aéreo, rural, urbano e silvestre terrestre. Assinale: (A) ... (E).",
       "options": [
-        {"label": "A", "text": "Verdadeiras e justificativa correta."},
-        {"label": "B", "text": "Verdadeiras, sem justificativa."},
-        {"label": "C", "text": "Primeira verdadeira, segunda falsa."},
-        {"label": "D", "text": "Primeira falsa e segunda verdadeira."},
-        {"label": "E", "text": "Ambas falsas."}
+        {
+          "label": "A",
+          "text": "Verdadeiras e justificativa correta."
+        },
+        {
+          "label": "B",
+          "text": "Verdadeiras, sem justificativa."
+        },
+        {
+          "label": "C",
+          "text": "Primeira verdadeira, segunda falsa."
+        },
+        {
+          "label": "D",
+          "text": "Primeira falsa e segunda verdadeira."
+        },
+        {
+          "label": "E",
+          "text": "Ambas falsas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -387,25 +979,71 @@
       },
       "review": {
         "fisiologia": "Zooantroponose: transmissão animal→humano. Antropozoonose: transmissão humano→animal. Raiva é classicamente zooantroponose por transmissão de reservatórios animais para humanos.",
-        "high_yield": ["Raiva = zooantroponose", "Animal→humano", "Reservatórios animais"],
-        "pegadinhas": ["Confundir zooantroponose com antropozoonose", "Pensar que raiva vai do humano para animal"]
+        "high_yield": [
+          "Raiva = zooantroponose",
+          "Animal→humano",
+          "Reservatórios animais"
+        ],
+        "pegadinhas": [
+          "Confundir zooantroponose com antropozoonose",
+          "Pensar que raiva vai do humano para animal"
+        ],
+        "etiologia": "A saúde pública veterinária foca na prevenção e controle de doenças. RAIVA é fundamental para a saúde coletiva e controle epidemiológico.",
+        "epidemiologia": "RAIVA é uma zoonose de importância em saúde pública, afetando tanto animais quanto humanos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0004",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["INDICADORES", "EPIDEMIOLOGIA"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "INDICADORES",
+        "EPIDEMIOLOGIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a resposta INCORRETA acerca dos indicadores epidemiológicos: (A) coeficientes de morbidade... (B) incidência... (C) taxa de letalidade... (D) coeficiente de mortalidade... (E) prevalência...",
       "options": [
-        {"label": "A", "text": "Coeficientes de morbidade..."},
-        {"label": "B", "text": "Incidência..."},
-        {"label": "C", "text": "Taxa de letalidade indica a probabilidade de morte de um indivíduo..."},
-        {"label": "D", "text": "Coeficiente de mortalidade..."},
-        {"label": "E", "text": "Prevalência..."}
+        {
+          "label": "A",
+          "text": "Coeficientes de morbidade..."
+        },
+        {
+          "label": "B",
+          "text": "Incidência..."
+        },
+        {
+          "label": "C",
+          "text": "Taxa de letalidade indica a probabilidade de morte de um indivíduo..."
+        },
+        {
+          "label": "D",
+          "text": "Coeficiente de mortalidade..."
+        },
+        {
+          "label": "E",
+          "text": "Prevalência..."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -418,25 +1056,71 @@
       },
       "review": {
         "fisiologia": "Letalidade = mortes entre doentes. Mortalidade = mortes na população geral. Incidência = casos novos. Prevalência = casos totais em um momento.",
-        "high_yield": ["Letalidade ≠ mortalidade", "Incidência = casos novos", "Prevalência = casos totais"],
-        "pegadinhas": ["Confundir letalidade com mortalidade", "Trocar incidência e prevalência"]
+        "high_yield": [
+          "Letalidade ≠ mortalidade",
+          "Incidência = casos novos",
+          "Prevalência = casos totais"
+        ],
+        "pegadinhas": [
+          "Confundir letalidade com mortalidade",
+          "Trocar incidência e prevalência"
+        ],
+        "etiologia": "INDICADORES é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "INDICADORES apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "INDICADORES"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "INDICADORES"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "INDICADORES"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0005",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["SUS", "PRINCÍPIOS"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "SUS",
+        "PRINCÍPIOS"
+      ],
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Princípios doutrinários do SUS: relacione (A) Universalidade (B) Integralidade (C) Igualdade (D) Equidade com as sentenças listadas e assinale a sequência correta.",
       "options": [
-        {"label": "A", "text": "C – A – B – C – A – B – A"},
-        {"label": "B", "text": "D – B – A – C – B – A – D"},
-        {"label": "C", "text": "C – B – A – D – D – D – C"},
-        {"label": "D", "text": "D – A – B – C – D – B – D"},
-        {"label": "E", "text": "B – C – D – D – A – B – C"}
+        {
+          "label": "A",
+          "text": "C – A – B – C – A – B – A"
+        },
+        {
+          "label": "B",
+          "text": "D – B – A – C – B – A – D"
+        },
+        {
+          "label": "C",
+          "text": "C – B – A – D – D – D – C"
+        },
+        {
+          "label": "D",
+          "text": "D – A – B – C – D – B – D"
+        },
+        {
+          "label": "E",
+          "text": "B – C – D – D – A – B – C"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -449,25 +1133,70 @@
       },
       "review": {
         "fisiologia": "Universalidade: saúde para todos. Integralidade: cuidado completo. Igualdade: tratamento igual. Equidade: tratamento diferenciado para desiguais.",
-        "high_yield": ["Universalidade = todos", "Integralidade = completo", "Equidade = diferenciado"],
-        "pegadinhas": ["Confundir igualdade com equidade", "Pensar que universalidade é igualdade"]
+        "high_yield": [
+          "Universalidade = todos",
+          "Integralidade = completo",
+          "Equidade = diferenciado"
+        ],
+        "pegadinhas": [
+          "Confundir igualdade com equidade",
+          "Pensar que universalidade é igualdade"
+        ],
+        "etiologia": "SUS é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "SUS apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "SUS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "SUS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "SUS"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0006",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["CONTROLE DE ROEDORES"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "CONTROLE DE ROEDORES"
+      ],
       "difficulty": "F",
       "cognitive_level": "Aplicação",
       "stem": "Medidas de ANTIRRATIZAÇÃO (A) ou DESRATIZAÇÃO (D): ( ) Eliminar abrigos; ( ) Ratoeiras; ( ) Reduzir água/alimento; ( ) Remover sobras de ração à noite; ( ) Raticidas. Assinale a sequência correta.",
       "options": [
-        {"label": "A", "text": "D – A – D – D – A"},
-        {"label": "B", "text": "D – D – A – A – D"},
-        {"label": "C", "text": "A – D – A – D – A"},
-        {"label": "D", "text": "A – D – A – A – D"},
-        {"label": "E", "text": "A – A – D – D – A"}
+        {
+          "label": "A",
+          "text": "D – A – D – D – A"
+        },
+        {
+          "label": "B",
+          "text": "D – D – A – A – D"
+        },
+        {
+          "label": "C",
+          "text": "A – D – A – D – A"
+        },
+        {
+          "label": "D",
+          "text": "A – D – A – A – D"
+        },
+        {
+          "label": "E",
+          "text": "A – A – D – D – A"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -480,25 +1209,71 @@
       },
       "review": {
         "fisiologia": "Antirratização: medidas preventivas que modificam o ambiente (eliminar abrigo, água, alimento). Desratização: medidas corretivas que matam roedores (armadilhas, venenos).",
-        "high_yield": ["Antirratização = preventiva", "Desratização = corretiva", "Abrigo + água + alimento = necessidades"],
-        "pegadinhas": ["Confundir antirratização com desratização", "Pensar que raticidas são preventivos"]
+        "high_yield": [
+          "Antirratização = preventiva",
+          "Desratização = corretiva",
+          "Abrigo + água + alimento = necessidades"
+        ],
+        "pegadinhas": [
+          "Confundir antirratização com desratização",
+          "Pensar que raticidas são preventivos"
+        ],
+        "etiologia": "CONTROLE DE ROEDORES é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CONTROLE DE ROEDORES apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "CONTROLE DE ROEDORES"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "CONTROLE DE ROEDORES"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "CONTROLE DE ROEDORES"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0007",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["RAS", "ATENÇÃO PRIMÁRIA"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "RAS",
+        "ATENÇÃO PRIMÁRIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Redes de Atenção à Saúde (RAS) – marque a INCORRETA.",
       "options": [
-        {"label": "A", "text": "Atenção Básica ... promoção, prevenção, diagnóstico, tratamento, reabilitação."},
-        {"label": "B", "text": "Objetivo da AB ... atenção integral ... determinantes de saúde."},
-        {"label": "C", "text": "NASF com presença OBRIGATÓRIA de médico veterinário."},
-        {"label": "D", "text": "Composição mínima da eSF."},
-        {"label": "E", "text": "Atribuições do ACS."}
+        {
+          "label": "A",
+          "text": "Atenção Básica ... promoção, prevenção, diagnóstico, tratamento, reabilitação."
+        },
+        {
+          "label": "B",
+          "text": "Objetivo da AB ... atenção integral ... determinantes de saúde."
+        },
+        {
+          "label": "C",
+          "text": "NASF com presença OBRIGATÓRIA de médico veterinário."
+        },
+        {
+          "label": "D",
+          "text": "Composição mínima da eSF."
+        },
+        {
+          "label": "E",
+          "text": "Atribuições do ACS."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -511,25 +1286,71 @@
       },
       "review": {
         "fisiologia": "Atenção Básica é a porta de entrada do SUS, com ações de promoção, prevenção e cuidado integral. NASF é equipe de apoio com profissionais opcionais conforme necessidades locais.",
-        "high_yield": ["AB = porta de entrada", "NASF = apoio opcional", "Médico-veterinário = não obrigatório"],
-        "pegadinhas": ["Pensar que médico-veterinário é obrigatório", "Confundir AB com especializada"]
+        "high_yield": [
+          "AB = porta de entrada",
+          "NASF = apoio opcional",
+          "Médico-veterinário = não obrigatório"
+        ],
+        "pegadinhas": [
+          "Pensar que médico-veterinário é obrigatório",
+          "Confundir AB com especializada"
+        ],
+        "etiologia": "RAS é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "RAS apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "RAS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "RAS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "RAS"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0008",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["PANDEMIA", "DEFINIÇÕES"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "PANDEMIA",
+        "DEFINIÇÕES"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Assinale a definição mais adequada para PANDEMIA.",
       "options": [
-        {"label": "A", "text": "Doença viral de transmissão direta..."},
-        {"label": "B", "text": "Mortalidade maior que o esperado."},
-        {"label": "C", "text": "Incidência > 50% em diferentes países."},
-        {"label": "D", "text": "Endemia em muitos países e continentes."},
-        {"label": "E", "text": "Epidemia que afeta pessoas em muitos países e continentes."}
+        {
+          "label": "A",
+          "text": "Doença viral de transmissão direta..."
+        },
+        {
+          "label": "B",
+          "text": "Mortalidade maior que o esperado."
+        },
+        {
+          "label": "C",
+          "text": "Incidência > 50% em diferentes países."
+        },
+        {
+          "label": "D",
+          "text": "Endemia em muitos países e continentes."
+        },
+        {
+          "label": "E",
+          "text": "Epidemia que afeta pessoas em muitos países e continentes."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -542,25 +1363,72 @@
       },
       "review": {
         "fisiologia": "Pandemia é epidemia em escala global. Epidemia = casos acima do esperado em uma região. Endemia = presença constante em uma área. O critério é distribuição geográfica, não mortalidade ou incidência específica.",
-        "high_yield": ["Pandemia = epidemia global", "Epidemia = casos acima do esperado", "Endemia = presença constante"],
-        "pegadinhas": ["Definir por mortalidade", "Confundir com endemia", "Usar valores de corte"]
+        "high_yield": [
+          "Pandemia = epidemia global",
+          "Epidemia = casos acima do esperado",
+          "Endemia = presença constante"
+        ],
+        "pegadinhas": [
+          "Definir por mortalidade",
+          "Confundir com endemia",
+          "Usar valores de corte"
+        ],
+        "etiologia": "PANDEMIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "PANDEMIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "PANDEMIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "PANDEMIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "PANDEMIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0009",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["FEBRE MACULOSA", "EPIDEMIOLOGIA"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "FEBRE MACULOSA",
+        "EPIDEMIOLOGIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Relacione os trechos (1 a 6) do texto sobre febre maculosa com: agente etiológico; patogenicidade; período de incubação; período de transmissibilidade; virulência; reservatórios.",
       "options": [
-        {"label": "A", "text": "2 – 1 – 3 – 4 – 6 – 5"},
-        {"label": "B", "text": "2 – 1 – 4 – 3 – 6 – 5"},
-        {"label": "C", "text": "2 – 3 – 4 – 5 – 1 – 6"},
-        {"label": "D", "text": "2 – 5 – 6 – 4 – 2 – 3"},
-        {"label": "E", "text": "2 – 3 – 4 – 5 – 3 – 6"}
+        {
+          "label": "A",
+          "text": "2 – 1 – 3 – 4 – 6 – 5"
+        },
+        {
+          "label": "B",
+          "text": "2 – 1 – 4 – 3 – 6 – 5"
+        },
+        {
+          "label": "C",
+          "text": "2 – 3 – 4 – 5 – 1 – 6"
+        },
+        {
+          "label": "D",
+          "text": "2 – 5 – 6 – 4 – 2 – 3"
+        },
+        {
+          "label": "E",
+          "text": "2 – 3 – 4 – 5 – 3 – 6"
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -573,25 +1441,71 @@
       },
       "review": {
         "fisiologia": "Febre maculosa: Rickettsia rickettsii transmitida por carrapatos. Período de incubação: tempo até sintomas. Período de transmissibilidade: tempo que o vetor é infectante. Virulência: grau de patogenicidade.",
-        "high_yield": ["Rickettsia = agente etiológico", "Carrapatos = vetores", "Período de incubação ≠ transmissibilidade"],
-        "pegadinhas": ["Confundir período de incubação com transmissibilidade", "Trocar agente etiológico com reservatórios"]
+        "high_yield": [
+          "Rickettsia = agente etiológico",
+          "Carrapatos = vetores",
+          "Período de incubação ≠ transmissibilidade"
+        ],
+        "pegadinhas": [
+          "Confundir período de incubação com transmissibilidade",
+          "Trocar agente etiológico com reservatórios"
+        ],
+        "etiologia": "FEBRE MACULOSA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "FEBRE MACULOSA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "FEBRE MACULOSA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "FEBRE MACULOSA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "FEBRE MACULOSA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-SP4-0010",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["LEISHMANIOSE TEGUMENTAR", "CONTROLE"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "LEISHMANIOSE TEGUMENTAR",
+        "CONTROLE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Tratamento de animais positivos não é medida aceita para controle da LTA. PORQUE pode selecionar parasitos resistentes às drogas usadas em humanos. Marque a alternativa correta.",
       "options": [
-        {"label": "A", "text": "As duas verdadeiras e a segunda justifica a primeira."},
-        {"label": "B", "text": "Verdadeiras, sem relação de justificativa."},
-        {"label": "C", "text": "Verdadeira e falsa."},
-        {"label": "D", "text": "Falsa e verdadeira."},
-        {"label": "E", "text": "Ambas falsas."}
+        {
+          "label": "A",
+          "text": "As duas verdadeiras e a segunda justifica a primeira."
+        },
+        {
+          "label": "B",
+          "text": "Verdadeiras, sem relação de justificativa."
+        },
+        {
+          "label": "C",
+          "text": "Verdadeira e falsa."
+        },
+        {
+          "label": "D",
+          "text": "Falsa e verdadeira."
+        },
+        {
+          "label": "E",
+          "text": "Ambas falsas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -604,21 +1518,70 @@
       },
       "review": {
         "fisiologia": "LTA: Leishmania braziliensis transmitida por flebotomíneos. Tratamento em animais pode selecionar parasitos resistentes aos mesmos fármacos usados em humanos, comprometendo o tratamento humano.",
-        "high_yield": ["LTA = Leishmania braziliensis", "Não tratar animais = evitar resistência", "Mesmos fármacos = risco de resistência"],
-        "pegadinhas": ["Pensar que tratamento animal é útil", "Esquecer risco de resistência"]
+        "high_yield": [
+          "LTA = Leishmania braziliensis",
+          "Não tratar animais = evitar resistência",
+          "Mesmos fármacos = risco de resistência"
+        ],
+        "pegadinhas": [
+          "Pensar que tratamento animal é útil",
+          "Esquecer risco de resistência"
+        ],
+        "etiologia": "LEISHMANIOSE TEGUMENTAR é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "LEISHMANIOSE TEGUMENTAR apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "LEISHMANIOSE TEGUMENTAR"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "LEISHMANIOSE TEGUMENTAR"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "LEISHMANIOSE TEGUMENTAR"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0011",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA"
+      ],
       "difficulty": "F",
       "cognitive_level": "Análise",
       "stem": "Em relação às gastroenterites hemorrágicas: I A parvovirose não é a única causa... II O uso de antibióticos é contraindicado... III Nos gatos, o Parvovírus também é causa. Assinale: (A) I (B) II (C) III (D) I e II (E) I e III",
       "options": [
-        {"label": "A", "text": "I"}, {"label": "B", "text": "II"}, {"label": "C", "text": "III"}, {"label": "D", "text": "I e II"}, {"label": "E", "text": "I e III"}
+        {
+          "label": "A",
+          "text": "I"
+        },
+        {
+          "label": "B",
+          "text": "II"
+        },
+        {
+          "label": "C",
+          "text": "III"
+        },
+        {
+          "label": "D",
+          "text": "I e II"
+        },
+        {
+          "label": "E",
+          "text": "I e III"
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -631,21 +1594,71 @@
       },
       "review": {
         "fisiologia": "Parvovirose destrói barreira intestinal e causa neutropenia, criando risco de sepse bacteriana. Antibióticos são essenciais. Parvovírus felino causa panleucopenia felina.",
-        "high_yield": ["Parvovirose = risco de sepse", "Antibióticos = obrigatórios", "Parvovírus felino = panleucopenia"],
-        "pegadinhas": ["Pensar que antibióticos são contraindicados", "Esquecer parvovírus felino"]
+        "high_yield": [
+          "Parvovirose = risco de sepse",
+          "Antibióticos = obrigatórios",
+          "Parvovírus felino = panleucopenia"
+        ],
+        "pegadinhas": [
+          "Pensar que antibióticos são contraindicados",
+          "Esquecer parvovírus felino"
+        ],
+        "etiologia": "A antibioticoterapia é baseada no conhecimento da etiologia bacteriana e sensibilidade aos antimicrobianos. GASTROENTEROLOGIA requer seleção criteriosa do antimicrobiano adequado.",
+        "epidemiologia": "GASTROENTEROLOGIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0012",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "ANTIARRÍTMICOS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "ANTIARRÍTMICOS"
+      ],
       "difficulty": "F",
       "cognitive_level": "Aplicação",
       "stem": "Fármaco com ação antiarrítmica (diminui condução e aumenta refratariedade AV) usado em TSV em cães.",
       "options": [
-        {"label": "A", "text": "Lidocaína"}, {"label": "B", "text": "Benazepril"}, {"label": "C", "text": "Digoxina"}, {"label": "D", "text": "Pimobendan"}, {"label": "E", "text": "Torasemida"}
+        {
+          "label": "A",
+          "text": "Lidocaína"
+        },
+        {
+          "label": "B",
+          "text": "Benazepril"
+        },
+        {
+          "label": "C",
+          "text": "Digoxina"
+        },
+        {
+          "label": "D",
+          "text": "Pimobendan"
+        },
+        {
+          "label": "E",
+          "text": "Torasemida"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -658,21 +1671,71 @@
       },
       "review": {
         "fisiologia": "Digoxina aumenta tônus vagal, reduzindo condução no nó AV. Útil para controlar frequência em taquicardias supraventriculares. Lidocaína atua em arritmias ventriculares.",
-        "high_yield": ["Digoxina = vagomimético", "Nó AV = controle de frequência", "Lidocaína = ventriculares"],
-        "pegadinhas": ["Usar lidocaína para TSV", "Confundir com inotrópicos"]
+        "high_yield": [
+          "Digoxina = vagomimético",
+          "Nó AV = controle de frequência",
+          "Lidocaína = ventriculares"
+        ],
+        "pegadinhas": [
+          "Usar lidocaína para TSV",
+          "Confundir com inotrópicos"
+        ],
+        "etiologia": "A farmacologia veterinária estuda os efeitos dos medicamentos nos animais. CARDIOLOGIA requer conhecimento farmacocinético e farmacodinâmico específico.",
+        "epidemiologia": "CARDIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0013",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ANESTESIOLOGIA", "CÁLCULO DE DOSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ANESTESIOLOGIA",
+        "CÁLCULO DE DOSE"
+      ],
       "difficulty": "F",
       "cognitive_level": "Aplicação",
       "stem": "Sedar cão 12 kg: acepromazina 0,2% (0,05 mg/kg) e butorfanol 1% (0,4 mg/kg). Volumes corretos, respectivamente:",
       "options": [
-        {"label": "A", "text": "48 mL e 30 mL"}, {"label": "B", "text": "0,3 mL e 0,48 mL"}, {"label": "C", "text": "0,03 mL e 0,048 mL"}, {"label": "D", "text": "3 mL e 4,8 mL"}, {"label": "E", "text": "30 e 48 mL"}
+        {
+          "label": "A",
+          "text": "48 mL e 30 mL"
+        },
+        {
+          "label": "B",
+          "text": "0,3 mL e 0,48 mL"
+        },
+        {
+          "label": "C",
+          "text": "0,03 mL e 0,048 mL"
+        },
+        {
+          "label": "D",
+          "text": "3 mL e 4,8 mL"
+        },
+        {
+          "label": "E",
+          "text": "30 e 48 mL"
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -685,25 +1748,71 @@
       },
       "review": {
         "fisiologia": "0,2% = 0,2 g/100mL = 2 mg/mL. 1% = 1 g/100mL = 10 mg/mL. Volume = dose total (mg) / concentração (mg/mL).",
-        "high_yield": ["0,2% = 2 mg/mL", "1% = 10 mg/mL", "Volume = dose/concentração"],
-        "pegadinhas": ["Confundir % com mg/mL", "Errar posição da vírgula", "Não converter unidades"]
+        "high_yield": [
+          "0,2% = 2 mg/mL",
+          "1% = 10 mg/mL",
+          "Volume = dose/concentração"
+        ],
+        "pegadinhas": [
+          "Confundir % com mg/mL",
+          "Errar posição da vírgula",
+          "Não converter unidades"
+        ],
+        "etiologia": "ANESTESIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ANESTESIOLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ANESTESIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ANESTESIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ANESTESIOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0014",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["HEMATOLOGIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "HEMATOLOGIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Hemograma de cão: Ht 12%, VCM 63,1 fL, CHCM 35 g/dL, reticulócitos 9.000/µL. Assinale a correta.",
       "options": [
-        {"label": "A", "text": "Anemia normocítica, hipocrômica e regenerativa"},
-        {"label": "B", "text": "Não apresenta anemia"},
-        {"label": "C", "text": "Anemia normocítica, normocrômica e não regenerativa"},
-        {"label": "D", "text": "Anemia microcítica, hipocrômica e não regenerativa"},
-        {"label": "E", "text": "Anemia macrocítica, normocrômica e regenerativa"}
+        {
+          "label": "A",
+          "text": "Anemia normocítica, hipocrômica e regenerativa"
+        },
+        {
+          "label": "B",
+          "text": "Não apresenta anemia"
+        },
+        {
+          "label": "C",
+          "text": "Anemia normocítica, normocrômica e não regenerativa"
+        },
+        {
+          "label": "D",
+          "text": "Anemia microcítica, hipocrômica e não regenerativa"
+        },
+        {
+          "label": "E",
+          "text": "Anemia macrocítica, normocrômica e regenerativa"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -716,25 +1825,71 @@
       },
       "review": {
         "fisiologia": "Anemia: Ht < 37%. VCM: tamanho das hemácias. CHCM: concentração de hemoglobina. Reticulócitos: resposta regenerativa (>80.000/µL em cães).",
-        "high_yield": ["Ht 12% = anemia severa", "VCM/CHCM normais = normocítica/normocrômica", "Reticulócitos baixos = não regenerativa"],
-        "pegadinhas": ["Pensar que Ht 12% é normal", "Confundir VCM com CHCM", "Pensar que 9.000 reticulócitos é regenerativo"]
+        "high_yield": [
+          "Ht 12% = anemia severa",
+          "VCM/CHCM normais = normocítica/normocrômica",
+          "Reticulócitos baixos = não regenerativa"
+        ],
+        "pegadinhas": [
+          "Pensar que Ht 12% é normal",
+          "Confundir VCM com CHCM",
+          "Pensar que 9.000 reticulócitos é regenerativo"
+        ],
+        "etiologia": "HEMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "HEMATOLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "HEMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "HEMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "HEMATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0015",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["LÍQUIDOS CAVITÁRIOS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "LÍQUIDOS CAVITÁRIOS"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Classificação de fluidos cavitários – assinale a INCORRETA.",
       "options": [
-        {"label": "A", "text": "Transudatos modificados: 1000–7000 células/µL"},
-        {"label": "B", "text": "Exsudatos: TNCC > 7000/µL e proteína > 3,0 g/dL"},
-        {"label": "C", "text": "Transudatos: incolores, baixa celularidade (<1500/µL)"},
-        {"label": "D", "text": "Transudatos modificados: baixa proteína (<1,5 g/dL)"},
-        {"label": "E", "text": "Exsudatos: sépticos ou assépticos conforme citologia"}
+        {
+          "label": "A",
+          "text": "Transudatos modificados: 1000–7000 células/µL"
+        },
+        {
+          "label": "B",
+          "text": "Exsudatos: TNCC > 7000/µL e proteína > 3,0 g/dL"
+        },
+        {
+          "label": "C",
+          "text": "Transudatos: incolores, baixa celularidade (<1500/µL)"
+        },
+        {
+          "label": "D",
+          "text": "Transudatos modificados: baixa proteína (<1,5 g/dL)"
+        },
+        {
+          "label": "E",
+          "text": "Exsudatos: sépticos ou assépticos conforme citologia"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -747,25 +1902,71 @@
       },
       "review": {
         "fisiologia": "Transudato: ultrafiltrado do plasma (baixa proteína/celularidade). Transudato modificado: pressão hidrostática crônica (proteína intermediária). Exsudato: inflamação (alta proteína/celularidade).",
-        "high_yield": ["Transudato = <1,5 g/dL", "Transudato modificado = 2,5-5 g/dL", "Exsudato = >3 g/dL"],
-        "pegadinhas": ["Pensar que transudato modificado tem proteína baixa", "Confundir com transudato puro"]
+        "high_yield": [
+          "Transudato = <1,5 g/dL",
+          "Transudato modificado = 2,5-5 g/dL",
+          "Exsudato = >3 g/dL"
+        ],
+        "pegadinhas": [
+          "Pensar que transudato modificado tem proteína baixa",
+          "Confundir com transudato puro"
+        ],
+        "etiologia": "LÍQUIDOS CAVITÁRIOS é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "LÍQUIDOS CAVITÁRIOS apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "LÍQUIDOS CAVITÁRIOS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "LÍQUIDOS CAVITÁRIOS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "LÍQUIDOS CAVITÁRIOS"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0016",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["IMAGEM", "UROGRAFIA EXCRETORA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "IMAGEM",
+        "UROGRAFIA EXCRETORA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Urografia excretora – indicada para, EXCETO:",
       "options": [
-        {"label": "A", "text": "Função renal no paciente renal crônico"},
-        {"label": "B", "text": "Trauma com suspeita de ruptura ureteral"},
-        {"label": "C", "text": "Obstrução ureteral por cálculo radiotransparente"},
-        {"label": "D", "text": "Ureter ectópico em cadelas"},
-        {"label": "E", "text": "Obstrução ureteral por neoplasia no trígono"}
+        {
+          "label": "A",
+          "text": "Função renal no paciente renal crônico"
+        },
+        {
+          "label": "B",
+          "text": "Trauma com suspeita de ruptura ureteral"
+        },
+        {
+          "label": "C",
+          "text": "Obstrução ureteral por cálculo radiotransparente"
+        },
+        {
+          "label": "D",
+          "text": "Ureter ectópico em cadelas"
+        },
+        {
+          "label": "E",
+          "text": "Obstrução ureteral por neoplasia no trígono"
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -775,23 +1976,67 @@
         "C": "Correta. UE pode revelar cálculos radiotransparentes como falhas de preenchimento.",
         "D": "Correta. UE é método clássico para diagnosticar ureter ectópico.",
         "E": "Correta. UE pode mostrar obstrução ureteral por neoplasia no trígono."
+      },
+      "review": {
+        "etiologia": "IMAGEM é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "IMAGEM apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler atentamente palavras negativas como 'não', 'incorreto', 'exceto'"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "IMAGEM"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "IMAGEM"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "IMAGEM"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0017",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["REPRODUÇÃO", "GESTAÇÃO"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "REPRODUÇÃO",
+        "GESTAÇÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Avaliação gestacional em cadela e gata – assinale a VERDADEIRA.",
       "options": [
-        {"label": "A", "text": "Confirmação por US no 14º dia"},
-        {"label": "B", "text": "Comprimento cabeça–cauda útil para idade fetal"},
-        {"label": "C", "text": "RX para número de fetos a partir do 20º dia"},
-        {"label": "D", "text": "US não avalia com exatidão o número de fetos"},
-        {"label": "E", "text": "US é suficiente para diagnosticar endometrite nas 2 primeiras semanas pós-parto"}
+        {
+          "label": "A",
+          "text": "Confirmação por US no 14º dia"
+        },
+        {
+          "label": "B",
+          "text": "Comprimento cabeça–cauda útil para idade fetal"
+        },
+        {
+          "label": "C",
+          "text": "RX para número de fetos a partir do 20º dia"
+        },
+        {
+          "label": "D",
+          "text": "US não avalia com exatidão o número de fetos"
+        },
+        {
+          "label": "E",
+          "text": "US é suficiente para diagnosticar endometrite nas 2 primeiras semanas pós-parto"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -801,19 +2046,68 @@
         "C": "Incorreta. RX só mostra fetos após mineralização (~45º dia).",
         "D": "Correta. Contagem fetal é mais precisa por radiografia após mineralização (~45º dia); US é impreciso para número.",
         "E": "Incorreta. US não é suficiente para diagnosticar endometrite isoladamente."
+      },
+      "review": {
+        "etiologia": "REPRODUÇÃO é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "REPRODUÇÃO apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "REPRODUÇÃO"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "REPRODUÇÃO"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "REPRODUÇÃO"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0018",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ANESTESIOLOGIA", "CAPNOGRAFIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ANESTESIOLOGIA",
+        "CAPNOGRAFIA"
+      ],
       "difficulty": "F",
       "cognitive_level": "Aplicação",
       "stem": "Capnografia/capnometria – a seta indica:",
       "options": [
-        {"label": "A", "text": "Hipocapnia"}, {"label": "B", "text": "Hipercapnia"}, {"label": "C", "text": "Hipoventilação"}, {"label": "D", "text": "Hiperventilação"}, {"label": "E", "text": "Normocapnometria"}
+        {
+          "label": "A",
+          "text": "Hipocapnia"
+        },
+        {
+          "label": "B",
+          "text": "Hipercapnia"
+        },
+        {
+          "label": "C",
+          "text": "Hipoventilação"
+        },
+        {
+          "label": "D",
+          "text": "Hiperventilação"
+        },
+        {
+          "label": "E",
+          "text": "Normocapnometria"
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -823,19 +2117,68 @@
         "C": "Incorreta. Hipoventilação causaria hipercapnia.",
         "D": "Incorreta. Hiperventilação causaria hipocapnia.",
         "E": "Correta. Normocapnometria é EtCO2 em faixa normal (35-45 mmHg)."
+      },
+      "review": {
+        "etiologia": "ANESTESIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ANESTESIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ANESTESIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ANESTESIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ANESTESIOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0019",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["URINÁRIO", "OBSTRUÇÃO URETRAL"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "URINÁRIO",
+        "OBSTRUÇÃO URETRAL"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Obstrução uretral felina – assinale o correto: I a V (ver enunciado).",
       "options": [
-        {"label": "A", "text": "I e II"}, {"label": "B", "text": "II e III"}, {"label": "C", "text": "I, II e III"}, {"label": "D", "text": "I, III e IV"}, {"label": "E", "text": "II, III e V"}
+        {
+          "label": "A",
+          "text": "I e II"
+        },
+        {
+          "label": "B",
+          "text": "II e III"
+        },
+        {
+          "label": "C",
+          "text": "I, II e III"
+        },
+        {
+          "label": "D",
+          "text": "I, III e IV"
+        },
+        {
+          "label": "E",
+          "text": "II, III e V"
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -845,23 +2188,68 @@
         "C": "Incorreta. I é falsa, pois penectomia não é emergencial.",
         "D": "Incorreta. I é falsa, pois penectomia não é emergencial.",
         "E": "Incorreta. V é falsa, pois cateterização pós-uretrostomia é contraindicada."
+      },
+      "review": {
+        "etiologia": "URINÁRIO é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "URINÁRIO apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "URINÁRIO"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "URINÁRIO"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "URINÁRIO"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0020",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEONATOLOGIA", "REANIMAÇÃO"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEONATOLOGIA",
+        "REANIMAÇÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Manejo emergencial do neonato canino/felino pós-cesariana – assinale a INCORRETA.",
       "options": [
-        {"label": "A", "text": "Atropina não é recomendada; usar adrenalina em bradicardia < 100 bpm"},
-        {"label": "B", "text": "Manter fluxo placenta–neonato por até 3 minutos"},
-        {"label": "C", "text": "Aminofilina pode estimular respiração"},
-        {"label": "D", "text": "VPP com monitorização de pressões para evitar colapso"},
-        {"label": "E", "text": "Administrar glicose imediatamente após o nascimento"}
+        {
+          "label": "A",
+          "text": "Atropina não é recomendada; usar adrenalina em bradicardia < 100 bpm"
+        },
+        {
+          "label": "B",
+          "text": "Manter fluxo placenta–neonato por até 3 minutos"
+        },
+        {
+          "label": "C",
+          "text": "Aminofilina pode estimular respiração"
+        },
+        {
+          "label": "D",
+          "text": "VPP com monitorização de pressões para evitar colapso"
+        },
+        {
+          "label": "E",
+          "text": "Administrar glicose imediatamente após o nascimento"
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -871,25 +2259,70 @@
         "C": "Correta. Aminofilina pode estimular respiração.",
         "D": "Correta. VPP com monitorização de pressões para evitar colapso.",
         "E": "Incorreta. Hipoglicemia é problema tardio; administração imediata de glicose não é indicada rotineiramente."
+      },
+      "review": {
+        "etiologia": "NEONATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEONATOLOGIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEONATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEONATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEONATOLOGIA"
+          }
+        ]
       }
-    }
-    ,
+    },
     {
       "id": "UFV-2022-CM4-0031",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ONCOLOGIA", "CITOLOGIA", "HEMANGIOSSARCOMA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ONCOLOGIA",
+        "CITOLOGIA",
+        "HEMANGIOSSARCOMA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Células fusiformes, estreladas e ovaladas, anisocariose, nucléolos conspícuos, citoplasma basofílico contendo vacúolos puntiformes. Essa descrição citológica mais se encaixa no perfil do:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Mastocitoma."},
-        {"label": "B", "text": "Melanoma."},
-        {"label": "C", "text": "Lipossarcoma."},
-        {"label": "D", "text": "Tumor venéreo transmissível."},
-        {"label": "E", "text": "Hemangiossarcoma."}
+        {
+          "label": "A",
+          "text": "Mastocitoma."
+        },
+        {
+          "label": "B",
+          "text": "Melanoma."
+        },
+        {
+          "label": "C",
+          "text": "Lipossarcoma."
+        },
+        {
+          "label": "D",
+          "text": "Tumor venéreo transmissível."
+        },
+        {
+          "label": "E",
+          "text": "Hemangiossarcoma."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -899,24 +2332,68 @@
         "B": "Incorreta. Melanoma costuma ter melanina; amelanótico é diferencial, mas a descrição favorece sarcoma vascular.",
         "C": "Incorreta. Lipossarcoma mostra lipoblastos com grandes vacúolos deslocando o núcleo.",
         "D": "Incorreta. TVT é neoplasia de células redondas."
+      },
+      "review": {
+        "etiologia": "ONCOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ONCOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Confundir 'mais comum' com 'único' ou 'sempre'"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ONCOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0032",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "LESÕES ACTÍNICAS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "LESÕES ACTÍNICAS"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Podem ser consideradas lesões de origem actínica:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Ceratose solar, hemangioma, lipoma."},
-        {"label": "B", "text": "Papilomatose, carcinóide, ceratose seborreica."},
-        {"label": "C", "text": "Hemangiossarcoma, carcinoma espinocelular, ceratose solar."},
-        {"label": "D", "text": "Carcinoma matrical, comedos, schwanoma."},
-        {"label": "E", "text": "Schwanoma, elastose, dermatite."}
+        {
+          "label": "A",
+          "text": "Ceratose solar, hemangioma, lipoma."
+        },
+        {
+          "label": "B",
+          "text": "Papilomatose, carcinóide, ceratose seborreica."
+        },
+        {
+          "label": "C",
+          "text": "Hemangiossarcoma, carcinoma espinocelular, ceratose solar."
+        },
+        {
+          "label": "D",
+          "text": "Carcinoma matrical, comedos, schwanoma."
+        },
+        {
+          "label": "E",
+          "text": "Schwanoma, elastose, dermatite."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -926,24 +2403,70 @@
         "B": "Incorreta.",
         "D": "Incorreta.",
         "E": "Incorreta."
+      },
+      "review": {
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0033",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ONCOLOGIA", "QUIMIOTERAPIA", "CARDIOTOXICIDADE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ONCOLOGIA",
+        "QUIMIOTERAPIA",
+        "CARDIOTOXICIDADE"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Maior potencial de cardiotoxicidade ocorre com:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Vimblastina."},
-        {"label": "B", "text": "Doxorrubicina."},
-        {"label": "C", "text": "Mitoxantrona."},
-        {"label": "D", "text": "Ciclofosfamida."},
-        {"label": "E", "text": "Carboplatina."}
+        {
+          "label": "A",
+          "text": "Vimblastina."
+        },
+        {
+          "label": "B",
+          "text": "Doxorrubicina."
+        },
+        {
+          "label": "C",
+          "text": "Mitoxantrona."
+        },
+        {
+          "label": "D",
+          "text": "Ciclofosfamida."
+        },
+        {
+          "label": "E",
+          "text": "Carboplatina."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -953,24 +2476,69 @@
         "C": "Incorreta. Menor cardiotoxicidade que doxo.",
         "D": "Incorreta. Cistite hemorrágica é clássica.",
         "E": "Incorreta. Mielossupressão, não cardiotóxica."
+      },
+      "review": {
+        "etiologia": "ONCOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ONCOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ONCOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0034",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["HEPATOLOGIA", "NUTRIÇÃO"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "HEPATOLOGIA",
+        "NUTRIÇÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Em relação ao manejo nutricional nas hepatopatias caninas, assinale a alternativa CORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "I e III."},
-        {"label": "B", "text": "II."},
-        {"label": "C", "text": "I e II."},
-        {"label": "D", "text": "II e III."},
-        {"label": "E", "text": "I, II e III."}
+        {
+          "label": "A",
+          "text": "I e III."
+        },
+        {
+          "label": "B",
+          "text": "II."
+        },
+        {
+          "label": "C",
+          "text": "I e II."
+        },
+        {
+          "label": "D",
+          "text": "II e III."
+        },
+        {
+          "label": "E",
+          "text": "I, II e III."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -982,25 +2550,68 @@
         "E": "Incorreta."
       },
       "review": {
-        "fisiologia": "Dietas hepáticas são indicadas em insuficiência/encefalopatia; restrição de cobre é mandatória em doença por acúmulo de cobre."
+        "fisiologia": "Dietas hepáticas são indicadas em insuficiência/encefalopatia; restrição de cobre é mandatória em doença por acúmulo de cobre.",
+        "etiologia": "HEPATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "HEPATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "HEPATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "HEPATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "HEPATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0035",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["HEPATOLOGIA", "HEPATOPATIA VACUOLAR"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "HEPATOLOGIA",
+        "HEPATOPATIA VACUOLAR"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Hepatopatia vacuolar em cães costuma ser secundária a:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Hipoproteinemia e enteropatias crônicas."},
-        {"label": "B", "text": "Hiperlipidemia e endocrinopatias."},
-        {"label": "C", "text": "Erliquiose."},
-        {"label": "D", "text": "Leptospirose."},
-        {"label": "E", "text": "Toxoplasmose."}
+        {
+          "label": "A",
+          "text": "Hipoproteinemia e enteropatias crônicas."
+        },
+        {
+          "label": "B",
+          "text": "Hiperlipidemia e endocrinopatias."
+        },
+        {
+          "label": "C",
+          "text": "Erliquiose."
+        },
+        {
+          "label": "D",
+          "text": "Leptospirose."
+        },
+        {
+          "label": "E",
+          "text": "Toxoplasmose."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -1010,24 +2621,69 @@
         "C": "Incorreta.",
         "D": "Incorreta.",
         "E": "Incorreta."
+      },
+      "review": {
+        "etiologia": "HEPATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "HEPATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "HEPATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "HEPATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "HEPATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0036",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "DISBIOSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "DISBIOSE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A disbiose intestinal pode estar associada a diarreia crônica nas seguintes situações. Assinale a alternativa INCORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Após antibioticoterapia prolongada."},
-        {"label": "B", "text": "Na doença intestinal inflamatória."},
-        {"label": "C", "text": "Nas intolerâncias alimentares."},
-        {"label": "D", "text": "Na insuficiência pancreática exócrina."},
-        {"label": "E", "text": "Na pancreatite aguda."}
+        {
+          "label": "A",
+          "text": "Após antibioticoterapia prolongada."
+        },
+        {
+          "label": "B",
+          "text": "Na doença intestinal inflamatória."
+        },
+        {
+          "label": "C",
+          "text": "Nas intolerâncias alimentares."
+        },
+        {
+          "label": "D",
+          "text": "Na insuficiência pancreática exócrina."
+        },
+        {
+          "label": "E",
+          "text": "Na pancreatite aguda."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -1037,24 +2693,69 @@
         "B": "Correta.",
         "C": "Correta.",
         "D": "Correta."
+      },
+      "review": {
+        "etiologia": "As doenças gastrointestinais são frequentes na clínica veterinária. GASTROENTEROLOGIA pode ter etiologia infecciosa, inflamatória, neoplásica ou tóxica.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0037",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "TRITRICHOMONAS FOETUS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "TRITRICHOMONAS FOETUS"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "O Tritrichomonas foetus está frequentemente associado a:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Diarreia crônica em cães jovens."},
-        {"label": "B", "text": "Diarreia em gatos jovens."},
-        {"label": "C", "text": "Diarreia em cães idosos."},
-        {"label": "D", "text": "Diarreia em gatos idosos."},
-        {"label": "E", "text": "Colangiohepatite felina."}
+        {
+          "label": "A",
+          "text": "Diarreia crônica em cães jovens."
+        },
+        {
+          "label": "B",
+          "text": "Diarreia em gatos jovens."
+        },
+        {
+          "label": "C",
+          "text": "Diarreia em cães idosos."
+        },
+        {
+          "label": "D",
+          "text": "Diarreia em gatos idosos."
+        },
+        {
+          "label": "E",
+          "text": "Colangiohepatite felina."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -1064,24 +2765,69 @@
         "C": "Incorreta.",
         "D": "Incorreta.",
         "E": "Incorreta."
+      },
+      "review": {
+        "etiologia": "GASTROENTEROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0038",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["HEPATOLOGIA", "VESÍCULA BILIAR"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "HEPATOLOGIA",
+        "VESÍCULA BILIAR"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Em relação às doenças da vesícula biliar, assinale a alternativa INCORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Mucocele associa-se a hiperplasia mucinosa, distensão e risco de ruptura."},
-        {"label": "B", "text": "Colecistite pode ser bacteriana e a antibioticoterapia está indicada."},
-        {"label": "C", "text": "Dislipidemias aumentam o risco de mucocele."},
-        {"label": "D", "text": "A dissolução medicamentosa dos cálculos é o tratamento mais eficaz na colelitíase."},
-        {"label": "E", "text": "Lama biliar é achado frequente, principalmente em cães idosos."}
+        {
+          "label": "A",
+          "text": "Mucocele associa-se a hiperplasia mucinosa, distensão e risco de ruptura."
+        },
+        {
+          "label": "B",
+          "text": "Colecistite pode ser bacteriana e a antibioticoterapia está indicada."
+        },
+        {
+          "label": "C",
+          "text": "Dislipidemias aumentam o risco de mucocele."
+        },
+        {
+          "label": "D",
+          "text": "A dissolução medicamentosa dos cálculos é o tratamento mais eficaz na colelitíase."
+        },
+        {
+          "label": "E",
+          "text": "Lama biliar é achado frequente, principalmente em cães idosos."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -1091,24 +2837,69 @@
         "B": "Correta.",
         "C": "Correta.",
         "E": "Correta."
+      },
+      "review": {
+        "etiologia": "HEPATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "HEPATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "HEPATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "HEPATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "HEPATOLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0039",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEUROLOGIA", "PROPRIOCEPÇÃO"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA",
+        "PROPRIOCEPÇÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A propriocepção alterada nos 4 membros e mais grave nos membros pélvicos indica:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Síndrome da cauda equina."},
-        {"label": "B", "text": "Hérnia de disco intervertebral toracolombar."},
-        {"label": "C", "text": "Lesão em segmento neurológico periférico ou central."},
-        {"label": "D", "text": "Apenas lesão em segmento neurológico periférico."},
-        {"label": "E", "text": "Apenas lesão em segmento neurológico central."}
+        {
+          "label": "A",
+          "text": "Síndrome da cauda equina."
+        },
+        {
+          "label": "B",
+          "text": "Hérnia de disco intervertebral toracolombar."
+        },
+        {
+          "label": "C",
+          "text": "Lesão em segmento neurológico periférico ou central."
+        },
+        {
+          "label": "D",
+          "text": "Apenas lesão em segmento neurológico periférico."
+        },
+        {
+          "label": "E",
+          "text": "Apenas lesão em segmento neurológico central."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -1118,24 +2909,68 @@
         "B": "Incorreta. Déficits apenas em MM pélvicos.",
         "C": "Incorreta.",
         "D": "Incorreta."
+      },
+      "review": {
+        "etiologia": "NEUROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEUROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Confundir 'mais comum' com 'único' ou 'sempre'"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEUROLOGIA"
+          }
+        ]
       }
     },
     {
       "id": "UFV-2022-CM4-0040",
       "year": 2022,
       "exam": "UFV",
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEUROLOGIA", "POLIRRADICULONEURITE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA",
+        "POLIRRADICULONEURITE"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Os achados esperados no exame neurológico de um paciente com polirradiculoneurite são:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Tetraplegia com reflexos diminuídos nos 4 membros."},
-        {"label": "B", "text": "Tetraplegia com reflexos aumentados nos 4 membros."},
-        {"label": "C", "text": "Monoplegia com reflexos aumentados."},
-        {"label": "D", "text": "Monoplegia com reflexos diminuídos."},
-        {"label": "E", "text": "Fraqueza muscular espástica generalizada."}
+        {
+          "label": "A",
+          "text": "Tetraplegia com reflexos diminuídos nos 4 membros."
+        },
+        {
+          "label": "B",
+          "text": "Tetraplegia com reflexos aumentados nos 4 membros."
+        },
+        {
+          "label": "C",
+          "text": "Monoplegia com reflexos aumentados."
+        },
+        {
+          "label": "D",
+          "text": "Monoplegia com reflexos diminuídos."
+        },
+        {
+          "label": "E",
+          "text": "Fraqueza muscular espástica generalizada."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -1145,8 +2980,32 @@
         "C": "Incorreta.",
         "D": "Incorreta.",
         "E": "Incorreta. Fraqueza espástica é de NMS."
+      },
+      "review": {
+        "etiologia": "A doença do disco intervertebral é causada pela degeneração do disco, resultando em compressão medular. NEUROLOGIA é uma condição neurológica que requer diagnóstico e tratamento específicos.",
+        "epidemiologia": "NEUROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEUROLOGIA"
+          }
+        ]
       }
     }
   ]
 }
-

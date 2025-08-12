@@ -1,15 +1,21 @@
-
 {
   "meta": {
     "batch": 3,
     "total_batches": 3,
     "taxonomy_version": "v1.0",
     "generator": "manual-entry",
-    "notes": ["Questões UFV 2023 (corrigido rotulagem de ano)."],
+    "notes": [
+      "Questões UFV 2023 (corrigido rotulagem de ano)."
+    ],
     "persistence": {
-      "strategy": ["json_canonical"],
+      "strategy": [
+        "json_canonical"
+      ],
       "conflicts": "upsert_on_checksum",
-      "defaults": { "namespace": "vet-residencia", "schema_version": 1 }
+      "defaults": {
+        "namespace": "vet-residencia",
+        "schema_version": 1
+      }
     }
   },
   "items": [
@@ -19,18 +25,39 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
-      "topic_tags": ["RADIOGRAFIA", "ULTRASSONOGRAFIA", "AVALIAÇÃO COMPARATIVA"],
+      "area_tags": [
+        "DIAGNÓSTICO POR IMAGEM"
+      ],
+      "topic_tags": [
+        "RADIOGRAFIA",
+        "ULTRASSONOGRAFIA",
+        "AVALIAÇÃO COMPARATIVA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre os exames complementares de imagem em cães e gatos, assinale a afirmativa INCORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A avaliação da próstata do cão pode ser indicada em cães machos com histórico de tenesmo e dificuldade de se levantar."},
-        {"label": "B", "text": "O exame radiográfico do tórax está indicado em pacientes com suspeitas de diferentes afecções afetando os sistemas respiratório, digestório e cardiovascular."},
-        {"label": "C", "text": "O exame ultrassonográfico é indicado na avaliação de suspeitas de corpo estranho gastrointestinal pois pode identificar um padrão obstrutivo e/ ou o próprio corpo estranho."},
-        {"label": "D", "text": "Uma das indicações da avaliação ultrassonográfica de hérnias perineais e inguinais é avaliar a presença de órgãos abdominais no conteúdo herniário."},
-        {"label": "E", "text": "A radiografia substitui a ultrassonografia na avaliação das urolitíases."}
+        {
+          "label": "A",
+          "text": "A avaliação da próstata do cão pode ser indicada em cães machos com histórico de tenesmo e dificuldade de se levantar."
+        },
+        {
+          "label": "B",
+          "text": "O exame radiográfico do tórax está indicado em pacientes com suspeitas de diferentes afecções afetando os sistemas respiratório, digestório e cardiovascular."
+        },
+        {
+          "label": "C",
+          "text": "O exame ultrassonográfico é indicado na avaliação de suspeitas de corpo estranho gastrointestinal pois pode identificar um padrão obstrutivo e/ ou o próprio corpo estranho."
+        },
+        {
+          "label": "D",
+          "text": "Uma das indicações da avaliação ultrassonográfica de hérnias perineais e inguinais é avaliar a presença de órgãos abdominais no conteúdo herniário."
+        },
+        {
+          "label": "E",
+          "text": "A radiografia substitui a ultrassonografia na avaliação das urolitíases."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -50,8 +77,31 @@
         ],
         "pegadinhas": [
           "Achar que um método substitui o outro na urolitíase."
+        ],
+        "etiologia": "O diagnóstico por imagem é fundamental na medicina veterinária para identificar alterações estruturais e funcionais. RADIOGRAFIA requer avaliação específica através de diferentes modalidades de imagem.",
+        "epidemiologia": "RADIOGRAFIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Diagnóstico por Imagem",
+            "pg": "RADIOGRAFIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Diagnóstico",
+            "pg": "RADIOGRAFIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Diagnóstico",
+            "pg": "RADIOGRAFIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-DI-0016",
@@ -59,18 +109,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
-      "topic_tags": ["ULTRASSONOGRAFIA", "DIAGNÓSTICO DEFINITIVO"],
+      "area_tags": [
+        "DIAGNÓSTICO POR IMAGEM"
+      ],
+      "topic_tags": [
+        "ULTRASSONOGRAFIA",
+        "DIAGNÓSTICO DEFINITIVO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a opção na qual o exame complementar de imagem descrito NÃO é capaz de fornecer o diagnóstico final da afecção listada.",
       "media": [],
       "options": [
-        {"label": "A", "text": "Ultrassonografia no pneumotórax"},
-        {"label": "B", "text": "Radiografia na hérnia diafragmática"},
-        {"label": "C", "text": "Ultrassonografia no ureter ectópico"},
-        {"label": "D", "text": "Ultrassonografia na intussuscepção"},
-        {"label": "E", "text": "Radiografia na fratura de osso longo"}
+        {
+          "label": "A",
+          "text": "Ultrassonografia no pneumotórax"
+        },
+        {
+          "label": "B",
+          "text": "Radiografia na hérnia diafragmática"
+        },
+        {
+          "label": "C",
+          "text": "Ultrassonografia no ureter ectópico"
+        },
+        {
+          "label": "D",
+          "text": "Ultrassonografia na intussuscepção"
+        },
+        {
+          "label": "E",
+          "text": "Radiografia na fratura de osso longo"
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -89,8 +159,31 @@
         ],
         "pegadinhas": [
           "Confundir capacidade diagnóstica do US entre condições muito distintas."
+        ],
+        "etiologia": "O diagnóstico por imagem é fundamental na medicina veterinária para identificar alterações estruturais e funcionais. ULTRASSONOGRAFIA requer avaliação específica através de diferentes modalidades de imagem.",
+        "epidemiologia": "ULTRASSONOGRAFIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Diagnóstico por Imagem",
+            "pg": "ULTRASSONOGRAFIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Diagnóstico",
+            "pg": "ULTRASSONOGRAFIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Diagnóstico",
+            "pg": "ULTRASSONOGRAFIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0017",
@@ -98,18 +191,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "ANTIBIOTICOTERAPIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "ANTIBIOTICOTERAPIA"
+      ],
       "difficulty": "F",
       "cognitive_level": "Lembrar",
       "stem": "Assinale a alternativa INCORRETA em relação as Gastroenterites.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A antibioticoterapia é indicada em todos os casos."},
-        {"label": "B", "text": "Gastroenterites hemorrágicas podem evoluir para choque séptico."},
-        {"label": "C", "text": "Hipovolemia e hipotensão podem ocorrer nos casos mais graves."},
-        {"label": "D", "text": "A hipocalemia é um achado esperado como consequência da anorexia e dos vômitos."},
-        {"label": "E", "text": "Dietas de alta digestibilidade são recomendadas na fase de recuperação."}
+        {
+          "label": "A",
+          "text": "A antibioticoterapia é indicada em todos os casos."
+        },
+        {
+          "label": "B",
+          "text": "Gastroenterites hemorrágicas podem evoluir para choque séptico."
+        },
+        {
+          "label": "C",
+          "text": "Hipovolemia e hipotensão podem ocorrer nos casos mais graves."
+        },
+        {
+          "label": "D",
+          "text": "A hipocalemia é um achado esperado como consequência da anorexia e dos vômitos."
+        },
+        {
+          "label": "E",
+          "text": "Dietas de alta digestibilidade são recomendadas na fase de recuperação."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -128,8 +241,31 @@
         ],
         "pegadinhas": [
           "Pressupor antibiótico para qualquer diarreia/vômito."
+        ],
+        "etiologia": "GASTROENTEROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0018",
@@ -137,18 +273,40 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA", "CARDIOLOGIA"],
-      "topic_tags": ["DIURÉTICOS", "TORASEMIDA", "INSUFICIÊNCIA CARDÍACA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA",
+        "CARDIOLOGIA"
+      ],
+      "topic_tags": [
+        "DIURÉTICOS",
+        "TORASEMIDA",
+        "INSUFICIÊNCIA CARDÍACA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Sobre a Torasemida, assinale a afirmativa INCORRETA.",
-       "media": [],
+      "media": [],
       "options": [
-        {"label": "A", "text": "É cerca de 10 a 20 vezes mais potente que a furosemida."},
-        {"label": "B", "text": "É contraindicada em pacientes com hipersensibilidade ao fármaco, desidratação ou sérias depleções eletrolíticas."},
-        {"label": "C", "text": "Pode induzir anormalidades hidroeletrolíticas e pode resultar em azotemia pós-renal se ocorrer moderada ou severa desidratação."},
-        {"label": "D", "text": "Efeitos adversos incluem manifestações gastrointestinais (vômitos, diarreia, anorexia) e renais (poliuria, elevação de marcadores renais, insuficiência renal)."},
-        {"label": "E", "text": "É uma opção para o tratamento de cães com insuficiência cardíaca congestiva, como naqueles que não respondem adequadamente à fusosemida."}
+        {
+          "label": "A",
+          "text": "É cerca de 10 a 20 vezes mais potente que a furosemida."
+        },
+        {
+          "label": "B",
+          "text": "É contraindicada em pacientes com hipersensibilidade ao fármaco, desidratação ou sérias depleções eletrolíticas."
+        },
+        {
+          "label": "C",
+          "text": "Pode induzir anormalidades hidroeletrolíticas e pode resultar em azotemia pós-renal se ocorrer moderada ou severa desidratação."
+        },
+        {
+          "label": "D",
+          "text": "Efeitos adversos incluem manifestações gastrointestinais (vômitos, diarreia, anorexia) e renais (poliuria, elevação de marcadores renais, insuficiência renal)."
+        },
+        {
+          "label": "E",
+          "text": "É uma opção para o tratamento de cães com insuficiência cardíaca congestiva, como naqueles que não respondem adequadamente à fusosemida."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -167,8 +325,31 @@
         ],
         "pegadinhas": [
           "Confundir mecanismos de azotemia."
+        ],
+        "etiologia": "DIURÉTICOS é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DIURÉTICOS apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DIURÉTICOS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DIURÉTICOS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DIURÉTICOS"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CC-0019",
@@ -176,18 +357,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["FISIOPATOLOGIA", "RESPOSTA AO TRAUMA"],
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "FISIOPATOLOGIA",
+        "RESPOSTA AO TRAUMA"
+      ],
       "difficulty": "D",
       "cognitive_level": "Análise",
       "stem": "A resposta metabólica ao trauma, também denominada resposta de estresse ou reação de fase aguda do trauma, são amplamente estudados pela medicina humana e veterinária, e caracteriza-se por alterações neuroendócrinas e imunológicas, desencadeadas para restabelecer a homeostase e preservar a vida. Com relação ao tema, analise as afirmações a seguir e assinale a alternativa INCORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A resposta metabólica ao trauma é caracterizada pelo aumento da secreção de hormônios hipofisários, ativação do sistema nervoso simpático e secreção de citocinas pró-inflamatórias, nas quais diferentes fatores podem influenciar sua intensidade, como magnitude e duração dos estímulos, enfermidades ou eventos traumáticos pré-existentes, protocolos anestésicos e técnicas cirúrgicas utilizadas."},
-        {"label": "B", "text": "O objetivo da resposta metabólica ao trauma é manter a perfusão tecidual, controlar a proliferação de microrganismos e mobilizar substratos para garantir a integridade das funções celulares e promover reparação tecidual."},
-        {"label": "C", "text": "Em 1932, David Cuthbertson estabeleceu que a resposta metabólica ao trauma apresenta duas fases distintas: “ebb phase” e “flow phase”. A primeira fase (“ebb phase”) se inicia imediatamente após a injúria e tem por objetivo restaurar a volemia e restabelecer a perfusão tecidual. A segunda fase (“flow phase”), também denominada hiperdinâmica, é caracterizada pelo aumento do metabolismo, com intensa mobilização de energia e substratos proteicos, para garantir a reparação tecidual e as funções orgânicas críticas."},
-        {"label": "D", "text": "Embora a resposta orgânica seja essencial para garantir a homeostase após o trauma cirúrgico, reações exacerbadas podem levar a complicações pós-operatórias, tempo prolongado de recuperação e óbito, especialmente em pacientes debilitados por trauma anterior ou enfermidades pré-existentes."},
-        {"label": "E", "text": "A perpetuação de níveis excessivos de catecolaminas pode causar aumento da frequência e contratilidade cardíaca, gerando menor consumo de oxigênio pelo miocárdio. As catecolaminas também induzem lipólise intensa, com consequente hipolipidemia e embolia gordurosa. A vasodilatação persistente promove hipóxia celular e alcalose metabólica. O excesso de cortisol induz anabolismo intenso e supressão do sistema imune. Quanto maior a injúria tecidual, mais intenso e duradouro o anabolismo, sendo este responsável pela ocorrência de ganho de peso, edema subcutâneo e perivascular e hiperatividade pós-operatória."}
+        {
+          "label": "A",
+          "text": "A resposta metabólica ao trauma é caracterizada pelo aumento da secreção de hormônios hipofisários, ativação do sistema nervoso simpático e secreção de citocinas pró-inflamatórias, nas quais diferentes fatores podem influenciar sua intensidade, como magnitude e duração dos estímulos, enfermidades ou eventos traumáticos pré-existentes, protocolos anestésicos e técnicas cirúrgicas utilizadas."
+        },
+        {
+          "label": "B",
+          "text": "O objetivo da resposta metabólica ao trauma é manter a perfusão tecidual, controlar a proliferação de microrganismos e mobilizar substratos para garantir a integridade das funções celulares e promover reparação tecidual."
+        },
+        {
+          "label": "C",
+          "text": "Em 1932, David Cuthbertson estabeleceu que a resposta metabólica ao trauma apresenta duas fases distintas: “ebb phase” e “flow phase”. A primeira fase (“ebb phase”) se inicia imediatamente após a injúria e tem por objetivo restaurar a volemia e restabelecer a perfusão tecidual. A segunda fase (“flow phase”), também denominada hiperdinâmica, é caracterizada pelo aumento do metabolismo, com intensa mobilização de energia e substratos proteicos, para garantir a reparação tecidual e as funções orgânicas críticas."
+        },
+        {
+          "label": "D",
+          "text": "Embora a resposta orgânica seja essencial para garantir a homeostase após o trauma cirúrgico, reações exacerbadas podem levar a complicações pós-operatórias, tempo prolongado de recuperação e óbito, especialmente em pacientes debilitados por trauma anterior ou enfermidades pré-existentes."
+        },
+        {
+          "label": "E",
+          "text": "A perpetuação de níveis excessivos de catecolaminas pode causar aumento da frequência e contratilidade cardíaca, gerando menor consumo de oxigênio pelo miocárdio. As catecolaminas também induzem lipólise intensa, com consequente hipolipidemia e embolia gordurosa. A vasodilatação persistente promove hipóxia celular e alcalose metabólica. O excesso de cortisol induz anabolismo intenso e supressão do sistema imune. Quanto maior a injúria tecidual, mais intenso e duradouro o anabolismo, sendo este responsável pela ocorrência de ganho de peso, edema subcutâneo e perivascular e hiperatividade pós-operatória."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -206,8 +407,31 @@
         ],
         "pegadinhas": [
           "Trocar catabolismo por anabolismo."
+        ],
+        "etiologia": "FISIOPATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "FISIOPATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "FISIOPATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "FISIOPATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "FISIOPATOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0020",
@@ -215,18 +439,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEUROLOGIA", "LOCALIZAÇÃO DA LESÃO"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA",
+        "LOCALIZAÇÃO DA LESÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Cães e gatos com sinais de alterações no sistema nervoso são atendidos com frequência na rotina de um hospital veterinário. Determinar a localização da lesão no sistema nervoso é fundamental para definir o diagnóstico, o tratamento e o prognóstico da doença. Com relação à localização da lesão no sistema nervoso e os sinais clínicos, relacione a coluna 1 à coluna 2.\nColuna 1\n1. Síndrome toraco-lombar\n2. Síndrome medular cervical\n3. Síndrome vestibular\n4. Síndrome lombo-sacra\n5. Síndrome cerebelar\n6. Síndrome cervico-torácica\nColuna 2\n( ) Tremor de intenção de cabeça, nistágmo, anisocoria, base de apoio aberta, hipermetria, opistótono.\n( ) Desequilíbrios e quedas, andar em círculos, estrabismo, síndrome de Horner.\n( ) Hiperreflexia e hipertonia dos 4 membros, deambulação com cabeça baixa.\n( ) Hiporreflexia e hipotonia dos membros torácicos, hiperreflexia dos membros pélvicos.\n( ) Reflexos e tônus normais nos membros torácicos, hiperreflxia e hipertonia dos membros pélvicos, atrofia lenta dos membros pélvicos.\n( ) Hiporreflexia e hipotonia dos membros pélvicos, reflexos e tônus normais nos membros torácicos, atrofia rápida dos membros pélvicos.",
       "media": [],
       "options": [
-        {"label": "A", "text": "5-3-2-6-1-4"},
-        {"label": "B", "text": "6-5-1-2-3-4"},
-        {"label": "C", "text": "2-6-5-4-3-1"},
-        {"label": "D", "text": "2-6-1-3-5-4"},
-        {"label": "E", "text": "1-2-5-6-3-4"}
+        {
+          "label": "A",
+          "text": "5-3-2-6-1-4"
+        },
+        {
+          "label": "B",
+          "text": "6-5-1-2-3-4"
+        },
+        {
+          "label": "C",
+          "text": "2-6-5-4-3-1"
+        },
+        {
+          "label": "D",
+          "text": "2-6-1-3-5-4"
+        },
+        {
+          "label": "E",
+          "text": "1-2-5-6-3-4"
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -242,8 +486,34 @@
         "high_yield": [
           "Cerebelo = tremor de intenção/hipermetria.",
           "Vestibular = quedas/círculos/nistagmo."
+        ],
+        "etiologia": "A doença do disco intervertebral é causada pela degeneração do disco, resultando em compressão medular. NEUROLOGIA é uma condição neurológica que requer diagnóstico e tratamento específicos.",
+        "epidemiologia": "NEUROLOGIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "pegadinhas": [
+          "Confundir 'mais comum' com 'único' ou 'sempre'"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEUROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0021",
@@ -251,18 +521,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "INSUFICIÊNCIA PANCREÁTICA EXÓCRINA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "INSUFICIÊNCIA PANCREÁTICA EXÓCRINA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Assinale a alternativa CORRETA em relação a insuficiência pancreática exócrina.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A insuficiência pancreática exócrina pode ter como causa a pancreatite crônica em cães mais velhos e em felinos."},
-        {"label": "B", "text": "A ultrassonografia abdominal é um método sensível e específico para diagnóstico da insuficiência pancreática exócrina."},
-        {"label": "C", "text": "A ausência de teste laboratorial confiável para diagnóstico de insuficiência pancreática exócrina faz o exame histopatológico o método de escolha para realizar o diagnóstico."},
-        {"label": "D", "text": "A esteatorréia é um sinal exclusivo de insuficiência pancreática exócrina."},
-        {"label": "E", "text": "É uma doença apenas dos cães. Não acomete os felinos."}
+        {
+          "label": "A",
+          "text": "A insuficiência pancreática exócrina pode ter como causa a pancreatite crônica em cães mais velhos e em felinos."
+        },
+        {
+          "label": "B",
+          "text": "A ultrassonografia abdominal é um método sensível e específico para diagnóstico da insuficiência pancreática exócrina."
+        },
+        {
+          "label": "C",
+          "text": "A ausência de teste laboratorial confiável para diagnóstico de insuficiência pancreática exócrina faz o exame histopatológico o método de escolha para realizar o diagnóstico."
+        },
+        {
+          "label": "D",
+          "text": "A esteatorréia é um sinal exclusivo de insuficiência pancreática exócrina."
+        },
+        {
+          "label": "E",
+          "text": "É uma doença apenas dos cães. Não acomete os felinos."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -281,8 +571,31 @@
         ],
         "pegadinhas": [
           "Confiar no US para EPI."
+        ],
+        "etiologia": "GASTROENTEROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0022",
@@ -290,18 +603,39 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA", "LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["ENDOCRINOLOGIA", "HIPERLIPIDEMIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA",
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "topic_tags": [
+        "ENDOCRINOLOGIA",
+        "HIPERLIPIDEMIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Assinale a alternativa CORRETA em relação as hiperlipidemias.",
       "media": [],
       "options": [
-        {"label": "A", "text": "O aumento de colesterol e triglicérides podem provocar hepatopatias vacuolares associada a esteatose."},
-        {"label": "B", "text": "A hipercolestorolemia não é fator de risco para pancreatite em cães."},
-        {"label": "C", "text": "O aumento de colesterol total e triglicérides não tem relação com hiperadrenocorticismo."},
-        {"label": "D", "text": "Fibratos são contraindicados como hipolipemiantes."},
-        {"label": "E", "text": "Hiperlipidemia é comum em cães pastores alemães, sendo classificada como familiar nessa raça."}
+        {
+          "label": "A",
+          "text": "O aumento de colesterol e triglicérides podem provocar hepatopatias vacuolares associada a esteatose."
+        },
+        {
+          "label": "B",
+          "text": "A hipercolestorolemia não é fator de risco para pancreatite em cães."
+        },
+        {
+          "label": "C",
+          "text": "O aumento de colesterol total e triglicérides não tem relação com hiperadrenocorticismo."
+        },
+        {
+          "label": "D",
+          "text": "Fibratos são contraindicados como hipolipemiantes."
+        },
+        {
+          "label": "E",
+          "text": "Hiperlipidemia é comum em cães pastores alemães, sendo classificada como familiar nessa raça."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -320,8 +654,31 @@
         ],
         "pegadinhas": [
           "Atribuir quadro a Pastor Alemão; negligenciar causas secundárias."
+        ],
+        "etiologia": "ENDOCRINOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ENDOCRINOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ENDOCRINOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0023",
@@ -329,18 +686,39 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA", "CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "MUCOCELE BILIAR"],
+      "area_tags": [
+        "CLÍNICA MÉDICA",
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "MUCOCELE BILIAR"
+      ],
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Assinale a alternativa CORRETA em relação a Mucocele biliar.",
       "media": [],
       "options": [
-        {"label": "A", "text": "É uma doença comum em felinos tanto quanto em cães."},
-        {"label": "B", "text": "A lama biliar é um tipo de mucocele biliar."},
-        {"label": "C", "text": "O tratamento cirúrgico não é indicado pela boa resposta ao tratamento clínico."},
-        {"label": "D", "text": "Mucocele biliar é mais comum em cães jovens com alimentação restrita em gordura."},
-        {"label": "E", "text": "O hiperadrenocorticismo aumenta o risco para desenvolvimento de mucocele biliar em cães."}
+        {
+          "label": "A",
+          "text": "É uma doença comum em felinos tanto quanto em cães."
+        },
+        {
+          "label": "B",
+          "text": "A lama biliar é um tipo de mucocele biliar."
+        },
+        {
+          "label": "C",
+          "text": "O tratamento cirúrgico não é indicado pela boa resposta ao tratamento clínico."
+        },
+        {
+          "label": "D",
+          "text": "Mucocele biliar é mais comum em cães jovens com alimentação restrita em gordura."
+        },
+        {
+          "label": "E",
+          "text": "O hiperadrenocorticismo aumenta o risco para desenvolvimento de mucocele biliar em cães."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -359,8 +737,31 @@
         ],
         "pegadinhas": [
           "Chamar lama biliar de mucocele."
+        ],
+        "etiologia": "GASTROENTEROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0024",
@@ -368,18 +769,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "DOENÇA INFLAMATÓRIA INTESTINAL"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "DOENÇA INFLAMATÓRIA INTESTINAL"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a alternativa CORRETA em relação as Enteropatias crônicas.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A ultrassonografia abdominal permite o diagnóstico definitivo da doença inflamatória intestinal."},
-        {"label": "B", "text": "A biopsia intestinal confirma o diagnóstico da doença inflamatória intestinal."},
-        {"label": "C", "text": "O diagnóstico da doença inflamatória intestinal é comum em felinos com diarreias agudas."},
-        {"label": "D", "text": "A cronicidade do quadro, inflamação intestinal na biopsia e exclusão de outras causas que provocam inflamação intestinal são os critérios exigidos para o diagnóstico de doença inflamatória intestinal."},
-        {"label": "E", "text": "Doença inflamatória intestinal e linfoma alimentar de células pequenas apresentam quadros clínicos distintos em felinos."}
+        {
+          "label": "A",
+          "text": "A ultrassonografia abdominal permite o diagnóstico definitivo da doença inflamatória intestinal."
+        },
+        {
+          "label": "B",
+          "text": "A biopsia intestinal confirma o diagnóstico da doença inflamatória intestinal."
+        },
+        {
+          "label": "C",
+          "text": "O diagnóstico da doença inflamatória intestinal é comum em felinos com diarreias agudas."
+        },
+        {
+          "label": "D",
+          "text": "A cronicidade do quadro, inflamação intestinal na biopsia e exclusão de outras causas que provocam inflamação intestinal são os critérios exigidos para o diagnóstico de doença inflamatória intestinal."
+        },
+        {
+          "label": "E",
+          "text": "Doença inflamatória intestinal e linfoma alimentar de células pequenas apresentam quadros clínicos distintos em felinos."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -397,8 +818,31 @@
         ],
         "pegadinhas": [
           "Basear-se apenas no US ou na biópsia isoladamente."
+        ],
+        "etiologia": "GASTROENTEROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0025",
@@ -406,18 +850,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEUROLOGIA", "SÍNDROME VESTIBULAR"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA",
+        "SÍNDROME VESTIBULAR"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a alternativa CORRETA em relação a síndrome vestibular.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A presença de nistágmo horizontal indica síndrome vestibular central."},
-        {"label": "B", "text": "Perda do tônus facial e mandibular são sinais de síndrome vestibular."},
-        {"label": "C", "text": "Otite externa pode causar síndrome vestibular periférica."},
-        {"label": "D", "text": "A propriocepção consciente nos membros torácicos e pélvicos diminuída em um paciente com sinais vestibulares sugere lesão vestibular central."},
-        {"label": "E", "text": "Síndrome vestibular periférica é manifestação de alteração do sétimo par de nervos cranianos (nervo facial)."}
+        {
+          "label": "A",
+          "text": "A presença de nistágmo horizontal indica síndrome vestibular central."
+        },
+        {
+          "label": "B",
+          "text": "Perda do tônus facial e mandibular são sinais de síndrome vestibular."
+        },
+        {
+          "label": "C",
+          "text": "Otite externa pode causar síndrome vestibular periférica."
+        },
+        {
+          "label": "D",
+          "text": "A propriocepção consciente nos membros torácicos e pélvicos diminuída em um paciente com sinais vestibulares sugere lesão vestibular central."
+        },
+        {
+          "label": "E",
+          "text": "Síndrome vestibular periférica é manifestação de alteração do sétimo par de nervos cranianos (nervo facial)."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -432,8 +896,35 @@
         "fisiologia": "Vestibular periférico: ataxia, head tilt, nistagmo horizontal/rotatório, propriocepção preservada. Central: déficits proprioceptivos, alteração de pares cranianos múltiplos, nistagmo vertical possível.",
         "high_yield": [
           "Propriocepção ↓ = sugere central."
+        ],
+        "etiologia": "NEUROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEUROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEUROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0026",
@@ -441,18 +932,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["GASTROENTEROLOGIA", "COLITE ULCERATIVA HISTIOCÍTICA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "COLITE ULCERATIVA HISTIOCÍTICA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Aplicação",
       "stem": "Assinale a alternativa correta. Qual o provável diagnóstico para um cão da raça Bulldog Francês, 7 meses de idade, com histórico de hematoquezia recorrente há dois meses, disquezia e diarreia de intestino grosso. Três exames coproparasitológicos negativos com amostras fecais colhidas em diferentes momentos.",
       "media": [],
       "options": [
-        {"label": "A", "text": "Giardíase."},
-        {"label": "B", "text": "Hipersensibilidade alimentar."},
-        {"label": "C", "text": "Colite ulcerativa histiocítica (Granulomatosa)."},
-        {"label": "D", "text": "Colite pseudomembranosa por Clostridium dificili."},
-        {"label": "E", "text": "Histoplasmose."}
+        {
+          "label": "A",
+          "text": "Giardíase."
+        },
+        {
+          "label": "B",
+          "text": "Hipersensibilidade alimentar."
+        },
+        {
+          "label": "C",
+          "text": "Colite ulcerativa histiocítica (Granulomatosa)."
+        },
+        {
+          "label": "D",
+          "text": "Colite pseudomembranosa por Clostridium dificili."
+        },
+        {
+          "label": "E",
+          "text": "Histoplasmose."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -470,8 +981,31 @@
         ],
         "pegadinhas": [
           "Atribuir a parasitas com copro negativo reiterado."
+        ],
+        "etiologia": "As doenças gastrointestinais são frequentes na clínica veterinária. GASTROENTEROLOGIA pode ter etiologia infecciosa, inflamatória, neoplásica ou tóxica.",
+        "epidemiologia": "GASTROENTEROLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "GASTROENTEROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0027",
@@ -479,18 +1013,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["SISTEMA RESPIRATÓRIO", "TOSSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "SISTEMA RESPIRATÓRIO",
+        "TOSSE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre a tosse em cães e gatos, assinale a afirmativa INCORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A pneumonia pode não se apresentar com tosse."},
-        {"label": "B", "text": "O edema pulmonar cardiogênico pode não se apresentar com tosse."},
-        {"label": "C", "text": "A tosse é na maioria das vezes induzida por estímulos nas vias aéreas."},
-        {"label": "D", "text": "Quando improdutiva indica origem cardíaca e quando produtiva origem respiratória."},
-        {"label": "E", "text": "Uma das causas mais frequentes de tosse em felinos é a doença inflamatórias das vias aéreas."}
+        {
+          "label": "A",
+          "text": "A pneumonia pode não se apresentar com tosse."
+        },
+        {
+          "label": "B",
+          "text": "O edema pulmonar cardiogênico pode não se apresentar com tosse."
+        },
+        {
+          "label": "C",
+          "text": "A tosse é na maioria das vezes induzida por estímulos nas vias aéreas."
+        },
+        {
+          "label": "D",
+          "text": "Quando improdutiva indica origem cardíaca e quando produtiva origem respiratória."
+        },
+        {
+          "label": "E",
+          "text": "Uma das causas mais frequentes de tosse em felinos é a doença inflamatórias das vias aéreas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -508,8 +1062,31 @@
         ],
         "pegadinhas": [
           "Confundir variáveis hemodinâmicas."
+        ],
+        "etiologia": "SISTEMA RESPIRATÓRIO é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "SISTEMA RESPIRATÓRIO é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "SISTEMA RESPIRATÓRIO"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "SISTEMA RESPIRATÓRIO"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "SISTEMA RESPIRATÓRIO"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CC-0029",
@@ -517,18 +1094,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA CIRÚRGICA"],
-      "topic_tags": ["NEUROLOGIA", "PARALISIA DE LARINGE"],
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA",
+        "PARALISIA DE LARINGE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre à paralisia laríngea em cães, assinale a afirmativa INCORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "Pode ocorrer como consequência da miastenia gravis."},
-        {"label": "B", "text": "A neuropatia decorrente do hipotireoidismo é proposta como uma das causas possíveis para a paralisia laríngea."},
-        {"label": "C", "text": "Pode ocorrer pela presença de massas ou traumas na região cervical ventral que podem causar lesão direta do nervo laringo recorrente."},
-        {"label": "D", "text": "Pode ocorrer pela presença de massas ou traumas na região anterior da cavidade torácica que podem causar lesão direta do nervo laringo recorrente."},
-        {"label": "E", "text": "O diagnóstico é feito por laringoscopia pois permite avaliar a movimentação das cartilagens aritenoides em plano anestésico-cirúrgico."}
+        {
+          "label": "A",
+          "text": "Pode ocorrer como consequência da miastenia gravis."
+        },
+        {
+          "label": "B",
+          "text": "A neuropatia decorrente do hipotireoidismo é proposta como uma das causas possíveis para a paralisia laríngea."
+        },
+        {
+          "label": "C",
+          "text": "Pode ocorrer pela presença de massas ou traumas na região cervical ventral que podem causar lesão direta do nervo laringo recorrente."
+        },
+        {
+          "label": "D",
+          "text": "Pode ocorrer pela presença de massas ou traumas na região anterior da cavidade torácica que podem causar lesão direta do nervo laringo recorrente."
+        },
+        {
+          "label": "E",
+          "text": "O diagnóstico é feito por laringoscopia pois permite avaliar a movimentação das cartilagens aritenoides em plano anestésico-cirúrgico."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -546,8 +1143,31 @@
         ],
         "pegadinhas": [
           "Avaliar sob anestesia profunda e concluir falsamente paralisia."
+        ],
+        "etiologia": "NEUROLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEUROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Cirurgia",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Cirurgia",
+            "pg": "NEUROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0030",
@@ -555,18 +1175,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["CARDIOLOGIA", "CARDIOMIOPATIA DILATADA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "CARDIOMIOPATIA DILATADA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "São achados comuns na cardiomiopatia dilatada canina, EXCETO a:",
       "media": [],
       "options": [
-        {"label": "A", "text": "disfunção sistólica progressiva."},
-        {"label": "B", "text": "hipertrofia excêntrica progressiva e remodelamento cardíaco."},
-        {"label": "C", "text": "redução do débito cardíaco podendo levar à síncope e a intolerância ao exercício."},
-        {"label": "D", "text": "redução da pós-carga como consequência da redução do débito cardíaco."},
-        {"label": "E", "text": "má aposição dos folhetos das valvas mitral e tricúspide, por remodelamento cardíaco, levando à insuficiência valvar."}
+        {
+          "label": "A",
+          "text": "disfunção sistólica progressiva."
+        },
+        {
+          "label": "B",
+          "text": "hipertrofia excêntrica progressiva e remodelamento cardíaco."
+        },
+        {
+          "label": "C",
+          "text": "redução do débito cardíaco podendo levar à síncope e a intolerância ao exercício."
+        },
+        {
+          "label": "D",
+          "text": "redução da pós-carga como consequência da redução do débito cardíaco."
+        },
+        {
+          "label": "E",
+          "text": "má aposição dos folhetos das valvas mitral e tricúspide, por remodelamento cardíaco, levando à insuficiência valvar."
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -584,8 +1224,31 @@
         ],
         "pegadinhas": [
           "Confundir variáveis hemodinâmicas."
+        ],
+        "etiologia": "CARDIOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "CARDIOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0031",
@@ -593,18 +1256,39 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["NEFROLOGIA", "DOENÇA RENAL CRÔNICA", "HIPOCALEMIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEFROLOGIA",
+        "DOENÇA RENAL CRÔNICA",
+        "HIPOCALEMIA"
+      ],
       "difficulty": "F",
       "cognitive_level": "Aplicação",
       "stem": "Fraqueza muscular generalizada em um felino com doença renal crônica pode estar, mais provavelmente, relacionada a qual desequilíbrio abaixo?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Hiperglicemia"},
-        {"label": "B", "text": "Hipercalemia"},
-        {"label": "C", "text": "Hipercalcemia"},
-        {"label": "D", "text": "Hipocalemia"},
-        {"label": "E", "text": "Hipofosfatemia"}
+        {
+          "label": "A",
+          "text": "Hiperglicemia"
+        },
+        {
+          "label": "B",
+          "text": "Hipercalemia"
+        },
+        {
+          "label": "C",
+          "text": "Hipercalcemia"
+        },
+        {
+          "label": "D",
+          "text": "Hipocalemia"
+        },
+        {
+          "label": "E",
+          "text": "Hipofosfatemia"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -619,8 +1303,35 @@
         "fisiologia": "DRC felina pode cursar com hipocalemia por perda tubular → fraqueza cervical ventroflexora.",
         "high_yield": [
           "Sempre dosar K+ em DRC felina."
+        ],
+        "etiologia": "A urinálise é um exame fundamental para avaliação da função renal. NEFROLOGIA pode ser identificado através de alterações específicas no sedimento urinário.",
+        "epidemiologia": "NEFROLOGIA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "pegadinhas": [
+          "Confundir 'mais comum' com 'único' ou 'sempre'",
+          "Confundir diferentes tipos de alterações urinárias"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEFROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0032",
@@ -628,18 +1339,40 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA", "LABORATÓRIO CLÍNICO"],
-      "topic_tags": ["NEFROLOGIA", "LESÃO RENAL AGUDA", "IRIS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA",
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "topic_tags": [
+        "NEFROLOGIA",
+        "LESÃO RENAL AGUDA",
+        "IRIS"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Segue abaixo as dosagens séricas da creatinina (mg/dL) durante os primeiros cinco dias da internação de um cão que se manteve normohidratado, normotenso e com fluxo urinário preservado. Considerando as diretrizes estabelecidas pela IRIS (International Renal Interest Society), assinale a afirmativa CORRETA.\nDia 1: 0,7\nDia 2: 1,2\nDia 3: 1,2\nDia 4: 1,5\nDia 5: 1,7",
       "media": [],
       "options": [
-        {"label": "A", "text": "O animal não desenvolveu azotemia e não apresenta indícios de lesão renal aguda."},
-        {"label": "B", "text": "A creatinina é um marcador tardio e não deve ser utilizada como variável para estabelecer a lesão renal aguda."},
-        {"label": "C", "text": "A elevação da creatinina no dia 2 indica que a lesão renal pode ser estabelecida nesse momento, mesmo o animal não sendo azotêmico."},
-        {"label": "D", "text": "A elevação da creatinina no dia 5 indica que a lesão renal pode ser estabelecida nesse momento, agora com animal azotêmico"},
-        {"label": "E", "text": "Independente dos valores séricos apresentados, qualquer elevação na concentração sérica da creatinina no período deve ser interpretada como lesão renal aguda."}
+        {
+          "label": "A",
+          "text": "O animal não desenvolveu azotemia e não apresenta indícios de lesão renal aguda."
+        },
+        {
+          "label": "B",
+          "text": "A creatinina é um marcador tardio e não deve ser utilizada como variável para estabelecer a lesão renal aguda."
+        },
+        {
+          "label": "C",
+          "text": "A elevação da creatinina no dia 2 indica que a lesão renal pode ser estabelecida nesse momento, mesmo o animal não sendo azotêmico."
+        },
+        {
+          "label": "D",
+          "text": "A elevação da creatinina no dia 5 indica que a lesão renal pode ser estabelecida nesse momento, agora com animal azotêmico"
+        },
+        {
+          "label": "E",
+          "text": "Independente dos valores séricos apresentados, qualquer elevação na concentração sérica da creatinina no período deve ser interpretada como lesão renal aguda."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -654,8 +1387,35 @@
         "fisiologia": "Critérios IRIS de LRA consideram incrementos absolutos de creatinina em curto período e/ou oligúria.",
         "high_yield": [
           "ΔCr ≥ 0,3 mg/dL em 48 h = LRA."
+        ],
+        "etiologia": "A urinálise é um exame fundamental para avaliação da função renal. NEFROLOGIA pode ser identificado através de alterações específicas no sedimento urinário.",
+        "epidemiologia": "NEFROLOGIA afeta principalmente cães, com variação de incidência entre raças e idades. Fatores genéticos e ambientais influenciam a ocorrência.",
+        "pegadinhas": [
+          "Confundir primeira linha de tratamento com tratamento definitivo",
+          "Confundir diferentes tipos de alterações urinárias"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "NEFROLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0034",
@@ -663,18 +1423,39 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "PIODERMITE", "ANTIBIÓTICOS"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "PIODERMITE",
+        "ANTIBIÓTICOS"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre a piodermite canina, assinale a afirmativa INCORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "A terapia tópica empregando um ativo com atividade antiestafilocócica está indicado para o tratamento de piodermite superficial causado por MRS (estafilococos resistente à meticilina)."},
-        {"label": "B", "text": "A escolha empírica da antibioticoterapia é uma opção para os casos de piodermite causada por MRS, devido à baixa prevalência de multiresistência microbiana."},
-        {"label": "C", "text": "A foliculite bacteriana superficial é diagnóstico diferencial da dermatofitose e demodiciose"},
-        {"label": "D", "text": "A terapia tópica com xampus, para a foliculite superficial multifocal ou generalizada, deve ser aplicada inicialmente 2 a 3 vezes por semana."},
-        {"label": "E", "text": "Ácido fusídico e mupirocina são opões tópicas para as lesões piodermiticas focais."}
+        {
+          "label": "A",
+          "text": "A terapia tópica empregando um ativo com atividade antiestafilocócica está indicado para o tratamento de piodermite superficial causado por MRS (estafilococos resistente à meticilina)."
+        },
+        {
+          "label": "B",
+          "text": "A escolha empírica da antibioticoterapia é uma opção para os casos de piodermite causada por MRS, devido à baixa prevalência de multiresistência microbiana."
+        },
+        {
+          "label": "C",
+          "text": "A foliculite bacteriana superficial é diagnóstico diferencial da dermatofitose e demodiciose"
+        },
+        {
+          "label": "D",
+          "text": "A terapia tópica com xampus, para a foliculite superficial multifocal ou generalizada, deve ser aplicada inicialmente 2 a 3 vezes por semana."
+        },
+        {
+          "label": "E",
+          "text": "Ácido fusídico e mupirocina são opões tópicas para as lesões piodermiticas focais."
+        }
       ],
       "answer_type": "single",
       "rationales": {
@@ -692,8 +1473,31 @@
         ],
         "pegadinhas": [
           "Usar apenas terapia tópica para MRS"
+        ],
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0035",
@@ -701,18 +1505,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "DERMATOFITOSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "DERMATOFITOSE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Assinale a afirmativa CORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "A dermatofitose subcutânea, granulomatosa, é mais comum em gatos Persas e nos cães da raça Yorkshire Terrier."},
-        {"label": "B", "text": "Clorexidina é indicada como monoterapia no tratamento da dermatofitose."},
-        {"label": "C", "text": "O itraconazol e nistatina são fármacos indicados para o tratamento sistêmico da dermatofitose."},
-        {"label": "D", "text": "O lufeneron é uma importante terapia adjuvante na dermatofitose."},
-        {"label": "E", "text": "A resposta clínica é em geral suficiente para monitorar o tratamento da dermatofitose."}
+        {
+          "label": "A",
+          "text": "A dermatofitose subcutânea, granulomatosa, é mais comum em gatos Persas e nos cães da raça Yorkshire Terrier."
+        },
+        {
+          "label": "B",
+          "text": "Clorexidina é indicada como monoterapia no tratamento da dermatofitose."
+        },
+        {
+          "label": "C",
+          "text": "O itraconazol e nistatina são fármacos indicados para o tratamento sistêmico da dermatofitose."
+        },
+        {
+          "label": "D",
+          "text": "O lufeneron é uma importante terapia adjuvante na dermatofitose."
+        },
+        {
+          "label": "E",
+          "text": "A resposta clínica é em geral suficiente para monitorar o tratamento da dermatofitose."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -733,8 +1557,31 @@
         "pegadinhas": [
           "Usar apenas clorexidina",
           "Confundir lufenuron com antifúngico"
+        ],
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0036",
@@ -742,18 +1589,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "MALASSEZIOSE"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "MALASSEZIOSE"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Sobre a malasseziose tegumentar, assinale a afirmativa INCORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Malassezia pachytdermatis é um habitante normal da pele e mucosas de cães saudáveis."},
-        {"label": "B", "text": "A patogênese da dermatite por Malassesia sp envolve uma complexa interação entre alérgenos derivados dos fungos e a resposta imunológica tipo Th1 e Th2."},
-        {"label": "C", "text": "Cães com malasseziose frequentemente possuem fatores predisponentes como alergopatias, enfermidade seborreica ou endocrinopatias."},
-        {"label": "D", "text": "Timoma e alopecia paraneoplásica são duas das enfermidades sistêmicas que predispõe à malasseziose canina, mas não a felina."},
-        {"label": "E", "text": "O raspado de pele é um dos métodos mais recomendados para o diagnóstico citológico da malasseziose."}
+        {
+          "label": "A",
+          "text": "Malassezia pachytdermatis é um habitante normal da pele e mucosas de cães saudáveis."
+        },
+        {
+          "label": "B",
+          "text": "A patogênese da dermatite por Malassesia sp envolve uma complexa interação entre alérgenos derivados dos fungos e a resposta imunológica tipo Th1 e Th2."
+        },
+        {
+          "label": "C",
+          "text": "Cães com malasseziose frequentemente possuem fatores predisponentes como alergopatias, enfermidade seborreica ou endocrinopatias."
+        },
+        {
+          "label": "D",
+          "text": "Timoma e alopecia paraneoplásica são duas das enfermidades sistêmicas que predispõe à malasseziose canina, mas não a felina."
+        },
+        {
+          "label": "E",
+          "text": "O raspado de pele é um dos métodos mais recomendados para o diagnóstico citológico da malasseziose."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -772,8 +1639,31 @@
         ],
         "pegadinhas": [
           "Usar raspado em vez de citologia com fita"
+        ],
+        "etiologia": "DERMATOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0037",
@@ -781,18 +1671,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["DERMATOLOGIA", "DERMATITE ATÓPICA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "DERMATITE ATÓPICA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "A respeito da dermatite atópica canina, assinale a afirmativa CORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Anti-histamínicos, ácidos graxos essenciais e ciclosporina são fármacos muito eficientes para o tratamento da crise aguda da dermatite atópica canina."},
-        {"label": "B", "text": "Oclacitinibe possui indicação apenas para os casos de dermatite atópica cronica."},
-        {"label": "C", "text": "Os testes in vitro são o padrão ouro para o diagnóstico da dermatite atópica e da alergia alimentar."},
-        {"label": "D", "text": "O uso de glicocorticóides orais ou injetáveis são indicados para os casos de dermatite atópica, alergia alimentar e dermatite alérgica a picadas de pulgas."},
-        {"label": "E", "text": "A identificação de potenciais alérgenos ambientais, alérgenos alimentares e infecções secundárias são fundamentais para o controle da crise aguda da dermatite atópica."}
+        {
+          "label": "A",
+          "text": "Anti-histamínicos, ácidos graxos essenciais e ciclosporina são fármacos muito eficientes para o tratamento da crise aguda da dermatite atópica canina."
+        },
+        {
+          "label": "B",
+          "text": "Oclacitinibe possui indicação apenas para os casos de dermatite atópica cronica."
+        },
+        {
+          "label": "C",
+          "text": "Os testes in vitro são o padrão ouro para o diagnóstico da dermatite atópica e da alergia alimentar."
+        },
+        {
+          "label": "D",
+          "text": "O uso de glicocorticóides orais ou injetáveis são indicados para os casos de dermatite atópica, alergia alimentar e dermatite alérgica a picadas de pulgas."
+        },
+        {
+          "label": "E",
+          "text": "A identificação de potenciais alérgenos ambientais, alérgenos alimentares e infecções secundárias são fundamentais para o controle da crise aguda da dermatite atópica."
+        }
       ],
       "answer_type": "single",
       "answer_key": "E",
@@ -808,8 +1718,35 @@
         "high_yield": [
           "Oclacitinibe pode ser usado em crise",
           "Testes alérgicos não diagnosticam DAC isoladamente"
+        ],
+        "etiologia": "As doenças dermatológicas são comuns na medicina veterinária. DERMATOLOGIA pode ter etiologia multifatorial incluindo fatores alérgicos, infecciosos e parasitários.",
+        "epidemiologia": "DERMATOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0038",
@@ -817,18 +1754,37 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA"],
-      "topic_tags": ["ENDOCRINOLOGIA"],
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ENDOCRINOLOGIA"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Assinale a afirmativa INCORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "A insulina glargina e a NPH (ou a Caninsulin) são as indicações iniciais para o tratamento do diabete melito, respectivamente no gato e no cão."},
-        {"label": "B", "text": "O exame de ACTH endógeno está indicado para a distinção entre o hiperadrenocorticismo hipófise dependente e o hiperadrenocorticismo adrenal dependente."},
-        {"label": "C", "text": "A mensuração do T4 total é o exame de eleição para o diagnóstico do hipotireoidismo canino quando ocorre a suspeição da “síndrome do eutireoideu doente”."},
-        {"label": "D", "text": "O mixedema dérmico é alteração que sugere a investigação para o hipotireoidismo canino."},
-        {"label": "E", "text": "Flebectasia cutânea é alteração que ocorre no hiperadrenocorticismo canino."}
+        {
+          "label": "A",
+          "text": "A insulina glargina e a NPH (ou a Caninsulin) são as indicações iniciais para o tratamento do diabete melito, respectivamente no gato e no cão."
+        },
+        {
+          "label": "B",
+          "text": "O exame de ACTH endógeno está indicado para a distinção entre o hiperadrenocorticismo hipófise dependente e o hiperadrenocorticismo adrenal dependente."
+        },
+        {
+          "label": "C",
+          "text": "A mensuração do T4 total é o exame de eleição para o diagnóstico do hipotireoidismo canino quando ocorre a suspeição da “síndrome do eutireoideu doente”."
+        },
+        {
+          "label": "D",
+          "text": "O mixedema dérmico é alteração que sugere a investigação para o hipotireoidismo canino."
+        },
+        {
+          "label": "E",
+          "text": "Flebectasia cutânea é alteração que ocorre no hiperadrenocorticismo canino."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -843,8 +1799,35 @@
         "fisiologia": "Síndrome do eutireoideu doente reduz T4 total sem hipotireoidismo verdadeiro. Diagnóstico de hipotireoidismo: T4 livre (diálise) baixo + TSH alto + clínica.",
         "high_yield": [
           "Evitar interpretar T4 total isolado em doentes sistêmicos."
+        ],
+        "etiologia": "ENDOCRINOLOGIA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ENDOCRINOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "ENDOCRINOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-CM-0039",
@@ -852,18 +1835,39 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["CLÍNICA MÉDICA", "SAÚDE PÚBLICA"],
-      "topic_tags": ["DERMATOLOGIA", "ZOONOSES"],
+      "area_tags": [
+        "CLÍNICA MÉDICA",
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "ZOONOSES"
+      ],
       "difficulty": "M",
       "cognitive_level": "Lembrar",
       "stem": "Assinale a afirmativa CORRETA. Quais das enfermidades abaixo são consideradas dermatozoonoses?",
       "media": [],
       "options": [
-        {"label": "A", "text": "Escabiose e esporotricose."},
-        {"label": "B", "text": "Esporotricose e demodiciose."},
-        {"label": "C", "text": "Pediculose canina e escabiose."},
-        {"label": "D", "text": "Leishmaniose e otoacaríase (Otodectes cynotis)."},
-        {"label": "E", "text": "Alternativas A e D estão corretas."}
+        {
+          "label": "A",
+          "text": "Escabiose e esporotricose."
+        },
+        {
+          "label": "B",
+          "text": "Esporotricose e demodiciose."
+        },
+        {
+          "label": "C",
+          "text": "Pediculose canina e escabiose."
+        },
+        {
+          "label": "D",
+          "text": "Leishmaniose e otoacaríase (Otodectes cynotis)."
+        },
+        {
+          "label": "E",
+          "text": "Alternativas A e D estão corretas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -878,8 +1882,35 @@
         "fisiologia": "Dermatozoonoses são doenças de pele transmissíveis entre animais e humanos. Sarna sarcóptica e esporotricose são exemplos clássicos.",
         "high_yield": [
           "Demodiciose não é zoonótica."
+        ],
+        "etiologia": "A saúde pública veterinária foca na prevenção e controle de doenças. DERMATOLOGIA é fundamental para a saúde coletiva e controle epidemiológico.",
+        "epidemiologia": "DERMATOLOGIA é uma zoonose de importância em saúde pública, afetando tanto animais quanto humanos.",
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Clínica Médica",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Clínica",
+            "pg": "DERMATOLOGIA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-SP-0040",
@@ -887,18 +1918,37 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022.pdf",
       "source_pages": null,
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["ANIMAIS PEÇONHENTOS"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "ANIMAIS PEÇONHENTOS"
+      ],
       "difficulty": "M",
       "cognitive_level": "Entender",
       "stem": "Em relação aos acidentes por animais peçonhentos, assinale a afirmativa CORRETA:",
       "media": [],
       "options": [
-        {"label": "A", "text": "Os acidentes botrópicos e crotálicos produzem sintomas predominantemente locais."},
-        {"label": "B", "text": "O soro antibotrópico tem pouca atividade contra os efeitos necrosantes locais do veneno botrópico."},
-        {"label": "C", "text": "Os acidentes por escorpião são caracterizados por intenso edema, eritema e necrose."},
-        {"label": "D", "text": "Embora desconhecido por grande parte dos clínicos veterinários, o acidente laquético (Lachesis spp) alcança incidência próxima ao acidente botrópico."},
-        {"label": "E", "text": "No araneísmo, a distinção entre os acidentes por Loxosceles spp e por Phoneutria spp possui apenas importância acadêmica, considerando que os sintomas e tratamento são muito semelhantes."}
+        {
+          "label": "A",
+          "text": "Os acidentes botrópicos e crotálicos produzem sintomas predominantemente locais."
+        },
+        {
+          "label": "B",
+          "text": "O soro antibotrópico tem pouca atividade contra os efeitos necrosantes locais do veneno botrópico."
+        },
+        {
+          "label": "C",
+          "text": "Os acidentes por escorpião são caracterizados por intenso edema, eritema e necrose."
+        },
+        {
+          "label": "D",
+          "text": "Embora desconhecido por grande parte dos clínicos veterinários, o acidente laquético (Lachesis spp) alcança incidência próxima ao acidente botrópico."
+        },
+        {
+          "label": "E",
+          "text": "No araneísmo, a distinção entre os acidentes por Loxosceles spp e por Phoneutria spp possui apenas importância acadêmica, considerando que os sintomas e tratamento são muito semelhantes."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -913,8 +1963,34 @@
         "fisiologia": "Soros atuam em frações sistêmicas; necrose local requer manejo específico.",
         "high_yield": [
           "Soro antibotrópico ≠ antídoto para necrose local"
+        ],
+        "etiologia": "ANIMAIS PEÇONHENTOS é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ANIMAIS PEÇONHENTOS apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "pegadinhas": [
+          "Confundir 'mais comum' com 'único' ou 'sempre'"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "ANIMAIS PEÇONHENTOS"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "ANIMAIS PEÇONHENTOS"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "ANIMAIS PEÇONHENTOS"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-SP-0001",
@@ -922,18 +1998,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["LEPTOSPIROSE", "ZOONOSES"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "LEPTOSPIROSE",
+        "ZOONOSES"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Com relação a Leptospirose, analise as asserções a seguir:\nO ser humano é apenas hospedeiro acidental e terminal, dentro da cadeia de transmissão.\nPORQUE\nA infecção humana resulta da exposição direta ou indireta a urina de animais infectados e a transmissão pessoa a pessoa é rara, mas pode ocorrer pelo contato com urina, sangue, secreções e tecidos de pessoas infectadas.\nCom base nas asserções, assinale a opção correta.",
       "media": [],
       "options": [
-        {"label": "A", "text": "As duas asserções são proposições verdadeiras e a segunda é uma justificativa correta da primeira."},
-        {"label": "B", "text": "As duas asserções são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira."},
-        {"label": "C", "text": "A primeira asserção é uma proposição verdadeira e a segunda, uma proposição falsa."},
-        {"label": "D", "text": "A primeira asserção é uma proposição falsa e a segunda, uma proposição verdadeira."},
-        {"label": "E", "text": "Tanto a primeira quanto a segunda asserções são proposições falsas."}
+        {
+          "label": "A",
+          "text": "As duas asserções são proposições verdadeiras e a segunda é uma justificativa correta da primeira."
+        },
+        {
+          "label": "B",
+          "text": "As duas asserções são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira."
+        },
+        {
+          "label": "C",
+          "text": "A primeira asserção é uma proposição verdadeira e a segunda, uma proposição falsa."
+        },
+        {
+          "label": "D",
+          "text": "A primeira asserção é uma proposição falsa e a segunda, uma proposição verdadeira."
+        },
+        {
+          "label": "E",
+          "text": "Tanto a primeira quanto a segunda asserções são proposições falsas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "B",
@@ -954,8 +2050,31 @@
         "pegadinhas": [
           "Confundir 'modo de infecção' com 'razão de ser terminal'",
           "Assumir que pessoa‑pessoa é comum"
+        ],
+        "etiologia": "A urinálise é um exame fundamental para avaliação da função renal. LEPTOSPIROSE pode ser identificado através de alterações específicas no sedimento urinário.",
+        "epidemiologia": "LEPTOSPIROSE apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "LEPTOSPIROSE"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "LEPTOSPIROSE"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "LEPTOSPIROSE"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-SP-0002",
@@ -963,18 +2082,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["CONTROLE DE ROEDORES", "SANEAMENTO"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "CONTROLE DE ROEDORES",
+        "SANEAMENTO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Em relação aos roedores, a estratégia de controle será definida com base no conhecimento prévio da biologia e do comportamento dos roedores, de acordo com seus habitats em cada área (domiciliar, peridomiciliar ou silvestre). Dessa forma, o controle pode abranger duas linhas de ação, a antirratização e a desratização. Sobre a antirratização, analise as afirmações e assinale a alternativa INCORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "Eliminar todos os resíduos, entulhos e objetos inúteis que possam servir para abrigos, tocas e ninhos de roedores, bem como reduzir suas fontes de água e alimento."},
-        {"label": "B", "text": "Armazenar insumos e produtos agrícolas (grãos, hortigranjeiros e frutas) em silos ou tulhas situados a uma distância mínima de 30 m do domicílio."},
-        {"label": "C", "text": "Caso não exista coleta regular, os lixos orgânicos e inorgânicos devem ser enterrados separadamente, com adição de raticidas ao lixo orgânico, para impedir a proliferação dos roedores."},
-        {"label": "D", "text": "Remover diariamente, no período noturno, as sobras dos alimentos de animais domésticos."},
-        {"label": "E", "text": "Os produtos armazenados no interior dos domicílios devem ser conservados em recipientes fechados e a 40 cm do solo. Essa altura é necessária para se realizar a limpeza com maior facilidade."}
+        {
+          "label": "A",
+          "text": "Eliminar todos os resíduos, entulhos e objetos inúteis que possam servir para abrigos, tocas e ninhos de roedores, bem como reduzir suas fontes de água e alimento."
+        },
+        {
+          "label": "B",
+          "text": "Armazenar insumos e produtos agrícolas (grãos, hortigranjeiros e frutas) em silos ou tulhas situados a uma distância mínima de 30 m do domicílio."
+        },
+        {
+          "label": "C",
+          "text": "Caso não exista coleta regular, os lixos orgânicos e inorgânicos devem ser enterrados separadamente, com adição de raticidas ao lixo orgânico, para impedir a proliferação dos roedores."
+        },
+        {
+          "label": "D",
+          "text": "Remover diariamente, no período noturno, as sobras dos alimentos de animais domésticos."
+        },
+        {
+          "label": "E",
+          "text": "Os produtos armazenados no interior dos domicílios devem ser conservados em recipientes fechados e a 40 cm do solo. Essa altura é necessária para se realizar a limpeza com maior facilidade."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -994,8 +2133,31 @@
         ],
         "pegadinhas": [
           "Confundir antirratização (ambiente) com desratização (veneno)"
+        ],
+        "etiologia": "CONTROLE DE ROEDORES é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CONTROLE DE ROEDORES apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "CONTROLE DE ROEDORES"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "CONTROLE DE ROEDORES"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "CONTROLE DE ROEDORES"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-SP-0004",
@@ -1003,18 +2165,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["RAIVA", "CICLOS DE TRANSMISSÃO"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "RAIVA",
+        "CICLOS DE TRANSMISSÃO"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Por finalidade didática, considera-se que a cadeia epidemiológica da doença apresenta quatro ciclos de transmissão: urbano, rural, silvestre aéreo e silvestre terrestre. Sobre os ciclos de transmissão da Raiva, analise as afirmações a seguir.\nI. No Brasil, caninos e felinos constituem as principais fontes de infecção nas áreas urbanas.\nII. Na zona rural, a doença afeta animais de produção, como bovinos, equinos, caprinos e ovinos.\nIII. Os quirópteros (morcegos) são os responsáveis pela manutenção do ciclo silvestre aéreo.\nIV. Carnívoros silvestres, marsupiais e primatas apresentam importância epidemiológica nos ciclos silvestres terrestre da raiva.\nV. O ciclo rural é passível de eliminação, por dispor de medidas eficientes de prevenção, tanto em relação ao homem quanto à fonte de infecção.\nCom relação as afirmações, é correto apenas o que se afirma em:",
       "media": [],
       "options": [
-        {"label": "A", "text": "I e II"},
-        {"label": "B", "text": "IV e V"},
-        {"label": "C", "text": "I, IV e V"},
-        {"label": "D", "text": "I, II, III e IV"},
-        {"label": "E", "text": "I, II, IV e V"}
+        {
+          "label": "A",
+          "text": "I e II"
+        },
+        {
+          "label": "B",
+          "text": "IV e V"
+        },
+        {
+          "label": "C",
+          "text": "I, IV e V"
+        },
+        {
+          "label": "D",
+          "text": "I, II, III e IV"
+        },
+        {
+          "label": "E",
+          "text": "I, II, IV e V"
+        }
       ],
       "answer_type": "single",
       "answer_key": "D",
@@ -1034,8 +2216,31 @@
         ],
         "pegadinhas": [
           "Achar que o ciclo rural é eliminável"
+        ],
+        "etiologia": "A antibioticoterapia é baseada no conhecimento da etiologia bacteriana e sensibilidade aos antimicrobianos. RAIVA requer seleção criteriosa do antimicrobiano adequado.",
+        "epidemiologia": "RAIVA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-SP-0005",
@@ -1043,18 +2248,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["RAIVA", "VIGILÂNCIA EPIDEMIOLÓGICA"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "RAIVA",
+        "VIGILÂNCIA EPIDEMIOLÓGICA"
+      ],
       "difficulty": "F",
       "cognitive_level": "Análise",
       "stem": "Com relação a raiva, muita atenção é dada as condutas após agressões causadas por cães e gatos, analise as asserções a seguir:\nMesmo se o animal estiver sadio no momento da agressão (acidente), é importante que seja mantido em observação por dez dias.\nPORQUE\nNos cães e nos gatos a eliminação de vírus pela saliva ocorre de dois a cinco dias antes do aparecimento dos sinais clínicos e persiste durante toda a evolução da doença. A morte do animal acontece, em média, entre cinco e sete dias após a apresentação dos sintomas.\nCom base nas asserções, assinale a opção correta.",
       "media": [],
       "options": [
-        {"label": "A", "text": "As duas asserções são proposições verdadeiras e a segunda é uma justificativa correta da primeira."},
-        {"label": "B", "text": "As duas asserções são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira."},
-        {"label": "C", "text": "A primeira asserção é uma proposição verdadeira e a segunda, uma proposição falsa."},
-        {"label": "D", "text": "A primeira asserção é uma proposição falsa e a segunda, uma proposição verdadeira."},
-        {"label": "E", "text": "Tanto a primeira quanto a segunda asserções são proposições falsas."}
+        {
+          "label": "A",
+          "text": "As duas asserções são proposições verdadeiras e a segunda é uma justificativa correta da primeira."
+        },
+        {
+          "label": "B",
+          "text": "As duas asserções são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira."
+        },
+        {
+          "label": "C",
+          "text": "A primeira asserção é uma proposição verdadeira e a segunda, uma proposição falsa."
+        },
+        {
+          "label": "D",
+          "text": "A primeira asserção é uma proposição falsa e a segunda, uma proposição verdadeira."
+        },
+        {
+          "label": "E",
+          "text": "Tanto a primeira quanto a segunda asserções são proposições falsas."
+        }
       ],
       "answer_type": "single",
       "answer_key": "A",
@@ -1074,8 +2299,31 @@
         ],
         "pegadinhas": [
           "Interromper observação antes de 10 dias"
+        ],
+        "etiologia": "RAIVA é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "RAIVA é mais comum em gatos, especialmente em determinadas faixas etárias e raças específicas. A prevalência varia conforme fatores ambientais e genéticos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "RAIVA"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     },
     {
       "id": "UFV-2022-SP-0006",
@@ -1083,18 +2331,38 @@
       "exam": "UFV",
       "source_file": "Prova UFV 2022 - SP.pdf",
       "source_pages": null,
-      "area_tags": ["SAÚDE PÚBLICA"],
-      "topic_tags": ["ARBOVIROSES", "AEDES AEGYPTI"],
+      "area_tags": [
+        "SAÚDE PÚBLICA"
+      ],
+      "topic_tags": [
+        "ARBOVIROSES",
+        "AEDES AEGYPTI"
+      ],
       "difficulty": "M",
       "cognitive_level": "Análise",
       "stem": "Os três arbovírus podem ser transmitidos ao homem por via vetorial, vertical e transfusional. A principal forma é a vetorial, que ocorre pela picada de fêmeas de Aedes aegypti infectadas, no ciclo humano-vetor-humano. Ainda sobre o vetor Aedes aegypti, assinale a alternativa INCORRETA.",
       "media": [],
       "options": [
-        {"label": "A", "text": "Na natureza, esses três arbovírus são mantidos entre mosquitos Aedes aegypti, principalmente por intermédio da transmissão transovariana."},
-        {"label": "B", "text": "O vetor Aedes aegypti pode se infectar ao picar uma pessoa infectada no período virêmico, dando início ao Período de Incubação Extrínseco (PIE)."},
-        {"label": "C", "text": "Apesar de realizar a amplificação do vírus na natureza, Aedes aegypti não pode ser considerado um reservatório dos arbovírus, uma vez que o mosquito não desenvolve a forma clínica da doença."},
-        {"label": "D", "text": "O Período de Incubação Extrínseco (PIE) corresponde ao tempo decorrido desde a ingestão de sangue virêmico, pelo mosquito Aedes aegypti suscetível, até o surgimento do vírus na saliva do inseto."},
-        {"label": "E", "text": "Após o Período de Incubação Extrínseco (PIE), o mosquito Aedes aegypti permanece infectante até o final da sua vida, sendo capaz de transmitir o vírus para o homem."}
+        {
+          "label": "A",
+          "text": "Na natureza, esses três arbovírus são mantidos entre mosquitos Aedes aegypti, principalmente por intermédio da transmissão transovariana."
+        },
+        {
+          "label": "B",
+          "text": "O vetor Aedes aegypti pode se infectar ao picar uma pessoa infectada no período virêmico, dando início ao Período de Incubação Extrínseco (PIE)."
+        },
+        {
+          "label": "C",
+          "text": "Apesar de realizar a amplificação do vírus na natureza, Aedes aegypti não pode ser considerado um reservatório dos arbovírus, uma vez que o mosquito não desenvolve a forma clínica da doença."
+        },
+        {
+          "label": "D",
+          "text": "O Período de Incubação Extrínseco (PIE) corresponde ao tempo decorrido desde a ingestão de sangue virêmico, pelo mosquito Aedes aegypti suscetível, até o surgimento do vírus na saliva do inseto."
+        },
+        {
+          "label": "E",
+          "text": "Após o Período de Incubação Extrínseco (PIE), o mosquito Aedes aegypti permanece infectante até o final da sua vida, sendo capaz de transmitir o vírus para o homem."
+        }
       ],
       "answer_type": "single",
       "answer_key": "C",
@@ -1115,8 +2383,31 @@
         "pegadinhas": [
           "Tratar transovariana como principal via de manutenção",
           "Negar papel de reservatório do vetor"
+        ],
+        "etiologia": "ARBOVIROSES é uma condição que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ARBOVIROSES apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Saúde Pública",
+            "pg": "ARBOVIROSES"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Saúde Pública",
+            "pg": "ARBOVIROSES"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Saúde Pública",
+            "pg": "ARBOVIROSES"
+          }
         ]
-      }, "provenance": {}, "status": "approved", "version": 1, "issues": []
+      },
+      "provenance": {},
+      "status": "approved",
+      "version": 1,
+      "issues": []
     }
   ]
 }

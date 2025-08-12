@@ -1,4 +1,59 @@
-/* Placeholder para estilos globais opcionais.
-   Tailwind está sendo carregado via CDN em index.html */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {}
+@layer base {
+  :root {
+    --radius: 0.65rem;
+    --background: oklch(1 0 0);
+    --foreground: oklch(0.141 0.005 285.823);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.141 0.005 285.823);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.141 0.005 285.823);
+    --primary: oklch(0.55 0.15 275.75);
+    --primary-foreground: oklch(0.98 0.005 275.75);
+    --secondary: oklch(0.96 0.005 275.75);
+    --secondary-foreground: oklch(0.25 0.005 275.75);
+    --muted: oklch(0.96 0.005 275.75);
+    --muted-foreground: oklch(0.45 0.005 275.75);
+    --accent: oklch(0.96 0.005 275.75);
+    --accent-foreground: oklch(0.25 0.005 275.75);
+    --destructive: oklch(0.55 0.15 25);
+    --destructive-foreground: oklch(0.98 0.005 275.75);
+    --border: oklch(0.9 0.005 275.75);
+    --input: oklch(0.9 0.005 275.75);
+    --ring: oklch(0.55 0.15 275.75);
+  }
+
+  .dark {
+    --background: oklch(0.141 0.005 285.823);
+    --foreground: oklch(0.985 0 0);
+    --card: oklch(0.141 0.005 285.823);
+    --card-foreground: oklch(0.985 0 0);
+    --popover: oklch(0.141 0.005 285.823);
+    --popover-foreground: oklch(0.985 0 0);
+    --primary: oklch(0.65 0.15 275.75);
+    --primary-foreground: oklch(0.141 0.005 285.823);
+    --secondary: oklch(0.25 0.005 275.75);
+    --secondary-foreground: oklch(0.96 0.005 275.75);
+    --muted: oklch(0.25 0.005 275.75);
+    --muted-foreground: oklch(0.65 0.005 275.75);
+    --accent: oklch(0.25 0.005 275.75);
+    --accent-foreground: oklch(0.96 0.005 275.75);
+    --destructive: oklch(0.65 0.15 25);
+    --destructive-foreground: oklch(0.985 0 0);
+    --border: oklch(0.25 0.005 275.75);
+    --input: oklch(0.25 0.005 275.75);
+    --ring: oklch(0.65 0.15 275.75);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
