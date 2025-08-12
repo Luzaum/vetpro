@@ -8,6 +8,7 @@ import questionBank2 from './data/question_bank_2.json';
 import questionBank3 from './data/question_bank_3.json';
 import questionBank4 from './data/question_bank_4.json';
 import questionBankUFV2021 from './data/question_bank_ufv_2021.json';
+import questionBankUFV2020 from './data/question_bank_ufv_2020.json';
 
 const AREAS = [ 'CLÍNICA MÉDICA', 'CLÍNICA CIRÚRGICA', 'DIAGNÓSTICO POR IMAGEM', 'ANESTESIOLOGIA', 'LABORATÓRIO CLÍNICO', 'SAÚDE PÚBLICA' ];
 
@@ -499,7 +500,8 @@ export default function App() {
           ...(questionBank2 as any).items,
           ...(questionBank3 as any).items,
           ...(questionBank4 as any).items,
-          ...(questionBankUFV2021 as any).items
+          ...(questionBankUFV2021 as any).items,
+          ...(questionBankUFV2020 as any).items
         ];
         try {
           await db.upsertQuestionsInChunks(questionBankItems, 50);

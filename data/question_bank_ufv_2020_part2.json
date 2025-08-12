@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "batch": "UFV-2020-PART2",
+    "total_batches": 2,
+    "taxonomy_version": "v1.0",
+    "generator": "manual-curation",
+    "notes": ["Banco de questões da UFV 2020 (parte 2) - Farmacologia e Clínica Médica"],
+    "persistence": {
+      "strategy": ["json_canonical", "local_cache"],
+      "conflicts": "upsert_on_checksum",
+      "defaults": { "namespace": "vet-residencia", "schema_version": 1 }
+    }
+  },
+  "items": [
+    {
+      "id": "UFV-2020-FARM-0011",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA", "FARMACOLOGIA"],
+      "topic_tags": ["CÁLCULO DE INFUSÃO", "LIDOCAÍNA", "CRI"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99, "FARMACOLOGIA": 0.99},
+        "topic_confidence": {"CÁLCULO DE INFUSÃO": 0.95},
+        "evidence_spans": ["lidocaína", "infusão", "cálculo", "dose", "velocidade"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Necessito preparar uma solução de lidocaína em NaCl 0,9%. A dose de infusão da lidocaína é 50 microgramas/kg/minuto e a velocidade de infusão da solução preparada é de 1ml/kg/hora. O volume final da solução é de 500mL. Qual o volume, em mL, de lidocaína a 2% necessário para o preparo da solução?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "25 mL"},
+        {"label": "B", "text": "50 mL"},
+        {"label": "C", "text": "75 mL"},
+        {"label": "D", "text": "100 mL"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Resultaria de um erro de cálculo, possivelmente na conversão de unidades ou no cálculo da concentração necessária na bolsa.",
+        "B": "Incorreta. Resultaria de um erro de cálculo, possivelmente assumindo uma concentração diferente na bolsa ou erro na conversão de unidades.",
+        "C": "Correta. Vamos ao cálculo passo a passo: 1) Dose em horas = 50 mcg/kg/min * 60 min/h = 3000 mcg/kg/h = 3 mg/kg/h; 2) Concentração desejada = 3 mg/kg/h / 1 mL/kg/h = 3 mg/mL; 3) Massa total = 3 mg/mL * 500 mL = 1500 mg; 4) Volume a adicionar = 1500 mg / 20 mg/mL = 75 mL.",
+        "D": "Incorreta. Resultaria de um erro de cálculo, possivelmente dobrando o volume necessário."
+      },
+      "review": {
+        "etiologia": "A lidocaína em infusão contínua é um excelente analgésico multimodal, especialmente para dor visceral (pancreatite, pós-operatório abdominal). Ela tem efeito anti-inflamatório, antiarrítmico e reduz a necessidade de outros anestésicos.",
+        "epidemiologia": "Questões de cálculo de infusão contínua (CRI) são comuns e temidas em provas de residência. A chave é a consistência das unidades e o método passo a passo.",
+        "fisiologia": "A fórmula universal para adicionar fármaco a uma bolsa de fluido é: Volume a adicionar (mL) = [Dose (mg/kg/h) * Peso (kg) * Volume da Bolsa (mL)] / [Velocidade de Infusão (mL/h) * Concentração do Fármaco (mg/mL)].",
+        "high_yield": [
+          "Padronizar unidades ANTES de calcular",
+          "Dose em horas = Dose em minutos * 60",
+          "Concentração na bolsa = Dose (mg/kg/h) / Velocidade (mL/kg/h)",
+          "Volume a adicionar = Massa total / Concentração do frasco"
+        ],
+        "pegadinhas": [
+          "Não converter unidades de tempo (minutos para horas)",
+          "Não converter unidades de massa (mcg para mg)",
+          "Esquecer de desprezar o mesmo volume da bolsa",
+          "Confundir concentração do frasco com concentração desejada"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Anestesiologia", "pg": "Infusão Contínua"},
+          {"obra": "Cunningham", "cap": "Farmacologia", "pg": "Cálculos de Dose"},
+          {"obra": "Plumb's", "cap": "Lidocaína", "pg": "Infusão Contínua"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a dose de lidocaína em mg/kg/hora equivalente a 30 mcg/kg/minuto?",
+        "options": [
+          {"label": "A", "text": "1,8 mg/kg/h"},
+          {"label": "B", "text": "18 mg/kg/h"},
+          {"label": "C", "text": "180 mg/kg/h"},
+          {"label": "D", "text": "1800 mg/kg/h"}
+        ],
+        "answer_key": "A",
+        "rationale": "30 mcg/kg/min * 60 min/h = 1800 mcg/kg/h = 1,8 mg/kg/h (dividindo por 1000 para converter mcg para mg)."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020farm011"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-FARM-0012",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA", "FARMACOLOGIA"],
+      "topic_tags": ["ANAFILAXIA", "OPIOIDES", "HISTAMINA"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99, "FARMACOLOGIA": 0.99},
+        "topic_confidence": {"ANAFILAXIA": 0.95},
+        "evidence_spans": ["anafilaxia", "fármaco", "protocolo anestésico", "histamina"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual fármaco abaixo NÃO deve ser utilizado no protocolo anestésico de um cão com suspeita de anafilaxia.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Butorfanol"},
+        {"label": "B", "text": "Cetamina"},
+        {"label": "C", "text": "Meperidina"},
+        {"label": "D", "text": "Midazolam"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. Butorfanol é um opioide agonista-antagonista com mínimo potencial de liberar histamina. É considerado seguro nesse cenário.",
+        "B": "Correta. Cetamina é um anestésico dissociativo. Ela tem efeitos simpatomiméticos (aumenta a frequência cardíaca e a pressão arterial) e é um broncodilatador, o que na verdade seria benéfico em um quadro de anafilaxia.",
+        "C": "Incorreta. A anafilaxia é uma reação de hipersensibilidade tipo I grave, caracterizada pela degranulação maciça de mastócitos e a liberação de mediadores inflamatórios, principalmente a histamina. A Meperidina é um opioide que, diferentemente de outros de sua classe, é conhecido por causar uma liberação de histamina dose-dependente e significativa, mesmo em pacientes normais. Administrar meperidina a um paciente que já está sofrendo os efeitos de uma liberação maciça de histamina seria como 'jogar gasolina no fogo', podendo exacerbar a hipotensão e o colapso cardiovascular.",
+        "D": "Correta. Midazolam é um benzodiazepínico. É conhecido por sua grande estabilidade cardiovascular e não causa liberação de histamina. É um fármaco muito seguro em pacientes críticos."
+      },
+      "review": {
+        "etiologia": "A anafilaxia é uma reação de hipersensibilidade tipo I grave, caracterizada pela degranulação maciça de mastócitos e liberação de histamina e outros mediadores inflamatórios.",
+        "epidemiologia": "A morfina é outro opioide conhecido por causar liberação de histamina, especialmente quando administrada por via intravenosa rápida. Por isso, quando usada, deve ser diluída e administrada lentamente.",
+        "fisiologia": "A histamina causa vasodilatação, hipotensão, broncoconstrição e aumento da permeabilidade vascular. Administrar fármacos que também liberam histamina pode exacerbar esses efeitos.",
+        "high_yield": [
+          "Anafilaxia = liberação maciça de histamina",
+          "Meperidina = opioide que libera histamina",
+          "Cetamina = efeitos simpatomiméticos (benéfico na anafilaxia)",
+          "Midazolam = estabilidade cardiovascular"
+        ],
+        "pegadinhas": [
+          "Achar que todos os opioides são seguros na anafilaxia",
+          "Esquecer que a meperidina libera histamina",
+          "Confundir efeitos da cetamina (simpatomiméticos) com liberação de histamina"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Emergências", "pg": "Anafilaxia"},
+          {"obra": "Cunningham", "cap": "Farmacologia", "pg": "Opioides"},
+          {"obra": "Plumb's", "cap": "Meperidina", "pg": "Efeitos Adversos"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual opioide é conhecido por causar liberação de histamina quando administrado por via intravenosa rápida?",
+        "options": [
+          {"label": "A", "text": "Fentanil"},
+          {"label": "B", "text": "Morfina"},
+          {"label": "C", "text": "Butorfanol"},
+          {"label": "D", "text": "Buprenorfina"}
+        ],
+        "answer_key": "B",
+        "rationale": "A morfina é conhecida por causar liberação de histamina, especialmente quando administrada por via intravenosa rápida. Por isso, deve ser diluída e administrada lentamente."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020farm012"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CIR-0013",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA CIRÚRGICA", "CLÍNICA MÉDICA"],
+      "topic_tags": ["PIOMETRA", "REPRODUÇÃO", "PROGESTERONA"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA CIRÚRGICA": 0.99, "CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"PIOMETRA": 0.95},
+        "evidence_spans": ["piometra", "progesterona", "hiperplasia endometrial", "infecção"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre Piometra, analise as afirmações a seguir.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "I, II e III"},
+        {"label": "B", "text": "I, II e IV"},
+        {"label": "C", "text": "II, III e IV"},
+        {"label": "D", "text": "I, III e V"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A afirmação III é falsa. A afirmação descreve os efeitos opostos aos da progesterona. A progesterona inibe a migração de neutrófilos, fecha a cérvix e inibe as contrações do miométrio (para manter a gestação), o que impede a drenagem e favorece a infecção.",
+        "B": "Correta. I - VERDADEIRA: Descreve a teoria clássica e mais aceita da patogenia: a estimulação hormonal crônica (ciclos repetidos de progesterona) leva à Hiperplasia Endometrial Cística (HEC). II - VERDADEIRA: Descreve uma teoria alternativa ou complementar, a da 'Hiperplasia Endometrial Pseudoplacentacional'. IV - VERDADEIRA: Esta afirmação descreve corretamente os efeitos da progesterona no útero durante o diestro.",
+        "C": "Incorreta. A afirmação III é falsa, conforme explicado acima.",
+        "D": "Incorreta. A afirmação III é falsa e a afirmação V é falsa. O tratamento cirúrgico (ovariohisterectomia - OSH) é a recomendação para todos os casos de piometra, sendo uma emergência."
+      },
+      "review": {
+        "etiologia": "A piometra é uma infecção bacteriana secundária do útero que ocorre sob influência hormonal, tipicamente em cadelas e gatas de meia-idade a idosas, não castradas, cerca de 4 a 8 semanas após o cio (durante o diestro).",
+        "epidemiologia": "A piometra é uma emergência médica e cirúrgica. A toxemia sistêmica (endotoxemia) causada pela infecção uterina pode levar rapidamente a um quadro de sepse, choque séptico e falência de múltiplos órgãos.",
+        "fisiologia": "O hormônio 'vilão' da piometra é a Progesterona. Ela é produzida durante o diestro (a fase lútea do ciclo estral) e prepara o útero para a gestação. Lembre-se dos '4 Ps da Progesterona' que predispõem à piometra: Proliferação glandular, Produção de muco, Porta da cérvix fechada e Paralisação da imunidade local.",
+        "high_yield": [
+          "Progesterona = hormônio vilão da piometra",
+          "4 Ps da Progesterona: Proliferação, Produção de muco, Porta fechada, Paralisação da imunidade",
+          "Piometra = emergência cirúrgica",
+          "Tratamento = OSH (ovariohisterectomia)"
+        ],
+        "pegadinhas": [
+          "Achar que a progesterona estimula a imunidade local",
+          "Esquecer que a piometra é uma emergência",
+          "Achar que o tratamento clínico é sempre eficaz"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Reprodução", "pg": "Piometra"},
+          {"obra": "Cunningham", "cap": "Fisiologia Reprodutiva", "pg": "Progesterona"},
+          {"obra": "Plumb's", "cap": "Doenças Uterinas", "pg": "Piometra"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual hormônio é responsável pelos efeitos que predispõem à piometra?",
+        "options": [
+          {"label": "A", "text": "Estrogênio"},
+          {"label": "B", "text": "Progesterona"},
+          {"label": "C", "text": "Prolactina"},
+          {"label": "D", "text": "FSH"}
+        ],
+        "answer_key": "B",
+        "rationale": "A progesterona é o hormônio responsável pelos efeitos que predispõem à piometra: proliferação glandular, produção de muco, fechamento da cérvix e paralisação da imunidade local."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020cir013"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-EMG-0014",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA", "EMERGÊNCIA"],
+      "topic_tags": ["CHOQUE HIPOVOLÊMICO", "HEMORRAGIA", "TRANSFUSÃO"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99, "EMERGÊNCIA": 0.99},
+        "topic_confidence": {"CHOQUE HIPOVOLÊMICO": 0.95},
+        "evidence_spans": ["choque", "hemorragia", "transfusão", "sangue"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Um cão da raça Boxer... 1 hora após ter sido atropelado... perda de grande quantidade de sangue... prostrado, pulso fraco, TPC = 3'', taquicardia, extremidades frias... Ht = 30%, PPT=5,5 g/dl. Sobre o caso... assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "O animal encontra-se em choque distributivo, fase compensada e o tratamento emergencial para esse paciente deve ser a administração de 270 ml de cristaloides."},
+        {"label": "B", "text": "O animal encontra-se em choque hipovolêmico, fase terminal e o tratamento emergencial para esse paciente deve ser a administração de 600 ml de sangue total."},
+        {"label": "C", "text": "O animal encontra-se em choque hipovolêmico, fase compensada e o tratamento emergencial para esse paciente deve ser a administração de 3 litros de cristaloides."},
+        {"label": "D", "text": "O animal encontra-se em choque distributivo, fase descompensada e o tratamento emergencial para esse paciente deve ser a administração de 270 ml de cristaloides."}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. O choque é hipovolêmico (perda de volume), não distributivo (vasodilatação, como na sepse ou anafilaxia). O cálculo do fluido (270 mL) representa apenas 1/10 da dose de choque total, o que seria insuficiente.",
+        "B": "Correta. Tipo de Choque: A história de trauma e hemorragia externa maciça define o quadro como choque hipovolêmico. Fase do Choque: O paciente apresenta sinais de má perfusão severa: prostração (alteração de consciência), pulso fraco, TPC > 2s, taquicardia e extremidades frias. Tratamento: O paciente perdeu sangue total. Embora a reposição inicial com cristaloides seja fundamental, a perda de hemácias (capacidade de carregar O2) e proteínas (pressão oncótica) torna a transfusão de sangue total ou seus componentes a terapia mais completa e indicada.",
+        "C": "Incorreta. A classificação do choque e a fase estão corretas. No entanto, o volume de 3 litros (3000 mL) representa a dose de choque total (90 mL/kg * 30 kg = 2700 mL), que NUNCA deve ser administrada de uma vez só. A administração correta seria em bolus de 1/4 da dose (cerca de 675 mL). Além disso, dada a hemorragia evidente, a transfusão (opção B) é superior à reposição apenas com cristaloides.",
+        "D": "Incorreta. O choque é hipovolêmico (perda de volume), não distributivo. O cálculo do fluido (270 mL) representa apenas 1/10 da dose de choque total, o que seria insuficiente."
+      },
+      "review": {
+        "etiologia": "O choque hipovolêmico é causado pela perda aguda de volume sanguíneo, resultando em diminuição do débito cardíaco e má perfusão tecidual.",
+        "epidemiologia": "O hematócrito em uma hemorragia aguda pode ser falsamente normal ou apenas levemente baixo. Isso porque o animal perde sangue total (plasma e hemácias juntos). A hemodiluição (e a queda do Ht) só se torna evidente horas depois.",
+        "fisiologia": "A 'fórmula do choque' para reposição volêmica inicial com cristaloides isotônicos é: Cães = 90 mL/kg; Gatos = 60 mL/kg. Essa é a dose total de choque. Na prática, administra-se 1/4 da dose total em bolus (em 10-15 min) e reavalia-se o paciente.",
+        "high_yield": [
+          "Choque hipovolêmico = perda de volume",
+          "Choque distributivo = vasodilatação (sepse, anafilaxia)",
+          "Dose de choque cão = 90 mL/kg",
+          "Administração = 1/4 da dose em bolus"
+        ],
+        "pegadinhas": [
+          "Confundir choque hipovolêmico com distributivo",
+          "Administrar toda a dose de choque de uma vez",
+          "Esquecer que hemorragia requer transfusão, não apenas cristaloides"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Emergências", "pg": "Choque"},
+          {"obra": "Cunningham", "cap": "Fisiologia Cardiovascular", "pg": "Choque Hipovolêmico"},
+          {"obra": "Plumb's", "cap": "Emergências", "pg": "Fluidoterapia"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a dose de choque para reposição volêmica inicial em cães?",
+        "options": [
+          {"label": "A", "text": "30 mL/kg"},
+          {"label": "B", "text": "60 mL/kg"},
+          {"label": "C", "text": "90 mL/kg"},
+          {"label": "D", "text": "120 mL/kg"}
+        ],
+        "answer_key": "C",
+        "rationale": "A dose de choque para reposição volêmica inicial em cães é 90 mL/kg de cristaloides isotônicos."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020emg014"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-LAB-0015",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["HEMOGRAMA", "ANEMIA", "CORPÚSCULOS"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"HEMOGRAMA": 0.95},
+        "evidence_spans": ["hemograma", "anemia", "corpúsculo de Döhle", "hemácias"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre a análise do hemograma nas anemias é INCORRETO afirmar que:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A presença de hemácias nucleadas, policromasia e reticulocitose elevada indica anemia regenerativa."},
+        {"label": "B", "text": "Um VCM de 49 fL indica anemia microcítica."},
+        {"label": "C", "text": "A observação de corpúsculo de Döhle em muitas hemácias está relacionada a anemia regenerativa."},
+        {"label": "D", "text": "Na anemia por deficiência de eritropoetina, o VCM e CHCM são normais."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. A presença de hemácias nucleadas (metarrubrícitos), policromasia (que corresponde à reticulocitose) e uma contagem alta de reticulócitos são os sinais cardinais de uma resposta medular vigorosa, ou seja, de uma anemia regenerativa.",
+        "B": "Correta. O VCM (Volume Corpuscular Médio) normal para cães fica na faixa de 60-77 fL. Um VCM de 49 fL está abaixo do normal, caracterizando uma anemia microcítica (hemácias pequenas), classicamente associada à deficiência de ferro.",
+        "C": "Incorreta. Corpúsculos de Döhle são inclusões azul-acinzentadas encontradas no citoplasma de NEUTRÓFILOS, não em hemácias. Eles são um sinal de maturação acelerada e 'defeituosa' dos neutrófilos na medula óssea, sendo a alteração tóxica mais branda, indicativa de inflamação. Não têm nenhuma relação com hemácias ou com a regeneração da série vermelha.",
+        "D": "Correta. Na anemia por deficiência de eritropoetina (associada à doença renal crônica), a medula óssea simplesmente não recebe o estímulo para produzir novas células. O resultado é uma anemia não regenerativa, onde as poucas células produzidas são de tamanho e cor normais, portanto, normocítica e normocrômica."
+      },
+      "review": {
+        "etiologia": "Anemia por deficiência de eritropoetina (EPO) é a principal causa de anemia em pacientes com Doença Renal Crônica (DRC). Os rins doentes não produzem EPO suficiente, e a medula óssea não recebe o estímulo para produzir hemácias.",
+        "epidemiologia": "Corpúsculos de Heinz vs. Corpúsculos de Döhle. É uma pegadinha clássica. Heinz = Hemácia, Hemoglobina oxidada (dano oxidativo). Döhle = Neutrófilo (Desvio à esquerda, Demanda alta), sinal de alteração tóxica.",
+        "fisiologia": "A classificação morfológica da anemia é feita pelos índices hematimétricos: VCM e CHCM. VCM avalia o tamanho da hemácia (microcítica, normocítica, macrocítica). CHCM avalia a 'cor' (concentração de hemoglobina) da hemácia (hipocrômica, normocrômica).",
+        "high_yield": [
+          "Corpúsculos de Döhle = NEUTRÓFILOS (não hemácias)",
+          "Corpúsculos de Heinz = HEMÁCIAS (hemoglobina oxidada)",
+          "VCM normal cão = 60-77 fL",
+          "Anemia microcítica = VCM < normal"
+        ],
+        "pegadinhas": [
+          "Confundir corpúsculos de Döhle (neutrófilos) com corpúsculos de Heinz (hemácias)",
+          "Achar que corpúsculos de Döhle indicam regeneração",
+          "Esquecer que corpúsculos de Döhle são sinal de inflamação"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Hematologia", "pg": "Anemias"},
+          {"obra": "Cunningham", "cap": "Eritrograma", "pg": "Índices Hematimétricos"},
+          {"obra": "Plumb's", "cap": "Hematologia", "pg": "Alterações Celulares"}
+        ]
+      },
+      "training_question": {
+        "stem": "Em qual tipo de célula são encontrados os corpúsculos de Döhle?",
+        "options": [
+          {"label": "A", "text": "Hemácias"},
+          {"label": "B", "text": "Neutrófilos"},
+          {"label": "C", "text": "Linfócitos"},
+          {"label": "D", "text": "Plaquetas"}
+        ],
+        "answer_key": "B",
+        "rationale": "Os corpúsculos de Döhle são inclusões azul-acinzentadas encontradas no citoplasma de neutrófilos, sendo um sinal de alteração tóxica e inflamação."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020lab015"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    }
+  ]
+}

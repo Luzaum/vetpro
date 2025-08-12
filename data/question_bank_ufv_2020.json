@@ -1,0 +1,2802 @@
+{
+  "meta": {
+    "batch": "UFV-2020",
+    "total_batches": 1,
+    "taxonomy_version": "v1.0",
+    "generator": "manual-curation",
+    "notes": ["Banco de questões da UFV 2020 com revisão literária completa e questões de treino"],
+    "persistence": {
+      "strategy": ["json_canonical", "local_cache"],
+      "conflicts": "upsert_on_checksum",
+      "defaults": { "namespace": "vet-residencia", "schema_version": 1 }
+    }
+  },
+  "items": [
+    {
+      "id": "UFV-2020-SP-0001",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "LEI 8.080/90", "SUS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.98, "LEI 8.080/90": 0.95},
+        "evidence_spans": ["vigilância", "conjunto de ações", "mudança nos fatores determinantes", "prevenção e controle", "doenças ou agravos"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "A _______________ é definida como um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva, com a finalidade de recomendar e adotar as medidas de prevenção e controle das doenças ou agravos.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Vigilância Sanitária"},
+        {"label": "B", "text": "Vigilância Ambiental"},
+        {"label": "C", "text": "Saúde do Trabalhador"},
+        {"label": "D", "text": "Vigilância Epidemiológica"},
+        {"label": "E", "text": "Vigilância em Saúde"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A Vigilância Sanitária (VISA) foca em produtos, bens e serviços, além do meio ambiente, para eliminar ou prevenir riscos à saúde. A definição da questão não menciona produtos ou serviços, mas sim doenças e agravos. A VISA atua na fiscalização de estabelecimentos, produtos e serviços de interesse à saúde.",
+        "B": "Incorreta. A Vigilância Ambiental (VA) foca especificamente nos fatores de risco presentes no meio ambiente (água, ar, solo, vetores) que podem afetar a saúde. A definição da questão é mais ampla, abrangendo 'qualquer mudança nos fatores determinantes' da saúde, o que é o escopo da VE.",
+        "C": "Incorreta. A Saúde do Trabalhador é um campo ainda mais específico, voltado para os riscos e agravos advindos das condições de trabalho. A definição na questão é muito mais geral e abrangente.",
+        "D": "Correta. O texto da questão é a transcrição exata da definição de Vigilância Epidemiológica (VE) conforme o Art. 6º, § 2º da Lei 8.080/90. A VE foca em monitorar doenças e agravos na saúde individual ou coletiva para subsidiar a tomada de ações de prevenção e controle. A definição se encaixa perfeitamente.",
+        "E": "Incorreta. Vigilância em Saúde é o conceito mais amplo que engloba todas as vigilâncias (Epidemiológica, Sanitária, Ambiental e Saúde do Trabalhador). A definição específica apresentada na questão refere-se à Vigilância Epidemiológica."
+      },
+      "review": {
+        "etiologia": "A Vigilância Epidemiológica é uma das quatro vigilâncias em saúde previstas na Lei 8.080/90, que estabelece o Sistema Único de Saúde (SUS). Ela é fundamental para o conhecimento da situação de saúde da população.",
+        "epidemiologia": "A VE é essencial para a detecção precoce de problemas de saúde, permitindo a avaliação da efetividade das intervenções e a identificação de tendências epidemiológicas.",
+        "fisiologia": "A VE funciona como um sistema de alerta, monitorando continuamente a ocorrência de doenças e agravos para identificar mudanças que possam indicar a necessidade de intervenções imediatas.",
+        "high_yield": [
+          "Questões sobre as definições da Lei 8.080/90 são extremamente comuns em provas",
+          "Os examinadores adoram trocar as definições entre os diferentes tipos de vigilância",
+          "A melhor tática é memorizar a palavra-chave de cada uma: Epidemiológica = Doenças/Agravos nas pessoas; Sanitária = Produtos/Serviços; Ambiental = Meio Ambiente"
+        ],
+        "pegadinhas": [
+          "Confundir Vigilância Epidemiológica com Vigilância em Saúde (conceito mais amplo)",
+          "Trocar as definições entre os diferentes tipos de vigilância",
+          "Esquecer que a VE foca especificamente em doenças e agravos, não em produtos ou serviços"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 6º, § 2º", "pg": "Definição de Vigilância Epidemiológica"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Sistemas de Vigilância"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Vigilância em Saúde"}
+        ]
+      },
+      "training_question": {
+        "stem": "A _______________ é definida como um conjunto de ações que visa controlar e fiscalizar produtos, bens e serviços de interesse à saúde, incluindo o meio ambiente, os processos e as tecnologias a eles relacionados.",
+        "options": [
+          {"label": "A", "text": "Vigilância Epidemiológica"},
+          {"label": "B", "text": "Vigilância Sanitária"},
+          {"label": "C", "text": "Vigilância Ambiental"},
+          {"label": "D", "text": "Saúde do Trabalhador"}
+        ],
+        "answer_key": "B",
+        "rationale": "Esta é a definição de Vigilância Sanitária conforme a Lei 8.080/90. A diferença principal é que a VISA foca em produtos, bens e serviços, enquanto a VE foca em doenças e agravos."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp001"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0002",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["SISTEMAS DE INFORMAÇÃO", "SINAN", "VIGILÂNCIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"SISTEMAS DE INFORMAÇÃO": 0.95},
+        "evidence_spans": ["sistema de informação", "agravos de notificação compulsória", "registro", "processamento"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "O sistema de Informação que tem por objetivo o registro e o processamento dos dados sobre agravos de notificação compulsória em todo território nacional... é:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "SINS – Sistema de Informações Notificáveis de Saúde"},
+        {"label": "B", "text": "SIM – Sistema de Informações de Morbimortalidade"},
+        {"label": "C", "text": "SIAS – Sistema de Internação de Agravos de Saúde"},
+        {"label": "D", "text": "SINAN – Sistema de Informação de Agravos de Notificação"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. Essa sigla não corresponde a um sistema de informação oficial do DATASUS. O SINAN é o sistema correto para agravos de notificação compulsória.",
+        "B": "Incorreta. O SIM é o Sistema de Informações sobre Mortalidade, que coleta dados das Declarações de Óbito. A questão fala sobre agravos de notificação (morbidade), não apenas mortalidade.",
+        "C": "Incorreta. A sigla SIASUS refere-se ao Sistema de Informações Ambulatoriais do SUS. O sistema que registra as internações hospitalares é o SIH (Sistema de Informações Hospitalares).",
+        "D": "Correta. A definição no enunciado descreve exatamente a função do SINAN. Ele é o sistema oficial do Ministério da Saúde, alimentado pelas notificações compulsórias de doenças e agravos (como raiva, leishmaniose, leptospirose, acidentes com animais peçonhentos) realizadas pelas unidades de saúde de todo o país."
+      },
+      "review": {
+        "etiologia": "O SINAN foi implantado em 1993 e é a principal ferramenta da Vigilância Epidemiológica no Brasil, permitindo a consolidação e análise de dados de notificação compulsória.",
+        "epidemiologia": "O sistema permite que uma notificação feita em uma pequena cidade do interior seja consolidada e analisada em nível estadual e federal, permitindo uma visão panorâmica da situação das doenças no país em tempo quase real.",
+        "fisiologia": "O SINAN funciona como um banco de dados centralizado que coleta, processa e analisa informações sobre doenças e agravos de notificação compulsória, transformando dados individuais em inteligência epidemiológica.",
+        "high_yield": [
+          "SINAN = Sistema de Informação de Agravos de NOTIFICAÇÃO",
+          "SIM = Sistema de Informações sobre MORTALIDADE",
+          "SINASC = Sistema de Informações sobre NASCIDOS Vivos",
+          "Os sistemas de informação do SUS são frequentemente cobrados em provas"
+        ],
+        "pegadinhas": [
+          "Confundir SINAN (notificação) com SIM (mortalidade)",
+          "Esquecer que o SINAN é específico para agravos de notificação compulsória",
+          "Trocar as siglas dos diferentes sistemas de informação"
+        ],
+        "referencias": [
+          {"obra": "Ministério da Saúde", "cap": "Sistemas de Informação", "pg": "SINAN"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Sistemas de Informação"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual sistema de informação do SUS é responsável pelo registro de óbitos no território nacional?",
+        "options": [
+          {"label": "A", "text": "SINAN"},
+          {"label": "B", "text": "SIM"},
+          {"label": "C", "text": "SINASC"},
+          {"label": "D", "text": "SIH"}
+        ],
+        "answer_key": "B",
+        "rationale": "O SIM (Sistema de Informações sobre Mortalidade) é responsável pelo registro de óbitos, utilizando as Declarações de Óbito (DO) como fonte de dados."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp002"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0003",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ZOONOSES", "TRANSMISSÃO", "CLASSIFICAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ZOONOSES": 0.95, "TRANSMISSÃO": 0.90},
+        "evidence_spans": ["zoonoses", "sentido da transmissão", "raiva", "leptospirose", "febre maculosa", "zooantroponose", "antropozoonose"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Ao considerar diferentes zoonoses e/ou seu 'sentido da transmissão', identifique como VERDADEIRAS (V) ou FALSAS (F) as seguintes afirmativas:\n( ) A raiva é uma zooantroponose\n( ) A leptospirose é uma antropozoonose\n( ) A febre maculosa é uma zooantroponose",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "V – V – V"},
+        {"label": "B", "text": "V – F – V"},
+        {"label": "C", "text": "V – F – V"},
+        {"label": "D", "text": "F – F – F"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A leptospirose é uma zooantroponose, não uma antropozoonose. A leptospirose é transmitida pela urina de animais (principalmente roedores) contaminando água, solo ou alimentos que são ingeridos pelo homem. O agente (Leptospira) vem do animal (zoo) para o homem (antropo), caracterizando uma zooantroponose.",
+        "B": "Correta. (V) A raiva é uma zooantroponose (animal → homem) - o vírus é transmitido pela saliva de animais infectados através de mordeduras, arranhaduras ou lambeduras. (F) A leptospirose é uma zooantroponose, não antropozoonose - a transmissão principal é pela urina de animais contaminando o ambiente. (V) A febre maculosa é uma zooantroponose (animal → homem) - a bactéria Rickettsia rickettsii é transmitida por carrapatos que se alimentam de sangue de animais infectados.",
+        "C": "Correta. (V) A raiva é uma zooantroponose (animal → homem) - o vírus é transmitido pela saliva de animais infectados através de mordeduras, arranhaduras ou lambeduras. (F) A leptospirose é uma zooantroponose, não antropozoonose - a transmissão principal é pela urina de animais contaminando o ambiente. (V) A febre maculosa é uma zooantroponose (animal → homem) - a bactéria Rickettsia rickettsii é transmitida por carrapatos que se alimentam de sangue de animais infectados.",
+        "D": "Incorreta. A raiva e a febre maculosa são zooantroponoses verdadeiras. A raiva é transmitida de animais (cães, gatos, morcegos, etc.) para o homem através da saliva contaminada. A febre maculosa é transmitida por carrapatos que se alimentam de animais infectados (capivaras, cavalos, cães) e depois picam o homem."
+      },
+      "review": {
+        "etiologia": "A terminologia de zoonoses é baseada na direção da transmissão: zooantroponose (animal → homem) e antropozoonose (homem → animal). O termo 'zoonose' foi cunhado em 1855 pelo médico Rudolf Virchow.",
+        "epidemiologia": "A maioria das zoonoses importantes na veterinária são Zooantroponoses, onde o animal serve como reservatório e o homem como hospedeiro acidental.",
+        "fisiologia": "A classificação considera o sentido da transmissão do agente etiológico entre as espécies, sendo fundamental para o entendimento da epidemiologia e controle das doenças.",
+        "high_yield": [
+          "ZOOantroponose = Animal → Homem (mais comum)",
+          "ANTROPOzoonose = Homem → Animal (menos comum)",
+          "A maioria das zoonoses importantes são zooantroponoses",
+          "Exemplos clássicos: Raiva, Leptospirose, Febre Maculosa = Zooantroponoses"
+        ],
+        "pegadinhas": [
+          "Confundir a direção da transmissão",
+          "Esquecer que a leptospirose é zooantroponose (urina de roedores → homem)",
+          "Achar que todas as zoonoses são zooantroponoses"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Classificação das Zoonoses"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Transmissão de Doenças"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Zoonoses"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a classificação correta da transmissão da tuberculose bovina para o homem?",
+        "options": [
+          {"label": "A", "text": "Zooantroponose"},
+          {"label": "B", "text": "Antropozoonose"},
+          {"label": "C", "text": "Anfixenose"},
+          {"label": "D", "text": "Saprozoonose"}
+        ],
+        "answer_key": "A",
+        "rationale": "A tuberculose bovina é uma zooantroponose, pois o agente (Mycobacterium bovis) é transmitido do animal (boi) para o homem, principalmente através do consumo de leite contaminado."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp003"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0004",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["INDICADORES EPIDEMIOLÓGICOS", "MORTALIDADE", "LETALIDADE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"INDICADORES EPIDEMIOLÓGICOS": 0.95},
+        "evidence_spans": ["indicadores epidemiológicos", "mortalidade", "letalidade", "incidência", "prevalência"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Assinale a resposta INCORRETA acerca dos indicadores epidemiológicos.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "O coeficiente de morbidade indica a frequência de casos de uma doença em uma população, em uma região definida, durante determinado período de tempo."},
+        {"label": "B", "text": "A taxa de incidência indica a frequência de casos novos de uma doença em uma população, em uma região definida, durante determinado período de tempo."},
+        {"label": "C", "text": "A taxa de letalidade indica a probabilidade de morte de um indivíduo de uma dada população, em uma região definida, durante determinado período de tempo."},
+        {"label": "D", "text": "O coeficiente de mortalidade indica a frequência de óbitos em uma população, em uma região definida, durante determinado período de tempo."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. Esta é a definição correta do coeficiente de morbidade, que mede a frequência de casos de uma doença em uma população específica.",
+        "B": "Correta. Esta é a definição correta da taxa de incidência, que mede a frequência de casos novos de uma doença em uma população específica.",
+        "C": "Incorreta. Esta é a definição do Coeficiente de Mortalidade. A Taxa de Letalidade mede a proporção de óbitos entre os indivíduos que têm uma doença específica, sendo um indicador de gravidade da doença, não da população geral.",
+        "D": "Correta. Esta é a definição correta do coeficiente de mortalidade, que mede a frequência de óbitos em uma população específica."
+      },
+      "review": {
+        "etiologia": "Os indicadores epidemiológicos são ferramentas essenciais para medir a ocorrência de doenças e agravos em populações, permitindo a comparação entre diferentes grupos e períodos.",
+        "epidemiologia": "A prevalência de uma doença é influenciada tanto pela incidência (quantos casos novos surgem) quanto pela duração da doença. Doenças crônicas, mesmo com baixa incidência, podem ter alta prevalência porque os casos se acumulam ao longo do tempo.",
+        "fisiologia": "A diferença fundamental entre mortalidade e letalidade é o denominador: mortalidade considera toda a população, enquanto letalidade considera apenas os doentes.",
+        "high_yield": [
+          "Mortalidade = POPULAÇÃO (quantos morrem na população)",
+          "Letalidade = DOENTES (quantos morrem entre os doentes)",
+          "Incidência = CASOS NOVOS",
+          "Prevalência = CASOS EXISTENTES (novos + antigos)"
+        ],
+        "pegadinhas": [
+          "Confundir Mortalidade (população) com Letalidade (doentes)",
+          "Esquecer que letalidade é um indicador de gravidade da doença",
+          "Trocar as definições de incidência e prevalência"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Indicadores Epidemiológicos"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Medidas de Frequência"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Indicadores"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual indicador epidemiológico mede a proporção de óbitos entre os indivíduos que têm uma doença específica?",
+        "options": [
+          {"label": "A", "text": "Coeficiente de mortalidade"},
+          {"label": "B", "text": "Taxa de letalidade"},
+          {"label": "C", "text": "Taxa de incidência"},
+          {"label": "D", "text": "Coeficiente de morbidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "A taxa de letalidade mede a proporção de óbitos entre os indivíduos que têm uma doença específica, sendo um indicador de gravidade da doença."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp004"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0005",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ANIMAIS PEÇONHENTOS", "PRIMEIROS SOCORROS", "SOROTERAPIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ANIMAIS PEÇONHENTOS": 0.95},
+        "evidence_spans": ["animais peçonhentos", "tratamento", "soroterapia", "primeiros socorros"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "No que diz respeito aos animais peçonhentos, considere as opções abaixo e assinale a que está CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A eliminação de animais peçonhentos é a forma mais eficiente de prevenção de acidentes."},
+        {"label": "B", "text": "O uso de torniquete é recomendado em casos de acidentes por serpentes."},
+        {"label": "C", "text": "A maior atividade desses animais ocorre nos meses de frio."},
+        {"label": "D", "text": "A forma mais eficiente de tratamento para acidentados por serpente, escorpião e lagartas (gênero Lonomia) é a soroterapia."}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A eliminação de animais peçonhentos causa desequilíbrio ecológico. A prevenção é feita por meio de saneamento ambiental e medidas de proteção, não pela eliminação dos animais.",
+        "B": "Incorreta. Torniquete é contraindicado, pois aumenta a lesão local e o risco de necrose e amputação. Pode piorar o quadro e causar complicações graves.",
+        "C": "Incorreta. A maior atividade desses animais e, consequentemente, o maior número de acidentes, ocorre nos meses de calor e chuva (primavera/verão), quando eles estão mais ativos.",
+        "D": "Correta. A soroterapia (soro antiveneno) é o único tratamento específico capaz de neutralizar o veneno circulante. É a terapia que salva vidas nos acidentes moderados e graves por esses animais."
+      },
+      "review": {
+        "etiologia": "Os acidentes com animais peçonhentos são uma importante causa de morbidade e mortalidade, especialmente em áreas rurais e periurbanas do Brasil.",
+        "epidemiologia": "O escorpião-amarelo (Tityus serrulatus) é um problema crescente em grandes centros urbanos. Ele se adapta muito bem ao ambiente peridomiciliar e tem a capacidade de se reproduzir por partenogênese.",
+        "fisiologia": "A soroterapia funciona através da neutralização específica do veneno circulante pelos anticorpos presentes no soro, sendo o tratamento de escolha para acidentes moderados e graves.",
+        "high_yield": [
+          "Soroterapia = tratamento específico para acidentes peçonhentos",
+          "Torniquete = CONTRAINDICADO (aumenta risco de necrose)",
+          "Prevenção = saneamento ambiental, não eliminação dos animais",
+          "Maior atividade = meses quentes e chuvosos"
+        ],
+        "pegadinhas": [
+          "Achar que eliminar animais peçonhentos é a melhor prevenção",
+          "Usar torniquete em acidentes ofídicos",
+          "Esquecer que a soroterapia é o tratamento específico"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Emergências", "pg": "Acidentes com Animais Peçonhentos"},
+          {"obra": "Cunningham", "cap": "Toxicologia", "pg": "Envenenamentos"},
+          {"obra": "Plumb's", "cap": "Emergências", "pg": "Soroterapia"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a conduta CORRETA em caso de acidente ofídico?",
+        "options": [
+          {"label": "A", "text": "Aplicar torniquete no membro afetado"},
+          {"label": "B", "text": "Fazer incisão no local da picada"},
+          {"label": "C", "text": "Manter o membro em repouso e buscar atendimento médico"},
+          {"label": "D", "text": "Aplicar gelo no local da picada"}
+        ],
+        "answer_key": "C",
+        "rationale": "A conduta correta é manter o membro em repouso, evitar movimentação excessiva e buscar atendimento médico imediatamente. Torniquete, incisões e gelo são contraindicados."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp005"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0006",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["CONTROLE DE ROEDORES", "ANTIRRATIZAÇÃO", "DESRATIZAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"CONTROLE DE ROEDORES": 0.95},
+        "evidence_spans": ["antirratização", "desratização", "medidas", "controle"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Identifique com (A) as medidas de ANTIRRATIZAÇÃO ou (D) as medidas de DESRATIZAÇÃO...",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A – D – A – A – D"},
+        {"label": "B", "text": "D – A – D – D – A"},
+        {"label": "C", "text": "A – A – D – D – A"},
+        {"label": "D", "text": "D – D – A – A – D"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A sequência classifica adequadamente as ações: (A) Eliminar abrigos (Antirratização - preventiva), (D) Usar ratoeiras (Desratização - corretiva/eliminação), (A) Reduzir água e alimento (Antirratização - preventiva), (A) Remover sobras de comida (Antirratização - preventiva), (D) Usar raticidas (Desratização - corretiva/eliminação).",
+        "B": "Incorreta. A sequência confunde as estratégias, misturando as ações preventivas com as de eliminação direta.",
+        "C": "Incorreta. A sequência está incorreta, não seguindo a lógica de classificação entre medidas preventivas e corretivas.",
+        "D": "Incorreta. A sequência está incorreta, não seguindo a lógica de classificação entre medidas preventivas e corretivas."
+      },
+      "review": {
+        "etiologia": "As medidas de controle de roedores são divididas em duas estratégias principais: antirratização (preventiva) e desratização (corretiva/eliminação).",
+        "epidemiologia": "As medidas de antirratização são a base do chamado 'Manejo Integrado de Pragas' (MIP), uma abordagem ecológica que prioriza métodos preventivos e de saneamento ambiental.",
+        "fisiologia": "A antirratização funciona removendo os fatores que atraem os roedores (alimento, água, abrigo), enquanto a desratização elimina diretamente os animais através de métodos físicos ou químicos.",
+        "high_yield": [
+          "Antirratização = Anticipar, prevenir, mexer no ambiente",
+          "Desratização = Destruir, matar, eliminar",
+          "Antirratização é sempre preferível à desratização",
+          "O controle químico deve ser o último recurso"
+        ],
+        "pegadinhas": [
+          "Confundir antirratização com desratização",
+          "Achar que desratização é sempre a melhor opção",
+          "Esquecer que a prevenção é mais eficaz que a eliminação"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Controle de Roedores"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Controle de Vetores"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Manejo de Pragas"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual estratégia de controle de roedores é considerada a mais sustentável e eficaz a longo prazo?",
+        "options": [
+          {"label": "A", "text": "Desratização com raticidas"},
+          {"label": "B", "text": "Antirratização com saneamento ambiental"},
+          {"label": "C", "text": "Apenas ratoeiras"},
+          {"label": "D", "text": "Apenas venenos"}
+        ],
+        "answer_key": "B",
+        "rationale": "A antirratização com saneamento ambiental é a estratégia mais sustentável e eficaz a longo prazo, pois remove os fatores que atraem os roedores, prevenindo sua proliferação."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp006"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0007",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["RAIVA", "CONTROLE", "CONDUTAS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"RAIVA": 0.95},
+        "evidence_spans": ["raiva", "cães", "gatos", "eutanásia", "quarentena"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "A Agente de Combate às endemias (ACE), em visita domiciliar... suspeitou de caso de Raiva. Marque a alternativa que constitui intervenção CORRETA em casos de raiva em caninos e/ou felinos.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Cães e gatos com suspeita clínica de raiva devem ser vacinados e mantidos em quarentena por 120 dias."},
+        {"label": "B", "text": "Os cães e gatos que tenham sido mordidos por animais raivosos devem ser submetidos à eutanásia."},
+        {"label": "C", "text": "Cães e gatos vacinados que tenham sido mordidos por animais raivosos devem ser mantidos em quarentena por 45 dias, independentemente do histórico vacinal."},
+        {"label": "D", "text": "Cães e gatos com suspeita clínica de raiva devem ser submetidos à eutanásia imediata."}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Vacinar um animal já com suspeita clínica de raiva é inútil (o vírus já está no SNC, onde a resposta imune não o alcança) e perigoso (aumenta o risco de acidentes durante o manejo). O isolamento para observação é de 10 dias para animais agressores sadios, não 120 dias para animais suspeitos.",
+        "B": "Correta. De acordo com as normas técnicas do Ministério da Saúde, um cão ou gato contactante (agredido) por um animal comprovadamente raivoso deve ser eutanasiado imediatamente, pois o risco de desenvolver a doença e se tornar uma nova fonte de infecção é altíssimo. Essa é a medida de saúde pública preconizada.",
+        "C": "Incorreta. Se um animal vacinado é agredido por um animal raivoso, a conduta recomendada é a revacinação imediata (dose de reforço) e a observação por 45 dias. Se o animal agredido não for vacinado, a recomendação é a eutanásia (como na alternativa B), ou, se o proprietário não permitir, um isolamento rigoroso por 90 dias com vacinação no dia 0.",
+        "D": "Incorreta. Um animal com suspeita de raiva (sinais clínicos) deve ser isolado em local seguro, para evitar acidentes e para observação da evolução clínica. A eutanásia imediata não é a primeira recomendação para o animal clinicamente suspeito."
+      },
+      "review": {
+        "etiologia": "A raiva é uma zoonose viral fatal causada pelo vírus do gênero Lyssavirus, que afeta o sistema nervoso central de mamíferos, incluindo humanos.",
+        "epidemiologia": "A raiva é transmitida principalmente através da saliva de animais infectados, sendo os cães e gatos os principais reservatórios urbanos no Brasil.",
+        "fisiologia": "O vírus da raiva invade o sistema nervoso central através dos nervos periféricos, causando encefalite fatal. O período de incubação varia de dias a meses.",
+        "high_yield": [
+          "Animal contactante por animal raivoso = Eutanásia imediata",
+          "Animal agressor sadio = Observação por 10 dias",
+          "Animal vacinado mordido = Revacinação + 45 dias observação",
+          "Animal não vacinado mordido = Eutanásia ou 90 dias isolamento"
+        ],
+        "pegadinhas": [
+          "Vacinar animal com suspeita clínica de raiva",
+          "Confundir condutas para diferentes cenários",
+          "Esquecer que a eutanásia é obrigatória para contactantes"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Raiva"},
+          {"obra": "Cunningham", "cap": "Virologia", "pg": "Vírus da Raiva"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Raiva"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o período de observação recomendado para um cão sadio que mordeu alguém?",
+        "options": [
+          {"label": "A", "text": "5 dias"},
+          {"label": "B", "text": "10 dias"},
+          {"label": "C", "text": "45 dias"},
+          {"label": "D", "text": "90 dias"}
+        ],
+        "answer_key": "B",
+        "rationale": "Um cão sadio que mordeu alguém deve ser observado por 10 dias. Se ele permanecer vivo e sadio por esse período, descarta-se o risco de transmissão da raiva."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp007"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0008",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["EPIDEMIOLOGIA", "SURTO", "EPIDEMIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"EPIDEMIOLOGIA": 0.95},
+        "evidence_spans": ["surto", "epidemia", "grupo de pessoas", "ambiente de trabalho"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "A figura abaixo representa a análise gráfica da dispersão de uma doença... Não era esperado nenhum caso... para essa população... De acordo com as informações... o perfil de transmissão da doença pode ser classificado como:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Surto epidêmico"},
+        {"label": "B", "text": "Surto endêmico"},
+        {"label": "C", "text": "Epidemia maciça"},
+        {"label": "D", "text": "Epidemia por fonte comum"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A questão fornece duas informações chave: 'Não era esperado nenhum caso dessa doença para essa população' (define o evento como uma epidemia) e 'grupo de pessoas que compartilhou o mesmo ambiente de trabalho' (delimita a ocorrência a uma área restrita). Uma epidemia que ocorre em uma área restrita é definida como um surto. Portanto, surto epidêmico é a classificação mais precisa.",
+        "B": "Incorreta. Os termos são contraditórios. Endemia é a presença habitual de uma doença em níveis esperados. Surto/Epidemia é a ocorrência acima do esperado. Não existe 'surto endêmico'.",
+        "C": "Incorreta. Este não é um termo técnico da epidemiologia.",
+        "D": "Incorreta. O gráfico e a situação podem representar uma epidemia por fonte comum, mas o termo que classifica a ocorrência em si, com base na sua escala e no número de casos inesperados, é 'surto epidêmico'."
+      },
+      "review": {
+        "etiologia": "Surto vs. Epidemia: Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada (uma creche, um quartel, um bairro). Epidemia é o termo para uma área maior (uma cidade, um estado).",
+        "epidemiologia": "A curva epidêmica de uma epidemia por fonte comum (como uma intoxicação alimentar em uma festa) tem uma subida rápida e uma descida também rápida, com os casos concentrados em um curto período de tempo.",
+        "fisiologia": "Todo surto é uma epidemia, mas nem toda epidemia é um surto. A classificação depende da extensão geográfica e populacional da ocorrência.",
+        "high_yield": [
+          "Surto = Epidemia em área pequena e delimitada",
+          "Epidemia = Ocorrência acima do esperado",
+          "Endemia = Presença habitual em níveis esperados",
+          "Pandemia = Epidemia em múltiplos países/continentes"
+        ],
+        "pegadinhas": [
+          "Confundir surto com endemia",
+          "Achar que surto e epidemia são termos contraditórios",
+          "Esquecer que surto é um tipo de epidemia"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Classificação de Epidemias"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Surto vs Epidemia"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual termo é usado para uma epidemia que ocorre em uma área geográfica pequena e bem delimitada?",
+        "options": [
+          {"label": "A", "text": "Endemia"},
+          {"label": "B", "text": "Surto"},
+          {"label": "C", "text": "Pandemia"},
+          {"label": "D", "text": "Epidemia maciça"}
+        ],
+        "answer_key": "B",
+        "rationale": "Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada, como uma creche, quartel ou bairro."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp008"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0009",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEPTOSPIROSE", "CADEIA DE TRANSMISSÃO", "CONCEITOS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEPTOSPIROSE": 0.95},
+        "evidence_spans": ["leptospirose", "patogenicidade", "incubação", "transmissibilidade", "virulência"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Relacione os conteúdos destacados nos trechos sublinhados [sobre leptospirose] com os conceitos...",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "1 – 2 – 3 – 4 – 5"},
+        {"label": "B", "text": "2 – 1 – 4 – 5 – 3"},
+        {"label": "C", "text": "3 – 2 – 1 – 4 – 5"},
+        {"label": "D", "text": "4 – 1 – 2 – 3 – 5"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A sequência está incorreta, não seguindo a lógica das associações entre os conceitos e os trechos do texto sobre leptospirose.",
+        "B": "Correta. Aceitando a má formulação da questão e focando nas associações mais lógicas: (1) '...processo inaparente até formas graves' ➡️ Patogenicidade (capacidade de causar doença), (4) '...sintomas iniciam-se de 1 a 30 dias' ➡️ Período de Incubação, (5) 'Animais... podem eliminar a leptospira...' ➡️ Período de Transmissibilidade, (3) '...letalidade, que pode chegar a 40%...' ➡️ Virulência (grau de severidade).",
+        "C": "Incorreta. A sequência está incorreta, não seguindo a lógica das associações entre os conceitos e os trechos do texto.",
+        "D": "Incorreta. A sequência está incorreta, não seguindo a lógica das associações entre os conceitos e os trechos do texto."
+      },
+      "review": {
+        "etiologia": "A leptospirose é causada por bactérias do gênero Leptospira, que são transmitidas principalmente através da urina de roedores contaminando água, solo ou alimentos.",
+        "epidemiologia": "A leptospirose é uma zoonose de distribuição mundial, mais comum em áreas tropicais e subtropicais, especialmente durante períodos de chuva e enchentes.",
+        "fisiologia": "A patogenicidade da leptospirose varia desde formas assintomáticas até formas graves com insuficiência renal e hepática. O período de incubação é de 1 a 30 dias.",
+        "high_yield": [
+          "Patogenicidade = Capacidade de causar doença",
+          "Virulência = Grau de severidade da doença",
+          "Período de Incubação = Tempo entre infecção e sintomas",
+          "Período de Transmissibilidade = Tempo em que o animal elimina o agente"
+        ],
+        "pegadinhas": [
+          "Confundir patogenicidade com virulência",
+          "Esquecer que a leptospirose tem período de incubação variável",
+          "Não associar corretamente os conceitos aos trechos do texto"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leptospirose"},
+          {"obra": "Cunningham", "cap": "Bacteriologia", "pg": "Leptospira"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leptospirose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual conceito epidemiológico se refere à capacidade de um agente causar doença?",
+        "options": [
+          {"label": "A", "text": "Virulência"},
+          {"label": "B", "text": "Patogenicidade"},
+          {"label": "C", "text": "Infectividade"},
+          {"label": "D", "text": "Transmissibilidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "Patogenicidade se refere à capacidade de um agente causar doença, enquanto virulência se refere ao grau de severidade da doença causada."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp009"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0010",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEISHMANIOSE", "CONTROLE", "TRATAMENTO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEISHMANIOSE": 0.95},
+        "evidence_spans": ["leishmaniose tegumentar", "tratamento", "animais", "resistência"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "...o tratamento de animais positivos não é uma medida aceita para o controle da Leishmaniose Tegumentar Americana. PORQUE O tratamento...poderá conduzir ao risco de selecionar parasitos resistentes...",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "As duas afirmações são verdadeiras e a segunda justifica a primeira."},
+        {"label": "B", "text": "As duas afirmações são verdadeiras, mas a segunda não justifica a primeira."},
+        {"label": "C", "text": "A primeira afirmação é verdadeira e a segunda é falsa."},
+        {"label": "D", "text": "A primeira afirmação é falsa e a segunda é verdadeira."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A primeira afirmação é um fato, baseado nas diretrizes do Ministério da Saúde para o controle da LTA. A segunda afirmação é a justificativa técnica primária para essa diretriz. A relação de causalidade está correta.",
+        "B": "Incorreta. A segunda afirmação justifica a primeira, pois o risco de seleção de parasitos resistentes é a principal razão para não tratar animais como medida de controle da LTA.",
+        "C": "Incorreta. A segunda afirmação é verdadeira e justifica a primeira.",
+        "D": "Incorreta. Ambas as afirmações são verdadeiras e há relação de justificativa entre elas."
+      },
+      "review": {
+        "etiologia": "A Leishmaniose Tegumentar Americana (LTA) é causada por protozoários do gênero Leishmania, transmitidos por flebotomíneos (mosquitos-palha).",
+        "epidemiologia": "A discussão sobre o tratamento de cães com Leishmaniose Visceral (LV) é uma das mais acaloradas na veterinária brasileira. A Nota Técnica Nº 11/2016 do Ministério da Saúde passou a permitir o tratamento com um produto registrado (Miltefosina).",
+        "fisiologia": "O tratamento de animais pode selecionar parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana.",
+        "high_yield": [
+          "LTA = Não tratar animais como medida de controle",
+          "LV = Tratamento permitido com Miltefosina",
+          "Risco principal = Seleção de parasitos resistentes",
+          "Fármacos são os mesmos usados em humanos"
+        ],
+        "pegadinhas": [
+          "Confundir LTA com LV nas políticas de tratamento",
+          "Esquecer que o risco de resistência é real",
+          "Achar que o tratamento de animais é sempre benéfico"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leishmaniose"},
+          {"obra": "Cunningham", "cap": "Protozoologia", "pg": "Leishmania"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leishmaniose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal razão para não tratar cães como medida de controle da Leishmaniose Tegumentar Americana?",
+        "options": [
+          {"label": "A", "text": "Alto custo do tratamento"},
+          {"label": "B", "text": "Risco de seleção de parasitos resistentes"},
+          {"label": "C", "text": "Falta de eficácia do tratamento"},
+          {"label": "D", "text": "Dificuldade de administração"}
+        ],
+        "answer_key": "B",
+        "rationale": "A principal razão é o risco de seleção de parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp010"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0011",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "SISTEMAS DE INFORMAÇÃO", "SINAN"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.95},
+        "evidence_spans": ["vigilância epidemiológica", "sistema de informação", "notificação", "investigação"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A Vigilância Epidemiológica é um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva. Qual das seguintes ações NÃO faz parte da Vigilância Epidemiológica?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Coleta sistemática de dados sobre doenças de notificação compulsória"},
+        {"label": "B", "text": "Investigação epidemiológica de surtos"},
+        {"label": "C", "text": "Fiscalização de estabelecimentos comerciais"},
+        {"label": "D", "text": "Análise e interpretação de dados epidemiológicos"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. A coleta sistemática de dados sobre doenças de notificação compulsória é uma das principais ações da Vigilância Epidemiológica, realizada através do SINAN.",
+        "B": "Correta. A investigação epidemiológica de surtos é uma ação fundamental da Vigilância Epidemiológica para identificar a fonte de infecção e implementar medidas de controle.",
+        "C": "Incorreta. A fiscalização de estabelecimentos comerciais é uma ação da Vigilância Sanitária, não da Vigilância Epidemiológica. A VE foca em doenças e agravos, enquanto a VISA foca em produtos, serviços e estabelecimentos.",
+        "D": "Correta. A análise e interpretação de dados epidemiológicos são ações essenciais da Vigilância Epidemiológica para subsidiar a tomada de decisões em saúde pública."
+      },
+      "review": {
+        "etiologia": "A Vigilância Epidemiológica é uma das quatro vigilâncias em saúde previstas na Lei 8.080/90, focando especificamente em doenças e agravos à saúde.",
+        "epidemiologia": "A VE utiliza sistemas de informação como o SINAN para coletar, processar e analisar dados sobre doenças de notificação compulsória, permitindo a detecção precoce de problemas de saúde.",
+        "fisiologia": "A VE funciona como um sistema de alerta contínuo, monitorando a ocorrência de doenças para identificar mudanças que possam indicar a necessidade de intervenções imediatas.",
+        "high_yield": [
+          "VE = Doenças e agravos (pessoas)",
+          "VISA = Produtos, serviços e estabelecimentos",
+          "VA = Meio ambiente",
+          "VST = Saúde do trabalhador"
+        ],
+        "pegadinhas": [
+          "Confundir VE com VISA nas atribuições",
+          "Esquecer que a VE foca em doenças, não em estabelecimentos",
+          "Achar que todas as vigilâncias fazem fiscalização"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 6º, § 2º", "pg": "Definição de Vigilância Epidemiológica"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Sistemas de Vigilância"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Vigilância em Saúde"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual tipo de vigilância é responsável pela fiscalização de estabelecimentos comerciais?",
+        "options": [
+          {"label": "A", "text": "Vigilância Epidemiológica"},
+          {"label": "B", "text": "Vigilância Sanitária"},
+          {"label": "C", "text": "Vigilância Ambiental"},
+          {"label": "D", "text": "Vigilância em Saúde do Trabalhador"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Vigilância Sanitária (VISA) é responsável pela fiscalização de estabelecimentos comerciais, produtos e serviços de interesse à saúde."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp011"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0012",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ZOONOSES", "TRANSMISSÃO", "CLASSIFICAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ZOONOSES": 0.95},
+        "evidence_spans": ["zoonoses", "transmissão", "classificação", "direção"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Com base na direção da transmissão, as zoonoses podem ser classificadas em diferentes categorias. Qual das seguintes doenças é classificada como antropozoonose?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Raiva"},
+        {"label": "B", "text": "Leptospirose"},
+        {"label": "C", "text": "Tuberculose humana"},
+        {"label": "D", "text": "Febre maculosa"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A raiva é uma zooantroponose, pois o vírus é transmitido de animais (cães, gatos, morcegos) para o homem através da saliva contaminada.",
+        "B": "Incorreta. A leptospirose é uma zooantroponose, pois a bactéria é transmitida pela urina de animais (principalmente roedores) contaminando água, solo ou alimentos.",
+        "C": "Correta. A tuberculose humana (Mycobacterium tuberculosis) é uma antropozoonose, pois pode ser transmitida do homem para animais, especialmente em situações de contato próximo.",
+        "D": "Incorreta. A febre maculosa é uma zooantroponose, pois a bactéria Rickettsia rickettsii é transmitida por carrapatos que se alimentam de sangue de animais infectados."
+      },
+      "review": {
+        "etiologia": "A classificação das zoonoses baseia-se na direção da transmissão do agente etiológico entre as espécies: zooantroponose (animal → homem) e antropozoonose (homem → animal).",
+        "epidemiologia": "A maioria das zoonoses importantes na veterinária são zooantroponoses, onde o animal serve como reservatório e o homem como hospedeiro acidental.",
+        "fisiologia": "A tuberculose humana pode ser transmitida para animais através de aerossóis ou contato direto, especialmente em ambientes fechados e com alta densidade populacional.",
+        "high_yield": [
+          "ZOOantroponose = Animal → Homem (mais comum)",
+          "ANTROPOzoonose = Homem → Animal (menos comum)",
+          "Exemplos de antropozoonose: Tuberculose humana, Sarna humana",
+          "Exemplos de zooantroponose: Raiva, Leptospirose, Febre maculosa"
+        ],
+        "pegadinhas": [
+          "Confundir a direção da transmissão",
+          "Achar que todas as zoonoses são zooantroponoses",
+          "Esquecer que a tuberculose humana pode infectar animais"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Classificação das Zoonoses"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Transmissão de Doenças"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Zoonoses"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a classificação da transmissão da raiva de cães para humanos?",
+        "options": [
+          {"label": "A", "text": "Antropozoonose"},
+          {"label": "B", "text": "Zooantroponose"},
+          {"label": "C", "text": "Anfixenose"},
+          {"label": "D", "text": "Saprozoonose"}
+        ],
+        "answer_key": "B",
+        "rationale": "A raiva é uma zooantroponose, pois o vírus é transmitido de animais (cães) para o homem através da saliva contaminada."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp012"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0013",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["INDICADORES EPIDEMIOLÓGICOS", "MORTALIDADE", "LETALIDADE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"INDICADORES EPIDEMIOLÓGICOS": 0.95},
+        "evidence_spans": ["indicadores", "mortalidade", "letalidade", "população", "doentes"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Em uma população de 10.000 pessoas, ocorreram 50 casos de uma doença específica, dos quais 10 evoluíram para óbito. Qual é a taxa de letalidade dessa doença nessa população?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "0,1%"},
+        {"label": "B", "text": "0,5%"},
+        {"label": "C", "text": "20%"},
+        {"label": "D", "text": "50%"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. 0,1% seria a taxa de mortalidade (10 óbitos ÷ 10.000 pessoas × 100), não a letalidade. A letalidade considera apenas os doentes como denominador.",
+        "B": "Incorreta. 0,5% seria a taxa de incidência (50 casos ÷ 10.000 pessoas × 100), não a letalidade. A letalidade considera apenas os doentes como denominador.",
+        "C": "Correta. Taxa de letalidade = (Número de óbitos ÷ Número de doentes) × 100 = (10 ÷ 50) × 100 = 20%. A letalidade mede a proporção de óbitos entre os indivíduos que têm a doença.",
+        "D": "Incorreta. 50% seria a proporção de casos que evoluíram para óbito, mas o cálculo correto da letalidade é 20%."
+      },
+      "review": {
+        "etiologia": "A taxa de letalidade é um indicador de gravidade da doença, medindo a proporção de óbitos entre os indivíduos que têm uma doença específica.",
+        "epidemiologia": "A letalidade é influenciada por fatores como a virulência do agente, a qualidade do tratamento disponível, e as condições de saúde da população afetada.",
+        "fisiologia": "A diferença fundamental entre mortalidade e letalidade é o denominador: mortalidade considera toda a população, enquanto letalidade considera apenas os doentes.",
+        "high_yield": [
+          "Letalidade = Óbitos ÷ Doentes × 100",
+          "Mortalidade = Óbitos ÷ População × 100",
+          "Letalidade = Indicador de gravidade da doença",
+          "Mortalidade = Indicador de impacto na população"
+        ],
+        "pegadinhas": [
+          "Confundir mortalidade (população) com letalidade (doentes)",
+          "Usar a população total como denominador na letalidade",
+          "Esquecer que letalidade é um indicador de gravidade"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Indicadores Epidemiológicos"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Medidas de Frequência"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Indicadores"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual indicador epidemiológico mede a frequência de óbitos em uma população específica?",
+        "options": [
+          {"label": "A", "text": "Taxa de letalidade"},
+          {"label": "B", "text": "Coeficiente de mortalidade"},
+          {"label": "C", "text": "Taxa de incidência"},
+          {"label": "D", "text": "Coeficiente de morbidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "O coeficiente de mortalidade mede a frequência de óbitos em uma população específica, considerando toda a população como denominador."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp013"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0014",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ANIMAIS PEÇONHENTOS", "PRIMEIROS SOCORROS", "SOROTERAPIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ANIMAIS PEÇONHENTOS": 0.95},
+        "evidence_spans": ["animais peçonhentos", "primeiros socorros", "condutas", "contraindicações"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual das seguintes condutas está CORRETA em caso de acidente com animal peçonhento?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Aplicar torniquete no membro afetado"},
+        {"label": "B", "text": "Fazer incisão no local da picada"},
+        {"label": "C", "text": "Manter o membro em repouso e buscar atendimento médico"},
+        {"label": "D", "text": "Aplicar gelo diretamente no local da picada"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. O torniquete é contraindicado pois aumenta a lesão local e o risco de necrose e amputação. Pode piorar o quadro e causar complicações graves.",
+        "B": "Incorreta. Fazer incisão no local da picada é contraindicado pois pode aumentar a lesão local, facilitar infecções e não remove o veneno que já foi absorvido.",
+        "C": "Correta. Manter o membro em repouso, evitar movimentação excessiva e buscar atendimento médico imediatamente são as condutas corretas. O repouso diminui a velocidade de absorção do veneno.",
+        "D": "Incorreta. Aplicar gelo diretamente no local da picada pode causar queimadura térmica e não neutraliza o veneno. O gelo pode ser usado de forma indireta para aliviar dor."
+      },
+      "review": {
+        "etiologia": "Os acidentes com animais peçonhentos são uma importante causa de morbidade e mortalidade, especialmente em áreas rurais e periurbanas do Brasil.",
+        "epidemiologia": "Os acidentes ofídicos são os mais frequentes, seguidos pelos acidentes escorpiônicos. A maioria dos acidentes ocorre nos meses quentes e chuvosos.",
+        "fisiologia": "O veneno dos animais peçonhentos contém toxinas que podem causar efeitos locais e sistêmicos. O repouso diminui a velocidade de absorção do veneno.",
+        "high_yield": [
+          "Torniquete = CONTRAINDICADO",
+          "Incisão = CONTRAINDICADA",
+          "Repouso = INDICADO",
+          "Buscar atendimento = OBRIGATÓRIO"
+        ],
+        "pegadinhas": [
+          "Usar torniquete em acidentes ofídicos",
+          "Fazer incisão no local da picada",
+          "Aplicar gelo diretamente na pele",
+          "Esquecer que o repouso é fundamental"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Emergências", "pg": "Acidentes com Animais Peçonhentos"},
+          {"obra": "Cunningham", "cap": "Toxicologia", "pg": "Envenenamentos"},
+          {"obra": "Plumb's", "cap": "Emergências", "pg": "Soroterapia"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o tratamento específico para acidentes moderados e graves com animais peçonhentos?",
+        "options": [
+          {"label": "A", "text": "Antibióticos"},
+          {"label": "B", "text": "Soroterapia"},
+          {"label": "C", "text": "Analgésicos"},
+          {"label": "D", "text": "Anti-inflamatórios"}
+        ],
+        "answer_key": "B",
+        "rationale": "A soroterapia (soro antiveneno) é o único tratamento específico capaz de neutralizar o veneno circulante, sendo a terapia que salva vidas nos acidentes moderados e graves."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp014"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0015",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["CONTROLE DE ROEDORES", "ANTIRRATIZAÇÃO", "DESRATIZAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"CONTROLE DE ROEDORES": 0.95},
+        "evidence_spans": ["controle de roedores", "antirratização", "desratização", "estratégias"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual das seguintes estratégias de controle de roedores é considerada a mais sustentável e eficaz a longo prazo?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Aplicação de raticidas em todas as áreas"},
+        {"label": "B", "text": "Antirratização com saneamento ambiental"},
+        {"label": "C", "text": "Uso exclusivo de ratoeiras"},
+        {"label": "D", "text": "Eliminação física de todos os roedores"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A aplicação indiscriminada de raticidas pode causar resistência, contaminação ambiental e intoxicação de animais não-alvo. Não é uma estratégia sustentável.",
+        "B": "Correta. A antirratização com saneamento ambiental é a estratégia mais sustentável e eficaz a longo prazo, pois remove os fatores que atraem os roedores (alimento, água, abrigo), prevenindo sua proliferação.",
+        "C": "Incorreta. O uso exclusivo de ratoeiras é uma medida de desratização que elimina apenas os animais existentes, mas não previne a reinfestação. É menos eficaz que a antirratização.",
+        "D": "Incorreta. A eliminação física de todos os roedores é impossível e causaria desequilíbrio ecológico. Além disso, não previne a reinfestação."
+      },
+      "review": {
+        "etiologia": "As medidas de controle de roedores são divididas em duas estratégias principais: antirratização (preventiva) e desratização (corretiva/eliminação).",
+        "epidemiologia": "As medidas de antirratização são a base do chamado 'Manejo Integrado de Pragas' (MIP), uma abordagem ecológica que prioriza métodos preventivos e de saneamento ambiental.",
+        "fisiologia": "A antirratização funciona removendo os fatores que atraem os roedores (alimento, água, abrigo), enquanto a desratização elimina diretamente os animais através de métodos físicos ou químicos.",
+        "high_yield": [
+          "Antirratização = Anticipar, prevenir, mexer no ambiente",
+          "Desratização = Destruir, matar, eliminar",
+          "Antirratização é sempre preferível à desratização",
+          "O controle químico deve ser o último recurso"
+        ],
+        "pegadinhas": [
+          "Achar que desratização é sempre a melhor opção",
+          "Usar apenas métodos químicos de controle",
+          "Esquecer que a prevenção é mais eficaz que a eliminação",
+          "Achar que é possível eliminar todos os roedores"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Controle de Roedores"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Controle de Vetores"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Manejo de Pragas"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual estratégia de controle de roedores foca na remoção de fatores que atraem os animais?",
+        "options": [
+          {"label": "A", "text": "Desratização"},
+          {"label": "B", "text": "Antirratização"},
+          {"label": "C", "text": "Exterminação"},
+          {"label": "D", "text": "Eradicação"}
+        ],
+        "answer_key": "B",
+        "rationale": "A antirratização foca na remoção de fatores que atraem os roedores (alimento, água, abrigo), sendo uma estratégia preventiva e sustentável."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp015"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0016",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["RAIVA", "CONTROLE", "CONDUTAS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"RAIVA": 0.95},
+        "evidence_spans": ["raiva", "cães", "gatos", "observação", "quarentena"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Um cão sadio mordeu uma pessoa. Qual é o período de observação recomendado para esse cão?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "5 dias"},
+        {"label": "B", "text": "10 dias"},
+        {"label": "C", "text": "45 dias"},
+        {"label": "D", "text": "90 dias"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. 5 dias é um período muito curto para descartar a raiva. O período de incubação da raiva pode ser variável, mas 10 dias é o tempo necessário para confirmar que o animal não está infectado.",
+        "B": "Correta. Um cão sadio que mordeu alguém deve ser observado por 10 dias. Se ele permanecer vivo e sadio por esse período, descarta-se o risco de transmissão da raiva.",
+        "C": "Incorreta. 45 dias é o período de observação para cães vacinados que foram mordidos por animais raivosos, não para cães sadios que morderam pessoas.",
+        "D": "Incorreta. 90 dias é o período de isolamento rigoroso para cães não vacinados que foram mordidos por animais raivosos, quando o proprietário não permite a eutanásia."
+      },
+      "review": {
+        "etiologia": "A raiva é uma zoonose viral fatal causada pelo vírus do gênero Lyssavirus, que afeta o sistema nervoso central de mamíferos, incluindo humanos.",
+        "epidemiologia": "A raiva é transmitida principalmente através da saliva de animais infectados, sendo os cães e gatos os principais reservatórios urbanos no Brasil.",
+        "fisiologia": "O vírus da raiva invade o sistema nervoso central através dos nervos periféricos, causando encefalite fatal. O período de incubação varia de dias a meses.",
+        "high_yield": [
+          "Cão sadio que mordeu = 10 dias observação",
+          "Cão vacinado mordido = 45 dias observação",
+          "Cão não vacinado mordido = Eutanásia ou 90 dias isolamento",
+          "Cão contactante por raivoso = Eutanásia imediata"
+        ],
+        "pegadinhas": [
+          "Confundir períodos de observação para diferentes cenários",
+          "Esquecer que 10 dias é o padrão para cães sadios agressores",
+          "Achar que todos os cães precisam de 45 dias de observação"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Raiva"},
+          {"obra": "Cunningham", "cap": "Virologia", "pg": "Vírus da Raiva"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Raiva"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a conduta recomendada para um cão não vacinado que foi mordido por um animal raivoso?",
+        "options": [
+          {"label": "A", "text": "Observação por 10 dias"},
+          {"label": "B", "text": "Observação por 45 dias"},
+          {"label": "C", "text": "Eutanásia imediata"},
+          {"label": "D", "text": "Vacinação e observação por 90 dias"}
+        ],
+        "answer_key": "C",
+        "rationale": "Um cão não vacinado que foi mordido por um animal raivoso deve ser eutanasiado imediatamente, pois o risco de desenvolver a doença é altíssimo."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp016"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0017",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["EPIDEMIOLOGIA", "SURTO", "EPIDEMIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"EPIDEMIOLOGIA": 0.95},
+        "evidence_spans": ["surto", "epidemia", "classificação", "área geográfica"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual termo é usado para uma epidemia que ocorre em uma área geográfica pequena e bem delimitada?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Endemia"},
+        {"label": "B", "text": "Surto"},
+        {"label": "C", "text": "Pandemia"},
+        {"label": "D", "text": "Epidemia maciça"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Endemia é a presença habitual de uma doença em níveis esperados em uma determinada área geográfica. Não se refere a uma epidemia em área pequena.",
+        "B": "Correta. Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada, como uma creche, quartel ou bairro.",
+        "C": "Incorreta. Pandemia é uma epidemia que ocorre em múltiplos países ou continentes, não em uma área pequena.",
+        "D": "Incorreta. 'Epidemia maciça' não é um termo técnico da epidemiologia."
+      },
+      "review": {
+        "etiologia": "Surto vs. Epidemia: Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada (uma creche, um quartel, um bairro). Epidemia é o termo para uma área maior (uma cidade, um estado).",
+        "epidemiologia": "A curva epidêmica de uma epidemia por fonte comum (como uma intoxicação alimentar em uma festa) tem uma subida rápida e uma descida também rápida, com os casos concentrados em um curto período de tempo.",
+        "fisiologia": "Todo surto é uma epidemia, mas nem toda epidemia é um surto. A classificação depende da extensão geográfica e populacional da ocorrência.",
+        "high_yield": [
+          "Surto = Epidemia em área pequena e delimitada",
+          "Epidemia = Ocorrência acima do esperado",
+          "Endemia = Presença habitual em níveis esperados",
+          "Pandemia = Epidemia em múltiplos países/continentes"
+        ],
+        "pegadinhas": [
+          "Confundir surto com endemia",
+          "Achar que surto e epidemia são termos contraditórios",
+          "Esquecer que surto é um tipo de epidemia",
+          "Usar termos não técnicos como 'epidemia maciça'"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Classificação de Epidemias"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Surto vs Epidemia"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual termo é usado para uma epidemia que ocorre em múltiplos países ou continentes?",
+        "options": [
+          {"label": "A", "text": "Surto"},
+          {"label": "B", "text": "Epidemia"},
+          {"label": "C", "text": "Pandemia"},
+          {"label": "D", "text": "Endemia"}
+        ],
+        "answer_key": "C",
+        "rationale": "Pandemia é o termo usado para uma epidemia que ocorre em múltiplos países ou continentes, representando uma disseminação global da doença."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp017"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0018",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEPTOSPIROSE", "CADEIA DE TRANSMISSÃO", "CONCEITOS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEPTOSPIROSE": 0.95},
+        "evidence_spans": ["leptospirose", "conceitos", "patogenicidade", "virulência"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual conceito epidemiológico se refere à capacidade de um agente causar doença?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Virulência"},
+        {"label": "B", "text": "Patogenicidade"},
+        {"label": "C", "text": "Infectividade"},
+        {"label": "D", "text": "Transmissibilidade"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Virulência se refere ao grau de severidade da doença causada por um agente, não à capacidade de causar doença.",
+        "B": "Correta. Patogenicidade se refere à capacidade de um agente causar doença, independentemente da severidade.",
+        "C": "Incorreta. Infectividade se refere à capacidade de um agente se estabelecer e multiplicar em um hospedeiro, não especificamente causar doença.",
+        "D": "Incorreta. Transmissibilidade se refere à capacidade de um agente ser transmitido de um hospedeiro para outro, não à capacidade de causar doença."
+      },
+      "review": {
+        "etiologia": "A leptospirose é causada por bactérias do gênero Leptospira, que são transmitidas principalmente através da urina de roedores contaminando água, solo ou alimentos.",
+        "epidemiologia": "A leptospirose é uma zoonose de distribuição mundial, mais comum em áreas tropicais e subtropicais, especialmente durante períodos de chuva e enchentes.",
+        "fisiologia": "A patogenicidade da leptospirose varia desde formas assintomáticas até formas graves com insuficiência renal e hepática. O período de incubação é de 1 a 30 dias.",
+        "high_yield": [
+          "Patogenicidade = Capacidade de causar doença",
+          "Virulência = Grau de severidade da doença",
+          "Infectividade = Capacidade de se estabelecer no hospedeiro",
+          "Transmissibilidade = Capacidade de ser transmitido"
+        ],
+        "pegadinhas": [
+          "Confundir patogenicidade com virulência",
+          "Esquecer que patogenicidade é independente da severidade",
+          "Achar que infectividade é sinônimo de patogenicidade"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leptospirose"},
+          {"obra": "Cunningham", "cap": "Bacteriologia", "pg": "Leptospira"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leptospirose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual conceito epidemiológico se refere ao grau de severidade da doença causada por um agente?",
+        "options": [
+          {"label": "A", "text": "Patogenicidade"},
+          {"label": "B", "text": "Virulência"},
+          {"label": "C", "text": "Infectividade"},
+          {"label": "D", "text": "Transmissibilidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "Virulência se refere ao grau de severidade da doença causada por um agente, enquanto patogenicidade se refere à capacidade de causar doença."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp018"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0019",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEISHMANIOSE", "CONTROLE", "TRATAMENTO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEISHMANIOSE": 0.95},
+        "evidence_spans": ["leishmaniose", "tratamento", "controle", "resistência"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual é a principal razão para não tratar cães como medida de controle da Leishmaniose Tegumentar Americana?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Alto custo do tratamento"},
+        {"label": "B", "text": "Risco de seleção de parasitos resistentes"},
+        {"label": "C", "text": "Falta de eficácia do tratamento"},
+        {"label": "D", "text": "Dificuldade de administração"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Embora o custo possa ser um fator, não é a principal razão. O risco de resistência é mais importante para a saúde pública.",
+        "B": "Correta. A principal razão é o risco de seleção de parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana.",
+        "C": "Incorreta. O tratamento pode ser eficaz em cães, mas o risco de resistência é a preocupação principal.",
+        "D": "Incorreta. A dificuldade de administração não é a principal razão. O risco de resistência é mais importante para a saúde pública."
+      },
+      "review": {
+        "etiologia": "A Leishmaniose Tegumentar Americana (LTA) é causada por protozoários do gênero Leishmania, transmitidos por flebotomíneos (mosquitos-palha).",
+        "epidemiologia": "A discussão sobre o tratamento de cães com Leishmaniose Visceral (LV) é uma das mais acaloradas na veterinária brasileira. A Nota Técnica Nº 11/2016 do Ministério da Saúde passou a permitir o tratamento com um produto registrado (Miltefosina).",
+        "fisiologia": "O tratamento de animais pode selecionar parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana.",
+        "high_yield": [
+          "LTA = Não tratar animais como medida de controle",
+          "LV = Tratamento permitido com Miltefosina",
+          "Risco principal = Seleção de parasitos resistentes",
+          "Fármacos são os mesmos usados em humanos"
+        ],
+        "pegadinhas": [
+          "Confundir LTA com LV nas políticas de tratamento",
+          "Esquecer que o risco de resistência é real",
+          "Achar que o tratamento de animais é sempre benéfico",
+          "Focar em fatores secundários como custo"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leishmaniose"},
+          {"obra": "Cunningham", "cap": "Protozoologia", "pg": "Leishmania"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leishmaniose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual tipo de leishmaniose permite o tratamento de cães com Miltefosina no Brasil?",
+        "options": [
+          {"label": "A", "text": "Leishmaniose Tegumentar Americana"},
+          {"label": "B", "text": "Leishmaniose Visceral"},
+          {"label": "C", "text": "Ambas as formas"},
+          {"label": "D", "text": "Nenhuma das formas"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Leishmaniose Visceral permite o tratamento de cães com Miltefosina conforme a Nota Técnica Nº 11/2016 do Ministério da Saúde."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp019"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0020",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["SISTEMAS DE INFORMAÇÃO", "SINAN", "VIGILÂNCIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"SISTEMAS DE INFORMAÇÃO": 0.95},
+        "evidence_spans": ["sistema de informação", "SINAN", "notificação", "dados"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Qual é a principal função do SINAN (Sistema de Informação de Agravos de Notificação)?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Registrar apenas óbitos no território nacional"},
+        {"label": "B", "text": "Coletar dados sobre internações hospitalares"},
+        {"label": "C", "text": "Registrar e processar dados sobre agravos de notificação compulsória"},
+        {"label": "D", "text": "Monitorar apenas doenças crônicas"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. O registro de óbitos é função do SIM (Sistema de Informações sobre Mortalidade), não do SINAN.",
+        "B": "Incorreta. A coleta de dados sobre internações hospitalares é função do SIH (Sistema de Informações Hospitalares), não do SINAN.",
+        "C": "Correta. O SINAN é o sistema oficial do Ministério da Saúde para registrar e processar dados sobre agravos de notificação compulsória em todo o território nacional.",
+        "D": "Incorreta. O SINAN monitora tanto doenças agudas quanto crônicas que são de notificação compulsória, não apenas doenças crônicas."
+      },
+      "review": {
+        "etiologia": "O SINAN foi implantado em 1993 e é a principal ferramenta da Vigilância Epidemiológica no Brasil, permitindo a consolidação e análise de dados de notificação compulsória.",
+        "epidemiologia": "O sistema permite que uma notificação feita em uma pequena cidade do interior seja consolidada e analisada em nível estadual e federal, permitindo uma visão panorâmica da situação das doenças no país em tempo quase real.",
+        "fisiologia": "O SINAN funciona como um banco de dados centralizado que coleta, processa e analisa informações sobre doenças e agravos de notificação compulsória, transformando dados individuais em inteligência epidemiológica.",
+        "high_yield": [
+          "SINAN = Sistema de Informação de Agravos de NOTIFICAÇÃO",
+          "SIM = Sistema de Informações sobre MORTALIDADE",
+          "SINASC = Sistema de Informações sobre NASCIDOS Vivos",
+          "SIH = Sistema de Informações HOSPITALARES"
+        ],
+        "pegadinhas": [
+          "Confundir SINAN (notificação) com SIM (mortalidade)",
+          "Esquecer que o SINAN é específico para agravos de notificação compulsória",
+          "Trocar as funções dos diferentes sistemas de informação",
+          "Achar que o SINAN monitora apenas um tipo de doença"
+        ],
+        "referencias": [
+          {"obra": "Ministério da Saúde", "cap": "Sistemas de Informação", "pg": "SINAN"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Sistemas de Informação"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual sistema de informação do SUS é responsável pelo registro de nascidos vivos?",
+        "options": [
+          {"label": "A", "text": "SINAN"},
+          {"label": "B", "text": "SIM"},
+          {"label": "C", "text": "SINASC"},
+          {"label": "D", "text": "SIH"}
+        ],
+        "answer_key": "C",
+        "rationale": "O SINASC (Sistema de Informações sobre Nascidos Vivos) é responsável pelo registro de nascidos vivos no território nacional."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp020"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0021",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "LEI 8.080/90", "SUS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.95},
+        "evidence_spans": ["vigilância epidemiológica", "lei 8.080/90", "definição", "ações"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "A Vigilância Epidemiológica é definida como um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva. Esta definição está prevista em qual legislação?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Lei 8.142/90"},
+        {"label": "B", "text": "Lei 8.080/90"},
+        {"label": "C", "text": "Lei 8.069/90"},
+        {"label": "D", "text": "Lei 8.213/91"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A Lei 8.142/90 dispõe sobre a participação da comunidade na gestão do SUS e sobre as transferências intergovernamentais de recursos financeiros na área da saúde.",
+        "B": "Correta. A definição de Vigilância Epidemiológica está prevista no Art. 6º, § 2º da Lei 8.080/90, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes.",
+        "C": "Incorreta. A Lei 8.069/90 é o Estatuto da Criança e do Adolescente (ECA), não trata de vigilância epidemiológica.",
+        "D": "Incorreta. A Lei 8.213/91 dispõe sobre os Planos de Benefícios da Previdência Social, não sobre vigilância epidemiológica."
+      },
+      "review": {
+        "etiologia": "A Lei 8.080/90 é a lei orgânica da saúde que estabelece o Sistema Único de Saúde (SUS) e define as competências e atribuições das diferentes vigilâncias em saúde.",
+        "epidemiologia": "A Vigilância Epidemiológica é uma das quatro vigilâncias em saúde previstas na Lei 8.080/90, sendo fundamental para o conhecimento da situação de saúde da população.",
+        "fisiologia": "A VE funciona como um sistema de alerta, monitorando continuamente a ocorrência de doenças e agravos para identificar mudanças que possam indicar a necessidade de intervenções imediatas.",
+        "high_yield": [
+          "Lei 8.080/90 = Lei Orgânica da Saúde (SUS)",
+          "Art. 6º, § 2º = Definição de Vigilância Epidemiológica",
+          "Lei 8.142/90 = Participação da comunidade no SUS",
+          "Lei 8.069/90 = ECA (Estatuto da Criança e do Adolescente)"
+        ],
+        "pegadinhas": [
+          "Confundir Lei 8.080/90 com Lei 8.142/90",
+          "Esquecer que a definição está no Art. 6º, § 2º",
+          "Achar que todas as leis de saúde tratam de vigilância",
+          "Confundir com outras leis da década de 90"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 6º, § 2º", "pg": "Definição de Vigilância Epidemiológica"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Sistemas de Vigilância"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Vigilância em Saúde"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual lei estabelece o Sistema Único de Saúde (SUS)?",
+        "options": [
+          {"label": "A", "text": "Lei 8.142/90"},
+          {"label": "B", "text": "Lei 8.080/90"},
+          {"label": "C", "text": "Lei 8.069/90"},
+          {"label": "D", "text": "Lei 8.213/91"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Lei 8.080/90 é a Lei Orgânica da Saúde que estabelece o Sistema Único de Saúde (SUS)."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp021"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0022",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ZOONOSES", "TRANSMISSÃO", "CLASSIFICAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ZOONOSES": 0.95},
+        "evidence_spans": ["zoonoses", "classificação", "transmissão", "exemplos"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual das seguintes doenças é um exemplo de zooantroponose?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Tuberculose humana"},
+        {"label": "B", "text": "Raiva"},
+        {"label": "C", "text": "Sarna humana"},
+        {"label": "D", "text": "Gripe humana"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A tuberculose humana (Mycobacterium tuberculosis) é uma antropozoonose, pois pode ser transmitida do homem para animais.",
+        "B": "Correta. A raiva é uma zooantroponose, pois o vírus é transmitido de animais (cães, gatos, morcegos) para o homem através da saliva contaminada.",
+        "C": "Incorreta. A sarna humana (Sarcoptes scabiei var. hominis) é uma antropozoonose, pois pode ser transmitida do homem para animais.",
+        "D": "Incorreta. A gripe humana é uma doença humana que pode ser transmitida para animais (antropozoonose), não uma zooantroponose."
+      },
+      "review": {
+        "etiologia": "A classificação das zoonoses baseia-se na direção da transmissão do agente etiológico entre as espécies: zooantroponose (animal → homem) e antropozoonose (homem → animal).",
+        "epidemiologia": "A maioria das zoonoses importantes na veterinária são zooantroponoses, onde o animal serve como reservatório e o homem como hospedeiro acidental.",
+        "fisiologia": "A raiva é transmitida através da saliva de animais infectados, que contém o vírus e pode infectar humanos através de mordeduras, arranhaduras ou lambeduras.",
+        "high_yield": [
+          "ZOOantroponose = Animal → Homem (mais comum)",
+          "ANTROPOzoonose = Homem → Animal (menos comum)",
+          "Exemplos de zooantroponose: Raiva, Leptospirose, Febre maculosa",
+          "Exemplos de antropozoonose: Tuberculose humana, Sarna humana"
+        ],
+        "pegadinhas": [
+          "Confundir a direção da transmissão",
+          "Achar que todas as zoonoses são zooantroponoses",
+          "Esquecer que doenças humanas podem infectar animais",
+          "Confundir com doenças exclusivamente humanas"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Classificação das Zoonoses"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Transmissão de Doenças"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Zoonoses"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a classificação da transmissão da leptospirose de roedores para humanos?",
+        "options": [
+          {"label": "A", "text": "Antropozoonose"},
+          {"label": "B", "text": "Zooantroponose"},
+          {"label": "C", "text": "Anfixenose"},
+          {"label": "D", "text": "Saprozoonose"}
+        ],
+        "answer_key": "B",
+        "rationale": "A leptospirose é uma zooantroponose, pois a bactéria é transmitida de animais (roedores) para o homem através da urina contaminada."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp022"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0023",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["INDICADORES EPIDEMIOLÓGICOS", "MORTALIDADE", "LETALIDADE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"INDICADORES EPIDEMIOLÓGICOS": 0.95},
+        "evidence_spans": ["indicadores", "mortalidade", "letalidade", "cálculo"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Em uma população de 5.000 pessoas, ocorreram 25 casos de uma doença específica, dos quais 5 evoluíram para óbito. Qual é o coeficiente de mortalidade dessa doença nessa população?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "0,1%"},
+        {"label": "B", "text": "0,5%"},
+        {"label": "C", "text": "20%"},
+        {"label": "D", "text": "25%"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Coeficiente de mortalidade = (Número de óbitos ÷ População total) × 100 = (5 ÷ 5.000) × 100 = 0,1%. A mortalidade considera toda a população como denominador.",
+        "B": "Incorreta. 0,5% seria a taxa de incidência (25 casos ÷ 5.000 pessoas × 100), não a mortalidade.",
+        "C": "Incorreta. 20% seria a taxa de letalidade (5 óbitos ÷ 25 doentes × 100), não a mortalidade.",
+        "D": "Incorreta. 25% seria a proporção de casos que evoluíram para óbito, mas o cálculo correto da mortalidade é 0,1%."
+      },
+      "review": {
+        "etiologia": "O coeficiente de mortalidade é um indicador de impacto da doença na população, medindo a frequência de óbitos em uma população específica.",
+        "epidemiologia": "A mortalidade é influenciada por fatores como a incidência da doença, a letalidade da doença, e as condições de saúde da população afetada.",
+        "fisiologia": "A diferença fundamental entre mortalidade e letalidade é o denominador: mortalidade considera toda a população, enquanto letalidade considera apenas os doentes.",
+        "high_yield": [
+          "Mortalidade = Óbitos ÷ População × 100",
+          "Letalidade = Óbitos ÷ Doentes × 100",
+          "Mortalidade = Indicador de impacto na população",
+          "Letalidade = Indicador de gravidade da doença"
+        ],
+        "pegadinhas": [
+          "Confundir mortalidade (população) com letalidade (doentes)",
+          "Usar apenas os doentes como denominador na mortalidade",
+          "Esquecer que mortalidade é um indicador de impacto populacional",
+          "Confundir com outros indicadores epidemiológicos"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Indicadores Epidemiológicos"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Medidas de Frequência"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Indicadores"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual indicador epidemiológico mede a proporção de óbitos entre os indivíduos que têm uma doença específica?",
+        "options": [
+          {"label": "A", "text": "Coeficiente de mortalidade"},
+          {"label": "B", "text": "Taxa de letalidade"},
+          {"label": "C", "text": "Taxa de incidência"},
+          {"label": "D", "text": "Coeficiente de morbidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "A taxa de letalidade mede a proporção de óbitos entre os indivíduos que têm uma doença específica, sendo um indicador de gravidade da doença."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp023"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0024",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ANIMAIS PEÇONHENTOS", "PRIMEIROS SOCORROS", "SOROTERAPIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ANIMAIS PEÇONHENTOS": 0.95},
+        "evidence_spans": ["animais peçonhentos", "tratamento", "soroterapia", "específico"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual é o tratamento específico para acidentes moderados e graves com animais peçonhentos?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Antibióticos"},
+        {"label": "B", "text": "Soroterapia"},
+        {"label": "C", "text": "Analgésicos"},
+        {"label": "D", "text": "Anti-inflamatórios"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Os antibióticos não são o tratamento específico para envenenamentos. Eles podem ser usados para tratar infecções secundárias, mas não neutralizam o veneno.",
+        "B": "Correta. A soroterapia (soro antiveneno) é o único tratamento específico capaz de neutralizar o veneno circulante, sendo a terapia que salva vidas nos acidentes moderados e graves.",
+        "C": "Incorreta. Os analgésicos podem aliviar a dor, mas não neutralizam o veneno nem tratam os efeitos sistêmicos do envenenamento.",
+        "D": "Incorreta. Os anti-inflamatórios podem reduzir a inflamação local, mas não neutralizam o veneno nem tratam os efeitos sistêmicos do envenenamento."
+      },
+      "review": {
+        "etiologia": "Os acidentes com animais peçonhentos são uma importante causa de morbidade e mortalidade, especialmente em áreas rurais e periurbanas do Brasil.",
+        "epidemiologia": "Os acidentes ofídicos são os mais frequentes, seguidos pelos acidentes escorpiônicos. A maioria dos acidentes ocorre nos meses quentes e chuvosos.",
+        "fisiologia": "A soroterapia funciona através da neutralização específica do veneno circulante pelos anticorpos presentes no soro, sendo o tratamento de escolha para acidentes moderados e graves.",
+        "high_yield": [
+          "Soroterapia = tratamento específico para acidentes peçonhentos",
+          "Soro antiveneno = neutraliza o veneno circulante",
+          "Tratamento de escolha = para acidentes moderados e graves",
+          "Outros medicamentos = apenas sintomáticos"
+        ],
+        "pegadinhas": [
+          "Achar que antibióticos tratam envenenamentos",
+          "Esquecer que a soroterapia é o tratamento específico",
+          "Confundir tratamento sintomático com específico",
+          "Achar que analgésicos neutralizam veneno"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Emergências", "pg": "Acidentes com Animais Peçonhentos"},
+          {"obra": "Cunningham", "cap": "Toxicologia", "pg": "Envenenamentos"},
+          {"obra": "Plumb's", "cap": "Emergências", "pg": "Soroterapia"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a conduta CORRETA em caso de acidente ofídico?",
+        "options": [
+          {"label": "A", "text": "Aplicar torniquete no membro afetado"},
+          {"label": "B", "text": "Fazer incisão no local da picada"},
+          {"label": "C", "text": "Manter o membro em repouso e buscar atendimento médico"},
+          {"label": "D", "text": "Aplicar gelo diretamente no local da picada"}
+        ],
+        "answer_key": "C",
+        "rationale": "A conduta correta é manter o membro em repouso, evitar movimentação excessiva e buscar atendimento médico imediatamente. Torniquete, incisões e gelo são contraindicados."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp024"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0025",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["CONTROLE DE ROEDORES", "ANTIRRATIZAÇÃO", "DESRATIZAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"CONTROLE DE ROEDORES": 0.95},
+        "evidence_spans": ["controle de roedores", "estratégias", "sustentabilidade", "eficácia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual estratégia de controle de roedores foca na remoção de fatores que atraem os animais?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Desratização"},
+        {"label": "B", "text": "Antirratização"},
+        {"label": "C", "text": "Exterminação"},
+        {"label": "D", "text": "Eradicação"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A desratização foca na eliminação direta dos roedores através de métodos físicos ou químicos, não na remoção de fatores que os atraem.",
+        "B": "Correta. A antirratização foca na remoção de fatores que atraem os roedores (alimento, água, abrigo), sendo uma estratégia preventiva e sustentável.",
+        "C": "Incorreta. A exterminação é um termo genérico que não se refere especificamente à remoção de fatores atrativos.",
+        "D": "Incorreta. A erradicação se refere à eliminação completa de uma espécie, não à remoção de fatores atrativos."
+      },
+      "review": {
+        "etiologia": "As medidas de controle de roedores são divididas em duas estratégias principais: antirratização (preventiva) e desratização (corretiva/eliminação).",
+        "epidemiologia": "As medidas de antirratização são a base do chamado 'Manejo Integrado de Pragas' (MIP), uma abordagem ecológica que prioriza métodos preventivos e de saneamento ambiental.",
+        "fisiologia": "A antirratização funciona removendo os fatores que atraem os roedores (alimento, água, abrigo), enquanto a desratização elimina diretamente os animais através de métodos físicos ou químicos.",
+        "high_yield": [
+          "Antirratização = Anticipar, prevenir, mexer no ambiente",
+          "Desratização = Destruir, matar, eliminar",
+          "Antirratização é sempre preferível à desratização",
+          "O controle químico deve ser o último recurso"
+        ],
+        "pegadinhas": [
+          "Confundir antirratização com desratização",
+          "Achar que desratização é sempre a melhor opção",
+          "Esquecer que a prevenção é mais eficaz que a eliminação",
+          "Usar termos genéricos como 'exterminação'"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Controle de Roedores"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Controle de Vetores"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Manejo de Pragas"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual estratégia de controle de roedores é considerada a mais sustentável e eficaz a longo prazo?",
+        "options": [
+          {"label": "A", "text": "Desratização com raticidas"},
+          {"label": "B", "text": "Antirratização com saneamento ambiental"},
+          {"label": "C", "text": "Apenas ratoeiras"},
+          {"label": "D", "text": "Apenas venenos"}
+        ],
+        "answer_key": "B",
+        "rationale": "A antirratização com saneamento ambiental é a estratégia mais sustentável e eficaz a longo prazo, pois remove os fatores que atraem os roedores, prevenindo sua proliferação."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp025"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0026",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["RAIVA", "CONTROLE", "CONDUTAS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"RAIVA": 0.95},
+        "evidence_spans": ["raiva", "cães", "gatos", "eutanásia", "quarentena"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual é a conduta recomendada para um cão vacinado que foi mordido por um animal raivoso?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Eutanásia imediata"},
+        {"label": "B", "text": "Observação por 10 dias"},
+        {"label": "C", "text": "Revacinação e observação por 45 dias"},
+        {"label": "D", "text": "Isolamento rigoroso por 90 dias"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A eutanásia imediata é recomendada apenas para cães não vacinados que foram mordidos por animais raivosos. Cães vacinados têm proteção parcial.",
+        "B": "Incorreta. 10 dias é o período de observação para cães sadios que morderam pessoas, não para cães vacinados que foram mordidos por animais raivosos.",
+        "C": "Correta. Para cães vacinados que foram mordidos por animais raivosos, a conduta recomendada é a revacinação imediata (dose de reforço) e a observação por 45 dias.",
+        "D": "Incorreta. 90 dias é o período de isolamento rigoroso para cães não vacinados que foram mordidos por animais raivosos, quando o proprietário não permite a eutanásia."
+      },
+      "review": {
+        "etiologia": "A raiva é uma zoonose viral fatal causada pelo vírus do gênero Lyssavirus, que afeta o sistema nervoso central de mamíferos, incluindo humanos.",
+        "epidemiologia": "A raiva é transmitida principalmente através da saliva de animais infectados, sendo os cães e gatos os principais reservatórios urbanos no Brasil.",
+        "fisiologia": "O vírus da raiva invade o sistema nervoso central através dos nervos periféricos, causando encefalite fatal. O período de incubação varia de dias a meses.",
+        "high_yield": [
+          "Cão vacinado mordido = Revacinação + 45 dias observação",
+          "Cão não vacinado mordido = Eutanásia ou 90 dias isolamento",
+          "Cão sadio que mordeu = 10 dias observação",
+          "Cão contactante por raivoso = Eutanásia imediata"
+        ],
+        "pegadinhas": [
+          "Confundir condutas para cães vacinados e não vacinados",
+          "Esquecer que cães vacinados precisam de revacinação",
+          "Achar que todos os cães mordidos precisam de eutanásia",
+          "Confundir períodos de observação para diferentes cenários"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Raiva"},
+          {"obra": "Cunningham", "cap": "Virologia", "pg": "Vírus da Raiva"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Raiva"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o período de observação para um cão sadio que mordeu uma pessoa?",
+        "options": [
+          {"label": "A", "text": "5 dias"},
+          {"label": "B", "text": "10 dias"},
+          {"label": "C", "text": "45 dias"},
+          {"label": "D", "text": "90 dias"}
+        ],
+        "answer_key": "B",
+        "rationale": "Um cão sadio que mordeu uma pessoa deve ser observado por 10 dias. Se ele permanecer vivo e sadio por esse período, descarta-se o risco de transmissão da raiva."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp026"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0027",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["EPIDEMIOLOGIA", "SURTO", "EPIDEMIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"EPIDEMIOLOGIA": 0.95},
+        "evidence_spans": ["surto", "epidemia", "classificação", "área geográfica"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual termo é usado para uma epidemia que ocorre em múltiplos países ou continentes?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Surto"},
+        {"label": "B", "text": "Epidemia"},
+        {"label": "C", "text": "Pandemia"},
+        {"label": "D", "text": "Endemia"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada, não em múltiplos países.",
+        "B": "Incorreta. Epidemia é o termo para uma ocorrência acima do esperado em uma área específica, mas não necessariamente em múltiplos países.",
+        "C": "Correta. Pandemia é o termo usado para uma epidemia que ocorre em múltiplos países ou continentes, representando uma disseminação global da doença.",
+        "D": "Incorreta. Endemia é a presença habitual de uma doença em níveis esperados em uma determinada área geográfica, não uma epidemia em múltiplos países."
+      },
+      "review": {
+        "etiologia": "Surto vs. Epidemia vs. Pandemia: Surto é uma epidemia em área pequena e delimitada, Epidemia é ocorrência acima do esperado, Pandemia é epidemia em múltiplos países/continentes.",
+        "epidemiologia": "A classificação depende da extensão geográfica e populacional da ocorrência, sendo a pandemia o nível mais amplo de disseminação.",
+        "fisiologia": "A velocidade de disseminação e o alcance geográfico determinam a classificação entre surto, epidemia e pandemia.",
+        "high_yield": [
+          "Surto = Epidemia em área pequena e delimitada",
+          "Epidemia = Ocorrência acima do esperado",
+          "Pandemia = Epidemia em múltiplos países/continentes",
+          "Endemia = Presença habitual em níveis esperados"
+        ],
+        "pegadinhas": [
+          "Confundir surto com pandemia",
+          "Achar que epidemia e pandemia são sinônimos",
+          "Esquecer que pandemia envolve múltiplos países",
+          "Confundir com endemia"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Classificação de Epidemias"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Surto vs Epidemia vs Pandemia"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual termo é usado para uma epidemia em uma área geográfica pequena e bem delimitada?",
+        "options": [
+          {"label": "A", "text": "Endemia"},
+          {"label": "B", "text": "Surto"},
+          {"label": "C", "text": "Pandemia"},
+          {"label": "D", "text": "Epidemia maciça"}
+        ],
+        "answer_key": "B",
+        "rationale": "Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada, como uma creche, quartel ou bairro."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp027"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0028",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEPTOSPIROSE", "CADEIA DE TRANSMISSÃO", "CONCEITOS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEPTOSPIROSE": 0.95},
+        "evidence_spans": ["leptospirose", "conceitos", "virulência", "patogenicidade"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual conceito epidemiológico se refere ao grau de severidade da doença causada por um agente?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Patogenicidade"},
+        {"label": "B", "text": "Virulência"},
+        {"label": "C", "text": "Infectividade"},
+        {"label": "D", "text": "Transmissibilidade"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Patogenicidade se refere à capacidade de um agente causar doença, independentemente da severidade, não ao grau de severidade.",
+        "B": "Correta. Virulência se refere ao grau de severidade da doença causada por um agente, sendo um indicador de quão grave a doença pode ser.",
+        "C": "Incorreta. Infectividade se refere à capacidade de um agente se estabelecer e multiplicar em um hospedeiro, não ao grau de severidade.",
+        "D": "Incorreta. Transmissibilidade se refere à capacidade de um agente ser transmitido de um hospedeiro para outro, não ao grau de severidade."
+      },
+      "review": {
+        "etiologia": "A leptospirose é causada por bactérias do gênero Leptospira, que são transmitidas principalmente através da urina de roedores contaminando água, solo ou alimentos.",
+        "epidemiologia": "A leptospirose é uma zoonose de distribuição mundial, mais comum em áreas tropicais e subtropicais, especialmente durante períodos de chuva e enchentes.",
+        "fisiologia": "A virulência da leptospirose varia entre diferentes sorovares, podendo causar desde formas assintomáticas até formas graves com insuficiência renal e hepática.",
+        "high_yield": [
+          "Virulência = Grau de severidade da doença",
+          "Patogenicidade = Capacidade de causar doença",
+          "Infectividade = Capacidade de se estabelecer no hospedeiro",
+          "Transmissibilidade = Capacidade de ser transmitido"
+        ],
+        "pegadinhas": [
+          "Confundir virulência com patogenicidade",
+          "Esquecer que virulência se refere à severidade",
+          "Achar que infectividade é sinônimo de virulência",
+          "Confundir com outros conceitos epidemiológicos"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leptospirose"},
+          {"obra": "Cunningham", "cap": "Bacteriologia", "pg": "Leptospira"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leptospirose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual conceito epidemiológico se refere à capacidade de um agente causar doença?",
+        "options": [
+          {"label": "A", "text": "Virulência"},
+          {"label": "B", "text": "Patogenicidade"},
+          {"label": "C", "text": "Infectividade"},
+          {"label": "D", "text": "Transmissibilidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "Patogenicidade se refere à capacidade de um agente causar doença, independentemente da severidade, enquanto virulência se refere ao grau de severidade."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp028"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0029",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEISHMANIOSE", "CONTROLE", "TRATAMENTO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEISHMANIOSE": 0.95},
+        "evidence_spans": ["leishmaniose", "tratamento", "controle", "políticas"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual tipo de leishmaniose permite o tratamento de cães com Miltefosina no Brasil?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Leishmaniose Tegumentar Americana"},
+        {"label": "B", "text": "Leishmaniose Visceral"},
+        {"label": "C", "text": "Ambas as formas"},
+        {"label": "D", "text": "Nenhuma das formas"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A Leishmaniose Tegumentar Americana (LTA) não permite o tratamento de cães como medida de controle, devido ao risco de seleção de parasitos resistentes.",
+        "B": "Correta. A Leishmaniose Visceral (LV) permite o tratamento de cães com Miltefosina conforme a Nota Técnica Nº 11/2016 do Ministério da Saúde.",
+        "C": "Incorreta. Apenas a Leishmaniose Visceral permite o tratamento de cães. A LTA mantém a política de não tratamento.",
+        "D": "Incorreta. A Leishmaniose Visceral permite o tratamento de cães com Miltefosina."
+      },
+      "review": {
+        "etiologia": "A Leishmaniose Visceral (LV) é causada por Leishmania infantum e a Leishmaniose Tegumentar Americana (LTA) por diferentes espécies de Leishmania, ambas transmitidas por flebotomíneos.",
+        "epidemiologia": "A discussão sobre o tratamento de cães com Leishmaniose Visceral é uma das mais acaloradas na veterinária brasileira. A Nota Técnica Nº 11/2016 do Ministério da Saúde passou a permitir o tratamento com um produto registrado (Miltefosina).",
+        "fisiologia": "O tratamento de animais pode selecionar parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana.",
+        "high_yield": [
+          "LTA = Não tratar animais como medida de controle",
+          "LV = Tratamento permitido com Miltefosina",
+          "Nota Técnica Nº 11/2016 = Permite tratamento da LV",
+          "Risco principal = Seleção de parasitos resistentes"
+        ],
+        "pegadinhas": [
+          "Confundir LTA com LV nas políticas de tratamento",
+          "Achar que ambas as formas permitem tratamento",
+          "Esquecer que apenas a LV permite tratamento",
+          "Achar que nenhuma forma permite tratamento"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leishmaniose"},
+          {"obra": "Cunningham", "cap": "Protozoologia", "pg": "Leishmania"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leishmaniose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal razão para não tratar cães como medida de controle da Leishmaniose Tegumentar Americana?",
+        "options": [
+          {"label": "A", "text": "Alto custo do tratamento"},
+          {"label": "B", "text": "Risco de seleção de parasitos resistentes"},
+          {"label": "C", "text": "Falta de eficácia do tratamento"},
+          {"label": "D", "text": "Dificuldade de administração"}
+        ],
+        "answer_key": "B",
+        "rationale": "A principal razão é o risco de seleção de parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp029"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0030",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["SISTEMAS DE INFORMAÇÃO", "SINASC", "VIGILÂNCIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"SISTEMAS DE INFORMAÇÃO": 0.95},
+        "evidence_spans": ["sistema de informação", "SINASC", "nascidos vivos", "registro"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Qual sistema de informação do SUS é responsável pelo registro de nascidos vivos?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "SINAN"},
+        {"label": "B", "text": "SIM"},
+        {"label": "C", "text": "SINASC"},
+        {"label": "D", "text": "SIH"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. O SINAN é responsável pelo registro de agravos de notificação compulsória, não de nascidos vivos.",
+        "B": "Incorreta. O SIM é responsável pelo registro de óbitos, não de nascidos vivos.",
+        "C": "Correta. O SINASC (Sistema de Informações sobre Nascidos Vivos) é responsável pelo registro de nascidos vivos no território nacional.",
+        "D": "Incorreta. O SIH é responsável pelo registro de internações hospitalares, não de nascidos vivos."
+      },
+      "review": {
+        "etiologia": "O SINASC foi implantado em 1990 e é o sistema oficial do Ministério da Saúde para coleta de dados sobre nascidos vivos, utilizando a Declaração de Nascido Vivo (DNV) como fonte de dados.",
+        "epidemiologia": "O sistema permite o monitoramento da natalidade, mortalidade infantil e características dos nascimentos em todo o país, subsidiando políticas de saúde materno-infantil.",
+        "fisiologia": "O SINASC funciona como um banco de dados centralizado que coleta, processa e analisa informações sobre nascidos vivos, transformando dados individuais em indicadores de saúde.",
+        "high_yield": [
+          "SINASC = Sistema de Informações sobre NASCIDOS Vivos",
+          "SINAN = Sistema de Informação de Agravos de NOTIFICAÇÃO",
+          "SIM = Sistema de Informações sobre MORTALIDADE",
+          "SIH = Sistema de Informações HOSPITALARES"
+        ],
+        "pegadinhas": [
+          "Confundir SINASC (nascidos vivos) com SIM (mortalidade)",
+          "Esquecer que SINASC é específico para nascidos vivos",
+          "Trocar as funções dos diferentes sistemas de informação",
+          "Achar que SINAN registra nascidos vivos"
+        ],
+        "referencias": [
+          {"obra": "Ministério da Saúde", "cap": "Sistemas de Informação", "pg": "SINASC"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Sistemas de Informação"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual sistema de informação do SUS é responsável pelo registro de óbitos?",
+        "options": [
+          {"label": "A", "text": "SINAN"},
+          {"label": "B", "text": "SIM"},
+          {"label": "C", "text": "SINASC"},
+          {"label": "D", "text": "SIH"}
+        ],
+        "answer_key": "B",
+        "rationale": "O SIM (Sistema de Informações sobre Mortalidade) é responsável pelo registro de óbitos, utilizando as Declarações de Óbito (DO) como fonte de dados."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp030"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0031",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "SISTEMAS DE INFORMAÇÃO", "SINAN"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.95},
+        "evidence_spans": ["vigilância epidemiológica", "sistema de informação", "notificação", "investigação"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual das seguintes ações faz parte da Vigilância Epidemiológica?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Fiscalização de estabelecimentos comerciais"},
+        {"label": "B", "text": "Coleta sistemática de dados sobre doenças de notificação compulsória"},
+        {"label": "C", "text": "Controle de qualidade de produtos alimentícios"},
+        {"label": "D", "text": "Inspeção sanitária de indústrias"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A fiscalização de estabelecimentos comerciais é uma ação da Vigilância Sanitária, não da Vigilância Epidemiológica.",
+        "B": "Correta. A coleta sistemática de dados sobre doenças de notificação compulsória é uma das principais ações da Vigilância Epidemiológica, realizada através do SINAN.",
+        "C": "Incorreta. O controle de qualidade de produtos alimentícios é uma ação da Vigilância Sanitária, não da Vigilância Epidemiológica.",
+        "D": "Incorreta. A inspeção sanitária de indústrias é uma ação da Vigilância Sanitária, não da Vigilância Epidemiológica."
+      },
+      "review": {
+        "etiologia": "A Vigilância Epidemiológica é uma das quatro vigilâncias em saúde previstas na Lei 8.080/90, focando especificamente em doenças e agravos à saúde.",
+        "epidemiologia": "A VE utiliza sistemas de informação como o SINAN para coletar, processar e analisar dados sobre doenças de notificação compulsória, permitindo a detecção precoce de problemas de saúde.",
+        "fisiologia": "A VE funciona como um sistema de alerta contínuo, monitorando a ocorrência de doenças para identificar mudanças que possam indicar a necessidade de intervenções imediatas.",
+        "high_yield": [
+          "VE = Doenças e agravos (pessoas)",
+          "VISA = Produtos, serviços e estabelecimentos",
+          "VA = Meio ambiente",
+          "VST = Saúde do trabalhador"
+        ],
+        "pegadinhas": [
+          "Confundir VE com VISA nas atribuições",
+          "Achar que todas as vigilâncias fazem fiscalização",
+          "Esquecer que a VE foca em doenças, não em estabelecimentos",
+          "Confundir com ações de outras vigilâncias"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 6º, § 2º", "pg": "Definição de Vigilância Epidemiológica"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Sistemas de Vigilância"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Vigilância em Saúde"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual tipo de vigilância é responsável pela fiscalização de estabelecimentos comerciais?",
+        "options": [
+          {"label": "A", "text": "Vigilância Epidemiológica"},
+          {"label": "B", "text": "Vigilância Sanitária"},
+          {"label": "C", "text": "Vigilância Ambiental"},
+          {"label": "D", "text": "Vigilância em Saúde do Trabalhador"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Vigilância Sanitária (VISA) é responsável pela fiscalização de estabelecimentos comerciais, produtos e serviços de interesse à saúde."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp031"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0032",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ZOONOSES", "TRANSMISSÃO", "CLASSIFICAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ZOONOSES": 0.95},
+        "evidence_spans": ["zoonoses", "classificação", "transmissão", "exemplos"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual das seguintes doenças é um exemplo de antropozoonose?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Raiva"},
+        {"label": "B", "text": "Leptospirose"},
+        {"label": "C", "text": "Tuberculose humana"},
+        {"label": "D", "text": "Febre maculosa"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A raiva é uma zooantroponose, pois o vírus é transmitido de animais (cães, gatos, morcegos) para o homem através da saliva contaminada.",
+        "B": "Incorreta. A leptospirose é uma zooantroponose, pois a bactéria é transmitida pela urina de animais (principalmente roedores) contaminando água, solo ou alimentos.",
+        "C": "Correta. A tuberculose humana (Mycobacterium tuberculosis) é uma antropozoonose, pois pode ser transmitida do homem para animais, especialmente em situações de contato próximo.",
+        "D": "Incorreta. A febre maculosa é uma zooantroponose, pois a bactéria Rickettsia rickettsii é transmitida por carrapatos que se alimentam de sangue de animais infectados."
+      },
+      "review": {
+        "etiologia": "A classificação das zoonoses baseia-se na direção da transmissão do agente etiológico entre as espécies: zooantroponose (animal → homem) e antropozoonose (homem → animal).",
+        "epidemiologia": "A maioria das zoonoses importantes na veterinária são zooantroponoses, onde o animal serve como reservatório e o homem como hospedeiro acidental.",
+        "fisiologia": "A tuberculose humana pode ser transmitida para animais através de aerossóis ou contato direto, especialmente em ambientes fechados e com alta densidade populacional.",
+        "high_yield": [
+          "ZOOantroponose = Animal → Homem (mais comum)",
+          "ANTROPOzoonose = Homem → Animal (menos comum)",
+          "Exemplos de antropozoonose: Tuberculose humana, Sarna humana",
+          "Exemplos de zooantroponose: Raiva, Leptospirose, Febre maculosa"
+        ],
+        "pegadinhas": [
+          "Confundir a direção da transmissão",
+          "Achar que todas as zoonoses são zooantroponoses",
+          "Esquecer que doenças humanas podem infectar animais",
+          "Confundir com doenças exclusivamente humanas"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Classificação das Zoonoses"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Transmissão de Doenças"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Zoonoses"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a classificação da transmissão da raiva de cães para humanos?",
+        "options": [
+          {"label": "A", "text": "Antropozoonose"},
+          {"label": "B", "text": "Zooantroponose"},
+          {"label": "C", "text": "Anfixenose"},
+          {"label": "D", "text": "Saprozoonose"}
+        ],
+        "answer_key": "B",
+        "rationale": "A raiva é uma zooantroponose, pois o vírus é transmitido de animais (cães) para o homem através da saliva contaminada."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp032"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0033",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["INDICADORES EPIDEMIOLÓGICOS", "MORTALIDADE", "LETALIDADE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"INDICADORES EPIDEMIOLÓGICOS": 0.95},
+        "evidence_spans": ["indicadores", "mortalidade", "letalidade", "cálculo"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Em uma população de 8.000 pessoas, ocorreram 40 casos de uma doença específica, dos quais 8 evoluíram para óbito. Qual é a taxa de letalidade dessa doença nessa população?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "0,1%"},
+        {"label": "B", "text": "0,5%"},
+        {"label": "C", "text": "20%"},
+        {"label": "D", "text": "50%"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. 0,1% seria a taxa de mortalidade (8 óbitos ÷ 8.000 pessoas × 100), não a letalidade. A letalidade considera apenas os doentes como denominador.",
+        "B": "Incorreta. 0,5% seria a taxa de incidência (40 casos ÷ 8.000 pessoas × 100), não a letalidade. A letalidade considera apenas os doentes como denominador.",
+        "C": "Correta. Taxa de letalidade = (Número de óbitos ÷ Número de doentes) × 100 = (8 ÷ 40) × 100 = 20%. A letalidade mede a proporção de óbitos entre os indivíduos que têm a doença.",
+        "D": "Incorreta. 50% seria a proporção de casos que evoluíram para óbito, mas o cálculo correto da letalidade é 20%."
+      },
+      "review": {
+        "etiologia": "A taxa de letalidade é um indicador de gravidade da doença, medindo a proporção de óbitos entre os indivíduos que têm uma doença específica.",
+        "epidemiologia": "A letalidade é influenciada por fatores como a virulência do agente, a qualidade do tratamento disponível, e as condições de saúde da população afetada.",
+        "fisiologia": "A diferença fundamental entre mortalidade e letalidade é o denominador: mortalidade considera toda a população, enquanto letalidade considera apenas os doentes.",
+        "high_yield": [
+          "Letalidade = Óbitos ÷ Doentes × 100",
+          "Mortalidade = Óbitos ÷ População × 100",
+          "Letalidade = Indicador de gravidade da doença",
+          "Mortalidade = Indicador de impacto na população"
+        ],
+        "pegadinhas": [
+          "Confundir mortalidade (população) com letalidade (doentes)",
+          "Usar a população total como denominador na letalidade",
+          "Esquecer que letalidade é um indicador de gravidade",
+          "Confundir com outros indicadores epidemiológicos"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Indicadores Epidemiológicos"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Medidas de Frequência"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Indicadores"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual indicador epidemiológico mede a frequência de óbitos em uma população específica?",
+        "options": [
+          {"label": "A", "text": "Taxa de letalidade"},
+          {"label": "B", "text": "Coeficiente de mortalidade"},
+          {"label": "C", "text": "Taxa de incidência"},
+          {"label": "D", "text": "Coeficiente de morbidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "O coeficiente de mortalidade mede a frequência de óbitos em uma população específica, considerando toda a população como denominador."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp033"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0034",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ANIMAIS PEÇONHENTOS", "PRIMEIROS SOCORROS", "SOROTERAPIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ANIMAIS PEÇONHENTOS": 0.95},
+        "evidence_spans": ["animais peçonhentos", "primeiros socorros", "condutas", "contraindicações"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual das seguintes condutas está CONTRAINDICADA em caso de acidente com animal peçonhento?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Manter o membro em repouso"},
+        {"label": "B", "text": "Buscar atendimento médico"},
+        {"label": "C", "text": "Aplicar torniquete"},
+        {"label": "D", "text": "Evitar movimentação excessiva"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. Manter o membro em repouso é uma conduta correta, pois diminui a velocidade de absorção do veneno.",
+        "B": "Correta. Buscar atendimento médico é uma conduta correta e obrigatória em acidentes com animais peçonhentos.",
+        "C": "Incorreta. Aplicar torniquete é contraindicado pois aumenta a lesão local e o risco de necrose e amputação. Pode piorar o quadro e causar complicações graves.",
+        "D": "Correta. Evitar movimentação excessiva é uma conduta correta, pois diminui a velocidade de absorção do veneno."
+      },
+      "review": {
+        "etiologia": "Os acidentes com animais peçonhentos são uma importante causa de morbidade e mortalidade, especialmente em áreas rurais e periurbanas do Brasil.",
+        "epidemiologia": "Os acidentes ofídicos são os mais frequentes, seguidos pelos acidentes escorpiônicos. A maioria dos acidentes ocorre nos meses quentes e chuvosos.",
+        "fisiologia": "O veneno dos animais peçonhentos contém toxinas que podem causar efeitos locais e sistêmicos. O repouso diminui a velocidade de absorção do veneno.",
+        "high_yield": [
+          "Torniquete = CONTRAINDICADO",
+          "Incisão = CONTRAINDICADA",
+          "Repouso = INDICADO",
+          "Buscar atendimento = OBRIGATÓRIO"
+        ],
+        "pegadinhas": [
+          "Usar torniquete em acidentes ofídicos",
+          "Fazer incisão no local da picada",
+          "Aplicar gelo diretamente na pele",
+          "Esquecer que o repouso é fundamental"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Emergências", "pg": "Acidentes com Animais Peçonhentos"},
+          {"obra": "Cunningham", "cap": "Toxicologia", "pg": "Envenenamentos"},
+          {"obra": "Plumb's", "cap": "Emergências", "pg": "Soroterapia"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o tratamento específico para acidentes moderados e graves com animais peçonhentos?",
+        "options": [
+          {"label": "A", "text": "Antibióticos"},
+          {"label": "B", "text": "Soroterapia"},
+          {"label": "C", "text": "Analgésicos"},
+          {"label": "D", "text": "Anti-inflamatórios"}
+        ],
+        "answer_key": "B",
+        "rationale": "A soroterapia (soro antiveneno) é o único tratamento específico capaz de neutralizar o veneno circulante, sendo a terapia que salva vidas nos acidentes moderados e graves."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp034"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0035",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["CONTROLE DE ROEDORES", "ANTIRRATIZAÇÃO", "DESRATIZAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"CONTROLE DE ROEDORES": 0.95},
+        "evidence_spans": ["controle de roedores", "estratégias", "sustentabilidade", "eficácia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual estratégia de controle de roedores é considerada a mais sustentável e eficaz a longo prazo?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Desratização com raticidas"},
+        {"label": "B", "text": "Antirratização com saneamento ambiental"},
+        {"label": "C", "text": "Apenas ratoeiras"},
+        {"label": "D", "text": "Apenas venenos"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A desratização com raticidas pode causar resistência, contaminação ambiental e intoxicação de animais não-alvo. Não é uma estratégia sustentável.",
+        "B": "Correta. A antirratização com saneamento ambiental é a estratégia mais sustentável e eficaz a longo prazo, pois remove os fatores que atraem os roedores (alimento, água, abrigo), prevenindo sua proliferação.",
+        "C": "Incorreta. O uso exclusivo de ratoeiras é uma medida de desratização que elimina apenas os animais existentes, mas não previne a reinfestação. É menos eficaz que a antirratização.",
+        "D": "Incorreta. O uso exclusivo de venenos pode causar resistência, contaminação ambiental e intoxicação de animais não-alvo. Não é uma estratégia sustentável."
+      },
+      "review": {
+        "etiologia": "As medidas de controle de roedores são divididas em duas estratégias principais: antirratização (preventiva) e desratização (corretiva/eliminação).",
+        "epidemiologia": "As medidas de antirratização são a base do chamado 'Manejo Integrado de Pragas' (MIP), uma abordagem ecológica que prioriza métodos preventivos e de saneamento ambiental.",
+        "fisiologia": "A antirratização funciona removendo os fatores que atraem os roedores (alimento, água, abrigo), enquanto a desratização elimina diretamente os animais através de métodos físicos ou químicos.",
+        "high_yield": [
+          "Antirratização = Anticipar, prevenir, mexer no ambiente",
+          "Desratização = Destruir, matar, eliminar",
+          "Antirratização é sempre preferível à desratização",
+          "O controle químico deve ser o último recurso"
+        ],
+        "pegadinhas": [
+          "Achar que desratização é sempre a melhor opção",
+          "Usar apenas métodos químicos de controle",
+          "Esquecer que a prevenção é mais eficaz que a eliminação",
+          "Achar que apenas um método é suficiente"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Controle de Roedores"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Controle de Vetores"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Manejo de Pragas"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual estratégia de controle de roedores foca na remoção de fatores que atraem os animais?",
+        "options": [
+          {"label": "A", "text": "Desratização"},
+          {"label": "B", "text": "Antirratização"},
+          {"label": "C", "text": "Exterminação"},
+          {"label": "D", "text": "Eradicação"}
+        ],
+        "answer_key": "B",
+        "rationale": "A antirratização foca na remoção de fatores que atraem os roedores (alimento, água, abrigo), sendo uma estratégia preventiva e sustentável."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp035"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0036",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["RAIVA", "CONTROLE", "CONDUTAS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"RAIVA": 0.95},
+        "evidence_spans": ["raiva", "cães", "gatos", "eutanásia", "quarentena"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual é a conduta recomendada para um cão não vacinado que foi mordido por um animal raivoso?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Observação por 10 dias"},
+        {"label": "B", "text": "Observação por 45 dias"},
+        {"label": "C", "text": "Eutanásia imediata"},
+        {"label": "D", "text": "Vacinação e observação por 90 dias"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. 10 dias é o período de observação para cães sadios que morderam pessoas, não para cães não vacinados que foram mordidos por animais raivosos.",
+        "B": "Incorreta. 45 dias é o período de observação para cães vacinados que foram mordidos por animais raivosos, não para cães não vacinados.",
+        "C": "Correta. Um cão não vacinado que foi mordido por um animal raivoso deve ser eutanasiado imediatamente, pois o risco de desenvolver a doença é altíssimo.",
+        "D": "Incorreta. 90 dias é o período de isolamento rigoroso para cães não vacinados que foram mordidos por animais raivosos, quando o proprietário não permite a eutanásia."
+      },
+      "review": {
+        "etiologia": "A raiva é uma zoonose viral fatal causada pelo vírus do gênero Lyssavirus, que afeta o sistema nervoso central de mamíferos, incluindo humanos.",
+        "epidemiologia": "A raiva é transmitida principalmente através da saliva de animais infectados, sendo os cães e gatos os principais reservatórios urbanos no Brasil.",
+        "fisiologia": "O vírus da raiva invade o sistema nervoso central através dos nervos periféricos, causando encefalite fatal. O período de incubação varia de dias a meses.",
+        "high_yield": [
+          "Cão não vacinado mordido = Eutanásia imediata",
+          "Cão vacinado mordido = Revacinação + 45 dias observação",
+          "Cão sadio que mordeu = 10 dias observação",
+          "Cão contactante por raivoso = Eutanásia imediata"
+        ],
+        "pegadinhas": [
+          "Confundir condutas para cães vacinados e não vacinados",
+          "Esquecer que cães não vacinados precisam de eutanásia",
+          "Achar que todos os cães mordidos precisam apenas de observação",
+          "Confundir períodos de observação para diferentes cenários"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Raiva"},
+          {"obra": "Cunningham", "cap": "Virologia", "pg": "Vírus da Raiva"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Raiva"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o período de observação para um cão vacinado que foi mordido por um animal raivoso?",
+        "options": [
+          {"label": "A", "text": "10 dias"},
+          {"label": "B", "text": "45 dias"},
+          {"label": "C", "text": "90 dias"},
+          {"label": "D", "text": "Eutanásia imediata"}
+        ],
+        "answer_key": "B",
+        "rationale": "Um cão vacinado que foi mordido por um animal raivoso deve ser revacinado e observado por 45 dias."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp036"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0037",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["EPIDEMIOLOGIA", "SURTO", "EPIDEMIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"EPIDEMIOLOGIA": 0.95},
+        "evidence_spans": ["surto", "epidemia", "classificação", "área geográfica"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual termo é usado para a presença habitual de uma doença em níveis esperados em uma determinada área geográfica?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Surto"},
+        {"label": "B", "text": "Epidemia"},
+        {"label": "C", "text": "Endemia"},
+        {"label": "D", "text": "Pandemia"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Surto é o termo usado para uma epidemia em uma área geográfica pequena e bem delimitada, não para presença habitual.",
+        "B": "Incorreta. Epidemia é o termo para uma ocorrência acima do esperado, não para presença habitual em níveis esperados.",
+        "C": "Correta. Endemia é o termo usado para a presença habitual de uma doença em níveis esperados em uma determinada área geográfica.",
+        "D": "Incorreta. Pandemia é o termo usado para uma epidemia que ocorre em múltiplos países ou continentes, não para presença habitual."
+      },
+      "review": {
+        "etiologia": "Endemia vs. Epidemia: Endemia é a presença habitual de uma doença em níveis esperados, Epidemia é ocorrência acima do esperado, Surto é epidemia em área pequena, Pandemia é epidemia em múltiplos países.",
+        "epidemiologia": "A classificação depende da frequência esperada e da extensão geográfica da ocorrência, sendo a endemia o nível basal de ocorrência de uma doença.",
+        "fisiologia": "A endemia representa o equilíbrio entre a transmissão da doença e as medidas de controle em uma população específica.",
+        "high_yield": [
+          "Endemia = Presença habitual em níveis esperados",
+          "Epidemia = Ocorrência acima do esperado",
+          "Surto = Epidemia em área pequena e delimitada",
+          "Pandemia = Epidemia em múltiplos países/continentes"
+        ],
+        "pegadinhas": [
+          "Confundir endemia com epidemia",
+          "Achar que endemia é sempre ruim",
+          "Esquecer que endemia é o nível esperado",
+          "Confundir com outros termos epidemiológicos"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Epidemiologia", "pg": "Classificação de Epidemias"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Endemia vs Epidemia"},
+          {"obra": "Plumb's", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual termo é usado para uma ocorrência acima do esperado de uma doença?",
+        "options": [
+          {"label": "A", "text": "Endemia"},
+          {"label": "B", "text": "Epidemia"},
+          {"label": "C", "text": "Surto"},
+          {"label": "D", "text": "Pandemia"}
+        ],
+        "answer_key": "B",
+        "rationale": "Epidemia é o termo usado para uma ocorrência acima do esperado de uma doença em uma determinada área geográfica."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp037"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0038",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEPTOSPIROSE", "CADEIA DE TRANSMISSÃO", "CONCEITOS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEPTOSPIROSE": 0.95},
+        "evidence_spans": ["leptospirose", "conceitos", "infectividade", "transmissibilidade"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual conceito epidemiológico se refere à capacidade de um agente se estabelecer e multiplicar em um hospedeiro?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Patogenicidade"},
+        {"label": "B", "text": "Virulência"},
+        {"label": "C", "text": "Infectividade"},
+        {"label": "D", "text": "Transmissibilidade"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Patogenicidade se refere à capacidade de um agente causar doença, não especificamente se estabelecer e multiplicar no hospedeiro.",
+        "B": "Incorreta. Virulência se refere ao grau de severidade da doença causada por um agente, não à capacidade de se estabelecer no hospedeiro.",
+        "C": "Correta. Infectividade se refere à capacidade de um agente se estabelecer e multiplicar em um hospedeiro, sendo um conceito fundamental na epidemiologia.",
+        "D": "Incorreta. Transmissibilidade se refere à capacidade de um agente ser transmitido de um hospedeiro para outro, não de se estabelecer no hospedeiro."
+      },
+      "review": {
+        "etiologia": "A leptospirose é causada por bactérias do gênero Leptospira, que são transmitidas principalmente através da urina de roedores contaminando água, solo ou alimentos.",
+        "epidemiologia": "A leptospirose é uma zoonose de distribuição mundial, mais comum em áreas tropicais e subtropicais, especialmente durante períodos de chuva e enchentes.",
+        "fisiologia": "A infectividade da leptospirose é alta, permitindo que a bactéria se estabeleça e multiplique rapidamente no hospedeiro após a infecção.",
+        "high_yield": [
+          "Infectividade = Capacidade de se estabelecer no hospedeiro",
+          "Patogenicidade = Capacidade de causar doença",
+          "Virulência = Grau de severidade da doença",
+          "Transmissibilidade = Capacidade de ser transmitido"
+        ],
+        "pegadinhas": [
+          "Confundir infectividade com patogenicidade",
+          "Esquecer que infectividade é independente da doença",
+          "Achar que infectividade é sinônimo de virulência",
+          "Confundir com outros conceitos epidemiológicos"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leptospirose"},
+          {"obra": "Cunningham", "cap": "Bacteriologia", "pg": "Leptospira"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leptospirose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual conceito epidemiológico se refere à capacidade de um agente ser transmitido de um hospedeiro para outro?",
+        "options": [
+          {"label": "A", "text": "Infectividade"},
+          {"label": "B", "text": "Patogenicidade"},
+          {"label": "C", "text": "Virulência"},
+          {"label": "D", "text": "Transmissibilidade"}
+        ],
+        "answer_key": "D",
+        "rationale": "Transmissibilidade se refere à capacidade de um agente ser transmitido de um hospedeiro para outro, sendo fundamental para a disseminação de doenças."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp038"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0039",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEISHMANIOSE", "CONTROLE", "TRATAMENTO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEISHMANIOSE": 0.95},
+        "evidence_spans": ["leishmaniose", "tratamento", "controle", "políticas"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual é a política de tratamento de cães para a Leishmaniose Tegumentar Americana no Brasil?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Tratamento obrigatório com Miltefosina"},
+        {"label": "B", "text": "Não tratamento como medida de controle"},
+        {"label": "C", "text": "Tratamento opcional para o proprietário"},
+        {"label": "D", "text": "Tratamento apenas em casos graves"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. O tratamento com Miltefosina é permitido apenas para a Leishmaniose Visceral, não para a Leishmaniose Tegumentar Americana.",
+        "B": "Correta. A política para a Leishmaniose Tegumentar Americana é não tratar cães como medida de controle, devido ao risco de seleção de parasitos resistentes.",
+        "C": "Incorreta. O tratamento não é opcional para a LTA, pois a política é de não tratamento como medida de controle.",
+        "D": "Incorreta. O tratamento não é permitido mesmo em casos graves da LTA, devido ao risco de resistência."
+      },
+      "review": {
+        "etiologia": "A Leishmaniose Tegumentar Americana (LTA) é causada por diferentes espécies de Leishmania, transmitidas por flebotomíneos (mosquitos-palha).",
+        "epidemiologia": "A discussão sobre o tratamento de cães com Leishmaniose Visceral (LV) é uma das mais acaloradas na veterinária brasileira. A Nota Técnica Nº 11/2016 do Ministério da Saúde passou a permitir o tratamento com um produto registrado (Miltefosina).",
+        "fisiologia": "O tratamento de animais pode selecionar parasitos resistentes aos fármacos, que são os mesmos usados em humanos, comprometendo o tratamento da doença humana.",
+        "high_yield": [
+          "LTA = Não tratar animais como medida de controle",
+          "LV = Tratamento permitido com Miltefosina",
+          "Risco principal = Seleção de parasitos resistentes",
+          "Fármacos são os mesmos usados em humanos"
+        ],
+        "pegadinhas": [
+          "Confundir LTA com LV nas políticas de tratamento",
+          "Achar que o tratamento é opcional",
+          "Esquecer que a política é de não tratamento",
+          "Achar que casos graves permitem tratamento"
+        ],
+        "referencias": [
+          {"obra": "Nelson & Couto", "cap": "Zoonoses", "pg": "Leishmaniose"},
+          {"obra": "Cunningham", "cap": "Protozoologia", "pg": "Leishmania"},
+          {"obra": "Plumb's", "cap": "Doenças Infecciosas", "pg": "Leishmaniose"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual tipo de leishmaniose permite o tratamento de cães com Miltefosina no Brasil?",
+        "options": [
+          {"label": "A", "text": "Leishmaniose Tegumentar Americana"},
+          {"label": "B", "text": "Leishmaniose Visceral"},
+          {"label": "C", "text": "Ambas as formas"},
+          {"label": "D", "text": "Nenhuma das formas"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Leishmaniose Visceral permite o tratamento de cães com Miltefosina conforme a Nota Técnica Nº 11/2016 do Ministério da Saúde."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp039"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-SP-0040",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["SISTEMAS DE INFORMAÇÃO", "SIH", "VIGILÂNCIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"SISTEMAS DE INFORMAÇÃO": 0.95},
+        "evidence_spans": ["sistema de informação", "SIH", "internações", "hospitalares"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Qual sistema de informação do SUS é responsável pelo registro de internações hospitalares?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "SINAN"},
+        {"label": "B", "text": "SIM"},
+        {"label": "C", "text": "SINASC"},
+        {"label": "D", "text": "SIH"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. O SINAN é responsável pelo registro de agravos de notificação compulsória, não de internações hospitalares.",
+        "B": "Incorreta. O SIM é responsável pelo registro de óbitos, não de internações hospitalares.",
+        "C": "Incorreta. O SINASC é responsável pelo registro de nascidos vivos, não de internações hospitalares.",
+        "D": "Correta. O SIH (Sistema de Informações Hospitalares) é responsável pelo registro de internações hospitalares no território nacional."
+      },
+      "review": {
+        "etiologia": "O SIH foi implantado em 1991 e é o sistema oficial do Ministério da Saúde para coleta de dados sobre internações hospitalares, utilizando a Autorização de Internação Hospitalar (AIH) como fonte de dados.",
+        "epidemiologia": "O sistema permite o monitoramento da utilização de serviços hospitalares, custos de internação e qualidade da assistência hospitalar em todo o país.",
+        "fisiologia": "O SIH funciona como um banco de dados centralizado que coleta, processa e analisa informações sobre internações hospitalares, subsidiando políticas de saúde e gestão hospitalar.",
+        "high_yield": [
+          "SIH = Sistema de Informações HOSPITALARES",
+          "SINAN = Sistema de Informação de Agravos de NOTIFICAÇÃO",
+          "SIM = Sistema de Informações sobre MORTALIDADE",
+          "SINASC = Sistema de Informações sobre NASCIDOS Vivos"
+        ],
+        "pegadinhas": [
+          "Confundir SIH (hospitalares) com SINAN (notificação)",
+          "Esquecer que SIH é específico para internações hospitalares",
+          "Trocar as funções dos diferentes sistemas de informação",
+          "Achar que SINAN registra internações"
+        ],
+        "referencias": [
+          {"obra": "Ministério da Saúde", "cap": "Sistemas de Informação", "pg": "SIH"},
+          {"obra": "Nelson & Couto", "cap": "Saúde Pública", "pg": "Vigilância Epidemiológica"},
+          {"obra": "Cunningham", "cap": "Epidemiologia", "pg": "Sistemas de Informação"}
+        ]
+      },
+      "training_question": {
+        "stem": "Qual sistema de informação do SUS é responsável pelo registro de agravos de notificação compulsória?",
+        "options": [
+          {"label": "A", "text": "SINAN"},
+          {"label": "B", "text": "SIM"},
+          {"label": "C", "text": "SINASC"},
+          {"label": "D", "text": "SIH"}
+        ],
+        "answer_key": "A",
+        "rationale": "O SINAN (Sistema de Informação de Agravos de Notificação) é responsável pelo registro de agravos de notificação compulsória em todo o território nacional."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2020sp040"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    }
+  ]
+}
