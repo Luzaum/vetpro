@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 
@@ -5,7 +6,7 @@ interface HeroSectionProps {
   onGetStarted: () => void;
 }
 
-export const HeroSection = ({ onGetStarted }: HeroSectionProps) => {
+const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
   return (
     <div className="relative overflow-hidden bg-gradient-to-br from-background via-muted/20 to-background">
       <div className="container relative z-10 mx-auto px-4 py-24 text-center sm:px-6 lg:px-8">
@@ -77,10 +78,12 @@ export const HeroSection = ({ onGetStarted }: HeroSectionProps) => {
         </div>
       </div>
       
-      {/* Background Pattern */}
+      {/* Background Pattern - Simplified */}
       <div className="absolute inset-0 -z-10 opacity-30">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5" />
       </div>
     </div>
   );
 };
+
+export default HeroSection;
