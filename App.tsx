@@ -6,6 +6,14 @@ import { LogoIcon, HomeIcon, BookOpenIcon, CompassIcon, BookmarkIcon, ThumbsDown
 import questionBank1 from './data/question_bank_1.json';
 import questionBank2 from './data/question_bank_2.json';
 import questionBank3 from './data/question_bank_3.json';
+import questionBank4 from './data/question_bank_4.json';
+import { initializeTheme, getCurrentTheme } from './lib/theme';
+import ThemeToggle from './components/ThemeToggle';
+import { Button } from './components/ui/button';
+import { Card, CardContent } from './components/ui/Card';
+import ProgressRing from './components/ProgressRing';
+import ActionCard from './components/ActionCard';
+import { BookOpen, Target, TrendingUp, Brain, Clock, Zap } from 'lucide-react';
 
 const AREAS = [ 'CLÍNICA MÉDICA', 'CLÍNICA CIRÚRGICA', 'DIAGNÓSTICO POR IMAGEM', 'ANESTESIOLOGIA', 'LABORATÓRIO CLÍNICO', 'SAÚDE PÚBLICA' ];
 
@@ -38,13 +46,13 @@ const Header: React.FC<{
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-slate-200 dark:border-slate-700 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-40 w-full border-b border-border bg-surface/80 backdrop-blur-lg">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 text-sky-600 dark:text-sky-500">
+            <div className="flex items-center gap-2 text-primary">
               <LogoIcon />
-              <span className="font-bold text-lg text-slate-800 dark:text-slate-200">VetPro</span>
+              <span className="font-bold text-lg text-text">VetPro</span>
             </div>
           </div>
           <div className="flex items-center">
@@ -56,8 +64,8 @@ const Header: React.FC<{
                   className={cx(
                     'flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors',
                     mode === item.id
-                      ? 'bg-sky-100 text-sky-700 dark:bg-sky-900/50 dark:text-sky-400'
-                      : 'text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 hover:text-slate-800 dark:hover:text-slate-100'
+                      ? 'bg-primary/10 text-primary'
+                      : 'text-muted hover:bg-surface hover:text-text'
                   )}
                 >
                   <item.icon className="w-4 h-4" />
@@ -65,9 +73,7 @@ const Header: React.FC<{
                 </button>
               ))}
             </nav>
-            <button onClick={toggleTheme} title="Alterar tema" className="ml-4 p-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
-              {theme === 'light' ? <MoonIcon className="w-5 h-5" /> : <SunIcon className="w-5 h-5" />}
-            </button>
+            <ThemeToggle className="ml-4" />
           </div>
         </div>
       </div>
@@ -357,29 +363,17 @@ export default function App() {
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [toReview, setToReview] = useState<Set<string>>(new Set());
 
-  const getInitialTheme = (): string => {
-    if (typeof window !== 'undefined') {
-      const storedTheme = localStorage.getItem('theme');
-      if (storedTheme) return storedTheme;
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-    return 'light';
-  };
-
-  const [theme, setTheme] = useState<string>(getInitialTheme());
-
+  // Initialize theme system
   useEffect(() => {
-    const root = window.document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      root.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
-  }, [theme]);
+    initializeTheme();
+  }, []);
 
-  const toggleTheme = () => setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
+  const [theme, setTheme] = useState<string>(getCurrentTheme());
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+  };
 
   useEffect(() => {
     async function initApp() {
@@ -387,7 +381,8 @@ export default function App() {
         const questionBankItems: Question[] = [
           ...(questionBank1 as any).items,
           ...(questionBank2 as any).items,
-          ...(questionBank3 as any).items
+          ...(questionBank3 as any).items,
+          ...(questionBank4 as any).items
         ];
         try {
           await db.upsertQuestionsInChunks(questionBankItems, 50);
@@ -517,42 +512,125 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900">
+    <div className="min-h-screen bg-bg">
       <Header mode={mode} setMode={setMode} theme={theme} toggleTheme={toggleTheme} />
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">{renderContent()}</main>
+      <main className="max-w-7xl mx-auto px-6 py-8 sm:py-12">{renderContent()}</main>
     </div>
   );
 }
 
 const HomePage: React.FC<{ setMode: (mode: AppMode) => void; stats: Stats }> = ({ setMode, stats }) => (
-  <div className="text-center">
-    <h1 className="text-4xl font-bold text-slate-800 dark:text-slate-100">Bem-vindo(a) ao VetPro</h1>
-    <p className="mt-4 text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">Sua plataforma inteligente para conquistar a aprovação. Estude com questões, aprofunde-se com IA e teste seus conhecimentos.</p>
-    <div className="mt-8 flex justify-center gap-4">
-      <button onClick={() => setMode('quiz')} className="px-8 py-3 bg-sky-600 text-white font-semibold rounded-lg shadow-sm hover:bg-sky-700 transition-colors">Começar a Estudar</button>
-      <button onClick={() => setMode('sim')} className="px-8 py-3 bg-slate-800 dark:bg-slate-700 text-white font-semibold rounded-lg shadow-sm hover:bg-slate-900 dark:hover:bg-slate-600 transition-colors">Criar Simulado</button>
+  <div className="space-y-12">
+    {/* Hero Section */}
+    <div className="text-center space-y-6">
+      <h1 className="text-4xl md:text-5xl font-bold text-text">
+        Bem-vindo(a) ao <span className="text-primary">VetPro</span>
+      </h1>
+      <p className="text-lg text-muted max-w-2xl mx-auto leading-relaxed">
+        Sua plataforma inteligente para conquistar a aprovação. Estude com questões, aprofunde-se com IA e teste seus conhecimentos.
+      </p>
+      <div className="flex flex-col sm:flex-row justify-center gap-4">
+        <Button 
+          size="lg" 
+          onClick={() => setMode('quiz')}
+          className="text-lg px-8 py-4"
+        >
+          Começar a Estudar
+        </Button>
+        <Button 
+          variant="outline" 
+          size="lg" 
+          onClick={() => setMode('sim')}
+          className="text-lg px-8 py-4"
+        >
+          Criar Simulado
+        </Button>
+      </div>
     </div>
-    <div className="mt-12 max-w-lg mx-auto bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
-      <h3 className="text-lg font-semibold text-slate-700 dark:text-slate-200 mb-4">Seu Progresso</h3>
-      {stats.total > 0 ? (
-        <div className="grid grid-cols-3 gap-4 text-center">
-          <div>
-            <p className="text-3xl font-bold text-slate-800 dark:text-slate-100">{stats.total}</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">Respondidas</p>
-          </div>
-          <div>
-            <p className="text-3xl font-bold text-emerald-600 dark:text-emerald-500">{stats.correct}</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">Corretas</p>
-          </div>
-          <div>
-            <p className="text-3xl font-bold text-sky-600 dark:text-sky-500">{`${((stats.correct / stats.total) * 100).toFixed(0)}%`}</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">Aproveitamento</p>
-          </div>
+
+    {/* Progress Cards */}
+    <div className="grid md:grid-cols-3 gap-6">
+      <Card elevation={2} className="text-center p-6">
+        <ProgressRing 
+          value={stats.total > 0 ? (stats.total / 100) * 100 : 0} 
+          label="Respondidas"
+          helper={`${stats.total} questões`}
+          size={80}
+        />
+      </Card>
+      <Card elevation={2} className="text-center p-6">
+        <ProgressRing 
+          value={stats.total > 0 ? (stats.correct / stats.total) * 100 : 0} 
+          label="Corretas"
+          helper={`${stats.correct} acertos`}
+          size={80}
+        />
+      </Card>
+      <Card elevation={2} className="text-center p-6">
+        <ProgressRing 
+          value={stats.total > 0 ? ((stats.correct / stats.total) * 100) : 0} 
+          label="Aproveitamento"
+          helper={`${stats.total > 0 ? ((stats.correct / stats.total) * 100).toFixed(1) : 0}%`}
+          size={80}
+        />
+      </Card>
+    </div>
+
+    {/* AI Recommendations */}
+    <div className="space-y-6">
+      <h2 className="text-2xl font-bold text-text text-center">
+        Recomendações da IA
+      </h2>
+      <div className="grid md:grid-cols-3 gap-6">
+        <ActionCard
+          icon={<BookOpen size={20} />}
+          title="Revisar Erros"
+          description="Revise as 5 questões que você mais errou esta semana"
+          action="Revisar"
+          onClick={() => setMode('errors')}
+          variant="primary"
+        />
+        <ActionCard
+          icon={<Clock size={20} />}
+          title="Simulado Rápido"
+          description="10 questões em 15 minutos para testar seus conhecimentos"
+          action="Começar"
+          onClick={() => setMode('sim')}
+          variant="secondary"
+        />
+        <ActionCard
+          icon={<Brain size={20} />}
+          title="Resumo de Infecto"
+          description="Resumo inteligente dos principais conceitos de infectologia"
+          action="Ver Resumo"
+          onClick={() => setMode('browse')}
+          variant="accent"
+        />
+      </div>
+    </div>
+
+    {/* Quick Actions */}
+    <Card elevation={1} className="p-6">
+      <div className="text-center space-y-4">
+        <h3 className="text-xl font-semibold text-text">
+          Ações Rápidas
+        </h3>
+        <div className="flex flex-wrap justify-center gap-4">
+          <Button variant="outline" onClick={() => setMode('favorites')}>
+            <StarIcon className="w-4 h-4 mr-2" />
+            Favoritas
+          </Button>
+          <Button variant="outline" onClick={() => setMode('review')}>
+            <BookmarkIcon className="w-4 h-4 mr-2" />
+            Para Revisar
+          </Button>
+          <Button variant="outline" onClick={() => setMode('stats')}>
+            <ActivityIcon className="w-4 h-4 mr-2" />
+            Estatísticas
+          </Button>
         </div>
-      ) : (
-        <p className="text-slate-500 dark:text-slate-400">Você ainda não respondeu nenhuma questão. Vamos começar?</p>
-      )}
-    </div>
+      </div>
+    </Card>
   </div>
 );
 

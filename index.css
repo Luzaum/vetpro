@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import design tokens */
+@import './styles/tokens.css';
+
 @layer base {
   :root {
     --radius: 0.65rem;
@@ -55,5 +58,21 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans);
   }
+}
+
+/* Custom utility classes for design tokens */
+@layer utilities {
+  .bg-bg { background-color: var(--color-bg); }
+  .bg-surface { background-color: var(--color-surface); }
+  .bg-surface-raised { background-color: var(--color-surface-raised); }
+  .text-text { color: var(--color-text); }
+  .text-muted { color: var(--color-text-muted); }
+  .text-primary { color: var(--color-primary); }
+  .text-accent { color: var(--color-accent); }
+  .text-warning { color: var(--color-warning); }
+  .text-danger { color: var(--color-danger); }
+  .border-border { border-color: var(--color-border); }
+  .border-border-muted { border-color: var(--color-border-muted); }
 }
