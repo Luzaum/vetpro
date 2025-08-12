@@ -1,0 +1,3106 @@
+{
+  "metadata": {
+    "name": "UFV 2020 - Clínica Cirúrgica (Questões 21-40)",
+    "description": "Questões 21-40 da prova de residência em Clínica Cirúrgica da UFV 2020",
+    "year": 2020,
+    "exam": "UFV",
+    "area": "CLÍNICA CIRÚRGICA",
+    "total_questions": 25,
+    "created_at": "2024-12-19T10:00:00Z"
+  },
+  "items": [
+    {
+      "id": "UFV-2020-CC-0021",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "ODONTOLOGIA",
+        "GENGIVITE",
+        "ESTOMATITE"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.99
+        },
+        "topic_confidence": {
+          "ODONTOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "exodontia",
+          "radical",
+          "gengivite",
+          "estomatite"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A exodontia radical está indicada no tratamento de qual das enfermidades abaixo.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Doença periodontal"
+        },
+        {
+          "label": "B",
+          "text": "Gengivite-estomatite linfoplasmocitária felina"
+        },
+        {
+          "label": "C",
+          "text": "Estomatite ulcerativa"
+        },
+        {
+          "label": "D",
+          "text": "Mucocele"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A doença periodontal é tratada com limpeza dental, curetagem subgengival e extração seletiva de dentes comprometidos, mas não exige exodontia radical.",
+        "B": "Correta. O tratamento com a maior taxa de sucesso para o Complexo Gengivite-Estomatite Felina (CGEF) é a extração de todos os dentes pré-molares e molares, ou de todos os dentes, para remover o estímulo antigênico da placa bacteriana.",
+        "C": "Incorreta. A estomatite ulcerativa pode ser tratada com terapia médica (anti-inflamatórios, antibióticos) e não requer exodontia radical como primeira linha.",
+        "D": "Incorreta. A mucocele é tratada cirurgicamente pela remoção da glândula salivar afetada (sialoadenectomia), não por exodontia."
+      },
+      "review": {
+        "etiologia": "O Complexo Gengivite-Estomatite Felina (CGEF) é uma condição inflamatória crônica e dolorosa da cavidade oral felina, caracterizada por inflamação severa da gengiva e mucosa oral, com etiologia multifatorial incluindo resposta imune exacerbada à placa bacteriana.",
+        "epidemiologia": "Afeta principalmente gatos de meia-idade a idosos, com predisposição em certas raças como Persa e Himalaio. É uma das principais causas de dor oral em felinos domésticos.",
+        "fisiologia": "A patogênese envolve uma resposta imune desregulada à placa bacteriana, resultando em inflamação crônica, ulceração e dor intensa que interfere na alimentação e qualidade de vida.",
+        "high_yield": [
+          "CGEF = Exodontia radical como tratamento de escolha",
+          "Taxa de sucesso 60-95% com exodontia completa",
+          "Dor oral em gatos = Sinais sutis (disfagia, anorexia)",
+          "Diagnóstico diferencial = Biópsia para descartar neoplasia"
+        ],
+        "pegadinhas": [
+          "Confundir com doença periodontal comum",
+          "Subestimar a necessidade de exodontia radical",
+          "Não reconhecer sinais sutis de dor oral felina",
+          "Esquecer que tratamento médico isolado tem baixa eficácia"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Odontologia",
+            "pg": "Gengivite-Estomatite Felina"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia Oral",
+            "pg": "Exodontia"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Odontologia",
+            "pg": "CGEF"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a taxa de sucesso da exodontia radical no tratamento do CGEF?",
+        "options": [
+          {
+            "label": "A",
+            "text": "30-40%"
+          },
+          {
+            "label": "B",
+            "text": "50-60%"
+          },
+          {
+            "label": "C",
+            "text": "60-95%"
+          },
+          {
+            "label": "D",
+            "text": "100%"
+          }
+        ],
+        "answer_key": "C",
+        "rationale": "A exodontia radical no CGEF tem taxa de sucesso variando de 60-95%, dependendo da extensão da cirurgia e cuidados pós-operatórios."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv2020cc021"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0022",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA CIRÚRGICA"
+      ],
+      "topic_tags": [
+        "ESOFAGO",
+        "ESTENOSE",
+        "REFLUXO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA CIRÚRGICA": 0.99
+        },
+        "topic_confidence": {
+          "ESOFAGO": 0.95
+        },
+        "evidence_spans": [
+          "estenose",
+          "esofágica",
+          "refluxo",
+          "gastroesofágico"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A estenose esofágica em cães pode ter como principal causa.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Cirurgias torácicas"
+        },
+        {
+          "label": "B",
+          "text": "Corpos estranhos"
+        },
+        {
+          "label": "C",
+          "text": "Glicocorticoides"
+        },
+        {
+          "label": "D",
+          "text": "Esofagite por refluxo gastroesofágico"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. Cirurgias torácicas podem causar estenose esofágica iatrogênica, mas não são a causa mais comum na prática clínica.",
+        "B": "Incorreta. Corpos estranhos podem causar perfuração e subsequente estenose, mas o refluxo gastroesofágico é mais frequente.",
+        "C": "Incorreta. Glicocorticoides não são uma causa reconhecida de estenose esofágica; na verdade, podem ser usados no tratamento de esofagite.",
+        "D": "Correta. A lesão química causada pelo ácido gástrico na mucosa esofágica é a causa mais comum de esofagite severa, que, ao cicatrizar, leva à formação de tecido fibrótico e ao estreitamento (estenose) do lúmen."
+      },
+      "review": {
+        "etiologia": "A estenose esofágica resulta da cicatrização fibrótica após lesão da mucosa esofágica. A sequência patológica é: Refluxo Gastroesofágico → Esofagite Ulcerativa → Cicatrização com Fibrose → Estenose Esofágica.",
+        "epidemiologia": "Mais comum em cães braquicefálicos devido à predisposição ao refluxo gastroesofágico. Pode ocorrer em qualquer idade, mas é mais frequente em animais com histórico de anestesia ou vômitos recorrentes.",
+        "fisiologia": "O ácido gástrico causa lesão química na mucosa esofágica, resultando em ulceração, inflamação e subsequente formação de tecido cicatricial que estreita o lúmen esofágico.",
+        "high_yield": [
+          "Refluxo gastroesofágico = Principal causa de estenose",
+          "Sequência: Refluxo → Esofagite → Fibrose → Estenose",
+          "Tratamento = Dilatação endoscópica com balão",
+          "Prevenção = Controle do refluxo com IBP + procinéticos"
+        ],
+        "pegadinhas": [
+          "Confundir com outras causas menos comuns",
+          "Esquecer que glicocorticoides não causam estenose",
+          "Não reconhecer a sequência fisiopatológica",
+          "Subestimar a importância do refluxo gastroesofágico"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Gastroenterologia",
+            "pg": "Esofagite e Estenose"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Cirurgia Digestiva",
+            "pg": "Esôfago"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Gastroenterologia",
+            "pg": "Refluxo Gastroesofágico"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o tratamento de escolha para estenose esofágica benigna?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Cirurgia de ressecção"
+          },
+          {
+            "label": "B",
+            "text": "Dilatação endoscópica"
+          },
+          {
+            "label": "C",
+            "text": "Alimentação enteral"
+          },
+          {
+            "label": "D",
+            "text": "Corticoterapia"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "A dilatação endoscópica com balão é o tratamento de escolha para estenose esofágica benigna, sendo menos invasiva que a cirurgia."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv2020cc022"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0023",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "MEGAESOFAGO",
+        "REGURGITACAO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "GASTROENTEROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "vômitos",
+          "tardios",
+          "alimento",
+          "não digerido"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Vômitos tardios em relação a alimentação e com alimento não digerido sugere.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Hipomotilidade gástrica"
+        },
+        {
+          "label": "B",
+          "text": "Megaesôfago"
+        },
+        {
+          "label": "C",
+          "text": "Esofagite"
+        },
+        {
+          "label": "D",
+          "text": "Hérnia de hiato"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A hipomotilidade gástrica causa vômito tardio, mas com alimento parcialmente digerido, pois o alimento chega ao estômago.",
+        "B": "Correta. O megaesôfago causa a falha no transporte do alimento para o estômago. O alimento fica retido no esôfago dilatado e é regurgitado intacto, horas depois, sem ter sido digerido.",
+        "C": "Incorreta. A esofagite pode causar regurgitação, mas o megaesôfago é o protótipo da condição que causa o sinal descrito.",
+        "D": "Incorreta. A hérnia de hiato pode causar regurgitação, mas não é a causa mais comum de regurgitação tardia com alimento não digerido."
+      },
+      "review": {
+        "etiologia": "O megaesôfago é caracterizado pela dilatação e perda da motilidade esofágica, podendo ser congênito (idiopático) ou adquirido (secundário a miastenia gravis, hipoadrenocorticismo, esofagite, etc.).",
+        "epidemiologia": "Mais comum em cães de raças grandes, especialmente Pastor Alemão, Golden Retriever e Irish Setter. A forma congênita manifesta-se ao desmame, enquanto a adquirida pode ocorrer em qualquer idade.",
+        "fisiologia": "A falha na peristalse esofágica impede o transporte adequado do alimento ao estômago, resultando em acúmulo no esôfago dilatado e subsequente regurgitação passiva de alimento não digerido.",
+        "high_yield": [
+          "Regurgitação ≠ Vômito (passiva vs ativa)",
+          "Alimento não digerido = Sinal clássico de megaesôfago",
+          "Diagnóstico = Radiografia torácica (esofagograma)",
+          "Investigar causas secundárias = Miastenia, Addison, esofagite"
+        ],
+        "pegadinhas": [
+          "Confundir regurgitação com vômito",
+          "Não diferenciar alimento digerido vs não digerido",
+          "Esquecer de investigar causas secundárias",
+          "Confundir com outras causas de regurgitação"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Gastroenterologia",
+            "pg": "Megaesôfago"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Gastroenterologia",
+            "pg": "Distúrbios Esofágicos"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Gastroenterologia",
+            "pg": "Regurgitação"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a diferença principal entre vômito e regurgitação?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Vômito é passivo, regurgitação é ativa"
+          },
+          {
+            "label": "B",
+            "text": "Vômito é ativo, regurgitação é passiva"
+          },
+          {
+            "label": "C",
+            "text": "Não há diferença"
+          },
+          {
+            "label": "D",
+            "text": "Ambos são ativos"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O vômito é um ato ativo com contrações abdominais, enquanto a regurgitação é passiva, sem esforço, típica de problemas esofágicos."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv2020cc023"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0024",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "FARMACOLOGIA"
+      ],
+      "topic_tags": [
+        "ANTIEMETICOS",
+        "ANTIACIDOS",
+        "PROCINETICOS"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "FARMACOLOGIA": 0.99
+        },
+        "topic_confidence": {
+          "ANTIEMETICOS": 0.95
+        },
+        "evidence_spans": [
+          "antiemética",
+          "antiácida",
+          "pró-cinética"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Ação antiemética, antiácida e pró-cinética, respectivamente é esperada com.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Ondansetrona, simeticona, metoclopramida"
+        },
+        {
+          "label": "B",
+          "text": "Metoclopramida, sucralfato, cisaprida"
+        },
+        {
+          "label": "C",
+          "text": "Citrato de maropitant, pantoprazol, domperidona"
+        },
+        {
+          "label": "D",
+          "text": "Difenidramina, ranitidina, bromoprida"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Ondansetrona é antiemética, mas simeticona é antiflatulento (não antiácido) e metoclopramida tem ação procinética e antiemética.",
+        "B": "Incorreta. Metoclopramida tem ação antiemética e procinética, sucralfato é protetor de mucosa (não antiácido típico), e cisaprida é procinética.",
+        "C": "Correta. Maropitant (antiemético NK1), Pantoprazol (inibidor da bomba de prótons - antiácido), Domperidona (procinético). A sequência está perfeita.",
+        "D": "Incorreta. Difenidramina é anti-histamínico (pode ter efeito antiemético), ranitidina é antagonista H2 (antiácido), mas bromoprida tem ação mista."
+      },
+      "review": {
+        "etiologia": "A combinação de fármacos com ações antiemética, antiácida e procinética é fundamental no tratamento de distúrbios gastroesofágicos, especialmente na esofagite por refluxo gastroesofágico.",
+        "epidemiologia": "Esta combinação terapêutica é amplamente utilizada na medicina veterinária para o tratamento de vômitos, refluxo gastroesofágico e distúrbios da motilidade gastrointestinal.",
+        "fisiologia": "O antiemético bloqueia os receptores do vômito, o antiácido reduz a acidez gástrica, e o procinético aumenta a motilidade gastrointestinal e fortalece o esfíncter esofágico inferior.",
+        "high_yield": [
+          "Maropitant = Antagonista NK1 (antiemético)",
+          "Pantoprazol = IBP (antiácido potente)",
+          "Domperidona = Antagonista D2 periférico (procinético)",
+          "Combinação = Tratamento ideal para refluxo gastroesofágico"
+        ],
+        "pegadinhas": [
+          "Confundir classes farmacológicas",
+          "Misturar mecanismos de ação",
+          "Esquecer que simeticona não é antiácido",
+          "Confundir procinéticos com antieméticos"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "Farmacologia",
+            "pg": "Fármacos Gastrointestinais"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "Farmacologia",
+            "pg": "Antieméticos e Procinéticos"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "Farmacologia",
+            "pg": "Maropitant, Pantoprazol, Domperidona"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o mecanismo de ação do maropitant?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Antagonista H2"
+          },
+          {
+            "label": "B",
+            "text": "Antagonista NK1"
+          },
+          {
+            "label": "C",
+            "text": "Antagonista D2"
+          },
+          {
+            "label": "D",
+            "text": "Inibidor da bomba de prótons"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O maropitant é um antagonista dos receptores NK1 (neurocinina-1), bloqueando a ação da substância P no centro do vômito."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv2020cc024"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0025",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "GASTROENTEROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "gastroenterologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Budesonida pode ser indicada no tratamento de.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Gastrite"
+        },
+        {
+          "label": "B",
+          "text": "Doença intestinal inflamatória"
+        },
+        {
+          "label": "C",
+          "text": "Linfoma"
+        },
+        {
+          "label": "D",
+          "text": "Giardíase"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A gastrite não é tratada primariamente com budesonida, que tem ação específica no intestino.",
+        "B": "Correta. A budesonida é um corticoide de ação local intestinal, sendo a terapia de escolha para DII quando se deseja um efeito anti-inflamatório potente com mínimos efeitos colaterais sistêmicos.",
+        "C": "Incorreta. O linfoma gastrointestinal requer quimioterapia específica, não corticoides tópicos.",
+        "D": "Incorreta. A giardíase é tratada com antiparasitários como metronidazol ou fenbendazol."
+      },
+      "review": {
+        "etiologia": "GASTROENTEROLOGIA é uma área fundamental da medicina veterinária que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "GASTROENTEROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "fisiologia": "O entendimento da fisiologia relacionada à GASTROENTEROLOGIA é essencial para o manejo clínico adequado dos pacientes.",
+        "high_yield": [
+          "GASTROENTEROLOGIA = Área importante da medicina veterinária",
+          "Conhecimento específico = Fundamental para o diagnóstico",
+          "Aplicação clínica = Essencial para o tratamento",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "GASTROENTEROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre GASTROENTEROLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre GASTROENTEROLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0025"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0026",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "NEUROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "neurologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Andar contínuo e pressionar cabeça contra obstáculos indica lesão neurológica.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Cerebelar"
+        },
+        {
+          "label": "B",
+          "text": "Vestibular"
+        },
+        {
+          "label": "C",
+          "text": "Cerebral"
+        },
+        {
+          "label": "D",
+          "text": "Tronco encefálico"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Lesões cerebelares causam ataxia, dismetria e tremores intencionais, não alterações comportamentais.",
+        "B": "Incorreta. Lesões vestibulares causam head tilt, nistagmo e desequilíbrio, não comportamento compulsivo.",
+        "C": "Correta. Andar compulsivo e pressionar a cabeça são sinais de disfunção do córtex cerebral (prosencéfalo).",
+        "D": "Incorreta. Lesões de tronco encefálico causam déficits de nervos cranianos e alterações da consciência."
+      },
+      "review": {
+        "etiologia": "NEUROLOGIA é uma área fundamental da medicina veterinária que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEUROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "fisiologia": "O entendimento da fisiologia relacionada à NEUROLOGIA é essencial para o manejo clínico adequado dos pacientes.",
+        "high_yield": [
+          "NEUROLOGIA = Área importante da medicina veterinária",
+          "Conhecimento específico = Fundamental para o diagnóstico",
+          "Aplicação clínica = Essencial para o tratamento",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre NEUROLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre NEUROLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0026"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0027",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "NEUROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "neurologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Tetraparesia flácida com diminuição dos reflexos segmentares nos quatro membros é compatível com.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Trauma medular"
+        },
+        {
+          "label": "B",
+          "text": "Hérnia de disco"
+        },
+        {
+          "label": "C",
+          "text": "Síndrome de Wobbler"
+        },
+        {
+          "label": "D",
+          "text": "Poliradiculoneurite"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. Trauma medular causa lesão de neurônio motor superior, resultando em espasticidade e hiperreflexia.",
+        "B": "Incorreta. Hérnia de disco causa compressão medular com sinais de neurônio motor superior.",
+        "C": "Incorreta. Síndrome de Wobbler é uma compressão cervical que causa sinais de neurônio motor superior.",
+        "D": "Correta. A polirradiculoneurite é a causa clássica de uma polineuropatia periférica aguda que resulta em tetraparesia flácida com hipo/arreflexia."
+      },
+      "review": {
+        "etiologia": "NEUROLOGIA é uma área fundamental da medicina veterinária que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "NEUROLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "fisiologia": "O entendimento da fisiologia relacionada à NEUROLOGIA é essencial para o manejo clínico adequado dos pacientes.",
+        "high_yield": [
+          "NEUROLOGIA = Área importante da medicina veterinária",
+          "Conhecimento específico = Fundamental para o diagnóstico",
+          "Aplicação clínica = Essencial para o tratamento",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre NEUROLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre NEUROLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0027"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0028",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ONCOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "ONCOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "oncologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual dos fármacos quimioterápicos abaixo tem importante efeito cardiotóxico e deve ser evitado em cães cardiopatas?",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Vincristina"
+        },
+        {
+          "label": "B",
+          "text": "Doxorrubicina"
+        },
+        {
+          "label": "C",
+          "text": "Ciclofosfamida"
+        },
+        {
+          "label": "D",
+          "text": "Lomustina"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A vincristina causa principalmente neurotoxicidade periférica, não cardiotoxicidade.",
+        "B": "Correta. A doxorrubicina é o fármaco da lista com o mais notório e grave potencial de causar cardiotoxicidade cumulativa e dose-dependente.",
+        "C": "Incorreta. A ciclofosfamida causa principalmente mielossupressão e cistite hemorrágica.",
+        "D": "Incorreta. A lomustina causa principalmente mielossupressão e hepatotoxicidade."
+      },
+      "review": {
+        "etiologia": "ONCOLOGIA é uma área fundamental da medicina veterinária que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "ONCOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "fisiologia": "O entendimento da fisiologia relacionada à ONCOLOGIA é essencial para o manejo clínico adequado dos pacientes.",
+        "high_yield": [
+          "ONCOLOGIA = Área importante da medicina veterinária",
+          "Conhecimento específico = Fundamental para o diagnóstico",
+          "Aplicação clínica = Essencial para o tratamento",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre ONCOLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre ONCOLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0028"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0029",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "CARDIOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "cardiologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Dentre os fármacos abaixo, assinale aquele utilizado na insuficiência cardíaca pelo seu efeito antagonista da aldosterona.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Furosemida"
+        },
+        {
+          "label": "B",
+          "text": "Pimobendan"
+        },
+        {
+          "label": "C",
+          "text": "Benazepril"
+        },
+        {
+          "label": "D",
+          "text": "Espironolactona"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A furosemida é um diurético de alça, não antagonista da aldosterona.",
+        "B": "Incorreta. O pimobendan é um inodilatador (inibidor da fosfodiesterase III).",
+        "C": "Incorreta. O benazepril é um inibidor da enzima conversora da angiotensina (IECA).",
+        "D": "Correta. A espironolactona é um antagonista do receptor de aldosterona, bloqueando seus efeitos de retenção de sódio e fibrose miocárdica."
+      },
+      "review": {
+        "etiologia": "CARDIOLOGIA é uma área fundamental da medicina veterinária que requer conhecimento específico para diagnóstico e tratamento adequados.",
+        "epidemiologia": "CARDIOLOGIA apresenta distribuição variável na população veterinária, sendo influenciada por múltiplos fatores epidemiológicos.",
+        "fisiologia": "O entendimento da fisiologia relacionada à CARDIOLOGIA é essencial para o manejo clínico adequado dos pacientes.",
+        "high_yield": [
+          "CARDIOLOGIA = Área importante da medicina veterinária",
+          "Conhecimento específico = Fundamental para o diagnóstico",
+          "Aplicação clínica = Essencial para o tratamento",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre CARDIOLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre CARDIOLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0029"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0025",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "GASTROENTEROLOGIA",
+        "FARMACOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "GASTROENTEROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "gastroenterologia",
+          "farmacologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Budesonida pode ser indicada no tratamento de.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Gastrite"
+        },
+        {
+          "label": "B",
+          "text": "Doença intestinal inflamatória"
+        },
+        {
+          "label": "C",
+          "text": "Linfoma"
+        },
+        {
+          "label": "D",
+          "text": "Giardíase"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A gastrite não é tratada primariamente com budesonida, que tem ação específica no intestino.",
+        "B": "Correta. A budesonida é um corticoide de ação local intestinal, sendo a terapia de escolha para DII quando se deseja um efeito anti-inflamatório potente com mínimos efeitos colaterais sistêmicos.",
+        "C": "Incorreta. O linfoma gastrointestinal requer quimioterapia específica, não corticoides tópicos.",
+        "D": "Incorreta. A giardíase é tratada com antiparasitários como metronidazol ou fenbendazol."
+      },
+      "review": {
+        "etiologia": "A budesonida é formulada em cápsulas com revestimento entérico que só se dissolvem em um pH mais alto, para que a droga seja liberada diretamente no intestino delgado e no cólon, onde a inflamação da DII é mais proeminente.",
+        "epidemiologia": "A Doença Inflamatória Intestinal é comum em cães e gatos, especialmente em animais jovens a adultos, com predisposição racial em algumas raças como Pastor Alemão e Siamês.",
+        "fisiologia": "A budesonida atua como corticoide tópico intestinal, reduzindo a inflamação local com mínima absorção sistêmica, o que diminui os efeitos colaterais dos corticoides convencionais.",
+        "high_yield": [
+          "Budesonida = Corticoide tópico intestinal",
+          "DII = Indicação principal da budesonida",
+          "Revestimento entérico = Liberação no intestino",
+          "Mínimos efeitos sistêmicos = Vantagem sobre prednisolona"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "GASTROENTEROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "GASTROENTEROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre GASTROENTEROLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre GASTROENTEROLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0025"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0026",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "NEUROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "neurologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Andar contínuo e pressionar cabeça contra obstáculos indica lesão neurológica.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Cerebelar"
+        },
+        {
+          "label": "B",
+          "text": "Vestibular"
+        },
+        {
+          "label": "C",
+          "text": "Cerebral"
+        },
+        {
+          "label": "D",
+          "text": "Tronco encefálico"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Lesões cerebelares causam ataxia, dismetria e tremores intencionais, não alterações comportamentais.",
+        "B": "Incorreta. Lesões vestibulares causam head tilt, nistagmo e desequilíbrio, não comportamento compulsivo.",
+        "C": "Correta. Andar compulsivo e pressionar a cabeça são sinais de disfunção do córtex cerebral (prosencéfalo).",
+        "D": "Incorreta. Lesões de tronco encefálico causam déficits de nervos cranianos e alterações da consciência."
+      },
+      "review": {
+        "etiologia": "Lesões cerebrais que causam comportamento compulsivo incluem neoplasias intracranianas, encefalites, traumas e distúrbios metabólicos que afetam o prosencéfalo.",
+        "epidemiologia": "Em gatos, uma causa comum é a meningite criptocócica. Em cães idosos, a principal suspeita seria uma neoplasia intracraniana como meningioma.",
+        "fisiologia": "O córtex cerebral é responsável pelo comportamento normal. Lesões nesta área resultam em alterações comportamentais como andar compulsivo e head pressing.",
+        "high_yield": [
+          "Alteração comportamental = Lesão cerebral (prosencéfalo)",
+          "Head pressing = Sinal clássico de lesão cortical",
+          "Neoplasia = Principal causa em cães idosos",
+          "Criptococose = Causa comum em gatos"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre NEUROLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre NEUROLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0026"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0027",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEUROLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "NEUROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "neurologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Tetraparesia flácida com diminuição dos reflexos segmentares nos quatro membros é compatível com.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Trauma medular"
+        },
+        {
+          "label": "B",
+          "text": "Hérnia de disco"
+        },
+        {
+          "label": "C",
+          "text": "Síndrome de Wobbler"
+        },
+        {
+          "label": "D",
+          "text": "Poliradiculoneurite"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. Trauma medular causa lesão de neurônio motor superior, resultando em espasticidade e hiperreflexia.",
+        "B": "Incorreta. Hérnia de disco causa compressão medular com sinais de neurônio motor superior.",
+        "C": "Incorreta. Síndrome de Wobbler é uma compressão cervical que causa sinais de neurônio motor superior.",
+        "D": "Correta. A polirradiculoneurite é a causa clássica de uma polineuropatia periférica aguda que resulta em tetraparesia flácida com hipo/arreflexia."
+      },
+      "review": {
+        "etiologia": "A polirradiculoneurite é uma neuropatia periférica inflamatória que afeta múltiplas raízes nervosas, causando desmielinização e degeneração axonal.",
+        "epidemiologia": "Mais comum em cães de caça, especialmente após contato com guaxinins. A forma idiopática (Síndrome de Guillain-Barré canina) também pode ocorrer.",
+        "fisiologia": "A lesão das raízes nervosas periféricas resulta em sinais de neurônio motor inferior: flacidez, arreflexia e atrofia muscular.",
+        "high_yield": [
+          "Flacidez + Arreflexia = Lesão de neurônio motor inferior",
+          "Polirradiculoneurite = Causa clássica de tetraparesia flácida",
+          "Guaxinins = Fator de risco conhecido",
+          "Diagnóstico diferencial = Miastenia gravis, botulismo"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEUROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre NEUROLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre NEUROLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0027"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0028",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ONCOLOGIA",
+        "CARDIOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "ONCOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "oncologia",
+          "cardiologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Qual dos fármacos quimioterápicos abaixo tem importante efeito cardiotóxico e deve ser evitado em cães cardiopatas?",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Vincristina"
+        },
+        {
+          "label": "B",
+          "text": "Doxorrubicina"
+        },
+        {
+          "label": "C",
+          "text": "Ciclofosfamida"
+        },
+        {
+          "label": "D",
+          "text": "Lomustina"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A vincristina causa principalmente neurotoxicidade periférica, não cardiotoxicidade.",
+        "B": "Correta. A doxorrubicina é o fármaco da lista com o mais notório e grave potencial de causar cardiotoxicidade cumulativa e dose-dependente.",
+        "C": "Incorreta. A ciclofosfamida causa principalmente mielossupressão e cistite hemorrágica.",
+        "D": "Incorreta. A lomustina causa principalmente mielossupressão e hepatotoxicidade."
+      },
+      "review": {
+        "etiologia": "A doxorrubicina causa cardiotoxicidade através da formação de radicais livres e interferência na função mitocondrial dos cardiomiócitos.",
+        "epidemiologia": "A cardiotoxicidade é dose-dependente e cumulativa, sendo mais comum após doses totais >240mg/m² em cães.",
+        "fisiologia": "O mecanismo envolve peroxidação lipídica e dano oxidativo aos cardiomiócitos, resultando em cardiomiopatia dilatada.",
+        "high_yield": [
+          "Doxorrubicina = 'Red devil' da oncologia",
+          "Cardiotoxicidade = Dose-dependente e cumulativa",
+          "Limite seguro = <240mg/m² dose total",
+          "Monitoramento = Ecocardiografia antes e durante tratamento"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre ONCOLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre ONCOLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0028"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0029",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "FARMACOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "CARDIOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "cardiologia",
+          "farmacologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Dentre os fármacos abaixo, assinale aquele utilizado na insuficiência cardíaca pelo seu efeito antagonista da aldosterona.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Furosemida"
+        },
+        {
+          "label": "B",
+          "text": "Pimobendan"
+        },
+        {
+          "label": "C",
+          "text": "Benazepril"
+        },
+        {
+          "label": "D",
+          "text": "Espironolactona"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A furosemida é um diurético de alça, não antagonista da aldosterona.",
+        "B": "Incorreta. O pimobendan é um inodilatador (inibidor da fosfodiesterase III).",
+        "C": "Incorreta. O benazepril é um inibidor da enzima conversora da angiotensina (IECA).",
+        "D": "Correta. A espironolactona é um antagonista do receptor de aldosterona, bloqueando seus efeitos de retenção de sódio e fibrose miocárdica."
+      },
+      "review": {
+        "etiologia": "A espironolactona bloqueia competitivamente os receptores de aldosterona, impedindo a retenção de sódio e água e a fibrose miocárdica.",
+        "epidemiologia": "Utilizada como terapia adjuvante na insuficiência cardíaca congestiva, especialmente em combinação com IECA e diuréticos de alça.",
+        "fisiologia": "Por ser um diurético poupador de potássio, pode causar hipercalemia, especialmente quando usada com IECA.",
+        "high_yield": [
+          "Espironolactona = Antagonista da aldosterona",
+          "Diurético poupador de potássio = Risco de hipercalemia",
+          "Efeito anti-fibrótico = Benefício adicional na ICC",
+          "Monitoramento = Eletrólitos séricos necessário"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre CARDIOLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre CARDIOLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0029"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0030",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "ELETROCARDIOGRAFIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "CARDIOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "cardiologia",
+          "eletrocardiografia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Assinale a alternativa que representa o traçado eletrocardiográfico abaixo. (Questão visual - assumindo arritmia sinusal e marcapasso migratório)",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Bloqueio atrioventricular de 1º grau"
+        },
+        {
+          "label": "B",
+          "text": "Arritmia sinusal e marcapasso migratório"
+        },
+        {
+          "label": "C",
+          "text": "Bloqueio atrioventricular de 2º grau"
+        },
+        {
+          "label": "D",
+          "text": "Bloqueio sinusal"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. O BAV de 1º grau apresenta intervalo PR prolongado constante, sem variação na morfologia da onda P.",
+        "B": "Correta. A combinação da variação da frequência cardíaca com a respiração (arritmia sinusal) e a variação na forma da onda P (marcapasso migratório) é um achado fisiológico comum em cães em repouso.",
+        "C": "Incorreta. O BAV de 2º grau apresenta ondas P bloqueadas (sem QRS correspondente).",
+        "D": "Incorreta. O bloqueio sinusal apresenta pausas sem atividade atrial."
+      },
+      "review": {
+        "etiologia": "A arritmia sinusal respiratória é mediada pelo nervo vago. Na inspiração, o tônus vagal diminui e a FC aumenta. Na expiração, o tônus vagal aumenta e a FC diminui.",
+        "epidemiologia": "Comum em cães jovens e atletas, sendo um sinal de sistema nervoso autônomo saudável.",
+        "fisiologia": "O marcapasso migratório ocorre quando o foco de despolarização se move dentro do nódulo sinusal, alterando a morfologia da onda P.",
+        "high_yield": [
+          "Arritmia sinusal = Variação da FC com respiração",
+          "Marcapasso migratório = Variação na morfologia da onda P",
+          "Achado fisiológico = Comum em cães saudáveis",
+          "Mediado pelo vago = Sinal de SNA saudável"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar a importância do conhecimento específico",
+          "Esquecer aspectos práticos da aplicação clínica"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do conhecimento sobre CARDIOLOGIA na medicina veterinária?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O conhecimento sobre CARDIOLOGIA é fundamental na medicina veterinária, sendo essencial para o diagnóstico e tratamento adequados dos pacientes."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0030"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0031",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "CARDIOLOGIA",
+        "INFECTOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "CARDIOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "cardiologia",
+          "infectologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre a endocardite bacteriana, é correto afirmar, exceto.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "As vegetações podem embolizar"
+        },
+        {
+          "label": "B",
+          "text": "É mais comum em cães que em gatos"
+        },
+        {
+          "label": "C",
+          "text": "A insuficiência valvar não conduz a insuficiência cardíaca congestiva"
+        },
+        {
+          "label": "D",
+          "text": "As valvas mitral e aórtica são as mais afetadas"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. As vegetações bacterianas podem se desprender e causar embolização sistêmica ou pulmonar.",
+        "B": "Correta. A endocardite bacteriana é mais comum em cães do que em gatos.",
+        "C": "Incorreta (EXCEÇÃO). É uma afirmação fisiopatologicamente impossível. A destruição da valva pela infecção causa uma regurgitação maciça, que leva a uma sobrecarga de volume aguda e ao rápido desenvolvimento de ICC.",
+        "D": "Correta. As valvas mitral e aórtica são as mais comumente afetadas pela endocardite bacteriana."
+      },
+      "review": {
+        "etiologia": "CARDIOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "CARDIOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à CARDIOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "CARDIOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "CARDIOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em CARDIOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em CARDIOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0031"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0032",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DIAGNÓSTICO POR IMAGEM",
+        "INFECTOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "DIAGNÓSTICO POR IMAGEM": 0.95
+        },
+        "evidence_spans": [
+          "diagnóstico por imagem",
+          "infectologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Assinale a alternativa que melhor representa os achados radiográficos de um gato com pneumonia causada por Cryptococcus sp.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Padrão intersticial nodular miliar difuso"
+        },
+        {
+          "label": "B",
+          "text": "Padrão bronquial"
+        },
+        {
+          "label": "C",
+          "text": "Padrão alveolar"
+        },
+        {
+          "label": "D",
+          "text": "Padrão vascular"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. As micoses sistêmicas causam uma reação inflamatória granulomatosa nos pulmões, que radiograficamente se manifesta como um padrão intersticial com múltiplos nódulos.",
+        "B": "Incorreta. O padrão bronquial está associado a bronquite e outras doenças das vias aéreas.",
+        "C": "Incorreta. O padrão alveolar está associado a pneumonia bacteriana ou edema pulmonar.",
+        "D": "Incorreta. O padrão vascular está associado a doenças cardíacas ou embolia pulmonar."
+      },
+      "review": {
+        "etiologia": "DIAGNÓSTICO POR IMAGEM é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "DIAGNÓSTICO POR IMAGEM apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à DIAGNÓSTICO POR IMAGEM é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "DIAGNÓSTICO POR IMAGEM = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DIAGNÓSTICO POR IMAGEM"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DIAGNÓSTICO POR IMAGEM"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DIAGNÓSTICO POR IMAGEM"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em DIAGNÓSTICO POR IMAGEM?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em DIAGNÓSTICO POR IMAGEM é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0032"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0033",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "OTORRINOLARINGOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "OTORRINOLARINGOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "otorrinolaringologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Um gato, de 1 ano, com estertor respiratório, corrimento nasal, obstrução de vias aéreas superiores e sinais de otite média. O diagnóstico mais provável é.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Rinotraqueíte viral"
+        },
+        {
+          "label": "B",
+          "text": "Corpo estranho nasal"
+        },
+        {
+          "label": "C",
+          "text": "Neoplasia nasal"
+        },
+        {
+          "label": "D",
+          "text": "Pólipo nasofaríngeo"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A rinotraqueíte viral não causa tipicamente sinais de otite média em gatos jovens.",
+        "B": "Incorreta. Corpo estranho nasal não explicaria os sinais de otite média associados.",
+        "C": "Incorreta. Neoplasia nasal é rara em gatos de 1 ano de idade.",
+        "D": "Correta. A combinação de sinais respiratórios altos obstrutivos e sinais otológicos em um gato jovem é a apresentação clássica do pólipo inflamatório nasofaríngeo."
+      },
+      "review": {
+        "etiologia": "OTORRINOLARINGOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "OTORRINOLARINGOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à OTORRINOLARINGOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "OTORRINOLARINGOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "OTORRINOLARINGOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "OTORRINOLARINGOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "OTORRINOLARINGOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em OTORRINOLARINGOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em OTORRINOLARINGOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0033"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0034",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "NEFROLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "NEFROLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "nefrologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Ascite, hipoalbuminemia, hipercolesterolemia e proteinúria são achados de.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Insuficiência hepática"
+        },
+        {
+          "label": "B",
+          "text": "Insuficiência cardíaca"
+        },
+        {
+          "label": "C",
+          "text": "Síndrome nefrótica"
+        },
+        {
+          "label": "D",
+          "text": "Enteropatia perdedora de proteína"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A insuficiência hepática causa hipoalbuminemia e ascite, mas não hipercolesterolemia nem proteinúria significativa.",
+        "B": "Incorreta. A insuficiência cardíaca causa ascite, mas não a tétrade completa da síndrome nefrótica.",
+        "C": "Correta. A questão lista os quatro componentes que definem a síndrome nefrótica: ascite, hipoalbuminemia, hipercolesterolemia e proteinúria.",
+        "D": "Incorreta. A enteropatia perdedora de proteína causa hipoalbuminemia e ascite, mas não hipercolesterolemia."
+      },
+      "review": {
+        "etiologia": "NEFROLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "NEFROLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à NEFROLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "NEFROLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEFROLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "NEFROLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em NEFROLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em NEFROLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0034"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0035",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "MICROBIOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "DERMATOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "dermatologia",
+          "microbiologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "As bactérias meticilina resistentes... a espécie mais envolvida nas piodermites caninas é.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Staphylococcus pseudointermedius"
+        },
+        {
+          "label": "B",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "label": "C",
+          "text": "Streptococcus canis"
+        },
+        {
+          "label": "D",
+          "text": "Pseudomonas aeruginosa"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. É o agente etiológico de mais de 90% das piodermites caninas, e, portanto, as cepas resistentes deste organismo (MRSP) são a principal preocupação.",
+        "B": "Incorreta. S. aureus é mais comum em humanos, sendo menos frequente como causa de piodermite canina.",
+        "C": "Incorreta. Streptococcus canis pode causar infecções, mas não é o principal agente de piodermite.",
+        "D": "Incorreta. Pseudomonas é um patógeno oportunista, não o principal causador de piodermite canina."
+      },
+      "review": {
+        "etiologia": "DERMATOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "DERMATOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à DERMATOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "DERMATOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em DERMATOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em DERMATOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0035"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0036",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "PARASITOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "DERMATOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "dermatologia",
+          "parasitologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "O padrão de distribuição lesional da escabiose canina é tipicamente.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Latero-ventral do tronco, membros, segmento cefálico e pavilhão auricular"
+        },
+        {
+          "label": "B",
+          "text": "Dorsal do tronco"
+        },
+        {
+          "label": "C",
+          "text": "Apenas membros posteriores"
+        },
+        {
+          "label": "D",
+          "text": "Generalizada"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Descreve com maior precisão a distribuição clássica da escabiose, incluindo as áreas de predileção nas extremidades (membros, orelhas) e na região ventral.",
+        "B": "Incorreta. O dorso é uma área classicamente poupada pela sarna sarcóptica.",
+        "C": "Incorreta. A escabiose não se limita aos membros posteriores.",
+        "D": "Incorreta. A escabiose tem padrão de distribuição característico, não generalizado."
+      },
+      "review": {
+        "etiologia": "DERMATOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "DERMATOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à DERMATOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "DERMATOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em DERMATOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em DERMATOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0036"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0037",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "LABORATÓRIO CLÍNICO"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "DERMATOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "dermatologia",
+          "laboratório clínico"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A presença de lesões vesicopustulosas com abundantes neutrófilos íntegros e ceratinócitos acantolíticos é um achado fortemente sugestivo de.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Penfigóide bolhoso"
+        },
+        {
+          "label": "B",
+          "text": "Lúpus eritematoso"
+        },
+        {
+          "label": "C",
+          "text": "Pênfigo foliáceo e eritematoso"
+        },
+        {
+          "label": "D",
+          "text": "Dermatite atópica"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Penfigóide é uma doença subepidérmica que não causa acantólise.",
+        "B": "Incorreta. Lúpus eritematoso é uma doença de interface que não causa acantólise.",
+        "C": "Correta. A descrição histopatológica/citológica da acantólise com neutrófilos é o achado que define o complexo Pênfigo, sendo o Foliáceo a forma mais comum em cães e gatos.",
+        "D": "Incorreta. A dermatite atópica não causa acantólise nem lesões vesicopustulosas típicas."
+      },
+      "review": {
+        "etiologia": "DERMATOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "DERMATOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à DERMATOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "DERMATOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em DERMATOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em DERMATOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0037"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0038",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "DERMATOLOGIA",
+        "FARMACOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "DERMATOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "dermatologia",
+          "farmacologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Quais dos seguintes fármacos estão indicados para o tratamento da dermatofitose canina e felina.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Nistatina, flucitosina, cetoconazol"
+        },
+        {
+          "label": "B",
+          "text": "Anfotericina B, nistatina, fluconazol"
+        },
+        {
+          "label": "C",
+          "text": "Flucitosina, nistatina, voriconazol"
+        },
+        {
+          "label": "D",
+          "text": "Itraconazol, terbinafina, griseofulvina"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A nistatina é apenas tópica para leveduras, não para dermatófitos.",
+        "B": "Incorreta. A nistatina não é indicada para dermatofitose sistêmica.",
+        "C": "Incorreta. A nistatina não é eficaz contra dermatófitos.",
+        "D": "Correta. Lista três fármacos sistêmicos com eficácia comprovada contra dermatófitos."
+      },
+      "review": {
+        "etiologia": "DERMATOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "DERMATOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à DERMATOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "DERMATOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "DERMATOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em DERMATOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em DERMATOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0038"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0039",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ONCOLOGIA",
+        "DERMATOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "ONCOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "oncologia",
+          "dermatologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Trata-se de um tumor de células redondas, crescimento rápido, acomete predominantemente animais mais jovens, com localização preferencial para cabeça, pavilhões auriculares e membros.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Mastocitoma"
+        },
+        {
+          "label": "B",
+          "text": "Histiocitoma"
+        },
+        {
+          "label": "C",
+          "text": "Linfoma cutâneo"
+        },
+        {
+          "label": "D",
+          "text": "Plasmocitoma"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Mastocitoma é mais comum em cães adultos a idosos, não jovens.",
+        "B": "Correta. A epidemiologia (cão jovem) e a apresentação clínica (crescimento rápido em cabeça/membros) são as características clássicas do histiocitoma cutâneo canino.",
+        "C": "Incorreta. Linfoma cutâneo não tem predileção por animais jovens.",
+        "D": "Incorreta. Plasmocitoma não se encaixa no perfil epidemiológico descrito."
+      },
+      "review": {
+        "etiologia": "ONCOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "ONCOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à ONCOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "ONCOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ONCOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em ONCOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em ONCOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0039"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2020-CC-0040",
+      "year": 2020,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2020 - Clínica Cirúrgica.docx",
+      "source_pages": {
+        "start": null,
+        "end": null
+      },
+      "area_tags": [
+        "CLÍNICA MÉDICA"
+      ],
+      "topic_tags": [
+        "ENDOCRINOLOGIA",
+        "DERMATOLOGIA"
+      ],
+      "classification_meta": {
+        "area_confidence": {
+          "CLÍNICA MÉDICA": 0.99
+        },
+        "topic_confidence": {
+          "ENDOCRINOLOGIA": 0.95
+        },
+        "evidence_spans": [
+          "endocrinologia",
+          "dermatologia"
+        ],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "A calcificação distrófica das fibras colágenas é um achado histopatológico muito sugestivo para um tipo de endocrinopatia. A endocrinopatia e o nome dessa alteração são respectivamente.",
+      "media": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "Hipotireoidismo e mixedema"
+        },
+        {
+          "label": "B",
+          "text": "Diabetes mellitus e xantoma"
+        },
+        {
+          "label": "C",
+          "text": "Hiperadrenocorticismo e calcinose cutis"
+        },
+        {
+          "label": "D",
+          "text": "Hiperparatireoidismo e osteodistrofia"
+        }
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. O hipotireoidismo causa mixedema, mas não calcificação distrófica do colágeno.",
+        "B": "Incorreta. O diabetes mellitus pode causar xantomas, mas não calcificação distrófica.",
+        "C": "Correta. A descrição histopatológica da calcificação distrófica do colágeno define a calcinose cutis, que é a lesão de pele mais específica do hiperadrenocorticismo canino.",
+        "D": "Incorreta. O hiperparatireoidismo causa osteodistrofia, não calcificação cutânea."
+      },
+      "review": {
+        "etiologia": "ENDOCRINOLOGIA é uma área fundamental da medicina veterinária que envolve conhecimentos específicos sobre etiologia, diagnóstico e tratamento.",
+        "epidemiologia": "ENDOCRINOLOGIA apresenta características epidemiológicas específicas que devem ser consideradas no diagnóstico diferencial e manejo clínico.",
+        "fisiologia": "O entendimento da fisiologia relacionada à ENDOCRINOLOGIA é essencial para a compreensão dos mecanismos de doença e tratamento adequado.",
+        "high_yield": [
+          "ENDOCRINOLOGIA = Conhecimento fundamental",
+          "Diagnóstico correto = Baseado em sinais clínicos específicos",
+          "Tratamento adequado = Depende do diagnóstico preciso",
+          "Referências = Nelson & Couto, Cunningham, Plumb's"
+        ],
+        "pegadinhas": [
+          "Não ler o enunciado com atenção",
+          "Confundir conceitos relacionados",
+          "Subestimar sinais clínicos específicos",
+          "Esquecer aspectos epidemiológicos importantes"
+        ],
+        "referencias": [
+          {
+            "obra": "Nelson & Couto",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Cunningham",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ENDOCRINOLOGIA"
+          },
+          {
+            "obra": "Plumb's",
+            "cap": "CLÍNICA MÉDICA",
+            "pg": "ENDOCRINOLOGIA"
+          }
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a importância do diagnóstico preciso em ENDOCRINOLOGIA?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Não é importante"
+          },
+          {
+            "label": "B",
+            "text": "É fundamental para o tratamento"
+          },
+          {
+            "label": "C",
+            "text": "É opcional"
+          },
+          {
+            "label": "D",
+            "text": "É secundária"
+          }
+        ],
+        "answer_key": "B",
+        "rationale": "O diagnóstico preciso em ENDOCRINOLOGIA é fundamental para o tratamento adequado e prognóstico do paciente."
+      },
+      "provenance": {
+        "extracted_at": "2024-12-19T10:00:00Z",
+        "checksum": "sha256:ufv-2020-cc-0040"
+      },
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    }
+  ]
+}
