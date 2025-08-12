@@ -32,6 +32,11 @@
         "C": "Incorreta. Taquicardia ventricular apresenta complexos largos bizarros e dissociação AV.",
         "D": "Incorreta. Taquicardia atrial tem ondas P anormais e condução 1:1 ou bloqueio fixo.",
         "E": "Incorreta. Arritmia sinusal é variação fisiológica da FC com respiração, sem bloqueio AV."
+      },
+      "review": {
+        "fisiologia": "BAV 2º grau Mobitz I: alongamento progressivo do PR até uma onda P não ser conduzida. Causado por aumento da refratariedade do nódulo AV.",
+        "high_yield": ["Wenckebach = Mobitz I", "PR progressivamente longo", "Ciclo Wenckebach típico"],
+        "pegadinhas": ["Confundir com Mobitz II (PR fixo)"]
       }
     },
     {
@@ -83,7 +88,13 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {"A": "Correta. Obstrução urinária→acidose metabólica; vômito→alcalose metabólica; hiperventilação→alcalose respiratória; asma (retenção CO2)→acidose respiratória."}
+      "rationales": {
+        "A": "Correta. Obstrução urinária causa acidose metabólica por retenção de ácidos; vômito causa alcalose metabólica por perda de HCl; hiperventilação causa alcalose respiratória por eliminação excessiva de CO2; asma causa acidose respiratória por retenção de CO2.",
+        "B": "Incorreta. Sequência incorreta das correlações.",
+        "C": "Incorreta. Sequência incorreta das correlações.",
+        "D": "Incorreta. Sequência incorreta das correlações.",
+        "E": "Incorreta. Sequência incorreta das correlações."
+      }
     },
     {
       "id": "UFV-2022-CM4-0024",
@@ -99,7 +110,18 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {"C": "Correta. Melarsomina é arsenical; antídoto = dimercaprol (BAL)."}
+      "rationales": {
+        "A": "Incorreta. Penicilamina é quelante de cobre, não de arsênio.",
+        "B": "Incorreta. EDTA é quelante de metais pesados, mas não específico para arsênio.",
+        "C": "Correta. Dimercaprol (BAL) é o antídoto específico para intoxicação por arsênio, como a melarsomina.",
+        "D": "Incorreta. Quitosamina não é um quelante conhecido.",
+        "E": "Incorreta. Zinco não é quelante de arsênio."
+      },
+      "review": {
+        "fisiologia": "Melarsomina contém arsênio trivalente que pode causar edema pulmonar por toxicidade. Dimercaprol (BAL) forma complexos estáveis com arsênio, facilitando sua excreção.",
+        "high_yield": ["BAL = antídoto para arsênio", "Edema pulmonar = complicação da melarsomina", "Quelantes específicos para cada metal"],
+        "pegadinhas": ["Usar penicilamina para arsênio", "EDTA para todos os metais"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0025",
@@ -115,7 +137,18 @@
       ],
       "answer_type": "single",
       "answer_key": "B",
-      "rationales": {"B": "Correta. Inibidor seletivo de PDE-5, vasodilatador pulmonar; demais atuam por outras vias."}
+      "rationales": {
+        "A": "Incorreta. Nitroglicerina atua liberando óxido nítrico, não inibe PDE-5.",
+        "B": "Correta. Sildenafila é inibidor seletivo de PDE-5, usado como vasodilatador pulmonar em hipertensão pulmonar.",
+        "C": "Incorreta. Anlodipino é bloqueador de canais de cálcio, não inibe PDE-5.",
+        "D": "Incorreta. Nitroprussiato libera óxido nítrico, não inibe PDE-5.",
+        "E": "Incorreta. Hidralazina atua diretamente no músculo liso vascular, não inibe PDE-5."
+      },
+      "review": {
+        "fisiologia": "PDE-5 degrada GMPc, que promove vasodilatação. Inibição da PDE-5 aumenta GMPc, causando vasodilatação pulmonar seletiva.",
+        "high_yield": ["Sildenafila = inibidor PDE-5", "Vasodilatação pulmonar seletiva", "Hipertensão pulmonar"],
+        "pegadinhas": ["Confundir com nitratos (NO)", "Pensar que é inotrópico"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0026",
@@ -131,7 +164,18 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {"D": "Correta. Pimobendan = inodilatador (PDE-3 + sensibilizador de Ca2+)."}
+      "rationales": {
+        "A": "Incorreta. Dopamina é catecolamina que atua em receptores dopaminérgicos e adrenérgicos.",
+        "B": "Incorreta. Dobutamina é catecolamina sintética que atua em receptores beta-1 adrenérgicos.",
+        "C": "Incorreta. Metoprolol é betabloqueador, não inotrópico positivo.",
+        "D": "Correta. Pimobendan é inodilatador que inibe PDE-3 e sensibiliza o miocárdio ao cálcio, usado em insuficiência cardíaca.",
+        "E": "Incorreta. Atenolol é betabloqueador, não inotrópico positivo."
+      },
+      "review": {
+        "fisiologia": "Pimobendan inibe PDE-3 (aumenta AMPc) e sensibiliza troponina C ao cálcio. Resultado: inotropismo positivo + vasodilatação (inodilatador).",
+        "high_yield": ["Pimobendan = inodilatador", "PDE-3 inibição", "Insuficiência cardíaca congestiva"],
+        "pegadinhas": ["Confundir com catecolaminas", "Pensar que é apenas inotrópico"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0027",
@@ -151,7 +195,18 @@
       ],
       "answer_type": "single",
       "answer_key": "B",
-      "rationales": {"B": "Correta como INCORRETA. Tricografia pode sim diagnosticar Demodex (pelos arrancados trazem ácaros foliculares)."}
+      "rationales": {
+        "A": "Correta. Demodex gatoi habita o estrato córneo superficial, diferente de D. cati e D. gatoi que são foliculares.",
+        "B": "Incorreta. Tricografia pode sim diagnosticar demodiciose, pois os pelos arrancados trazem ácaros foliculares.",
+        "C": "Correta. Não há deficiência documentada da imunidade inata em demodiciose canina.",
+        "D": "Correta. É importante distinguir demodiciose crônica de início adulto da juvenil.",
+        "E": "Correta. Escabiose pode ser diagnosticada por partículas fecais no raspado."
+      },
+      "review": {
+        "fisiologia": "Demodex spp. são ácaros foliculares normais que proliferam quando há imunossupressão. Tricografia arranca pelos com ácaros foliculares.",
+        "high_yield": ["Tricografia = diagnóstico válido", "Demodex = ácaros foliculares", "Escabiose = ácaros superficiais"],
+        "pegadinhas": ["Pensar que tricografia não serve", "Confundir localização dos ácaros"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0028",
@@ -171,7 +226,18 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {"A": "Correta. Lynxacarus confere aspecto sal-e-pimenta e responde a ivermectina/acaricidas; demais alternativas contêm erros conceituais."}
+      "rationales": {
+        "A": "Correta. Lynxacarus radovsky confere aspecto 'sal e pimenta' e responde bem a ivermectina e outros acaricidas.",
+        "B": "Incorreta. Macroconídeos são estruturas fúngicas, não confirmam dermatofitose isoladamente.",
+        "C": "Incorreta. Biópsia punch deve incluir áreas lesadas e normais, não apenas transicionais.",
+        "D": "Incorreta. Sarcoptes não causa foliculite, é ectoparasita superficial.",
+        "E": "Incorreta. Dermatofibrose nodular não é diagnóstico diferencial de foliculite/furunculose nasal."
+      },
+      "review": {
+        "fisiologia": "Lynxacarus radovsky é ácaro felino que causa prurido e aspecto 'sal e pimenta' por hiperpigmentação. Macroconídeos são estruturas reprodutivas fúngicas.",
+        "high_yield": ["Lynxacarus = aspecto 'sal e pimenta'", "Macroconídeos = estruturas fúngicas", "Biópsia = lesada + normal"],
+        "pegadinhas": ["Confundir macroconídeos com ácaros", "Pensar que Sarcoptes causa foliculite"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0029",
@@ -191,7 +257,18 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {"D": "Correta como INCORRETA. Itraconazol é mais eficaz e com melhor perfil de segurança que cetoconazol."}
+      "rationales": {
+        "A": "Correta. Alergias, ectoparasitoses, endocrinopatias e seborreia são causas predisponentes de piodermite.",
+        "B": "Correta. Paniculite piogranulomatosa requer investigação com colorações especiais e cultura.",
+        "C": "Correta. Micetoma, criptococose, esporotricose, malasseziose e dermatofitose podem causar pododermatite.",
+        "D": "Incorreta. Itraconazol tem maior espectro e melhor perfil de segurança que cetoconazol.",
+        "E": "Correta. Esporotricose, escabiose e dermatofitose são zoonoses."
+      },
+      "review": {
+        "fisiologia": "Piodermite é infecção bacteriana secundária a doenças predisponentes. Paniculite piogranulomatosa indica infecção profunda que requer investigação específica.",
+        "high_yield": ["Itraconazol > cetoconazol", "Pododermatite = múltiplas causas", "Zoonoses dermatológicas"],
+        "pegadinhas": ["Pensar que cetoconazol é melhor", "Esquecer colorações especiais"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0030",
@@ -211,7 +288,18 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {"C": "Correta como INCORRETA. Flebectasias não são achado clássico do hipotireoidismo canino."}
+      "rationales": {
+        "A": "Correta. Síndrome de Cushing deve ser considerada na calcinose cutis.",
+        "B": "Correta. Facies trágica por mucina dérmica é achado do hipotireoidismo.",
+        "C": "Incorreta. Flebectasias não são achado clássico do hipotireoidismo canino.",
+        "D": "Correta. Frutosamina auxilia no controle do diabético.",
+        "E": "Correta. Efeito Somogyi corrige-se reduzindo a dose de insulina."
+      },
+      "review": {
+        "fisiologia": "Calcinose cutis ocorre por deposição de cálcio na pele, comum no Cushing. Hipotireoidismo causa acúmulo de mucina dérmica. Efeito Somogyi = hipoglicemia seguida de hiperglicemia rebote.",
+        "high_yield": ["Calcinose = Cushing", "Facies trágica = hipotireoidismo", "Somogyi = reduzir insulina"],
+        "pegadinhas": ["Pensar que flebectasias são do hipotireoidismo", "Aumentar insulina no Somogyi"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0001",
@@ -238,6 +326,11 @@
         "B": "Incorreta. Descrição é de vigilância sanitária, não epidemiológica.",
         "D": "Incorreta. Descrição é de vigilância epidemiológica, não ambiental.",
         "E": "Incorreta. Há classificações trocadas nas alternativas A, B e D."
+      },
+      "review": {
+        "fisiologia": "Lei 8.080/90 define as competências do SUS. Vigilância sanitária controla produtos/serviços; epidemiológica monitora doenças; ambiental controla fatores ambientais; saúde do trabalhador protege trabalhadores.",
+        "high_yield": ["Lei 8.080/90 = SUS", "Vigilância sanitária = produtos/serviços", "Saúde do trabalhador = promoção/proteção"],
+        "pegadinhas": ["Trocar definições entre vigilâncias", "Esquecer promoção na saúde do trabalhador"]
       }
     },
     {
@@ -264,6 +357,11 @@
         "C": "Correta.",
         "D": "Correta.",
         "E": "Correta."
+      },
+      "review": {
+        "fisiologia": "Magnitude refere-se à frequência da doença (incidência/prevalência), não apenas letalidade. Parâmetros de notificação incluem magnitude, potencial de disseminação, transcendência, vulnerabilidade e compromissos internacionais.",
+        "high_yield": ["Magnitude = frequência da doença", "Letalidade ≠ magnitude", "Parâmetros de notificação"],
+        "pegadinhas": ["Restringir magnitude à letalidade", "Esquecer incidência/prevalência"]
       }
     },
     {
@@ -286,6 +384,11 @@
       "answer_key": "D",
       "rationales": {
         "D": "Correta. Raiva é zooantroponose (animal→humano), não antropozoonose. A descrição dos ciclos e de transmissão por reservatório animal está correta."
+      },
+      "review": {
+        "fisiologia": "Zooantroponose: transmissão animal→humano. Antropozoonose: transmissão humano→animal. Raiva é classicamente zooantroponose por transmissão de reservatórios animais para humanos.",
+        "high_yield": ["Raiva = zooantroponose", "Animal→humano", "Reservatórios animais"],
+        "pegadinhas": ["Confundir zooantroponose com antropozoonose", "Pensar que raiva vai do humano para animal"]
       }
     },
     {
@@ -306,7 +409,18 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {"C": "Correta como INCORRETA. Letalidade mede mortes entre os doentes; 'probabilidade de morte na população' é mortalidade."}
+      "rationales": {
+        "A": "Correta. Coeficientes de morbidade expressam a frequência de doenças em uma população.",
+        "B": "Correta. Incidência é o número de casos novos de uma doença.",
+        "C": "Incorreta. Taxa de letalidade mede mortes entre os doentes; 'probabilidade de morte na população' é mortalidade.",
+        "D": "Correta. Coeficiente de mortalidade revela o risco de morte na população.",
+        "E": "Correta. Prevalência é o número de casos existentes em um momento."
+      },
+      "review": {
+        "fisiologia": "Letalidade = mortes entre doentes. Mortalidade = mortes na população geral. Incidência = casos novos. Prevalência = casos totais em um momento.",
+        "high_yield": ["Letalidade ≠ mortalidade", "Incidência = casos novos", "Prevalência = casos totais"],
+        "pegadinhas": ["Confundir letalidade com mortalidade", "Trocar incidência e prevalência"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0005",
@@ -326,7 +440,18 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {"D": "Sequência correta: Equidade, Universalidade, Integralidade, Igualdade, Equidade, Integralidade, Equidade."}
+      "rationales": {
+        "A": "Incorreta. Sequência incorreta dos princípios.",
+        "B": "Incorreta. Sequência incorreta dos princípios.",
+        "C": "Incorreta. Sequência incorreta dos princípios.",
+        "D": "Correta. Sequência correta: Equidade, Universalidade, Integralidade, Igualdade, Equidade, Integralidade, Equidade.",
+        "E": "Incorreta. Sequência incorreta dos princípios."
+      },
+      "review": {
+        "fisiologia": "Universalidade: saúde para todos. Integralidade: cuidado completo. Igualdade: tratamento igual. Equidade: tratamento diferenciado para desiguais.",
+        "high_yield": ["Universalidade = todos", "Integralidade = completo", "Equidade = diferenciado"],
+        "pegadinhas": ["Confundir igualdade com equidade", "Pensar que universalidade é igualdade"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0006",
@@ -346,7 +471,18 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {"D": "Antirratização: eliminar abrigos, reduzir água/ alimento, retirar sobras; Desratização: ratoeiras e raticidas."}
+      "rationales": {
+        "A": "Incorreta. Sequência incorreta das medidas.",
+        "B": "Incorreta. Sequência incorreta das medidas.",
+        "C": "Incorreta. Sequência incorreta das medidas.",
+        "D": "Correta. Antirratização: eliminar abrigos, reduzir água/alimento, retirar sobras; Desratização: ratoeiras e raticidas.",
+        "E": "Incorreta. Sequência incorreta das medidas."
+      },
+      "review": {
+        "fisiologia": "Antirratização: medidas preventivas que modificam o ambiente (eliminar abrigo, água, alimento). Desratização: medidas corretivas que matam roedores (armadilhas, venenos).",
+        "high_yield": ["Antirratização = preventiva", "Desratização = corretiva", "Abrigo + água + alimento = necessidades"],
+        "pegadinhas": ["Confundir antirratização com desratização", "Pensar que raticidas são preventivos"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0007",
@@ -366,7 +502,18 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {"C": "Incorreta. Presença do médico-veterinário é opcional e definida pelo gestor segundo necessidades locais."}
+      "rationales": {
+        "A": "Correta. Atenção Básica abrange promoção, prevenção, diagnóstico, tratamento, reabilitação.",
+        "B": "Correta. Objetivo da AB é desenvolver atenção integral que impacte nos determinantes de saúde.",
+        "C": "Incorreta. Presença do médico-veterinário é opcional e definida pelo gestor segundo necessidades locais.",
+        "D": "Correta. Descreve a composição mínima da eSF.",
+        "E": "Correta. Descreve as atribuições do ACS."
+      },
+      "review": {
+        "fisiologia": "Atenção Básica é a porta de entrada do SUS, com ações de promoção, prevenção e cuidado integral. NASF é equipe de apoio com profissionais opcionais conforme necessidades locais.",
+        "high_yield": ["AB = porta de entrada", "NASF = apoio opcional", "Médico-veterinário = não obrigatório"],
+        "pegadinhas": ["Pensar que médico-veterinário é obrigatório", "Confundir AB com especializada"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0008",
@@ -386,7 +533,18 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {"E": "Correta. Pandemia = epidemia em escala global (múltiplos países/continentes)."}
+      "rationales": {
+        "A": "Incorreta. Pandemia não é definida por ser viral ou ter transmissão direta.",
+        "B": "Incorreta. Pandemia não é definida por mortalidade maior que o esperado.",
+        "C": "Incorreta. Não existe valor de corte de incidência para definir pandemia.",
+        "D": "Incorreta. Endemia é presença constante, pandemia é epidemia global.",
+        "E": "Correta. Pandemia é epidemia que afeta pessoas em muitos países e continentes."
+      },
+      "review": {
+        "fisiologia": "Pandemia é epidemia em escala global. Epidemia = casos acima do esperado em uma região. Endemia = presença constante em uma área. O critério é distribuição geográfica, não mortalidade ou incidência específica.",
+        "high_yield": ["Pandemia = epidemia global", "Epidemia = casos acima do esperado", "Endemia = presença constante"],
+        "pegadinhas": ["Definir por mortalidade", "Confundir com endemia", "Usar valores de corte"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0009",
@@ -406,7 +564,18 @@
       ],
       "answer_type": "single",
       "answer_key": "B",
-      "rationales": {"B": "2 agente; 1 patogenicidade; 4 incubação; 3 transmissibilidade; 6 virulência (letalidade); 5 reservatórios."}
+      "rationales": {
+        "A": "Incorreta. Sequência incorreta das correlações.",
+        "B": "Correta. 2=agente etiológico (Rickettsia); 1=patogenicidade; 4=período de incubação; 3=período de transmissibilidade; 6=virulência (letalidade); 5=reservatórios.",
+        "C": "Incorreta. Sequência incorreta das correlações.",
+        "D": "Incorreta. Sequência incorreta das correlações.",
+        "E": "Incorreta. Sequência incorreta das correlações."
+      },
+      "review": {
+        "fisiologia": "Febre maculosa: Rickettsia rickettsii transmitida por carrapatos. Período de incubação: tempo até sintomas. Período de transmissibilidade: tempo que o vetor é infectante. Virulência: grau de patogenicidade.",
+        "high_yield": ["Rickettsia = agente etiológico", "Carrapatos = vetores", "Período de incubação ≠ transmissibilidade"],
+        "pegadinhas": ["Confundir período de incubação com transmissibilidade", "Trocar agente etiológico com reservatórios"]
+      }
     },
     {
       "id": "UFV-2022-SP4-0010",
@@ -426,7 +595,18 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {"A": "Correta. A resistência é uma das principais razões para não tratar animais como medida de controle populacional."}
+      "rationales": {
+        "A": "Correta. As duas afirmações são verdadeiras e a segunda justifica a primeira.",
+        "B": "Incorreta. As afirmações são verdadeiras e há relação de justificativa.",
+        "C": "Incorreta. Ambas as afirmações são verdadeiras.",
+        "D": "Incorreta. Ambas as afirmações são verdadeiras.",
+        "E": "Incorreta. Ambas as afirmações são verdadeiras."
+      },
+      "review": {
+        "fisiologia": "LTA: Leishmania braziliensis transmitida por flebotomíneos. Tratamento em animais pode selecionar parasitos resistentes aos mesmos fármacos usados em humanos, comprometendo o tratamento humano.",
+        "high_yield": ["LTA = Leishmania braziliensis", "Não tratar animais = evitar resistência", "Mesmos fármacos = risco de resistência"],
+        "pegadinhas": ["Pensar que tratamento animal é útil", "Esquecer risco de resistência"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0011",
@@ -442,7 +622,18 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {"E": "I e III verdadeiras; II é falsa pois há risco de sepse (barreira intestinal + neutropenia)."}
+      "rationales": {
+        "A": "Incompleta. I é verdadeira, mas III também é verdadeira.",
+        "B": "Incorreta. II é falsa, pois há risco de sepse.",
+        "C": "Incompleta. III é verdadeira, mas I também é verdadeira.",
+        "D": "Incorreta. II é falsa, pois há risco de sepse.",
+        "E": "Correta. I e III são verdadeiras; II é falsa pois há risco de sepse (barreira intestinal + neutropenia)."
+      },
+      "review": {
+        "fisiologia": "Parvovirose destrói barreira intestinal e causa neutropenia, criando risco de sepse bacteriana. Antibióticos são essenciais. Parvovírus felino causa panleucopenia felina.",
+        "high_yield": ["Parvovirose = risco de sepse", "Antibióticos = obrigatórios", "Parvovírus felino = panleucopenia"],
+        "pegadinhas": ["Pensar que antibióticos são contraindicados", "Esquecer parvovírus felino"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0012",
@@ -458,7 +649,18 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {"C": "Efeito vagomimético reduz condução no nó AV; útil em TSV (ex.: FA)."}
+      "rationales": {
+        "A": "Incorreta. Lidocaína é antiarrítmico da classe IB, usado para arritmias ventriculares.",
+        "B": "Incorreta. Benazepril é inibidor da ECA, não antiarrítmico.",
+        "C": "Correta. Digoxina tem efeito vagomimético que reduz condução no nó AV, útil em taquicardias supraventriculares.",
+        "D": "Incorreta. Pimobendan é inodilatador, não antiarrítmico.",
+        "E": "Incorreta. Torasemida é diurético, não antiarrítmico."
+      },
+      "review": {
+        "fisiologia": "Digoxina aumenta tônus vagal, reduzindo condução no nó AV. Útil para controlar frequência em taquicardias supraventriculares. Lidocaína atua em arritmias ventriculares.",
+        "high_yield": ["Digoxina = vagomimético", "Nó AV = controle de frequência", "Lidocaína = ventriculares"],
+        "pegadinhas": ["Usar lidocaína para TSV", "Confundir com inotrópicos"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0013",
@@ -474,7 +676,18 @@
       ],
       "answer_type": "single",
       "answer_key": "B",
-      "rationales": {"B": "Acepromazina 0,2% = 2 mg/mL: 0,6 mg / 2 = 0,3 mL; Butorfanol 1% = 10 mg/mL: 4,8 /10 = 0,48 mL."}
+      "rationales": {
+        "A": "Incorreta. Volumes muito altos, resultariam em overdose grave.",
+        "B": "Correta. Acepromazina 0,2% = 2 mg/mL: 0,6 mg / 2 = 0,3 mL; Butorfanol 1% = 10 mg/mL: 4,8 mg / 10 = 0,48 mL.",
+        "C": "Incorreta. Volumes muito baixos, resultariam em subdose.",
+        "D": "Incorreta. Volumes incorretos, resultariam em overdose.",
+        "E": "Incorreta. Volumes incorretos, resultariam em overdose grave."
+      },
+      "review": {
+        "fisiologia": "0,2% = 0,2 g/100mL = 2 mg/mL. 1% = 1 g/100mL = 10 mg/mL. Volume = dose total (mg) / concentração (mg/mL).",
+        "high_yield": ["0,2% = 2 mg/mL", "1% = 10 mg/mL", "Volume = dose/concentração"],
+        "pegadinhas": ["Confundir % com mg/mL", "Errar posição da vírgula", "Não converter unidades"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0014",
@@ -494,7 +707,18 @@
       ],
       "answer_type": "single",
       "answer_key": "C",
-      "rationales": {"C": "Ht muito baixo (anemia severa); VCM e CHCM normais; reticulócitos muito baixos → não regenerativa."}
+      "rationales": {
+        "A": "Incorreta. A anemia não é hipocrômica (CHCM normal) nem regenerativa (reticulócitos baixos).",
+        "B": "Incorreta. Ht 12% indica anemia severa.",
+        "C": "Correta. Ht muito baixo (anemia severa); VCM e CHCM normais; reticulócitos muito baixos → não regenerativa.",
+        "D": "Incorreta. A anemia não é microcítica (VCM normal) nem hipocrômica (CHCM normal).",
+        "E": "Incorreta. A anemia não é macrocítica (VCM normal) nem regenerativa (reticulócitos baixos)."
+      },
+      "review": {
+        "fisiologia": "Anemia: Ht < 37%. VCM: tamanho das hemácias. CHCM: concentração de hemoglobina. Reticulócitos: resposta regenerativa (>80.000/µL em cães).",
+        "high_yield": ["Ht 12% = anemia severa", "VCM/CHCM normais = normocítica/normocrômica", "Reticulócitos baixos = não regenerativa"],
+        "pegadinhas": ["Pensar que Ht 12% é normal", "Confundir VCM com CHCM", "Pensar que 9.000 reticulócitos é regenerativo"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0015",
@@ -514,7 +738,18 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {"D": "Transudato modificado tem proteína intermediária (~2,5–5 g/dL); <1,5 g/dL caracteriza transudato puro."}
+      "rationales": {
+        "A": "Correta. Transudatos modificados têm celularidade intermediária (1000-7000 células/µL).",
+        "B": "Correta. Exsudatos têm alta celularidade (>7000/µL) e proteína (>3,0 g/dL).",
+        "C": "Correta. Transudatos são incolores e têm baixa celularidade (<1500/µL).",
+        "D": "Incorreta. Transudato modificado tem proteína intermediária (~2,5-5 g/dL); <1,5 g/dL caracteriza transudato puro.",
+        "E": "Correta. Exsudatos podem ser classificados em sépticos ou assépticos conforme citologia."
+      },
+      "review": {
+        "fisiologia": "Transudato: ultrafiltrado do plasma (baixa proteína/celularidade). Transudato modificado: pressão hidrostática crônica (proteína intermediária). Exsudato: inflamação (alta proteína/celularidade).",
+        "high_yield": ["Transudato = <1,5 g/dL", "Transudato modificado = 2,5-5 g/dL", "Exsudato = >3 g/dL"],
+        "pegadinhas": ["Pensar que transudato modificado tem proteína baixa", "Confundir com transudato puro"]
+      }
     },
     {
       "id": "UFV-2022-CM4-0016",
@@ -534,7 +769,13 @@
       ],
       "answer_type": "single",
       "answer_key": "A",
-      "rationales": {"A": "UE avalia anatomia/patência; não quantifica função e pode agravar DRC (nefrotoxicidade)."}
+      "rationales": {
+        "A": "Incorreta. UE avalia anatomia/patência; não quantifica função e pode agravar DRC (nefrotoxicidade).",
+        "B": "Correta. UE é excelente para detectar rupturas ureterais.",
+        "C": "Correta. UE pode revelar cálculos radiotransparentes como falhas de preenchimento.",
+        "D": "Correta. UE é método clássico para diagnosticar ureter ectópico.",
+        "E": "Correta. UE pode mostrar obstrução ureteral por neoplasia no trígono."
+      }
     },
     {
       "id": "UFV-2022-CM4-0017",
@@ -554,7 +795,13 @@
       ],
       "answer_type": "single",
       "answer_key": "D",
-      "rationales": {"D": "Contagem fetal é mais precisa por radiografia após mineralização (~45º dia); US é impreciso para número."}
+      "rationales": {
+        "A": "Incorreta. Confirmação por US só é possível a partir do 25º-30º dia.",
+        "B": "Incorreta. Comprimento cabeça-cauda não é medida padrão para idade fetal.",
+        "C": "Incorreta. RX só mostra fetos após mineralização (~45º dia).",
+        "D": "Correta. Contagem fetal é mais precisa por radiografia após mineralização (~45º dia); US é impreciso para número.",
+        "E": "Incorreta. US não é suficiente para diagnosticar endometrite isoladamente."
+      }
     },
     {
       "id": "UFV-2022-CM4-0018",
@@ -570,7 +817,13 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {"E": "Conforme gabarito indicado pelo solicitante: valor de EtCO2 em faixa normal (35–45 mmHg)."}
+      "rationales": {
+        "A": "Incorreta. Hipocapnia seria EtCO2 < 35 mmHg.",
+        "B": "Incorreta. Hipercapnia seria EtCO2 > 45 mmHg.",
+        "C": "Incorreta. Hipoventilação causaria hipercapnia.",
+        "D": "Incorreta. Hiperventilação causaria hipocapnia.",
+        "E": "Correta. Normocapnometria é EtCO2 em faixa normal (35-45 mmHg)."
+      }
     },
     {
       "id": "UFV-2022-CM4-0019",
@@ -586,7 +839,13 @@
       ],
       "answer_type": "single",
       "answer_key": "B",
-      "rationales": {"B": "II (cistocentese de alívio) e III (indicação de uretrostomia em recorrência) corretas; as demais apresentam afirmações inadequadas."}
+      "rationales": {
+        "A": "Incorreta. I é falsa, pois penectomia não é emergencial.",
+        "B": "Correta. II (cistocentese de alívio) e III (indicação de uretrostomia em recorrência) são corretas.",
+        "C": "Incorreta. I é falsa, pois penectomia não é emergencial.",
+        "D": "Incorreta. I é falsa, pois penectomia não é emergencial.",
+        "E": "Incorreta. V é falsa, pois cateterização pós-uretrostomia é contraindicada."
+      }
     },
     {
       "id": "UFV-2022-CM4-0020",
@@ -606,7 +865,13 @@
       ],
       "answer_type": "single",
       "answer_key": "E",
-      "rationales": {"E": "Incorreta. Hipoglicemia é problema tardio; administração imediata de glicose não é indicada rotineiramente."}
+      "rationales": {
+        "A": "Correta. Atropina não é recomendada; usar adrenalina em bradicardia < 100 bpm.",
+        "B": "Correta. Manter fluxo placenta-neonato por até 3 minutos.",
+        "C": "Correta. Aminofilina pode estimular respiração.",
+        "D": "Correta. VPP com monitorização de pressões para evitar colapso.",
+        "E": "Incorreta. Hipoglicemia é problema tardio; administração imediata de glicose não é indicada rotineiramente."
+      }
     }
     ,
     {

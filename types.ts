@@ -57,6 +57,13 @@ export interface Provenance {
   checksum: string; // sha256:...
 }
 
+export interface TrainingQuestion {
+  stem: string;
+  options: Option[];
+  answer_key: string;
+  rationale: string;
+}
+
 export interface Question {
   id: string;
   year: number;
@@ -75,6 +82,7 @@ export interface Question {
   answer_key: string;
   rationales: Rationales;
   review: Review;
+  training_question?: TrainingQuestion;
   provenance: Provenance;
   status: 'approved' | 'pending' | 'rejected';
   version: number;

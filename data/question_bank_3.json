@@ -678,16 +678,20 @@
       ],
       "answer_type": "single",
       "rationales": {
-        "A": "Incorreta. Acidentes crotálicos têm manifestações sistêmicas neuromusculares significativas, não apenas locais.",
-        "B": "Correta. O soro antibotrópico tem pouca ação sobre necrose local; desbridamento/medidas locais são necessárias.",
-        "C": "Incorreta. Escorpionismo costuma causar dor local discreta e manifestações autonômicas/sistêmicas, não intensa necrose.",
-        "D": "Incorreta. Acidentes laquéticos são menos incidentes que botrópicos.",
-        "E": "Incorreta. Loxoscelismo x phoneutrismo têm quadros e manejo diferentes; a distinção é clinicamente relevante."
+        "A": "Incorreta. MRS são resistentes à meticilina e outros antibióticos beta-lactâmicos; terapia tópica isolada não é suficiente para MRS.",
+        "B": "Correta. A baixa prevalência de multiresistência permite escolha empírica inicial, mas cultura e antibiograma são recomendados.",
+        "C": "Correta. Foliculite bacteriana pode simular dermatofitose e demodiciose; diagnóstico diferencial importante.",
+        "D": "Correta. Frequência inicial de 2-3x/semana é adequada para terapia tópica de piodermite superficial.",
+        "E": "Correta. Ácido fusídico e mupirocina são opções tópicas eficazes para lesões focais de piodermite."
       },
       "review": {
-        "fisiologia": "Soroterapia neutraliza frações sistêmicas; lesão local necrosante por Bothrops pode persistir. Acidentes variam conforme o animal: serpentes (Bothrops, Crotalus, Lachesis), aranhas (Loxosceles, Phoneutria), escorpiões.",
+        "fisiologia": "Piodermite é infecção bacteriana da pele, geralmente por Staphylococcus pseudintermedius. MRS são cepas resistentes que exigem abordagem especial.",
         "high_yield": [
-          "Soro antibotrópico com pouca ação na necrose local."
+          "MRS: cultura e antibiograma obrigatórios",
+          "Terapia tópica: 2-3x/semana inicialmente"
+        ],
+        "pegadinhas": [
+          "Usar apenas terapia tópica para MRS"
         ]
       }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },
@@ -713,17 +717,22 @@
       "answer_type": "single",
       "answer_key": "A",
       "rationales": {
-        "A": "Correta. Anti-histamínicos e ácidos graxos têm efeito modesto; ciclosporina é útil em controle crônico, mas crise aguda responde melhor a corticoide de curta duração + manejo de gatilhos.",
-        "B": "Incorreta. Oclacitinibe (JAK1) é útil tanto em fase aguda quanto crônica.",
-        "C": "Incorreta. Testes in vitro/intradérmicos auxiliam imunoterapia, não são padrão‑ouro diagnóstico; diagnóstico é clínico por exclusão.",
-        "D": "Incorreta. Corticoides são eficazes para controle de crise, porém uso prolongado exige cautela; nem sempre indicados para todas as etiologias.",
-        "E": "Correta. Identificar alérgenos/infecções secundárias é essencial."
+        "A": "Correta. Dermatofitose subcutânea granulomatosa é mais comum em gatos Persas e cães Yorkshire Terrier devido a fatores genéticos e anatômicos.",
+        "B": "Incorreta. Clorexidina isolada não é suficiente; tratamento sistêmico com antifúngicos é necessário.",
+        "C": "Incorreta. Nistatina é antifúngico tópico, não sistêmico; itraconazol é sistêmico.",
+        "D": "Incorreta. Lufenuron é inseticida, não tem ação antifúngica para dermatofitose.",
+        "E": "Incorreta. Cultura fúngica é necessária para monitorar tratamento; resposta clínica isolada não é suficiente."
       },
       "review": {
-        "fisiologia": "Dermatite atópica canina é reação de hipersensibilidade a alérgenos ambientais com disfunção de barreira cutânea. Tratamento multimodal inclui controle de crise (corticoide curto), controle crônico (oclacitinibe/ciclosporina/lofexidina tópica), controle de infecção secundária e imunoterapia específica quando possível.",
+        "fisiologia": "Dermatofitose é infecção fúngica superficial da pele, pelos e unhas. Microsporum canis é o principal agente em cães e gatos.",
         "high_yield": [
-          "Oclacitinibe pode ser usado em crise.",
-          "Testes alérgicos não diagnosticam DAC sozinhos."
+          "Tratamento sistêmico obrigatório",
+          "Cultura para monitoramento",
+          "Lufenuron não é antifúngico"
+        ],
+        "pegadinhas": [
+          "Usar apenas clorexidina",
+          "Confundir lufenuron com antifúngico"
         ]
       }, "provenance": {}, "status": "approved", "version": 1, "issues": []
     },

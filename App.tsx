@@ -1,12 +1,13 @@
 
 import React, { useState, useMemo, useEffect, useCallback, useReducer } from 'react';
-import { AppMode, Attempt, Option, Question, Stats, Review } from './types';
+import { AppMode, Attempt, Option, Question, Stats, Review, TrainingQuestion } from './types';
 import * as db from './data/db';
 import { LogoIcon, HomeIcon, BookOpenIcon, CompassIcon, BookmarkIcon, ThumbsDownIcon, ActivityIcon, FileTextIcon, StarIcon, SparklesIcon, ArrowRightIcon, ChevronDownIcon, CheckCircleIcon, XCircleIcon, InfoIcon, LoaderIcon, SunIcon, MoonIcon } from './components/Icons';
 import questionBank1 from './data/question_bank_1.json';
 import questionBank2 from './data/question_bank_2.json';
 import questionBank3 from './data/question_bank_3.json';
 import questionBank4 from './data/question_bank_4.json';
+import questionBankUFV2021 from './data/question_bank_ufv_2021.json';
 
 const AREAS = [ 'CLÍNICA MÉDICA', 'CLÍNICA CIRÚRGICA', 'DIAGNÓSTICO POR IMAGEM', 'ANESTESIOLOGIA', 'LABORATÓRIO CLÍNICO', 'SAÚDE PÚBLICA' ];
 
@@ -198,6 +199,9 @@ const QuestionCard: React.FC<{
 }> = ({ q, mode, onConfirm, onNext, onToggleFavorite, onToggleToReview, isFavorite, isToReview, simAnswer }) => {
   const [selected, setSelected] = useState<string | null>(null);
   const [confirmed, setConfirmed] = useState(mode !== 'quiz');
+  const [showTrainingModal, setShowTrainingModal] = useState(false);
+  const [trainingAnswer, setTrainingAnswer] = useState<string>('');
+  const [trainingConfirmed, setTrainingConfirmed] = useState(false);
 
   useEffect(() => {
     setSelected(null);
@@ -280,7 +284,22 @@ const QuestionCard: React.FC<{
       </div>
 
       <div className="mt-6 flex justify-between items-end">
-        {(confirmed || mode !== 'quiz') && <QuestionReviewDisplay review={q.review} />}        
+        {(confirmed || mode !== 'quiz') && (
+          <div className="flex-1">
+            <QuestionReviewDisplay review={q.review} />
+            {q.training_question && (
+              <div className="mt-4">
+                <button
+                  onClick={() => setShowTrainingModal(true)}
+                  className="px-4 py-2 bg-emerald-600 text-white font-semibold rounded-lg shadow-sm hover:bg-emerald-700 transition-colors flex items-center gap-2"
+                >
+                  <SparklesIcon className="w-4 h-4" />
+                  Treine seu aprendizado
+                </button>
+              </div>
+            )}
+          </div>
+        )}        
         {mode === 'quiz' && !confirmed && (
           <button
             onClick={handleConfirm}
@@ -299,6 +318,96 @@ const QuestionCard: React.FC<{
           </button>
         )}
       </div>
+
+      {/* Modal de Treino */}
+      {showTrainingModal && q.training_question && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="p-6">
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-200">
+                  Questão de Treino
+                </h3>
+                <button
+                  onClick={() => {
+                    setShowTrainingModal(false);
+                    setTrainingAnswer('');
+                    setTrainingConfirmed(false);
+                  }}
+                  className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
+                >
+                  <XCircleIcon className="w-6 h-6" />
+                </button>
+              </div>
+
+              <p className="text-slate-800 dark:text-slate-200 text-base leading-relaxed mb-4 whitespace-pre-wrap">
+                {q.training_question.stem}
+              </p>
+
+              <div className="space-y-3 mb-6">
+                {q.training_question.options.map(option => (
+                  <button
+                    key={option.label}
+                    onClick={() => !trainingConfirmed && setTrainingAnswer(option.label)}
+                    disabled={trainingConfirmed}
+                    className={cx(
+                      'w-full text-left p-4 rounded-lg border-2 transition-all flex items-start gap-4',
+                      trainingAnswer === option.label
+                        ? 'border-sky-500 bg-sky-50 dark:bg-sky-900/30'
+                        : 'border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 hover:border-sky-400 dark:hover:border-sky-500',
+                      trainingConfirmed ? 'cursor-default' : 'cursor-pointer'
+                    )}
+                  >
+                    <div className="flex-shrink-0 font-bold text-sm w-6 h-6 flex items-center justify-center rounded-full border-2 border-current">
+                      {option.label}
+                    </div>
+                    <div className="flex-grow">
+                      <p className="font-medium text-sm">{option.text}</p>
+                      {trainingConfirmed && (
+                        <div className="mt-2 text-xs flex items-start gap-2">
+                          {q.training_question!.answer_key === option.label ? (
+                            <CheckCircleIcon className="w-4 h-4 text-emerald-600 dark:text-emerald-500 flex-shrink-0 mt-0.5" />
+                          ) : (
+                            <XCircleIcon className="w-4 h-4 text-red-600 dark:text-red-500 flex-shrink-0 mt-0.5" />
+                          )}
+                          <p className="text-slate-600 dark:text-slate-300">
+                            {q.training_question!.answer_key === option.label 
+                              ? 'Correto!' 
+                              : 'Incorreto. ' + q.training_question!.rationale}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  </button>
+                ))}
+              </div>
+
+              <div className="flex justify-end gap-3">
+                {!trainingConfirmed ? (
+                  <button
+                    onClick={() => setTrainingConfirmed(true)}
+                    disabled={!trainingAnswer}
+                    className="px-6 py-2 bg-emerald-600 text-white font-semibold rounded-lg shadow-sm hover:bg-emerald-700 disabled:bg-slate-400 dark:disabled:bg-slate-600 disabled:cursor-not-allowed transition-colors"
+                  >
+                    Verificar Resposta
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      setShowTrainingModal(false);
+                      setTrainingAnswer('');
+                      setTrainingConfirmed(false);
+                    }}
+                    className="px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg shadow-sm hover:bg-sky-700 transition-colors"
+                  >
+                    Fechar
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
@@ -389,7 +498,8 @@ export default function App() {
           ...(questionBank1 as any).items,
           ...(questionBank2 as any).items,
           ...(questionBank3 as any).items,
-          ...(questionBank4 as any).items
+          ...(questionBank4 as any).items,
+          ...(questionBankUFV2021 as any).items
         ];
         try {
           await db.upsertQuestionsInChunks(questionBankItems, 50);

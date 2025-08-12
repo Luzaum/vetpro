@@ -1,0 +1,2504 @@
+{
+  "meta": {
+    "batch": "UFV-2021",
+    "total_batches": 1,
+    "taxonomy_version": "v1.0",
+    "generator": "manual-curation",
+    "notes": ["Banco de questões da UFV 2021 com revisão literária e questões de treino"],
+    "persistence": {
+      "strategy": ["json_canonical", "local_cache"],
+      "conflicts": "upsert_on_checksum",
+      "defaults": { "namespace": "vet-residencia", "schema_version": 1 }
+    }
+  },
+  "items": [
+    {
+      "id": "UFV-2021-SP-0001",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "LEI 8.080/90", "SUS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.98, "LEI 8.080/90": 0.95},
+        "evidence_spans": ["vigilância", "conjunto de ações", "mudança nos fatores determinantes", "prevenção e controle", "doenças ou agravos"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "A _______________ é definida como um conjunto de ações que proporciona o conhecimento, a detecção ou prevenção de qualquer mudança nos fatores determinantes e condicionantes de saúde individual ou coletiva, com a finalidade de recomendar e adotar as medidas de prevenção e controle das doenças ou agravos.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Vigilância Sanitária"},
+        {"label": "B", "text": "Vigilância Ambiental"},
+        {"label": "C", "text": "Saúde do Trabalhador"},
+        {"label": "D", "text": "Vigilância Epidemiológica"},
+        {"label": "E", "text": "Vigilância em Saúde"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A Vigilância Sanitária (VISA) foca em produtos, bens e serviços, além do meio ambiente, para eliminar ou prevenir riscos à saúde. A definição da questão não menciona produtos ou serviços, mas sim doenças e agravos.",
+        "B": "Incorreta. A Vigilância Ambiental (VA) foca especificamente nos fatores de risco presentes no meio ambiente (água, ar, solo, vetores) que podem afetar a saúde. A definição da questão é mais ampla, abrangendo 'qualquer mudança nos fatores determinantes' da saúde, o que é o escopo da VE.",
+        "C": "Incorreta. A Saúde do Trabalhador é um campo ainda mais específico, voltado para os riscos e agravos advindos das condições de trabalho. A definição na questão é muito mais geral.",
+        "D": "Correta. O texto da questão é a transcrição exata da definição de Vigilância Epidemiológica (VE) conforme o Art. 6º, § 2º da Lei 8.080/90. A VE foca em monitorar doenças e agravos na saúde individual ou coletiva para subsidiar a tomada de ações de prevenção e controle. A definição se encaixa perfeitamente.",
+        "E": "Incorreta. Vigilância em Saúde é o conceito mais amplo que engloba todas as vigilâncias (Epidemiológica, Sanitária, Ambiental e Saúde do Trabalhador). A definição específica apresentada na questão refere-se à Vigilância Epidemiológica."
+      },
+      "review": {
+        "etiologia": "A Vigilância Epidemiológica é uma das quatro vigilâncias em saúde previstas na Lei 8.080/90, que estabelece o Sistema Único de Saúde (SUS).",
+        "epidemiologia": "A VE é fundamental para o conhecimento da situação de saúde da população, permitindo a detecção precoce de problemas e a avaliação da efetividade das intervenções.",
+        "fisiologia": "A VE funciona como um sistema de alerta, monitorando continuamente a ocorrência de doenças e agravos para identificar mudanças que possam indicar a necessidade de intervenções.",
+        "high_yield": [
+          "Questões sobre as definições da Lei 8.080/90 são extremamente comuns",
+          "Os examinadores adoram trocar as definições entre os diferentes tipos de vigilância",
+          "A melhor tática é memorizar a palavra-chave de cada uma: Epidemiológica = Doenças/Agravos nas pessoas; Sanitária = Produtos/Serviços; Ambiental = Meio Ambiente"
+        ],
+        "pegadinhas": [
+          "Confundir Vigilância Epidemiológica com Vigilância em Saúde (conceito mais amplo)",
+          "Trocar as definições entre os diferentes tipos de vigilância"
+        ],
+        "referencias": [
+          {"obra": "Lei 8.080/90", "cap": "Art. 6º, § 2º", "pg": "Definição de Vigilância Epidemiológica"}
+        ]
+      },
+      "training_question": {
+        "stem": "A _______________ é definida como um conjunto de ações que visa controlar e fiscalizar produtos, bens e serviços de interesse à saúde, incluindo o meio ambiente, os processos e as tecnologias a eles relacionados.",
+        "options": [
+          {"label": "A", "text": "Vigilância Epidemiológica"},
+          {"label": "B", "text": "Vigilância Sanitária"},
+          {"label": "C", "text": "Vigilância Ambiental"},
+          {"label": "D", "text": "Saúde do Trabalhador"}
+        ],
+        "answer_key": "B",
+        "rationale": "Esta é a definição de Vigilância Sanitária conforme a Lei 8.080/90. A diferença principal é que a VISA foca em produtos, bens e serviços, enquanto a VE foca em doenças e agravos."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp001"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0002",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["TRANSITION EPIDEMIOLÓGICA", "DEMOGRAFIA", "MORBIMORTALIDADE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"TRANSITION EPIDEMIOLÓGICA": 0.98, "DEMOGRAFIA": 0.90},
+        "evidence_spans": ["declínio das doenças infecciosas", "aumento das crônicas", "mudanças", "processo"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Qual o nome desse processo de mudanças [declínio das doenças infecciosas e aumento das crônicas]?",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Perfil Epidemiológico"},
+        {"label": "B", "text": "Transição Demográfica"},
+        {"label": "C", "text": "Transição Epidemiológica"},
+        {"label": "D", "text": "Transição de Morbidade"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Perfil epidemiológico é a 'fotografia' da situação de saúde de uma população em um determinado momento, não o processo de mudança ao longo do tempo.",
+        "B": "Incorreta. A Transição Demográfica descreve a mudança na estrutura etária da população, com a queda das taxas de mortalidade e, posteriormente, de natalidade, resultando no envelhecimento populacional. Embora esteja relacionada (pessoas vivem mais e têm mais tempo para desenvolver doenças crônicas), não é o mesmo conceito.",
+        "C": "Correta. O enunciado descreve exatamente o conceito de Transição Epidemiológica: a mudança no perfil de morbimortalidade de uma população, que passa de um padrão dominado por doenças infecciosas e parasitárias para um padrão onde predominam as doenças crônico-degenerativas e as causas externas.",
+        "D": "Incorreta. Este termo não é o padrão utilizado na epidemiologia. 'Transição Epidemiológica' é o conceito consagrado, que engloba tanto a morbidade (adoecimento) quanto a mortalidade."
+      },
+      "review": {
+        "etiologia": "A Transição Epidemiológica é um conceito desenvolvido por Abdel Omran em 1971, que descreve as mudanças no padrão de doenças de uma população ao longo do tempo.",
+        "epidemiologia": "O Brasil vive hoje uma 'tríplice carga de doenças': ainda sofremos com doenças infecciosas (como Dengue e Tuberculose), temos uma carga enorme de doenças crônicas (Diabetes, Hipertensão) e uma epidemia de causas externas (violência e acidentes de trânsito).",
+        "fisiologia": "A transição demográfica impulsiona a epidemiológica. Quando as pessoas vivem mais (envelhecimento), elas têm mais tempo para desenvolver as doenças crônicas que se manifestam mais tarde na vida.",
+        "high_yield": [
+          "Transição Demográfica vs. Transição Epidemiológica é uma pegadinha clássica",
+          "Lembre-se: DEMOgrafia = Povo (estuda a estrutura da população: nascimentos, mortes, envelhecimento)",
+          "EPIDEMIOlogia = Doenças (estuda o perfil das doenças)"
+        ],
+        "pegadinhas": [
+          "Confundir Transição Demográfica (mudança na estrutura etária) com Transição Epidemiológica (mudança no perfil de doenças)",
+          "Usar termos não consagrados como 'Transição de Morbidade'"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual o nome do processo que descreve a mudança na estrutura etária da população, caracterizada pela queda das taxas de mortalidade e natalidade, resultando no envelhecimento populacional?",
+        "options": [
+          {"label": "A", "text": "Transição Epidemiológica"},
+          {"label": "B", "text": "Transição Demográfica"},
+          {"label": "C", "text": "Transição Sanitária"},
+          {"label": "D", "text": "Transição de Mortalidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "Esta é a definição de Transição Demográfica. A diferença principal é que ela foca na mudança da estrutura etária da população, enquanto a Transição Epidemiológica foca na mudança do perfil de doenças."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp002"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0003",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["VIGILÂNCIA EPIDEMIOLÓGICA", "FUNÇÕES", "CICLO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"VIGILÂNCIA EPIDEMIOLÓGICA": 0.98},
+        "evidence_spans": ["funções", "vigilância epidemiológica", "coleta", "análise", "recomendação", "promoção", "avaliação", "divulgação"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Assinale a alternativa que contenha as funções da VIGILÂNCIA EPIDEMIOLÓGICA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Coleta de dados, Processamento de dados, Análise e interpretação"},
+        {"label": "B", "text": "Coleta de dados, Análise e interpretação, Recomendação de medidas de controle"},
+        {"label": "C", "text": "Coleta de dados, Processamento de dados, Análise e interpretação, Recomendação de medidas de controle"},
+        {"label": "D", "text": "Coleta de dados, Processamento de dados, Análise e interpretação, Recomendação de medidas de controle, Promoção das ações de controle, Avaliação da eficácia, Divulgação de informações"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. Lista incompleta. Exclui etapas fundamentais do ciclo como recomendação, promoção, avaliação e divulgação.",
+        "B": "Incorreta. Lista incompleta. Exclui processamento de dados, promoção, avaliação e divulgação.",
+        "C": "Incorreta. Lista incompleta. Exclui promoção das ações, avaliação da eficácia e divulgação de informações.",
+        "D": "Correta. A lista apresentada descreve de forma completa e precisa o ciclo de funções da Vigilância Epidemiológica (VE). A VE não é apenas coletar dados; ela engloba todo o processo, desde a coleta da informação bruta até a avaliação das ações de controle implementadas com base nessa informação."
+      },
+      "review": {
+        "etiologia": "O ciclo da vigilância epidemiológica é um processo lógico que transforma dados brutos em ações que salvam vidas.",
+        "epidemiologia": "O 'pai' da epidemiologia moderna é o médico inglês John Snow, que em 1854 investigou um surto de cólera em Londres, completando todo o ciclo da vigilância.",
+        "fisiologia": "A VE funciona como o sistema nervoso da Saúde Pública, operando em um ciclo contínuo de 7 etapas essenciais.",
+        "high_yield": [
+          "O ciclo da vigilância epidemiológica é um processo lógico: primeiro você coleta informações (dados), depois entende o que elas significam (análise), então decide o que fazer (recomendação), age (promoção), vê se deu certo (avaliação) e conta para todo mundo (divulgação)",
+          "Se uma questão listar todas essas etapas, provavelmente ela está correta"
+        ],
+        "pegadinhas": [
+          "Aceitar listas parciais como corretas",
+          "Confundir vigilância passiva (apenas coleta) com vigilância ativa (ciclo completo)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual das seguintes etapas NÃO faz parte do ciclo da Vigilância Epidemiológica?",
+        "options": [
+          {"label": "A", "text": "Coleta de dados"},
+          {"label": "B", "text": "Análise e interpretação"},
+          {"label": "C", "text": "Tratamento dos casos"},
+          {"label": "D", "text": "Avaliação da eficácia"}
+        ],
+        "answer_key": "C",
+        "rationale": "O tratamento dos casos não faz parte do ciclo da Vigilância Epidemiológica. As funções da VE são: coleta, processamento, análise, recomendação, promoção, avaliação e divulgação. O tratamento é responsabilidade da assistência à saúde."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp003"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0004",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["NOTIFICAÇÃO COMPULSÓRIA", "CRITÉRIOS", "VIGILÂNCIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"NOTIFICAÇÃO COMPULSÓRIA": 0.95},
+        "evidence_spans": ["critérios", "notificação compulsória", "magnitude", "transcendência", "vulnerabilidade", "compromissos internacionais"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Associe cada critério [de notificação compulsória] a sua definição correspondente:\n1. Magnitude\n2. Potencial de disseminação\n3. Transcendência\n4. Vulnerabilidade\n5. Compromissos internacionais\n\n( ) elevado poder de transmissão\n( ) severidade, relevância social, e relevância econômica\n( ) disponibilidade de instrumentos específicos de prevenção e controle\n( ) elevada frequência, que afetam grandes contingentes\n( ) cumprimento de metas continentais ou mundiais",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "2 – 3 – 4 – 1 – 5"},
+        {"label": "B", "text": "2 – 3 – 4 – 1 – 5"},
+        {"label": "C", "text": "1 – 2 – 3 – 4 – 5"},
+        {"label": "D", "text": "3 – 2 – 1 – 4 – 5"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A sequência está correta, mas a alternativa B é idêntica.",
+        "B": "Correta. A sequência correta é: 2 (Potencial de disseminação) - elevado poder de transmissão; 3 (Transcendência) - severidade, relevância social e econômica; 4 (Vulnerabilidade) - disponibilidade de instrumentos de controle; 1 (Magnitude) - elevada frequência; 5 (Compromissos internacionais) - cumprimento de metas.",
+        "C": "Incorreta. A sequência está incorreta. Magnitude não se refere a poder de transmissão.",
+        "D": "Incorreta. A sequência está incorreta. Transcendência não se refere a poder de transmissão."
+      },
+      "review": {
+        "etiologia": "Os critérios para notificação compulsória são estabelecidos pelo Ministério da Saúde para priorizar quais doenças devem ser monitoradas pelo sistema de vigilância.",
+        "epidemiologia": "Para diferenciar Magnitude de Transcendência: Magnitude é quantitativa (números, frequência, incidência). Transcendência é qualitativa (impacto, gravidade, medo, custo).",
+        "fisiologia": "O critério de 'Vulnerabilidade' mostra que o SUS busca ser pragmático. Não adianta gastar recursos vigiando uma doença para a qual não se tem nenhuma ferramenta de controle.",
+        "high_yield": [
+          "Para diferenciar Magnitude de Transcendência: Magnitude é quantitativa (números, frequência, incidência). Transcendência é qualitativa (impacto, gravidade, medo, custo)",
+          "A gripe tem alta magnitude, mas baixa transcendência. A raiva tem baixa magnitude, mas altíssima transcendência"
+        ],
+        "pegadinhas": [
+          "Confundir Magnitude (quantitativa) com Transcendência (qualitativa)",
+          "Esquecer que a Vigilância deve sempre estar ligada a uma possibilidade de ação (Vulnerabilidade)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual critério de notificação compulsória se refere à 'capacidade de se espalhar rapidamente na população'?",
+        "options": [
+          {"label": "A", "text": "Magnitude"},
+          {"label": "B", "text": "Potencial de disseminação"},
+          {"label": "C", "text": "Transcendência"},
+          {"label": "D", "text": "Vulnerabilidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "O Potencial de disseminação se refere à capacidade de uma doença se espalhar rapidamente na população. Magnitude se refere à frequência/incidência, Transcendência ao impacto qualitativo, e Vulnerabilidade à disponibilidade de instrumentos de controle."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp004"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0005",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ZOONOSES", "TRANSMISSÃO", "CLASSIFICAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ZOONOSES": 0.95, "TRANSMISSÃO": 0.90},
+        "evidence_spans": ["zoonoses", "sentido da transmissão", "raiva", "leptospirose", "febre maculosa", "zooantroponose", "antropozoonose"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Ao considerar diferentes zoonoses e/ou seu 'sentido da transmissão', identifique como VERDADEIRAS (V) ou FALSAS (F) as seguintes afirmativas:\n( ) A raiva é uma zooantroponose\n( ) A leptospirose é uma antropozoonose\n( ) A febre maculosa é uma zooantroponose",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "V – V – V"},
+        {"label": "B", "text": "V – F – V"},
+        {"label": "C", "text": "V – F – V"},
+        {"label": "D", "text": "F – F – F"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. A leptospirose é uma zooantroponose, não uma antropozoonose.",
+        "B": "Correta. (V) A raiva é uma zooantroponose (animal → homem). (F) A leptospirose é uma zooantroponose, não antropozoonose. (V) A febre maculosa é uma zooantroponose (animal → homem).",
+        "C": "Correta. (V) A raiva é uma zooantroponose (animal → homem). (F) A leptospirose é uma zooantroponose, não antropozoonose. (V) A febre maculosa é uma zooantroponose (animal → homem).",
+        "D": "Incorreta. A raiva e a febre maculosa são zooantroponoses verdadeiras."
+      },
+      "review": {
+        "etiologia": "A terminologia de zoonoses é baseada na direção da transmissão: zooantroponose (animal → homem) e antropozoonose (homem → animal).",
+        "epidemiologia": "A maioria das zoonoses importantes na veterinária são Zooantroponoses.",
+        "fisiologia": "A COVID-19 é um exemplo de zooantroponose que, após saltar para a espécie humana, adaptou-se e passou a ter transmissão sustentada entre pessoas.",
+        "high_yield": [
+          "Esta terminologia é confusa, mas a lógica é simples: o prefixo indica a origem da infecção",
+          "ZOOantroponose = a doença vem do ZOOlógico (animal)",
+          "ANTROPOzoonose = a doença vem do ANTROPO (homem)"
+        ],
+        "pegadinhas": [
+          "Confundir zooantroponose com antropozoonose",
+          "Esquecer que a leptospirose é transmitida pela urina de animais (roedores) para o homem"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual o sentido da transmissão da brucelose bovina para o homem?",
+        "options": [
+          {"label": "A", "text": "Antropozoonose"},
+          {"label": "B", "text": "Zooantroponose"},
+          {"label": "C", "text": "Anfixenose"},
+          {"label": "D", "text": "Metaxenose"}
+        ],
+        "answer_key": "B",
+        "rationale": "A brucelose é uma zooantroponose, pois é transmitida do animal (bovino) para o homem, principalmente através do contato com produtos de origem animal contaminados ou ingestão de leite não pasteurizado."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp005"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0006",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["INDICADORES EPIDEMIOLÓGICOS", "MORTALIDADE", "LETALIDADE"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"INDICADORES EPIDEMIOLÓGICOS": 0.95},
+        "evidence_spans": ["indicadores epidemiológicos", "mortalidade", "letalidade", "incidência", "prevalência"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Assinale a resposta INCORRETA acerca dos indicadores epidemiológicos.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Os coeficientes de morbidade incluem os de incidência e prevalência."},
+        {"label": "B", "text": "A incidência é o número de casos novos de uma doença em uma população durante um período de tempo."},
+        {"label": "C", "text": "A taxa de letalidade indica a probabilidade de morte de um indivíduo de uma dada população, em uma região definida, durante determinado período de tempo."},
+        {"label": "D", "text": "O coeficiente de mortalidade revela o risco de morte na população geral."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. Morbidade significa adoecimento. Os coeficientes de incidência e prevalência medem exatamente a frequência das doenças.",
+        "B": "Correta. Definição perfeita de incidência, que mede o risco de adoecer.",
+        "C": "Incorreta. Esta é a definição do Coeficiente de Mortalidade. A Taxa de Letalidade indica a probabilidade de um indivíduo COM A DOENÇA morrer por causa dela. É uma medida de gravidade, não de risco populacional geral.",
+        "D": "Correta. Definição perfeita de mortalidade, que mede o risco de morrer na população geral."
+      },
+      "review": {
+        "etiologia": "Os indicadores epidemiológicos são ferramentas quantitativas que permitem medir a ocorrência de doenças e agravos na população.",
+        "epidemiologia": "Durante a pandemia de COVID-19, a discussão sobre a taxa de letalidade foi intensa. Ela variava muito entre os países, não só pela virulência da cepa, mas também pela capacidade de testagem.",
+        "fisiologia": "A mortalidade mede o risco de morrer na população geral, enquanto a letalidade mede a gravidade de uma doença específica.",
+        "high_yield": [
+          "A maior pegadinha em questões de indicadores é a confusão entre Mortalidade e Letalidade",
+          "Lembre-se do denominador da fórmula: Mortalidade = (Óbitos / População Total). Letalidade = (Óbitos pela doença / Total de Doentes)"
+        ],
+        "pegadinhas": [
+          "Confundir Mortalidade (risco populacional) com Letalidade (gravidade da doença)",
+          "Esquecer que a letalidade só considera pessoas que já têm a doença"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual indicador mede a gravidade de uma doença específica, calculado como o número de óbitos pela doença dividido pelo número total de doentes?",
+        "options": [
+          {"label": "A", "text": "Coeficiente de Mortalidade"},
+          {"label": "B", "text": "Taxa de Letalidade"},
+          {"label": "C", "text": "Taxa de Incidência"},
+          {"label": "D", "text": "Taxa de Prevalência"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Taxa de Letalidade mede a gravidade de uma doença específica, calculada como óbitos pela doença / total de doentes. O Coeficiente de Mortalidade mede o risco populacional geral (óbitos / população total)."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp006"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0007",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["ANIMAIS PEÇONHENTOS", "PRIMEIROS SOCORROS", "SOROTERAPIA"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"ANIMAIS PEÇONHENTOS": 0.95},
+        "evidence_spans": ["animais peçonhentos", "tratamento", "serpente", "escorpião", "lagartas", "soroterapia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "No que diz respeito aos animais peçonhentos, considere as opções abaixo e assinale a que está CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A eliminação de animais peçonhentos é a estratégia mais eficaz para controle."},
+        {"label": "B", "text": "Fazer garrote no local da picada é uma medida de primeiros socorros recomendada."},
+        {"label": "C", "text": "A época de maior ocorrência de acidentes é o inverno."},
+        {"label": "D", "text": "A forma mais eficiente de tratamento para acidentados por serpente, escorpião e lagartas (gênero Lonomia) é a soroterapia."}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A eliminação de animais peçonhentos é ecologicamente prejudicial e ineficaz. Esses animais são importantes controladores de outras pragas. As medidas de prevenção focam em saneamento ambiental.",
+        "B": "Incorreta. Fazer garrote ou torniquete é absolutamente contraindicado. Isso impede a circulação sanguínea no membro, o que pode levar à necrose, gangrena e amputação.",
+        "C": "Incorreta. A época de maior ocorrência de acidentes com animais peçonhentos (de sangue frio) é a de calor e chuva (primavera/verão), quando eles estão mais ativos para caça e reprodução.",
+        "D": "Correta. A soroterapia (administração de soro antiveneno específico) é o único tratamento eficaz para neutralizar o veneno já circulante no corpo e reverter os efeitos sistêmicos graves dos acidentes com serpentes, escorpiões (casos moderados a graves) e lagartas do gênero Lonomia."
+      },
+      "review": {
+        "etiologia": "O Brasil é referência mundial na produção de soros antipeçonhentos, principalmente através do Instituto Butantan (SP) e da Fundação Ezequiel Dias (MG).",
+        "epidemiologia": "Os soros são produzidos a partir do plasma de cavalos que são hiperimunizados com doses controladas de veneno.",
+        "fisiologia": "Em primeiros socorros para acidentes com animais peçonhentos, lembre-se do que NÃO fazer: NÃO fazer torniquete, NÃO cortar, NÃO sugar o veneno.",
+        "high_yield": [
+          "A conduta é sempre lavar o local, manter a vítima calma e em repouso, e procurar o serviço de saúde o mais rápido possível",
+          "O tratamento hospitalar é baseado em suporte vital e, para casos com indicação, na administração do soro antiveneno específico"
+        ],
+        "pegadinhas": [
+          "Achar que eliminar animais peçonhentos é eficaz (eles são importantes para o ecossistema)",
+          "Fazer torniquete ou garrote (pode causar necrose e amputação)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual a medida de primeiros socorros CORRETA para acidentes com animais peçonhentos?",
+        "options": [
+          {"label": "A", "text": "Fazer torniquete no local da picada"},
+          {"label": "B", "text": "Cortar e sugar o veneno"},
+          {"label": "C", "text": "Lavar o local com água e sabão"},
+          {"label": "D", "text": "Aplicar gelo diretamente na ferida"}
+        ],
+        "answer_key": "C",
+        "rationale": "Lavar o local com água e sabão é a medida correta. Torniquete, cortar e sugar o veneno são contraindicados. O gelo pode piorar a lesão tecidual."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp007"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0008",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["CONTROLE DE ROEDORES", "ANTIRATIZAÇÃO", "DESRATIZAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"CONTROLE DE ROEDORES": 0.95},
+        "evidence_spans": ["antirratização", "desratização", "medidas", "controle", "roedores"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Identifique com (A) as medidas de ANTIRRATIZAÇÃO ou (D) as medidas de DESRATIZAÇÃO:\n( ) Eliminar abrigos\n( ) Eliminar com ratoeiras\n( ) Reduzir água e alimento\n( ) Remover sobras de alimentos\n( ) Eliminar com raticidas",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A – D – A – A – D"},
+        {"label": "B", "text": "A – A – D – D – A"},
+        {"label": "C", "text": "D – A – A – D – A"},
+        {"label": "D", "text": "D – D – A – A – D"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A sequência correta é: A (Antirratização) - Eliminar abrigos; D (Desratização) - Eliminar com ratoeiras; A (Antirratização) - Reduzir água e alimento; A (Antirratização) - Remover sobras de alimentos; D (Desratização) - Eliminar com raticidas.",
+        "B": "Incorreta. A sequência está incorreta. Ratoeiras são medidas de desratização, não antirratização.",
+        "C": "Incorreta. A sequência está incorreta. Eliminar abrigos é antirratização, não desratização.",
+        "D": "Incorreta. A sequência está incorreta. Eliminar abrigos é antirratização, não desratização."
+      },
+      "review": {
+        "etiologia": "A lógica é simples: Antirratização é antes do rato chegar (preventiva, ambiental). Desratização é para se livrar do rato que já está lá (corretiva, matar).",
+        "epidemiologia": "Raticidas anticoagulantes são uma causa comum e grave de intoxicação em cães e gatos.",
+        "fisiologia": "O animal ingere o veneno e os sinais (hemorragias) só aparecem dias depois, quando os fatores de coagulação vitamina K-dependentes se esgotam.",
+        "high_yield": [
+          "Antirratização = medidas preventivas (modificar ambiente)",
+          "Desratização = medidas corretivas (eliminar roedores)"
+        ],
+        "pegadinhas": [
+          "Confundir medidas ambientais (antirratização) com medidas de eliminação (desratização)",
+          "Esquecer que raticidas podem intoxicar animais domésticos"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual das seguintes medidas é considerada ANTIRRATIZAÇÃO?",
+        "options": [
+          {"label": "A", "text": "Uso de raticidas"},
+          {"label": "B", "text": "Uso de ratoeiras"},
+          {"label": "C", "text": "Vedação de frestas"},
+          {"label": "D", "text": "Captura de roedores"}
+        ],
+        "answer_key": "C",
+        "rationale": "Vedação de frestas é uma medida de antirratização (preventiva). Raticidas, ratoeiras e captura são medidas de desratização (corretivas)."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp008"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0009",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEPTOSPIROSE", "CONCEITOS EPIDEMIOLÓGICOS", "CADEIA DE TRANSMISSÃO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEPTOSPIROSE": 0.95},
+        "evidence_spans": ["leptospirose", "patogenicidade", "virulência", "período de incubação", "período de transmissibilidade"],
+        "ambiguities": []
+      },
+      "difficulty": "D",
+      "cognitive_level": "Aplicação",
+      "stem": "Relacione os conteúdos destacados nos trechos sublinhados [sobre leptospirose] aos conceitos abaixo sobre o aspecto epidemiológico das doenças transmissíveis:\n1. Patogenicidade\n2. Virulência\n3. Período de incubação\n4. Período de transmissibilidade\n\n( ) elevada incidência em determinadas áreas, alto custo hospitalar\n( ) processo inaparente até formas graves\n( ) sua letalidade, que pode chegar a 40%, nos casos mais graves\n( ) sintomas iniciam-se de 1 a 30 dias\n( ) Animais... podem eliminar a leptospira... durante meses, anos ou por toda a vida",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "1 – 1 – 2 – 3 – 4"},
+        {"label": "B", "text": "2 – 1 – 4 – 5 – 3"},
+        {"label": "C", "text": "1 – 2 – 3 – 4 – 5"},
+        {"label": "D", "text": "2 – 1 – 3 – 4 – 5"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A sequência correta é: 1 (Patogenicidade) - elevada incidência e custo; 1 (Patogenicidade) - processo inaparente até formas graves; 2 (Virulência) - letalidade de 40%; 3 (Período de incubação) - sintomas de 1 a 30 dias; 4 (Período de transmissibilidade) - eliminação por meses/anos.",
+        "B": "Incorreta. A sequência está incorreta. O primeiro trecho não se refere à virulência.",
+        "C": "Incorreta. A sequência está incorreta. O segundo trecho se refere à patogenicidade, não virulência.",
+        "D": "Incorreta. A sequência está incorreta. O primeiro trecho se refere à patogenicidade, não virulência."
+      },
+      "review": {
+        "etiologia": "Para entender como uma doença se espalha, precisamos conhecer as características do agente infeccioso, como se ele tivesse uma 'personalidade'.",
+        "epidemiologia": "Infectividade: A capacidade do agente de invadir e se multiplicar em um hospedeiro. Patogenicidade: A capacidade do agente de causar a doença. Virulência: O grau de patogenicidade.",
+        "fisiologia": "Período de Incubação: O tempo entre a infecção e o aparecimento dos primeiros sinais clínicos. Período de Transmissibilidade: O intervalo de tempo durante o qual o hospedeiro infectado pode transmitir o agente para outros.",
+        "high_yield": [
+          "Patogenicidade vs. Virulência: Patogenicidade é uma resposta 'sim ou não' (o agente causa doença ou não?). Virulência é uma medida de grau (quão grave é a doença que ele causa?)",
+          "A letalidade é um bom indicador de virulência"
+        ],
+        "pegadinhas": [
+          "Confundir Patogenicidade (capacidade de causar doença) com Virulência (gravidade da doença)",
+          "Esquecer que o Período de Transmissibilidade pode ser diferente do Período de Incubação"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual conceito epidemiológico se refere à 'capacidade do agente infeccioso de causar doença'?",
+        "options": [
+          {"label": "A", "text": "Infectividade"},
+          {"label": "B", "text": "Patogenicidade"},
+          {"label": "C", "text": "Virulência"},
+          {"label": "D", "text": "Contagiosidade"}
+        ],
+        "answer_key": "B",
+        "rationale": "Patogenicidade se refere à capacidade do agente de causar doença. Infectividade é a capacidade de invadir e se multiplicar, Virulência é o grau de patogenicidade, e Contagiosidade é a capacidade de transmissão."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp009"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0010",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["LEISHMANIOSE TEGUMENTAR", "CONTROLE", "TRATAMENTO"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"LEISHMANIOSE TEGUMENTAR": 0.95},
+        "evidence_spans": ["leishmaniose tegumentar", "tratamento", "animais positivos", "controle", "parasitos resistentes"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "...o tratamento de animais positivos não é uma medida aceita para o controle da Leishmaniose Tegumentar Americana. PORQUE O tratamento...poderá conduzir ao risco de selecionar parasitos resistentes...",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "As duas afirmações são verdadeiras e a segunda justifica a primeira."},
+        {"label": "B", "text": "As duas afirmações são verdadeiras, mas a segunda não justifica a primeira."},
+        {"label": "C", "text": "A primeira afirmação é verdadeira e a segunda é falsa."},
+        {"label": "D", "text": "A primeira afirmação é falsa e a segunda é verdadeira."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A primeira asserção reflete a política oficial do Ministério da Saúde para o controle da LTA. A segunda asserção apresenta a principal justificativa para essa política: o risco de induzir resistência parasitária aos medicamentos que são a base do tratamento humano.",
+        "B": "Incorreta. A segunda afirmação justifica logicamente a primeira, pois o risco de resistência é a razão principal para não tratar cães com LTA.",
+        "C": "Incorreta. Ambas as afirmações são verdadeiras no contexto das diretrizes de saúde pública brasileiras.",
+        "D": "Incorreta. Ambas as afirmações são verdadeiras no contexto das diretrizes de saúde pública brasileiras."
+      },
+      "review": {
+        "etiologia": "A divergência entre a política de saúde pública (que foca na coletividade e não recomenda o tratamento de cães para LTA/LV como medida de controle) e a clínica individual (onde o tutor busca o tratamento para seu animal) gera um debate ético e técnico constante na medicina veterinária brasileira.",
+        "epidemiologia": "A política do Ministério da Saúde para LTA não recomenda o tratamento de cães, e a principal justificativa técnica é o risco de gerar resistência aos fármacos usados em humanos.",
+        "fisiologia": "O tratamento de cães com LTA pode selecionar parasitos resistentes aos medicamentos que são a base do tratamento humano, comprometendo a eficácia terapêutica.",
+        "high_yield": [
+          "A política de saúde pública foca na coletividade, não no indivíduo",
+          "O risco de resistência parasitária é a principal justificativa para não tratar cães com LTA"
+        ],
+        "pegadinhas": [
+          "Confundir política de saúde pública com indicação clínica individual",
+          "Esquecer que a resistência parasitária compromete o tratamento humano"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual a principal justificativa técnica para não tratar cães com Leishmaniose Visceral como medida de controle?",
+        "options": [
+          {"label": "A", "text": "Alto custo do tratamento"},
+          {"label": "B", "text": "Risco de selecionar parasitos resistentes"},
+          {"label": "C", "text": "Falta de eficácia do tratamento"},
+          {"label": "D", "text": "Dificuldade de diagnóstico"}
+        ],
+        "answer_key": "B",
+        "rationale": "O risco de selecionar parasitos resistentes aos medicamentos que são a base do tratamento humano é a principal justificativa técnica para não tratar cães com LV como medida de controle."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp010"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0011",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["SAÚDE PÚBLICA"],
+      "topic_tags": ["OFIDISMO", "VENENOS", "AÇÕES TOXICOLÓGICAS"],
+      "classification_meta": {
+        "area_confidence": {"SAÚDE PÚBLICA": 0.99},
+        "topic_confidence": {"OFIDISMO": 0.95},
+        "evidence_spans": ["ofidismo", "venenos", "ação proteolítica", "neurotóxica", "miotóxica"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Em relação ao ofidismo, assinale a alternativa CORRETA. São considerados venenos com ação proteolítica, neurotóxica e miotóxica, respectivamente.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Botrópico, crotálico e crotálico"},
+        {"label": "B", "text": "Elapídico, botrópico e elapídico"},
+        {"label": "C", "text": "Laquético, elapídico e botrópico"},
+        {"label": "D", "text": "Elapídico, elapídico e botrópico"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Ação Proteolítica: Botrópico (jararacas). Ação Neurotóxica: Crotálico (cascavel). Ação Miotóxica: Crotálico (cascavel).",
+        "B": "Incorreta. Inverte as ações. Elapídico é primariamente neurotóxico, e Botrópico é proteolítico.",
+        "C": "Incorreta. Laquético tem ação mista (proteolítica, coagulante, vagal), mas não é o exemplo clássico de neurotoxicidade primária.",
+        "D": "Incorreta. Inverte completamente as ações. Elapídico é neurotóxico, não proteolítico."
+      },
+      "review": {
+        "etiologia": "O Brasil abriga quatro gêneros de serpentes peçonhentas de importância médica. Cada veneno é um coquetel complexo de toxinas com ações distintas.",
+        "epidemiologia": "O veneno da cascavel (Crotalus) tem uma ação tão miotóxica que a urina do paciente acidentado pode ficar escura, cor de 'coca-cola', devido à liberação de mioglobina na circulação.",
+        "fisiologia": "A mioglobinúria pode levar à insuficiência renal aguda.",
+        "high_yield": [
+          "Associe o nome da cobra à sua principal ação: Botrópico (jararaca) = Buraco (ação proteolítica, necrose)",
+          "Crotálico (cascavel) = Cérebro e Coagulação (neurotóxico, coagulante e miotóxico)",
+          "Elapídico (coral) = Engasga (neurotóxico, paralisia respiratória)"
+        ],
+        "pegadinhas": [
+          "Confundir as ações dos diferentes tipos de veneno",
+          "Esquecer que um veneno pode ter múltiplas ações (como o crotálico)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual tipo de veneno de serpente é caracterizado principalmente pela ação neurotóxica que pode causar paralisia respiratória?",
+        "options": [
+          {"label": "A", "text": "Botrópico"},
+          {"label": "B", "text": "Crotálico"},
+          {"label": "C", "text": "Elapídico"},
+          {"label": "D", "text": "Laquético"}
+        ],
+        "answer_key": "C",
+        "rationale": "O veneno elapídico (coral-verdadeira) é caracterizado principalmente pela ação neurotóxica que pode causar paralisia respiratória. O botrópico é proteolítico, o crotálico tem ação mista, e o laquético tem ação mista."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp011"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0012",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["FLUIDOTERAPIA", "CRISTALOIDES", "COLÓIDES"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"FLUIDOTERAPIA": 0.95},
+        "evidence_spans": ["fluidoterapia", "ringer lactato", "solução hipertônica", "soluções coloidais"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Em relação a fluidoterapia: I-O Ringer com lactato é um fluido... não balanceado... II- A solução hipertônica deve ser evitada em pacientes desidratados. III- As soluções coloidais estão indicadas em pacientes hipovolêmicos e/ou com hipoalbuminemia.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "I está correta"},
+        {"label": "B", "text": "II está correta"},
+        {"label": "C", "text": "II e III estão corretas"},
+        {"label": "D", "text": "I, II e III estão corretas"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. O Ringer com Lactato é a solução cristaloide de reposição balanceada por excelência. Sua composição iônica e osmolaridade são muito semelhantes às do plasma.",
+        "B": "Incorreta. A afirmação II está correta, mas a III também está correta.",
+        "C": "Correta. II - Soluções hipertônicas funcionam 'puxando' água do espaço intersticial e intracelular para dentro dos vasos. Em um paciente já desidratado, isso pioraria a desidratação celular. III - Soluções coloidais contêm moléculas grandes que permanecem no espaço intravascular por mais tempo, exercendo pressão oncótica.",
+        "D": "Incorreta. A afirmação I está incorreta. O Ringer com Lactato é balanceado."
+      },
+      "review": {
+        "etiologia": "A fluidoterapia é uma das intervenções mais importantes na medicina veterinária. Entender os diferentes tipos de fluidos e suas indicações é crucial para o sucesso terapêutico.",
+        "epidemiologia": "O lactato presente na solução de Ringer não causa acidose lática. Pelo contrário, ele é metabolizado no fígado em bicarbonato, tendo um efeito alcalinizante.",
+        "fisiologia": "Cristaloides se distribuem rapidamente por todo o espaço extracelular (apenas ~25% fica no vaso após 1 hora). Coloides permanecem no espaço intravascular, expandindo o volume de forma mais eficiente.",
+        "high_yield": [
+          "Ringer Lactato vs. NaCl 0.9%: O Ringer com Lactato é chamado de 'balanceado' porque sua composição de eletrólitos e seu pH são mais próximos do plasma",
+          "A solução de NaCl 0.9% é 'não balanceada' por ter uma concentração suprafisiológica de Cloreto, o que pode causar acidose metabólica hiperclorêmica"
+        ],
+        "pegadinhas": [
+          "Achar que Ringer Lactato é não balanceado (é o contrário)",
+          "Usar soluções hipertônicas em pacientes desidratados (piora a desidratação)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual tipo de solução é considerada 'balanceada' e ideal para reposição em desidratação?",
+        "options": [
+          {"label": "A", "text": "NaCl 0.9%"},
+          {"label": "B", "text": "Ringer com Lactato"},
+          {"label": "C", "text": "NaCl 7.5%"},
+          {"label": "D", "text": "Glicose 5%"}
+        ],
+        "answer_key": "B",
+        "rationale": "O Ringer com Lactato é a solução cristaloide de reposição balanceada por excelência. Sua composição iônica e osmolaridade são muito semelhantes às do plasma. NaCl 0.9% é não balanceado, NaCl 7.5% é hipertônico, e Glicose 5% é hipotônica."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp012"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0013",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["TRAUMA", "EMERGÊNCIA", "ABCDE"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"TRAUMA": 0.95},
+        "evidence_spans": ["politraumatizado", "condutas emergenciais", "ABCDE", "glicocorticoides"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Em relação às condutas emergenciais... no atendimento de um paciente... politraumatizado, analise as afirmações...",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "I está correta"},
+        {"label": "B", "text": "II, III e IV estão corretas"},
+        {"label": "C", "text": "I, II e III estão corretas"},
+        {"label": "D", "text": "Todas estão corretas"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. O uso de glicocorticoides no Trauma Cranioencefálico (TCE) é altamente controverso e não é mais recomendado de rotina.",
+        "B": "Correta. II - A lista de alterações torácicas é precisa. III - O exame FAST é uma ferramenta de triagem ultrassonográfica rápida. IV - Descreve perfeitamente a filosofia do sistema ABCDE.",
+        "C": "Incorreta. A afirmação I está incorreta sobre glicocorticoides no TCE.",
+        "D": "Incorreta. A afirmação I está incorreta sobre glicocorticoides no TCE."
+      },
+      "review": {
+        "etiologia": "A abordagem ABCDE do trauma é universal. Lembre-se da ordem: Airway (Vias Aéreas), Breathing (Respiração), Circulation (Circulação), Disability (Neurológico), Exposure (Exposição).",
+        "epidemiologia": "O uso de altas doses de corticoides no trauma craniano e medular agudo foi uma prática comum por muitos anos, mas grandes estudos não mostraram benefícios consistentes.",
+        "fisiologia": "Você só avança para a letra seguinte depois de estabilizar a anterior.",
+        "high_yield": [
+          "A abordagem ABCDE do trauma é universal",
+          "Lembre-se da ordem: Airway (Vias Aéreas), Breathing (Respiração), Circulation (Circulação), Disability (Neurológico), Exposure (Exposição)"
+        ],
+        "pegadinhas": [
+          "Usar corticoides rotineiramente no TCE (não é mais recomendado)",
+          "Interpretar incorretamente o mnemônico ABCDE"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual a sequência correta da abordagem ABCDE no trauma?",
+        "options": [
+          {"label": "A", "text": "Airway, Breathing, Circulation, Disability, Exposure"},
+          {"label": "B", "text": "Abertura, Breathing, Coração, Disability, Exames"},
+          {"label": "C", "text": "Airway, Breathing, Circulation, Diagnosis, Evaluation"},
+          {"label": "D", "text": "Abertura, Breathing, Circulation, Disability, Exposure"}
+        ],
+        "answer_key": "A",
+        "rationale": "A sequência correta é: Airway (Vias Aéreas), Breathing (Respiração), Circulation (Circulação), Disability (Neurológico), Exposure (Exposição). As outras opções interpretam incorretamente o mnemônico."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp013"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0014",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["SÍNDROME BRACICEFÁLICA", "BAOS", "CIRURGIA"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA CIRÚRGICA": 0.99},
+        "topic_confidence": {"SÍNDROME BRACICEFÁLICA": 0.95},
+        "evidence_spans": ["síndrome do cão braquicefálico", "obstrução vias aéreas", "cirurgia", "anestesia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre a Síndrome do Cão Braquicefálico, analise as afirmações a seguir.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "III está correta"},
+        {"label": "B", "text": "I e II estão corretas"},
+        {"label": "C", "text": "II e III estão corretas"},
+        {"label": "D", "text": "Todas estão corretas"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A afirmação III descreve o racional para a intervenção cirúrgica precoce. A obstrução primária causa uma pressão inspiratória negativa muito alta, que com o tempo enfraquece as cartilagens da laringe, levando a alterações secundárias e irreversíveis.",
+        "B": "Incorreta. A afirmação I está incorreta. A síndrome é caracterizada por pelo menos duas anormalidades primárias, mas a lista está incompleta.",
+        "C": "Incorreta. A afirmação II está incorreta. O tratamento da BAOS é fundamentalmente cirúrgico. O tratamento medicamentoso não resolve o problema anatômico subjacente.",
+        "D": "Incorreta. As afirmações I, II, IV e V estão incorretas."
+      },
+      "review": {
+        "etiologia": "A Síndrome Braquicefálica Obstrutiva das Vias Aéreas (BAOS) é um espectro de anomalias. As primárias são as que o cão nasce com (estenose de narina, palato alongado).",
+        "epidemiologia": "As secundárias são as que se desenvolvem com o tempo devido ao esforço respiratório crônico (eversão de sáculos, colapso de laringe).",
+        "fisiologia": "Muitas raças braquicefálicas também apresentam problemas gastrointestinais concomitantes, como hérnia de hiato e refluxo gastroesofágico.",
+        "high_yield": [
+          "A Síndrome Braquicefálica Obstrutiva das Vias Aéreas (BAOS) é um espectro de anomalias",
+          "As primárias são as que o cão nasce com (estenose de narina, palato alongado)",
+          "As secundárias são as que se desenvolvem com o tempo devido ao esforço respiratório crônico"
+        ],
+        "pegadinhas": [
+          "Achar que o tratamento medicamentoso é eficaz (é fundamentalmente cirúrgico)",
+          "Esquecer que a cirurgia precoce previne complicações secundárias"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual das seguintes alterações é considerada PRIMÁRIA na Síndrome Braquicefálica?",
+        "options": [
+          {"label": "A", "text": "Eversão dos sáculos laríngeos"},
+          {"label": "B", "text": "Colapso laríngeo"},
+          {"label": "C", "text": "Estenose de narinas"},
+          {"label": "D", "text": "Hipoplasia de traqueia"}
+        ],
+        "answer_key": "C",
+        "rationale": "A estenose de narinas é uma anormalidade primária (o cão nasce com ela). A eversão dos sáculos laríngeos e colapso laríngeo são anormalidades secundárias que se desenvolvem com o tempo."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp014"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0015",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["FARMACOLOGIA", "ANESTÉSICOS", "CORRESPONDÊNCIA"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99},
+        "topic_confidence": {"FARMACOLOGIA": 0.95},
+        "evidence_spans": ["farmacologia", "anestésicos", "correspondência", "classificação"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Questão de correspondência sobre farmacologia anestésica (correspondência direta).",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Sequência correta da segunda coluna"},
+        {"label": "B", "text": "Sequência incorreta"},
+        {"label": "C", "text": "Sequência parcialmente correta"},
+        {"label": "D", "text": "Nenhuma sequência correta"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A sequência correta da segunda coluna seria: 2-Dexmedetomidina (Agonista α-2), 6-Glicopirrolato (Anticolinérgico), 4-Flumazenil (Antagonista Benzodiazepínico), 10-Neostigmina (Anticolinesterásico), 8-Ropivacaína (Anestésico Local), 5-Cetamina (Dissociativo), 3-Sevofluorano (Halogenado), 1-Acepromazina (Fenotiazínico), 9-Naloxona (Antagonista Opioide), 7-Tiopental (Barbitúrico).",
+        "B": "Incorreta. A sequência está correta.",
+        "C": "Incorreta. A sequência está correta.",
+        "D": "Incorreta. Existe uma sequência correta."
+      },
+      "review": {
+        "etiologia": "A questão como formulada na prova tem erros e não permite uma correspondência 1 para 1 perfeita com as opções.",
+        "epidemiologia": "Questões de correspondência são comuns em provas de residência e testam o conhecimento sobre classificação de fármacos.",
+        "fisiologia": "Cada classe de fármaco tem mecanismo de ação e indicações específicas.",
+        "high_yield": [
+          "Questões de correspondência são comuns em provas de residência",
+          "Testam o conhecimento sobre classificação de fármacos"
+        ],
+        "pegadinhas": [
+          "Confundir classes de fármacos",
+          "Esquecer que alguns fármacos podem ter múltiplas ações"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual fármaco é classificado como agonista α-2 adrenérgico?",
+        "options": [
+          {"label": "A", "text": "Acepromazina"},
+          {"label": "B", "text": "Dexmedetomidina"},
+          {"label": "C", "text": "Cetamina"},
+          {"label": "D", "text": "Tiopental"}
+        ],
+        "answer_key": "B",
+        "rationale": "A Dexmedetomidina é um agonista α-2 adrenérgico. A Acepromazina é um fenotiazínico, a Cetamina é um dissociativo, e o Tiopental é um barbitúrico."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp015"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0016",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["FARMACOLOGIA", "ACEPROMAZINA", "EFEITOS"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99},
+        "topic_confidence": {"FARMACOLOGIA": 0.95},
+        "evidence_spans": ["acepromazina", "efeitos", "cães", "farmacologia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Assinale a alternativa que representa efeitos da acepromazina em cães.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Analgesia e hipoglicemia"},
+        {"label": "B", "text": "Emese e hipotermia"},
+        {"label": "C", "text": "Ação anti-arritmogênica, tranquilização, redução da pressão arterial"},
+        {"label": "D", "text": "Hiperglicemia e hipertermia"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Acepromazina não possui efeito analgésico. A hipoglicemia também não é um efeito conhecido.",
+        "B": "Incorreta. Acepromazina é um potente antiemético (previne o vômito), não causa êmese. Ela tem ação anti-histamínica e causa hipotermia (redução da temperatura), mas o efeito emético invalida a alternativa.",
+        "C": "Correta. Ação anti-arritmogênica: A acepromazina tem um efeito de bloqueio alfa-1 adrenérgico que ajuda a proteger o miocárdio contra arritmias ventriculares induzidas por catecolaminas. Tranquilização: É o seu principal efeito desejado. Redução da pressão arterial: É o seu principal efeito adverso.",
+        "D": "Incorreta. Acepromazina causa redução da temperatura corporal (hipotermia) por vasodilatação periférica e depressão do centro termorregulador, não aumento. Também não causa hiperglicemia."
+      },
+      "review": {
+        "etiologia": "A acepromazina (ACP) é um dos tranquilizantes mais antigos e utilizados na medicina veterinária. Pertence à classe dos fenotiazínicos e atua bloqueando receptores de dopamina no cérebro.",
+        "epidemiologia": "A acepromazina pode causar prolapso de pênis em garanhões, um efeito idiossincrático e potencialmente permanente. Por isso, seu uso em equinos machos reprodutores é feito com extrema cautela.",
+        "fisiologia": "Os três efeitos mais importantes da Acepromazina para lembrar na prova são: 1) Vasodilatação (causa hipotensão), 2) Antiarrítmica (protege contra arritmias induzidas por catecolaminas), 3) Antiemética.",
+        "high_yield": [
+          "Os três efeitos mais importantes da Acepromazina para lembrar na prova são: 1) Vasodilatação (causa hipotensão), 2) Antiarrítmica (protege contra arritmias induzidas por catecolaminas), 3) Antiemética",
+          "Lembre-se que ela NÃO tem efeito analgésico"
+        ],
+        "pegadinhas": [
+          "Achar que acepromazina tem efeito analgésico (não tem)",
+          "Confundir antiemético (previne vômito) com emético (causa vômito)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual o principal efeito adverso da acepromazina que limita seu uso em pacientes hipovolêmicos?",
+        "options": [
+          {"label": "A", "text": "Hipertermia"},
+          {"label": "B", "text": "Hipotensão"},
+          {"label": "C", "text": "Bradicardia"},
+          {"label": "D", "text": "Hiperglicemia"}
+        ],
+        "answer_key": "B",
+        "rationale": "A hipotensão é o principal efeito adverso da acepromazina, causada por vasodilatação periférica. Por isso, deve ser usada com cautela em pacientes hipovolêmicos, desidratados ou cardiopatas."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp016"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0017",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
+      "topic_tags": ["HEMATÚRIA", "DIAGNÓSTICO", "RAIO-X", "ULTRASSOM"],
+      "classification_meta": {
+        "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99},
+        "topic_confidence": {"HEMATÚRIA": 0.95},
+        "evidence_spans": ["hematúria", "diagnóstico", "raio-x", "ultrassom", "ruptura bexiga"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Um cão macho de 5 anos é apresentado ao médico veterinário com hematúria. Assinale a alternativa INCORRETA quanto à relação entre suspeita e exame a ser requisitado.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Radiografia simples para avaliação de cálculo vesical"},
+        {"label": "B", "text": "Radiografia simples para diagnóstico de ruptura de bexiga"},
+        {"label": "C", "text": "Ultrassonografia para diagnóstico de cálculo renal"},
+        {"label": "D", "text": "Ultrassonografia para avaliação de neoplasias na bexiga"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Correta. A maioria dos cálculos urinários em cães (estruvita, oxalato de cálcio) são radiopacos e aparecem claramente na radiografia simples.",
+        "B": "Incorreta. Uma radiografia simples (sem contraste) é muito pouco sensível para diagnosticar ruptura de bexiga. A urina livre no abdômen causa uma perda de detalhe seroso, o que é sugestivo, mas não confirmatório.",
+        "C": "Correta. O ultrassom é mais sensível que o raio-x para detectar cálculos nos rins (nefrólitos), pois eles aparecem como estruturas hiperecoicas que produzem uma 'sombra acústica' posterior.",
+        "D": "Correta. O ultrassom é o método de imagem de escolha para avaliar a parede da bexiga e detectar massas, como o carcinoma de células de transição (CCT)."
+      },
+      "review": {
+        "etiologia": "Hematúria (sangue na urina) é um sinal clínico comum com um amplo diagnóstico diferencial. A escolha do exame de imagem correto é fundamental para chegar ao diagnóstico.",
+        "epidemiologia": "Para detectar uma ruptura de bexiga, o melhor exame de imagem é a uretrocistografia contrastada positiva (ou de duplo contraste).",
+        "fisiologia": "Raio-X Simples vs. Ultrassom: O raio-x é excelente para ver coisas 'duras' (ossos) e coisas com muito contraste de densidade (gás, mineral). O ultrassom é excelente para ver a arquitetura interna de órgãos 'moles' (fígado, rins, bexiga).",
+        "high_yield": [
+          "Raio-X Simples vs. Ultrassom: O raio-x é excelente para ver coisas 'duras' (ossos) e coisas com muito contraste de densidade (gás, mineral)",
+          "O ultrassom é excelente para ver a arquitetura interna de órgãos 'moles' (fígado, rins, bexiga)"
+        ],
+        "pegadinhas": [
+          "Achar que raio-x simples é suficiente para diagnosticar ruptura de bexiga (precisa de contraste)",
+          "Confundir indicações de raio-x vs. ultrassom"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual exame de imagem é mais sensível para detectar cálculos renais (nefrólitos) em cães?",
+        "options": [
+          {"label": "A", "text": "Radiografia simples"},
+          {"label": "B", "text": "Ultrassonografia"},
+          {"label": "C", "text": "Tomografia computadorizada"},
+          {"label": "D", "text": "Ressonância magnética"}
+        ],
+        "answer_key": "B",
+        "rationale": "O ultrassom é mais sensível que o raio-x para detectar cálculos nos rins, pois eles aparecem como estruturas hiperecoicas que produzem uma 'sombra acústica' posterior. O raio-x só detecta cálculos radiopacos."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp017"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0018",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
+      "topic_tags": ["HEPATOMEGALIA", "ULTRASSOM", "FÍGADO"],
+      "classification_meta": {
+        "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99},
+        "topic_confidence": {"HEPATOMEGALIA": 0.95},
+        "evidence_spans": ["hepatomegalia", "ultrassonografia", "afecção", "aumento"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "A ultrassonografia permite a avaliação da hepatomegalia. Assinale a afecção que NÃO está associada à hepatomegalia.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Insuficiência cardíaca congestiva"},
+        {"label": "B", "text": "Lipidose"},
+        {"label": "C", "text": "Hiperadrenocorticismo"},
+        {"label": "D", "text": "Desvio portossistêmico"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta (causa hepatomegalia). Na ICC direita, o sangue 'represa' no sistema venoso. O fígado fica congestionado com sangue (congestão passiva crônica), o que leva a um aumento de seu volume (hepatomegalia congestiva).",
+        "B": "Incorreta (causa hepatomegalia). Na lipidose hepática (comum em gatos anoréxicos), há um acúmulo maciço de gordura (triglicerídeos) dentro dos hepatócitos, causando um aumento acentuado e difuso do fígado.",
+        "C": "Incorreta (causa hepatomegalia). O excesso de cortisol (Síndrome de Cushing) induz o acúmulo de glicogênio nos hepatócitos (hepatopatia esteroidal ou vacuolar), resultando em um fígado aumentado e pálido.",
+        "D": "Correta. Um desvio portossistêmico (shunt) é um vaso anômalo que desvia o sangue vindo do intestino diretamente para a circulação sistêmica, 'pulando' o fígado. Sem receber esse fluxo sanguíneo portal, o fígado não se desenvolve adequadamente ou atrofia. Portanto, o achado clássico é a micro-hepatia (fígado pequeno), e não a hepatomegalia."
+      },
+      "review": {
+        "etiologia": "Para questões de 'aumento vs. diminuição' de órgãos, pense na fisiopatologia. Doenças de acúmulo (gordura, glicogênio, sangue) ou infiltração (células inflamatórias, neoplásicas) causam aumento (megalia).",
+        "epidemiologia": "Doenças que causam atrofia ou desvio de fluxo sanguíneo causam diminuição (micro-hepatia).",
+        "fisiologia": "Em cães da raça Yorkshire Terrier com shunt portossistêmico, além da micro-hepatia, é comum encontrar cálculos de urato de amônio na bexiga. Isso ocorre porque o fígado doente não consegue metabolizar a amônia em ureia.",
+        "high_yield": [
+          "Para questões de 'aumento vs. diminuição' de órgãos, pense na fisiopatologia",
+          "Doenças de acúmulo (gordura, glicogênio, sangue) ou infiltração causam aumento (megalia)",
+          "Doenças que causam atrofia ou desvio de fluxo sanguíneo causam diminuição (micro-hepatia)"
+        ],
+        "pegadinhas": [
+          "Confundir hepatomegalia (aumento) com micro-hepatia (diminuição)",
+          "Esquecer que shunt portossistêmico causa micro-hepatia, não hepatomegalia"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual afecção hepática é caracterizada por micro-hepatia (fígado pequeno)?",
+        "options": [
+          {"label": "A", "text": "Lipidose hepática"},
+          {"label": "B", "text": "Hiperadrenocorticismo"},
+          {"label": "C", "text": "Desvio portossistêmico"},
+          {"label": "D", "text": "Insuficiência cardíaca congestiva"}
+        ],
+        "answer_key": "C",
+        "rationale": "O desvio portossistêmico causa micro-hepatia porque o sangue portal não chega adequadamente ao fígado, impedindo seu desenvolvimento normal. As outras opções causam hepatomegalia."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp018"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0019",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["EFUSÕES", "TRANSUDATOS", "EXUDATOS"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"EFUSÕES": 0.95},
+        "evidence_spans": ["líquidos cavitários", "efusões", "transudatos", "características"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Líquidos cavitários, classificação das efusões: com relação as características dos transudatos assinale a alternativa INCORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Baixa contagem de células nucleadas com predomínio de mononucleares"},
+        {"label": "B", "text": "Alta contagem de eritrócitos"},
+        {"label": "C", "text": "Fluidos transparentes"},
+        {"label": "D", "text": "Baixa concentração de proteínas (<2,5 g/dL)"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Correta. A celularidade é baixa (< 1500 células/μL), e as poucas células presentes são geralmente macrófagos, linfócitos e células mesoteliais (todas mononucleares), refletindo a ausência de um estímulo inflamatório agudo.",
+        "B": "Incorreta. Um transudato puro é, por definição, um ultrafiltrado do plasma. Ele não deve conter grandes quantidades de células, incluindo eritrócitos (hemácias). Uma alta contagem de eritrócitos indicaria uma efusão hemorrágica.",
+        "C": "Correta. Devido à baixa celularidade e baixo teor de proteína, os transudatos puros são tipicamente claros e incolores, com aparência de água ('água de rocha').",
+        "D": "Correta. Esta é uma das características definidoras de um transudato puro."
+      },
+      "review": {
+        "etiologia": "Transudato puro = 'Água'. Pense em um filtro (o vaso sanguíneo) que está funcionando bem, mas a pressão está errada. Ou a pressão dentro do vaso está muito alta (hidrostática ⬆️) ou a proteína que segura a água dentro está muito baixa (oncótica ⬇️).",
+        "epidemiologia": "A causa mais clássica de transudato puro no abdômen (ascite) de um cão é a hipoalbuminemia severa, que por sua vez é frequentemente causada por enteropatia perdedora de proteínas, nefropatia perdedora de proteínas ou insuficiência hepática crônica.",
+        "fisiologia": "O resultado é o extravasamento de um líquido pobre em células e proteínas.",
+        "high_yield": [
+          "Transudato puro = 'Água'. Pense em um filtro (o vaso sanguíneo) que está funcionando bem, mas a pressão está errada",
+          "Ou a pressão dentro do vaso está muito alta (hidrostática ⬆️) ou a proteína que segura a água dentro está muito baixa (oncótica ⬇️)"
+        ],
+        "pegadinhas": [
+          "Achar que transudato pode ter alta celularidade (não pode)",
+          "Confundir transudato (pobre em células) com exudato (rico em células)"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual a característica principal que diferencia um transudato de um exudato?",
+        "options": [
+          {"label": "A", "text": "Cor do líquido"},
+          {"label": "B", "text": "Concentração de proteínas"},
+          {"label": "C", "text": "Contagem de células"},
+          {"label": "D", "text": "pH do líquido"}
+        ],
+        "answer_key": "B",
+        "rationale": "A concentração de proteínas é a característica principal que diferencia transudato (< 2,5 g/dL) de exudato (> 3,0 g/dL). A contagem de células também é importante, mas a proteína é o critério mais usado."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp019"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0020",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["HEMATOLOGIA", "ANEMIA REGENERATIVA", "HEMOGRAMA"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"HEMATOLOGIA": 0.95},
+        "evidence_spans": ["hematologia", "hemograma", "anemia regenerativa", "cães"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Hematologia: na interpretação do hemograma de cães são características indicativas de anemia regenerativa, EXCETO.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Policromatofilia intensa"},
+        {"label": "B", "text": "Presença de metarrubrícitos"},
+        {"label": "C", "text": "Hipocromia"},
+        {"label": "D", "text": "Contagem alta de reticulócitos"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Correta. Policromatofilia é a variação de cor das hemácias no esfregaço (algumas são mais azuladas). Essa cor azulada é devida ao RNA residual nos reticulócitos. É a representação morfológica da reticulocitose.",
+        "B": "Correta. Metarrubrícitos são precursores eritroides nucleados que normalmente não deveriam estar na circulação. Sua presença (em conjunto com alta reticulocitose) indica uma resposta medular muito intensa (regeneração exuberante).",
+        "C": "Incorreta. Hipocromia (baixa concentração de hemoglobina na hemácia, refletida por um CHCM baixo e aumento da palidez central) é a marca registrada da deficiência de ferro. A anemia por deficiência de ferro crônica é classicamente não regenerativa ou pobremente regenerativa.",
+        "D": "Correta. Esta é a definição de anemia regenerativa. É o indicador mais objetivo e quantitativo da resposta da medula óssea."
+      },
+      "review": {
+        "etiologia": "Regeneração = a medula óssea está 'trabalhando loucamente'. Ela libera hemácias jovens (reticulócitos), que são grandes (aumentam o VCM) e ainda têm RNA (causam policromasia).",
+        "epidemiologia": "Às vezes, no desespero, ela libera até hemácias nucleadas (metarrubrícitos).",
+        "fisiologia": "A presença de metarrubrícitos (hemácias nucleadas) sem uma contagem de reticulócitos proporcionalmente alta é chamada de 'resposta eritroide inapropriada' e é um sinal de alerta.",
+        "high_yield": [
+          "Regeneração = a medula óssea está 'trabalhando loucamente'",
+          "Ela libera hemácias jovens (reticulócitos), que são grandes (aumentam o VCM) e ainda têm RNA (causam policromasia)",
+          "Às vezes, no desespero, ela libera até hemácias nucleadas (metarrubrícitos)"
+        ],
+        "pegadinhas": [
+          "Confundir hipocromia (deficiência de ferro, não regenerativa) com policromasia (regenerativa)",
+          "Esquecer que metarrubrícitos sem reticulocitose alta é sinal de alerta"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o indicador mais objetivo e quantitativo de anemia regenerativa?",
+        "options": [
+          {"label": "A", "text": "Policromatofilia"},
+          {"label": "B", "text": "Presença de metarrubrícitos"},
+          {"label": "C", "text": "Contagem de reticulócitos"},
+          {"label": "D", "text": "VCM aumentado"}
+        ],
+        "answer_key": "C",
+        "rationale": "A contagem de reticulócitos é o indicador mais objetivo e quantitativo de anemia regenerativa. É a definição de anemia regenerativa. Os outros são indicadores morfológicos."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp020"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0021",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["BIOQUÍMICA", "FUNÇÃO HEPÁTICA", "ENZIMAS"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"BIOQUÍMICA": 0.95, "FUNÇÃO HEPÁTICA": 0.90},
+        "evidence_spans": ["bioquímica", "enzimas hepáticas", "ALT", "AST", "fosfatase alcalina"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Em relação às enzimas hepáticas, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "ALT é mais específica para lesão hepática que AST"},
+        {"label": "B", "text": "Fosfatase alcalina é específica para lesão hepatocelular"},
+        {"label": "C", "text": "AST é mais específica para lesão hepática que ALT"},
+        {"label": "D", "text": "GGT é mais específica para lesão hepatocelular que fosfatase alcalina"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A ALT (Alanina Aminotransferase) é mais específica para lesão hepática que a AST, pois é encontrada principalmente no citoplasma dos hepatócitos. A AST também está presente em outros tecidos (músculo, coração, rim).",
+        "B": "Incorreta. A fosfatase alcalina é um marcador de colestase (obstrução biliar), não de lesão hepatocelular. Ela se eleva quando há obstrução do fluxo biliar.",
+        "C": "Incorreta. A AST é menos específica que a ALT, pois está presente em múltiplos tecidos além do fígado.",
+        "D": "Incorreta. A GGT é um marcador de colestase, não de lesão hepatocelular. Ela se eleva em condições de obstrução biliar."
+      },
+      "review": {
+        "etiologia": "As enzimas hepáticas são marcadores bioquímicos que refletem diferentes tipos de lesão hepática. ALT e AST são marcadores de lesão hepatocelular, enquanto fosfatase alcalina e GGT são marcadores de colestase.",
+        "epidemiologia": "A relação AST/ALT pode ajudar a diferenciar entre doença hepática alcoólica (AST/ALT > 2) e outras hepatopatias.",
+        "fisiologia": "ALT é encontrada principalmente no citoplasma dos hepatócitos, enquanto AST está presente no citoplasma e mitocôndrias.",
+        "high_yield": [
+          "ALT é mais específica para lesão hepática que AST",
+          "Fosfatase alcalina e GGT são marcadores de colestase, não de lesão hepatocelular",
+          "A relação AST/ALT pode ajudar no diagnóstico diferencial"
+        ],
+        "pegadinhas": [
+          "Confundir marcadores de lesão hepatocelular (ALT/AST) com marcadores de colestase (FA/GGT)",
+          "Achar que AST é mais específica que ALT"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual enzima hepática é considerada um marcador de colestase?",
+        "options": [
+          {"label": "A", "text": "ALT"},
+          {"label": "B", "text": "AST"},
+          {"label": "C", "text": "Fosfatase alcalina"},
+          {"label": "D", "text": "Creatina quinase"}
+        ],
+        "answer_key": "C",
+        "rationale": "A fosfatase alcalina é um marcador de colestase (obstrução biliar). ALT e AST são marcadores de lesão hepatocelular. Creatina quinase não é uma enzima hepática."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp021"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0022",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["CARDIOLOGIA", "ARRITMIAS", "ECG"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"CARDIOLOGIA": 0.95},
+        "evidence_spans": ["cardiologia", "arritmias", "ECG", "taquicardia", "bradicardia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Um cão apresenta frequência cardíaca de 180 bpm no ECG. Assinale a alternativa CORRETA sobre a interpretação deste achado.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É uma bradicardia sinusal"},
+        {"label": "B", "text": "É uma taquicardia sinusal normal para cães"},
+        {"label": "C", "text": "É uma taquicardia sinusal patológica"},
+        {"label": "D", "text": "É uma arritmia sinusal"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. 180 bpm é uma frequência elevada, não uma bradicardia. Bradicardia seria abaixo de 60-70 bpm em cães.",
+        "B": "Incorreta. A frequência normal em cães em repouso é de 60-140 bpm. 180 bpm está acima do normal.",
+        "C": "Correta. 180 bpm é uma taquicardia sinusal patológica em cães. Pode ser causada por dor, ansiedade, febre, anemia, ou doença cardíaca.",
+        "D": "Incorreta. Arritmia sinusal se refere a irregularidade no ritmo, não à frequência. O ritmo pode ser regular mas com frequência elevada."
+      },
+      "review": {
+        "etiologia": "A taquicardia sinusal é uma resposta fisiológica a diversos estímulos, mas quando persistente ou desproporcional, pode indicar patologia.",
+        "epidemiologia": "Causas comuns de taquicardia sinusal em cães incluem dor, ansiedade, febre, anemia, hipovolemia, e doença cardíaca.",
+        "fisiologia": "O nó sinusal é o marcapasso natural do coração. Quando há aumento da atividade simpática ou diminuição da parassimpática, a frequência aumenta.",
+        "high_yield": [
+          "Frequência normal em cães: 60-140 bpm",
+          "Taquicardia sinusal: > 140 bpm",
+          "Bradicardia sinusal: < 60 bpm"
+        ],
+        "pegadinhas": [
+          "Confundir taquicardia (frequência alta) com arritmia (ritmo irregular)",
+          "Esquecer que a frequência normal varia com o estado emocional e condição física"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual a frequência cardíaca normal em cães em repouso?",
+        "options": [
+          {"label": "A", "text": "40-80 bpm"},
+          {"label": "B", "text": "60-140 bpm"},
+          {"label": "C", "text": "100-200 bpm"},
+          {"label": "D", "text": "120-180 bpm"}
+        ],
+        "answer_key": "B",
+        "rationale": "A frequência cardíaca normal em cães em repouso é de 60-140 bpm. Frequências abaixo de 60 indicam bradicardia, e acima de 140 indicam taquicardia."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp022"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0023",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["NEUROLOGIA", "SÍNDROMES VESTIBULARES", "DIAGNÓSTICO"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"NEUROLOGIA": 0.95},
+        "evidence_spans": ["neurologia", "síndrome vestibular", "diagnóstico", "nistagmo", "inclinação da cabeça"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Um cão apresenta inclinação da cabeça para a esquerda e nistagmo horizontal. Assinale a alternativa CORRETA sobre o diagnóstico.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Síndrome vestibular periférica direita"},
+        {"label": "B", "text": "Síndrome vestibular periférica esquerda"},
+        {"label": "C", "text": "Síndrome vestibular central"},
+        {"label": "D", "text": "Síndrome vestibular bilateral"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Na síndrome vestibular periférica, a inclinação da cabeça é para o lado da lesão. Se a inclinação é para a esquerda, a lesão é no lado esquerdo.",
+        "B": "Correta. Na síndrome vestibular periférica, a inclinação da cabeça é para o lado da lesão. Nistagmo horizontal com fase rápida para o lado oposto à lesão é característico.",
+        "C": "Incorreta. Síndrome vestibular central geralmente apresenta sinais neurológicos adicionais (paralisia de nervos cranianos, alterações de consciência) e nistagmo pode ser vertical ou rotatório.",
+        "D": "Incorreta. Síndrome vestibular bilateral é rara e caracterizada por ataxia sem inclinação da cabeça ou nistagmo."
+      },
+      "review": {
+        "etiologia": "A síndrome vestibular periférica é causada por lesão no ouvido interno ou nervo vestibular. É mais comum que a central e geralmente tem melhor prognóstico.",
+        "epidemiologia": "Causas comuns incluem otite interna, trauma, idiopática (especialmente em cães idosos), e neoplasias.",
+        "fisiologia": "O sistema vestibular controla o equilíbrio e orientação espacial. Lesão unilateral causa inclinação para o lado afetado e nistagmo com fase rápida para o lado oposto.",
+        "high_yield": [
+          "Na síndrome vestibular periférica: inclinação da cabeça para o lado da lesão",
+          "Nistagmo horizontal com fase rápida para o lado oposto à lesão",
+          "Síndrome vestibular central: sinais neurológicos adicionais"
+        ],
+        "pegadinhas": [
+          "Confundir o lado da lesão com o lado da inclinação da cabeça",
+          "Esquecer que síndrome vestibular central tem sinais neurológicos adicionais"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a característica principal da síndrome vestibular bilateral?",
+        "options": [
+          {"label": "A", "text": "Inclinação da cabeça para um lado"},
+          {"label": "B", "text": "Nistagmo horizontal"},
+          {"label": "C", "text": "Ataxia sem inclinação da cabeça"},
+          {"label": "D", "text": "Paralisia de nervos cranianos"}
+        ],
+        "answer_key": "C",
+        "rationale": "A síndrome vestibular bilateral é caracterizada por ataxia sem inclinação da cabeça ou nistagmo, pois não há assimetria no sistema vestibular."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp023"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0024",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["DERMATOLOGIA", "ALERGIA", "ATOPIA"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"DERMATOLOGIA": 0.95},
+        "evidence_spans": ["dermatologia", "alergia", "atopia", "prurido", "lesões"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre a dermatite atópica canina, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É uma doença rara em cães"},
+        {"label": "B", "text": "O prurido é sempre intenso"},
+        {"label": "C", "text": "As lesões são sempre simétricas"},
+        {"label": "D", "text": "É uma doença genética com base imunológica"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. A dermatite atópica é uma das doenças alérgicas mais comuns em cães, afetando cerca de 10-15% da população canina.",
+        "B": "Incorreta. O prurido pode variar de leve a intenso, dependendo da gravidade da doença e da presença de infecções secundárias.",
+        "C": "Incorreta. As lesões podem ser simétricas ou assimétricas, dependendo da distribuição dos alérgenos e da resposta individual do animal.",
+        "D": "Correta. A dermatite atópica é uma doença genética com base imunológica, caracterizada por hipersensibilidade a alérgenos ambientais."
+      },
+      "review": {
+        "etiologia": "A dermatite atópica é uma doença genética complexa que envolve múltiplos genes e fatores ambientais. Há predisposição racial em algumas raças.",
+        "epidemiologia": "Raças predispostas incluem Labrador Retriever, Golden Retriever, Bulldog Francês, e West Highland White Terrier.",
+        "fisiologia": "A doença envolve produção excessiva de IgE específica contra alérgenos ambientais, levando a inflamação cutânea e prurido.",
+        "high_yield": [
+          "Dermatite atópica é uma das doenças alérgicas mais comuns em cães",
+          "É uma doença genética com base imunológica",
+          "O prurido pode variar de leve a intenso"
+        ],
+        "pegadinhas": [
+          "Achar que é uma doença rara",
+          "Esquecer que o prurido pode variar em intensidade",
+          "Achar que as lesões são sempre simétricas"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a base imunológica da dermatite atópica?",
+        "options": [
+          {"label": "A", "text": "Produção excessiva de IgG"},
+          {"label": "B", "text": "Produção excessiva de IgE"},
+          {"label": "C", "text": "Deficiência de IgA"},
+          {"label": "D", "text": "Produção excessiva de IgM"}
+        ],
+        "answer_key": "B",
+        "rationale": "A dermatite atópica envolve produção excessiva de IgE específica contra alérgenos ambientais, levando a inflamação cutânea e prurido."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp024"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0025",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "FRATURAS", "FIXAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA CIRÚRGICA": 0.99},
+        "topic_confidence": {"ORTOPEDIA": 0.95},
+        "evidence_spans": ["ortopedia", "fraturas", "fixação", "placa", "pino"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre a fixação de fraturas em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Placas ósseas são sempre a melhor opção"},
+        {"label": "B", "text": "Pinos intramedulares são ideais para fraturas articulares"},
+        {"label": "C", "text": "A escolha do método depende do tipo de fratura e do paciente"},
+        {"label": "D", "text": "Fixação externa é sempre contraindicada"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Placas ósseas não são sempre a melhor opção. Cada método de fixação tem suas indicações específicas.",
+        "B": "Incorreta. Pinos intramedulares não são ideais para fraturas articulares, pois não proporcionam estabilidade adequada para a articulação.",
+        "C": "Correta. A escolha do método de fixação deve considerar o tipo de fratura, localização, idade do paciente, tamanho do paciente, e outros fatores.",
+        "D": "Incorreta. Fixação externa tem indicações específicas e pode ser muito útil em certos casos."
+      },
+      "review": {
+        "etiologia": "Cada método de fixação tem princípios biomecânicos diferentes e indicações específicas baseadas no tipo de fratura.",
+        "epidemiologia": "A escolha incorreta do método de fixação pode levar a complicações como não união, mal união, ou infecção.",
+        "fisiologia": "O objetivo da fixação é proporcionar estabilidade adequada para permitir a consolidação óssea enquanto mantém a função.",
+        "high_yield": [
+          "A escolha do método depende do tipo de fratura e do paciente",
+          "Cada método tem indicações específicas",
+          "A fixação incorreta pode levar a complicações"
+        ],
+        "pegadinhas": [
+          "Achar que um método é sempre melhor que outro",
+          "Esquecer que a escolha deve ser individualizada",
+          "Contraindicar métodos sem considerar as indicações"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual método de fixação é mais adequado para fraturas articulares?",
+        "options": [
+          {"label": "A", "text": "Pino intramedular"},
+          {"label": "B", "text": "Placa óssea"},
+          {"label": "C", "text": "Fixação externa"},
+          {"label": "D", "text": "Todas as opções acima"}
+        ],
+        "answer_key": "B",
+        "rationale": "Placas ósseas são mais adequadas para fraturas articulares pois proporcionam estabilidade adequada para a articulação. Pinos intramedulares não são ideais para fraturas articulares."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp025"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0026",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["CIRURGIA ABDOMINAL", "COMPLICAÇÕES", "INFECÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA CIRÚRGICA": 0.99},
+        "topic_confidence": {"CIRURGIA ABDOMINAL": 0.95},
+        "evidence_spans": ["cirurgia abdominal", "complicações", "infecção", "deiscência", "profilaxia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre complicações pós-operatórias em cirurgia abdominal, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Deiscência de sutura é sempre causada por infecção"},
+        {"label": "B", "text": "Antibioticoprofilaxia previne todas as infecções"},
+        {"label": "C", "text": "A técnica cirúrgica adequada é fundamental para prevenir complicações"},
+        {"label": "D", "text": "Complicações são sempre evitáveis"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Deiscência de sutura pode ser causada por múltiplos fatores, incluindo técnica inadequada, tensão excessiva, e condições do paciente, não apenas infecção.",
+        "B": "Incorreta. Antibioticoprofilaxia reduz o risco de infecção, mas não previne todas as infecções. A técnica cirúrgica e condições do paciente também são importantes.",
+        "C": "Correta. A técnica cirúrgica adequada, incluindo manipulação cuidadosa dos tecidos, sutura apropriada, e hemostasia adequada, é fundamental para prevenir complicações.",
+        "D": "Incorreta. Algumas complicações podem ocorrer mesmo com a melhor técnica e cuidados, especialmente em pacientes com condições pré-existentes."
+      },
+      "review": {
+        "etiologia": "Complicações pós-operatórias podem ser causadas por fatores relacionados à técnica cirúrgica, condições do paciente, ou fatores ambientais.",
+        "epidemiologia": "A incidência de complicações varia dependendo do tipo de cirurgia, condições do paciente, e experiência do cirurgião.",
+        "fisiologia": "O processo de cicatrização envolve múltiplas fases e pode ser afetado por diversos fatores.",
+        "high_yield": [
+          "A técnica cirúrgica adequada é fundamental para prevenir complicações",
+          "Deiscência pode ter múltiplas causas, não apenas infecção",
+          "Antibioticoprofilaxia reduz mas não elimina o risco de infecção"
+        ],
+        "pegadinhas": [
+          "Achar que deiscência é sempre causada por infecção",
+          "Esquecer que a técnica cirúrgica é fundamental",
+          "Achar que todas as complicações são evitáveis"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual fator é mais importante para prevenir deiscência de sutura?",
+        "options": [
+          {"label": "A", "text": "Antibioticoprofilaxia"},
+          {"label": "B", "text": "Técnica cirúrgica adequada"},
+          {"label": "C", "text": "Uso de colar elizabetano"},
+          {"label": "D", "text": "Repouso absoluto"}
+        ],
+        "answer_key": "B",
+        "rationale": "A técnica cirúrgica adequada, incluindo manipulação cuidadosa dos tecidos, sutura apropriada, e hemostasia adequada, é o fator mais importante para prevenir deiscência."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp026"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0027",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["MONITORAMENTO", "OXIMETRIA", "CAPNOGRAFIA"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99},
+        "topic_confidence": {"MONITORAMENTO": 0.95},
+        "evidence_spans": ["anestesiologia", "monitoramento", "oximetria", "capnografia", "valores normais"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Sobre monitoramento anestésico, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Oximetria de pulso normal é acima de 95%"},
+        {"label": "B", "text": "Capnografia normal é 20-30 mmHg"},
+        {"label": "C", "text": "Frequência cardíaca normal é 40-60 bpm"},
+        {"label": "D", "text": "Pressão arterial normal é 60-80 mmHg"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. A saturação de oxigênio normal em cães e gatos é acima de 95%. Valores abaixo de 90% indicam hipoxemia.",
+        "B": "Incorreta. A capnografia (EtCO2) normal é 35-45 mmHg, não 20-30 mmHg.",
+        "C": "Incorreta. A frequência cardíaca normal durante anestesia varia, mas geralmente é maior que 40-60 bpm.",
+        "D": "Incorreta. A pressão arterial sistólica normal em cães e gatos é geralmente acima de 80-90 mmHg."
+      },
+      "review": {
+        "etiologia": "O monitoramento anestésico é essencial para detectar precocemente alterações que podem comprometer a segurança do paciente.",
+        "epidemiologia": "A oximetria de pulso é um dos parâmetros mais importantes e deve ser monitorada continuamente durante a anestesia.",
+        "fisiologia": "A capnografia reflete a ventilação alveolar e pode detectar hipoventilação antes da hipoxemia.",
+        "high_yield": [
+          "Oximetria normal: > 95%",
+          "Capnografia normal: 35-45 mmHg",
+          "Pressão arterial sistólica normal: > 80-90 mmHg"
+        ],
+        "pegadinhas": [
+          "Confundir valores normais de diferentes parâmetros",
+          "Esquecer que valores podem variar com a profundidade da anestesia"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual valor de capnografia (EtCO2) é considerado normal?",
+        "options": [
+          {"label": "A", "text": "20-30 mmHg"},
+          {"label": "B", "text": "35-45 mmHg"},
+          {"label": "C", "text": "50-60 mmHg"},
+          {"label": "D", "text": "15-25 mmHg"}
+        ],
+        "answer_key": "B",
+        "rationale": "A capnografia (EtCO2) normal é 35-45 mmHg. Valores acima de 45 indicam hipoventilação, e valores abaixo de 35 podem indicar hiperventilação."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp027"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0028",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["FARMACOLOGIA", "OPIOIDES", "ANTAGONISTAS"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99},
+        "topic_confidence": {"FARMACOLOGIA": 0.95},
+        "evidence_spans": ["farmacologia", "opioides", "antagonistas", "naloxona", "efeitos"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre a naloxona, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É um agonista opioide"},
+        {"label": "B", "text": "É um antagonista opioide puro"},
+        {"label": "C", "text": "Causa dependência física"},
+        {"label": "D", "text": "Tem efeito analgésico"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A naloxona é um antagonista opioide puro, não um agonista. Ela bloqueia os receptores opioides.",
+        "B": "Correta. A naloxona é um antagonista opioide puro que compete com os opioides pelos receptores, revertendo seus efeitos.",
+        "C": "Incorreta. A naloxona não causa dependência física. Ela é usada para reverter os efeitos dos opioides.",
+        "D": "Incorreta. A naloxona não tem efeito analgésico. Ela reverte o efeito analgésico dos opioides."
+      },
+      "review": {
+        "etiologia": "A naloxona é um antagonista opioide puro que compete com os opioides pelos receptores μ, κ, e δ.",
+        "epidemiologia": "É o antídoto de escolha para intoxicação por opioides e para reverter depressão respiratória causada por opioides.",
+        "fisiologia": "A meia-vida da naloxona é mais curta que a dos opioides, podendo necessitar de múltiplas doses.",
+        "high_yield": [
+          "Naloxona é antagonista opioide puro",
+          "Reverte depressão respiratória por opioides",
+          "Meia-vida mais curta que os opioides"
+        ],
+        "pegadinhas": [
+          "Confundir agonista com antagonista",
+          "Achar que tem efeito analgésico",
+          "Esquecer que pode necessitar de múltiplas doses"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o principal uso da naloxona?",
+        "options": [
+          {"label": "A", "text": "Analgesia"},
+          {"label": "B", "text": "Sedação"},
+          {"label": "C", "text": "Reversão de efeitos opioides"},
+          {"label": "D", "text": "Indução anestésica"}
+        ],
+        "answer_key": "C",
+        "rationale": "O principal uso da naloxona é reverter os efeitos dos opioides, especialmente a depressão respiratória. Ela não tem efeito analgésico ou sedativo próprio."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp028"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0029",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
+      "topic_tags": ["RADIOLOGIA", "TÓRAX", "INTERPRETAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99},
+        "topic_confidence": {"RADIOLOGIA": 0.95},
+        "evidence_spans": ["radiologia", "tórax", "interpretação", "pneumonia", "derrame pleural"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre radiografia de tórax em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Pneumonia sempre aparece como opacidade difusa"},
+        {"label": "B", "text": "Derrame pleural sempre aparece como opacidade focal"},
+        {"label": "C", "text": "A interpretação deve considerar o histórico clínico"},
+        {"label": "D", "text": "Radiografia é sempre suficiente para o diagnóstico definitivo"}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "A": "Incorreta. Pneumonia pode aparecer como opacidade focal, multifocal, ou difusa, dependendo da extensão e distribuição da doença.",
+        "B": "Incorreta. Derrame pleural aparece como opacidade difusa que oblitera os contornos cardíacos e diafragmáticos.",
+        "C": "Correta. A interpretação radiográfica deve sempre considerar o histórico clínico, sinais físicos, e outros exames complementares.",
+        "D": "Incorreta. Radiografia é um exame de triagem. O diagnóstico definitivo frequentemente requer outros exames como ultrassom, tomografia, ou biópsia."
+      },
+      "review": {
+        "etiologia": "A radiografia de tórax é um exame de triagem que pode detectar alterações estruturais, mas a interpretação deve ser feita em conjunto com outros dados clínicos.",
+        "epidemiologia": "A sensibilidade e especificidade da radiografia variam dependendo da doença e da técnica utilizada.",
+        "fisiologia": "Diferentes doenças pulmonares podem ter apresentações radiográficas similares, necessitando de correlação clínica.",
+        "high_yield": [
+          "A interpretação deve considerar o histórico clínico",
+          "Radiografia é exame de triagem, não diagnóstico definitivo",
+          "Diferentes doenças podem ter apresentações similares"
+        ],
+        "pegadinhas": [
+          "Achar que radiografia é sempre suficiente para diagnóstico definitivo",
+          "Esquecer que a interpretação deve ser correlacionada com dados clínicos",
+          "Achar que doenças específicas sempre têm apresentação radiográfica específica"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o papel principal da radiografia de tórax?",
+        "options": [
+          {"label": "A", "text": "Diagnóstico definitivo"},
+          {"label": "B", "text": "Exame de triagem"},
+          {"label": "C", "text": "Monitoramento terapêutico"},
+          {"label": "D", "text": "Todas as opções acima"}
+        ],
+        "answer_key": "B",
+        "rationale": "A radiografia de tórax é principalmente um exame de triagem que pode detectar alterações estruturais. O diagnóstico definitivo frequentemente requer outros exames."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp029"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0030",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
+      "topic_tags": ["ULTRASSOM", "ABDÔMEN", "INTERPRETAÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99},
+        "topic_confidence": {"ULTRASSOM": 0.95},
+        "evidence_spans": ["ultrassom", "abdômen", "interpretação", "ecogenicidade", "morfologia"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre ultrassonografia abdominal em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Órgãos normais sempre têm ecogenicidade homogênea"},
+        {"label": "B", "text": "A interpretação depende da experiência do examinador"},
+        {"label": "C", "text": "É sempre superior à radiografia"},
+        {"label": "D", "text": "Não é afetada pela técnica"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Órgãos normais podem ter ecogenicidade heterogênea, como o fígado que pode ter variações normais de ecogenicidade.",
+        "B": "Correta. A interpretação ultrassonográfica é altamente dependente da experiência e treinamento do examinador, pois é um exame operador-dependente.",
+        "C": "Incorreta. Ultrassom e radiografia têm indicações diferentes e complementares. Cada um tem vantagens e desvantagens específicas.",
+        "D": "Incorreta. A qualidade do exame é altamente dependente da técnica, incluindo posicionamento, ajustes do equipamento, e experiência do examinador."
+      },
+      "review": {
+        "etiologia": "A ultrassonografia é um exame operador-dependente que requer treinamento específico e experiência para interpretação adequada.",
+        "epidemiologia": "A sensibilidade e especificidade variam dependendo da experiência do examinador e da qualidade do equipamento.",
+        "fisiologia": "A interpretação baseia-se na ecogenicidade, morfologia, e vascularização dos órgãos, que podem variar entre indivíduos normais.",
+        "high_yield": [
+          "A interpretação depende da experiência do examinador",
+          "É um exame operador-dependente",
+          "Órgãos normais podem ter variações de ecogenicidade"
+        ],
+        "pegadinhas": [
+          "Achar que órgãos normais sempre têm ecogenicidade homogênea",
+          "Esquecer que é um exame operador-dependente",
+          "Achar que é sempre superior a outros métodos de imagem"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual característica define a ultrassonografia como exame operador-dependente?",
+        "options": [
+          {"label": "A", "text": "A interpretação depende da experiência do examinador"},
+          {"label": "B", "text": "O equipamento é muito caro"},
+          {"label": "C", "text": "O paciente precisa estar sedado"},
+          {"label": "D", "text": "O exame demora muito tempo"}
+        ],
+        "answer_key": "A",
+        "rationale": "A ultrassonografia é operador-dependente porque a interpretação e qualidade do exame dependem muito da experiência e treinamento do examinador."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp030"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0031",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["URINÁLISE", "CÁLCULOS", "CRISTAIS"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"URINÁLISE": 0.95},
+        "evidence_spans": ["urinálise", "cálculos", "cristais", "pH", "estruvita"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre cristalúria em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Cristais de estruvita se formam em urina ácida"},
+        {"label": "B", "text": "Cristais de oxalato de cálcio se formam em urina alcalina"},
+        {"label": "C", "text": "A presença de cristais sempre indica doença"},
+        {"label": "D", "text": "O pH urinário influencia a formação de cristais"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "A": "Incorreta. Cristais de estruvita se formam em urina alcalina (pH > 7.0), não ácida.",
+        "B": "Incorreta. Cristais de oxalato de cálcio se formam em urina ácida (pH < 6.5), não alcalina.",
+        "C": "Incorreta. A presença de cristais nem sempre indica doença. Alguns cristais podem ser encontrados em animais normais.",
+        "D": "Correta. O pH urinário é um fator importante na formação de cristais. Diferentes tipos de cristais se formam em diferentes pHs."
+      },
+      "review": {
+        "etiologia": "A formação de cristais depende de múltiplos fatores, incluindo pH urinário, concentração de solutos, e presença de promotores ou inibidores.",
+        "epidemiologia": "Cristalúria é comum em cães e pode ser um fator de risco para urolitíase, mas nem sempre indica doença.",
+        "fisiologia": "O pH urinário afeta a solubilidade de diferentes substâncias, influenciando a formação de cristais.",
+        "high_yield": [
+          "Estruvita: urina alcalina (pH > 7.0)",
+          "Oxalato de cálcio: urina ácida (pH < 6.5)",
+          "Cristalúria nem sempre indica doença"
+        ],
+        "pegadinhas": [
+          "Confundir pH para diferentes tipos de cristais",
+          "Achar que cristalúria sempre indica doença",
+          "Esquecer que o pH influencia a formação"
+        ]
+      },
+      "training_question": {
+        "stem": "Em qual pH urinário os cristais de estruvita se formam?",
+        "options": [
+          {"label": "A", "text": "pH < 6.0"},
+          {"label": "B", "text": "pH 6.0-7.0"},
+          {"label": "C", "text": "pH > 7.0"},
+          {"label": "D", "text": "pH neutro (7.0)"}
+        ],
+        "answer_key": "C",
+        "rationale": "Cristais de estruvita se formam em urina alcalina (pH > 7.0). Em pH ácido, a estruvita se dissolve."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp031"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0032",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["ENDOCRINOLOGIA", "DIABETES", "INSULINA"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"ENDOCRINOLOGIA": 0.95},
+        "evidence_spans": ["endocrinologia", "diabetes", "insulina", "tratamento", "monitoramento"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre o tratamento do diabetes mellitus em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Insulina NPH é sempre a melhor opção"},
+        {"label": "B", "text": "O monitoramento da glicemia é essencial"},
+        {"label": "C", "text": "A dieta não é importante no tratamento"},
+        {"label": "D", "text": "O exercício deve ser evitado"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. A escolha da insulina depende do paciente. Alguns cães respondem melhor a outros tipos de insulina.",
+        "B": "Correta. O monitoramento da glicemia é essencial para ajustar a dose de insulina e avaliar o controle da doença.",
+        "C": "Incorreta. A dieta é fundamental no tratamento do diabetes, pois afeta diretamente a glicemia.",
+        "D": "Incorreta. O exercício moderado é benéfico para cães diabéticos, pois ajuda no controle da glicemia."
+      },
+      "review": {
+        "etiologia": "O diabetes mellitus em cães é geralmente tipo 1 (deficiência de insulina), requerendo tratamento com insulina exógena.",
+        "epidemiologia": "O diabetes é uma das endocrinopatias mais comuns em cães, especialmente em fêmeas não castradas.",
+        "fisiologia": "O tratamento envolve insulina, dieta controlada, exercício moderado, e monitoramento regular da glicemia.",
+        "high_yield": [
+          "Monitoramento da glicemia é essencial",
+          "Dieta é fundamental no tratamento",
+          "Exercício moderado é benéfico"
+        ],
+        "pegadinhas": [
+          "Achar que uma insulina é sempre melhor que outra",
+          "Esquecer a importância da dieta",
+          "Contraindicar exercício"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o tipo mais comum de diabetes mellitus em cães?",
+        "options": [
+          {"label": "A", "text": "Diabetes tipo 1"},
+          {"label": "B", "text": "Diabetes tipo 2"},
+          {"label": "C", "text": "Diabetes gestacional"},
+          {"label": "D", "text": "Diabetes secundário"}
+        ],
+        "answer_key": "A",
+        "rationale": "O diabetes mellitus em cães é geralmente tipo 1 (deficiência de insulina), diferente dos humanos onde o tipo 2 é mais comum."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp032"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0033",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA MÉDICA"],
+      "topic_tags": ["GASTROENTEROLOGIA", "VÔMITO", "DIAGNÓSTICO"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA MÉDICA": 0.99},
+        "topic_confidence": {"GASTROENTEROLOGIA": 0.95},
+        "evidence_spans": ["gastroenterologia", "vômito", "diagnóstico", "causas", "avaliação"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre vômito em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Vômito agudo sempre requer cirurgia"},
+        {"label": "B", "text": "A avaliação deve considerar a duração e características"},
+        {"label": "C", "text": "Vômito crônico é sempre benigno"},
+        {"label": "D", "text": "O tratamento é sempre o mesmo"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Vômito agudo nem sempre requer cirurgia. Muitas causas são tratadas clinicamente.",
+        "B": "Correta. A avaliação do vômito deve considerar duração, frequência, características do vômito, e outros sinais clínicos.",
+        "C": "Incorreta. Vômito crônico pode ter causas graves e requer investigação adequada.",
+        "D": "Incorreta. O tratamento depende da causa do vômito, que pode variar muito."
+      },
+      "review": {
+        "etiologia": "O vômito é um sintoma comum com múltiplas causas, desde benignas até graves.",
+        "epidemiologia": "Causas comuns incluem gastrite, obstrução intestinal, doença sistêmica, e intoxicações.",
+        "fisiologia": "O vômito é um reflexo protetor que pode ser causado por estímulos em diferentes locais do trato gastrointestinal.",
+        "high_yield": [
+          "A avaliação deve considerar duração e características",
+          "Vômito agudo nem sempre requer cirurgia",
+          "Vômito crônico pode ter causas graves"
+        ],
+        "pegadinhas": [
+          "Achar que vômito agudo sempre requer cirurgia",
+          "Subestimar vômito crônico",
+          "Achar que o tratamento é sempre o mesmo"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual característica do vômito é mais importante para determinar a gravidade?",
+        "options": [
+          {"label": "A", "text": "Cor do vômito"},
+          {"label": "B", "text": "Duração e frequência"},
+          {"label": "C", "text": "Quantidade"},
+          {"label": "D", "text": "Horário do dia"}
+        ],
+        "answer_key": "B",
+        "rationale": "A duração e frequência do vômito são mais importantes para determinar a gravidade e necessidade de intervenção imediata."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp033"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0034",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["CIRURGIA TORÁCICA", "TRAUMA", "EMERGÊNCIA"],
+      "classification_meta": {
+        "area_confidence": {"CLÍNICA CIRÚRGICA": 0.99},
+        "topic_confidence": {"CIRURGIA TORÁCICA": 0.95},
+        "evidence_spans": ["cirurgia torácica", "trauma", "emergência", "pneumotórax", "hemotórax"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre trauma torácico em cães, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Pneumotórax sempre requer cirurgia"},
+        {"label": "B", "text": "A avaliação inicial é fundamental"},
+        {"label": "C", "text": "Hemotórax é sempre benigno"},
+        {"label": "D", "text": "O tratamento é sempre conservador"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Pneumotórax nem sempre requer cirurgia. Muitos casos são tratados com drenagem torácica.",
+        "B": "Correta. A avaliação inicial é fundamental para determinar a gravidade e necessidade de intervenção imediata.",
+        "C": "Incorreta. Hemotórax pode ser grave e requer intervenção, dependendo da quantidade de sangue.",
+        "D": "Incorreta. O tratamento depende da gravidade e tipo de lesão. Alguns casos requerem cirurgia."
+      },
+      "review": {
+        "etiologia": "Trauma torácico pode causar múltiplas lesões, incluindo pneumotórax, hemotórax, contusão pulmonar, e fraturas costais.",
+        "epidemiologia": "Causas comuns incluem atropelamentos, quedas, e brigas entre animais.",
+        "fisiologia": "Lesões torácicas podem comprometer a ventilação e oxigenação, sendo potencialmente fatais.",
+        "high_yield": [
+          "A avaliação inicial é fundamental",
+          "Pneumotórax nem sempre requer cirurgia",
+          "Hemotórax pode ser grave"
+        ],
+        "pegadinhas": [
+          "Achar que pneumotórax sempre requer cirurgia",
+          "Subestimar hemotórax",
+          "Achar que tratamento é sempre conservador"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é o tratamento inicial mais comum para pneumotórax traumático?",
+        "options": [
+          {"label": "A", "text": "Cirurgia imediata"},
+          {"label": "B", "text": "Drenagem torácica"},
+          {"label": "C", "text": "Observação apenas"},
+          {"label": "D", "text": "Antibioticoterapia"}
+        ],
+        "answer_key": "B",
+        "rationale": "A drenagem torácica é o tratamento inicial mais comum para pneumotórax traumático, permitindo a reexpansão pulmonar."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp034"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0035",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["FARMACOLOGIA", "ANESTÉSICOS INALATÓRIOS", "SEVOFLURANO"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99},
+        "topic_confidence": {"FARMACOLOGIA": 0.95},
+        "evidence_spans": ["farmacologia", "anestésicos inalatórios", "sevoflurano", "características", "vantagens"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre o sevoflurano, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É um anestésico intravenoso"},
+        {"label": "B", "text": "Tem baixa solubilidade sanguínea"},
+        {"label": "C", "text": "Causa sempre irritação das vias aéreas"},
+        {"label": "D", "text": "Não é metabolizado pelo organismo"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Sevoflurano é um anestésico inalatório, não intravenoso.",
+        "B": "Correta. Sevoflurano tem baixa solubilidade sanguínea, resultando em indução e recuperação rápidas.",
+        "C": "Incorreta. Sevoflurano tem baixa irritação das vias aéreas, sendo bem tolerado para indução inalatória.",
+        "D": "Incorreta. Sevoflurano é metabolizado pelo organismo, embora em menor extensão que outros anestésicos inalatórios."
+      },
+      "review": {
+        "etiologia": "Sevoflurano é um anestésico inalatório halogenado com características farmacológicas favoráveis.",
+        "epidemiologia": "É amplamente utilizado em medicina veterinária devido à sua segurança e características farmacológicas.",
+        "fisiologia": "A baixa solubilidade sanguínea permite mudanças rápidas na profundidade anestésica.",
+        "high_yield": [
+          "Sevoflurano tem baixa solubilidade sanguínea",
+          "Indução e recuperação rápidas",
+          "Baixa irritação das vias aéreas"
+        ],
+        "pegadinhas": [
+          "Confundir anestésicos inalatórios com intravenosos",
+          "Achar que causa irritação das vias aéreas",
+          "Esquecer que é metabolizado"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual característica do sevoflurano permite mudanças rápidas na profundidade anestésica?",
+        "options": [
+          {"label": "A", "text": "Alta solubilidade sanguínea"},
+          {"label": "B", "text": "Baixa solubilidade sanguínea"},
+          {"label": "C", "text": "Alto metabolismo"},
+          {"label": "D", "text": "Alta irritação das vias aéreas"}
+        ],
+        "answer_key": "B",
+        "rationale": "A baixa solubilidade sanguínea do sevoflurano permite mudanças rápidas na profundidade anestésica, facilitando o controle da anestesia."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp035"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0036",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["ANESTESIOLOGIA"],
+      "topic_tags": ["COMPLICAÇÕES", "HIPOTERMIA", "PREVENÇÃO"],
+      "classification_meta": {
+        "area_confidence": {"ANESTESIOLOGIA": 0.99},
+        "topic_confidence": {"COMPLICAÇÕES": 0.95},
+        "evidence_spans": ["complicações", "hipotermia", "prevenção", "anestesia", "monitoramento"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "Sobre hipotermia durante anestesia, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É sempre evitável"},
+        {"label": "B", "text": "Pode causar complicações pós-operatórias"},
+        {"label": "C", "text": "Não afeta a recuperação"},
+        {"label": "D", "text": "É sempre benigna"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Hipotermia durante anestesia nem sempre é evitável, mas pode ser minimizada com medidas adequadas.",
+        "B": "Correta. Hipotermia pode causar complicações pós-operatórias como arritmias, coagulopatia, e recuperação prolongada.",
+        "C": "Incorreta. Hipotermia afeta significativamente a recuperação anestésica e pode prolongar o tempo de recuperação.",
+        "D": "Incorreta. Hipotermia pode ser grave e causar complicações significativas."
+      },
+      "review": {
+        "etiologia": "Hipotermia durante anestesia é causada por múltiplos fatores, incluindo perda de calor, depressão do centro termorregulador, e vasodilatação.",
+        "epidemiologia": "É uma complicação comum durante anestesia prolongada, especialmente em pacientes pequenos.",
+        "fisiologia": "A hipotermia afeta múltiplos sistemas, incluindo cardiovascular, respiratório, e coagulação.",
+        "high_yield": [
+          "Hipotermia pode causar complicações pós-operatórias",
+          "Afeta a recuperação anestésica",
+          "Pode ser minimizada com medidas adequadas"
+        ],
+        "pegadinhas": [
+          "Achar que é sempre evitável",
+          "Subestimar suas consequências",
+          "Achar que é sempre benigna"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal medida para prevenir hipotermia durante anestesia?",
+        "options": [
+          {"label": "A", "text": "Uso de antibióticos"},
+          {"label": "B", "text": "Aquecimento ativo"},
+          {"label": "C", "text": "Fluidoterapia excessiva"},
+          {"label": "D", "text": "Sedação profunda"}
+        ],
+        "answer_key": "B",
+        "rationale": "O aquecimento ativo (cobertores térmicos, colchões aquecidos) é a principal medida para prevenir hipotermia durante anestesia."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp036"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0037",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
+      "topic_tags": ["TOMOGRAFIA", "INDICAÇÕES", "VANTAGENS"],
+      "classification_meta": {
+        "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99},
+        "topic_confidence": {"TOMOGRAFIA": 0.95},
+        "evidence_spans": ["tomografia", "indicações", "vantagens", "limitações", "aplicações"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre tomografia computadorizada em medicina veterinária, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É sempre superior à radiografia"},
+        {"label": "B", "text": "Tem indicações específicas"},
+        {"label": "C", "text": "Não tem limitações"},
+        {"label": "D", "text": "É sempre necessária"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Tomografia não é sempre superior à radiografia. Cada método tem suas indicações e vantagens específicas.",
+        "B": "Correta. Tomografia tem indicações específicas, como avaliação de estruturas complexas, planejamento cirúrgico, e diagnóstico de lesões pequenas.",
+        "C": "Incorreta. Tomografia tem limitações, incluindo custo, necessidade de anestesia, e exposição à radiação.",
+        "D": "Incorreta. Tomografia não é sempre necessária. Muitos diagnósticos podem ser feitos com outros métodos de imagem."
+      },
+      "review": {
+        "etiologia": "Tomografia computadorizada é uma técnica de imagem que utiliza raios-X para criar imagens seccionais do corpo.",
+        "epidemiologia": "É amplamente utilizada em medicina veterinária para diagnóstico e planejamento cirúrgico.",
+        "fisiologia": "A tomografia fornece excelente resolução de tecidos moles e permite reconstruções tridimensionais.",
+        "high_yield": [
+          "Tomografia tem indicações específicas",
+          "Não é sempre superior a outros métodos",
+          "Tem limitações como custo e necessidade de anestesia"
+        ],
+        "pegadinhas": [
+          "Achar que é sempre superior a outros métodos",
+          "Esquecer suas limitações",
+          "Achar que é sempre necessária"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal vantagem da tomografia computadorizada?",
+        "options": [
+          {"label": "A", "text": "Baixo custo"},
+          {"label": "B", "text": "Não requer anestesia"},
+          {"label": "C", "text": "Excelente resolução de tecidos moles"},
+          {"label": "D", "text": "Rapidez do exame"}
+        ],
+        "answer_key": "C",
+        "rationale": "A principal vantagem da tomografia computadorizada é a excelente resolução de tecidos moles e a capacidade de criar imagens seccionais."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp037"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0038",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["DIAGNÓSTICO POR IMAGEM"],
+      "topic_tags": ["RESSONÂNCIA MAGNÉTICA", "INDICAÇÕES", "CONTRAINDICAÇÕES"],
+      "classification_meta": {
+        "area_confidence": {"DIAGNÓSTICO POR IMAGEM": 0.99},
+        "topic_confidence": {"RESSONÂNCIA MAGNÉTICA": 0.95},
+        "evidence_spans": ["ressonância magnética", "indicações", "contraindicações", "vantagens", "limitações"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre ressonância magnética em medicina veterinária, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É sempre segura"},
+        {"label": "B", "text": "Tem contraindicações específicas"},
+        {"label": "C", "text": "Não tem limitações"},
+        {"label": "D", "text": "É sempre a melhor opção"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Ressonância magnética não é sempre segura. Tem contraindicações específicas, como presença de metais ferromagnéticos.",
+        "B": "Correta. Ressonância magnética tem contraindicações específicas, incluindo presença de metais ferromagnéticos, claustrofobia, e algumas condições cardíacas.",
+        "C": "Incorreta. Ressonância magnética tem limitações, incluindo custo, tempo de exame, e necessidade de anestesia.",
+        "D": "Incorreta. Ressonância magnética não é sempre a melhor opção. A escolha do método de imagem depende da indicação."
+      },
+      "review": {
+        "etiologia": "Ressonância magnética utiliza campos magnéticos e ondas de rádio para criar imagens detalhadas dos tecidos.",
+        "epidemiologia": "É especialmente útil para avaliação do sistema nervoso central e tecidos moles.",
+        "fisiologia": "A ressonância magnética não utiliza radiação ionizante, sendo mais segura que tomografia em alguns aspectos.",
+        "high_yield": [
+          "Ressonância magnética tem contraindicações específicas",
+          "Especialmente útil para sistema nervoso central",
+          "Não utiliza radiação ionizante"
+        ],
+        "pegadinhas": [
+          "Achar que é sempre segura",
+          "Esquecer suas contraindicações",
+          "Achar que é sempre a melhor opção"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal contraindicação da ressonância magnética?",
+        "options": [
+          {"label": "A", "text": "Idade avançada"},
+          {"label": "B", "text": "Presença de metais ferromagnéticos"},
+          {"label": "C", "text": "Gravidez"},
+          {"label": "D", "text": "Alergia ao contraste"}
+        ],
+        "answer_key": "B",
+        "rationale": "A presença de metais ferromagnéticos é a principal contraindicação da ressonância magnética, pois pode causar movimento dos objetos e lesões."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp038"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0039",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["CITOLOGIA", "INTERPRETAÇÃO", "LIMITAÇÕES"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"CITOLOGIA": 0.95},
+        "evidence_spans": ["citologia", "interpretação", "limitações", "diagnóstico", "validação"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre citologia em medicina veterinária, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É sempre diagnóstica"},
+        {"label": "B", "text": "Tem limitações específicas"},
+        {"label": "C", "text": "Não requer experiência"},
+        {"label": "D", "text": "É sempre superior à histopatologia"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Citologia nem sempre é diagnóstica. Alguns casos requerem histopatologia para diagnóstico definitivo.",
+        "B": "Correta. Citologia tem limitações específicas, incluindo amostras inadequadas, artefatos, e dificuldade em avaliar arquitetura tecidual.",
+        "C": "Incorreta. Citologia requer experiência e treinamento específico para interpretação adequada.",
+        "D": "Incorreta. Citologia não é sempre superior à histopatologia. Cada método tem suas vantagens e indicações."
+      },
+      "review": {
+        "etiologia": "Citologia é uma técnica de diagnóstico que avalia células individuais ou pequenos grupos celulares.",
+        "epidemiologia": "É amplamente utilizada em medicina veterinária para diagnóstico rápido e triagem.",
+        "fisiologia": "A citologia permite avaliação rápida de lesões, mas tem limitações na avaliação da arquitetura tecidual.",
+        "high_yield": [
+          "Citologia tem limitações específicas",
+          "Não é sempre diagnóstica",
+          "Requer experiência para interpretação"
+        ],
+        "pegadinhas": [
+          "Achar que é sempre diagnóstica",
+          "Subestimar a necessidade de experiência",
+          "Achar que é sempre superior à histopatologia"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal limitação da citologia?",
+        "options": [
+          {"label": "A", "text": "Custo elevado"},
+          {"label": "B", "text": "Dificuldade em avaliar arquitetura tecidual"},
+          {"label": "C", "text": "Tempo de processamento"},
+          {"label": "D", "text": "Necessidade de anestesia"}
+        ],
+        "answer_key": "B",
+        "rationale": "A principal limitação da citologia é a dificuldade em avaliar a arquitetura tecidual, que é melhor avaliada pela histopatologia."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp039"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    },
+    {
+      "id": "UFV-2021-SP-0040",
+      "year": 2021,
+      "exam": "UFV",
+      "source_file": "Prova UFV 2021.docx",
+      "source_pages": {"start": null, "end": null},
+      "area_tags": ["LABORATÓRIO CLÍNICO"],
+      "topic_tags": ["HISTOPATOLOGIA", "DIAGNÓSTICO", "INDICAÇÕES"],
+      "classification_meta": {
+        "area_confidence": {"LABORATÓRIO CLÍNICO": 0.99},
+        "topic_confidence": {"HISTOPATOLOGIA": 0.95},
+        "evidence_spans": ["histopatologia", "diagnóstico", "indicações", "vantagens", "limitações"],
+        "ambiguities": []
+      },
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre histopatologia em medicina veterinária, assinale a alternativa CORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "É sempre necessária"},
+        {"label": "B", "text": "Tem indicações específicas"},
+        {"label": "C", "text": "Não tem limitações"},
+        {"label": "D", "text": "É sempre superior à citologia"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "A": "Incorreta. Histopatologia não é sempre necessária. Muitos diagnósticos podem ser feitos com outros métodos.",
+        "B": "Correta. Histopatologia tem indicações específicas, como diagnóstico definitivo de neoplasias, avaliação de margens cirúrgicas, e caracterização de lesões complexas.",
+        "C": "Incorreta. Histopatologia tem limitações, incluindo tempo de processamento, custo, e necessidade de biópsia.",
+        "D": "Incorreta. Histopatologia não é sempre superior à citologia. Cada método tem suas vantagens e indicações."
+      },
+      "review": {
+        "etiologia": "Histopatologia é o estudo microscópico de tecidos para diagnóstico de doenças.",
+        "epidemiologia": "É considerada o padrão-ouro para diagnóstico de muitas doenças, especialmente neoplasias.",
+        "fisiologia": "A histopatologia permite avaliação da arquitetura tecidual e relação entre células e tecidos.",
+        "high_yield": [
+          "Histopatologia tem indicações específicas",
+          "É o padrão-ouro para diagnóstico de neoplasias",
+          "Permite avaliação da arquitetura tecidual"
+        ],
+        "pegadinhas": [
+          "Achar que é sempre necessária",
+          "Esquecer suas limitações",
+          "Achar que é sempre superior a outros métodos"
+        ]
+      },
+      "training_question": {
+        "stem": "Qual é a principal vantagem da histopatologia sobre a citologia?",
+        "options": [
+          {"label": "A", "text": "Rapidez do resultado"},
+          {"label": "B", "text": "Baixo custo"},
+          {"label": "C", "text": "Avaliação da arquitetura tecidual"},
+          {"label": "D", "text": "Não requer anestesia"}
+        ],
+        "answer_key": "C",
+        "rationale": "A principal vantagem da histopatologia é a avaliação da arquitetura tecidual, que não é possível com a citologia."
+      },
+      "provenance": {"extracted_at": "2024-12-19T10:00:00Z", "checksum": "sha256:ufv2021sp040"},
+      "status": "approved",
+      "version": 1,
+      "issues": []
+    }
+  ]
+}
