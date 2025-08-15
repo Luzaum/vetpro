@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { Question } from '../types'
 import { Button } from './ui/button'
 import { composeLuzaumPrompt, generateLuzaumReview } from '../services/geminiService'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 interface Props {
   question: Question
@@ -40,27 +42,32 @@ export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
   }, [question])
 
   return (
-    <div>
-      <div className="mb-3 flex items-center gap-2">
-        <Button variant={tab === 'chat' ? 'default' : 'outline'} size="sm" onClick={() => setTab('chat')}>Chat</Button>
-        <Button variant={tab === 'resumo' ? 'default' : 'outline'} size="sm" onClick={() => setTab('resumo')}>Resumo</Button>
+    <div className="rounded-xl border border-border bg-card">
+      <div className="flex items-center justify-between border-b border-border px-4 py-3">
+        <div className="flex items-center gap-2">
+          <Button variant={tab === 'resumo' ? 'default' : 'outline'} size="sm" onClick={() => setTab('resumo')}>Resumo</Button>
+          <Button variant={tab === 'chat' ? 'default' : 'outline'} size="sm" onClick={() => setTab('chat')}>Chat</Button>
+        </div>
+        <span className="text-xs text-muted-foreground">{question.exam}-{question.year}</span>
       </div>
 
       {tab === 'resumo' && (
-        <div className="prose prose-slate dark:prose-invert max-w-none">
+        <div className="p-4">
           {loading && <div className="text-sm text-muted-foreground">Gerando revisão com o Dr. Luzaum...</div>}
           {error && <div className="text-sm text-danger">{error}</div>}
           {!loading && !error && (
-            <div className="whitespace-pre-wrap text-foreground">{answer}</div>
+            <div className="prose prose-slate dark:prose-invert max-w-none">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{answer}</ReactMarkdown>
+            </div>
           )}
         </div>
       )}
 
       {tab === 'chat' && (
-        <div className="rounded-md border border-border bg-background p-3 text-sm text-foreground">
-          <div className="text-sm text-muted-foreground mb-2">Chat em tempo real não habilitado nesta versão.
-            A revisão completa acima é gerada automaticamente com o Gemini Pro.</div>
-          <div className="rounded-md border border-border p-2 text-xs text-muted-foreground">{prompt}</div>
+        <div className="p-4 text-sm text-foreground">
+          <div className="rounded-md border border-border bg-background p-3 text-muted-foreground">
+            Chat em tempo real não habilitado nesta versão. A revisão completa é gerada automaticamente com o Gemini Pro.
+          </div>
         </div>
       )}
     </div>
