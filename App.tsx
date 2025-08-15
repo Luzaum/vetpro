@@ -100,7 +100,7 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
       </div>
       {isOpen && (
         <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white dark:bg-slate-800 ring-1 ring-black ring-opacity-5 z-10">
-          <div className="py-1" role="menu" aria-orientation="vertical">
+          <div className="py-1 bg-background text-foreground" role="menu" aria-orientation="vertical">
             <a
               href="#"
               onClick={e => {
@@ -244,24 +244,24 @@ const QuestionCard: React.FC<{
   };
 
   return (
-    <div className="bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
+    <div className="bg-card p-6 sm:p-8 rounded-2xl shadow-sm border border-border">
       <div className="flex justify-between items-start mb-4">
         <div>
-          <p className="text-sm font-semibold text-sky-700 dark:text-sky-400">({q.exam}-{q.year}) {q.area_tags.join(', ')}</p>
+          <p className="text-sm font-semibold text-primary">({q.exam}-{q.year}) {q.area_tags.join(', ')}</p>
         </div>
         <div className="flex items-center gap-2">
           <button onClick={() => onToggleFavorite(q.id)} title="Favoritar">
-            <StarIcon className={cx('w-6 h-6 transition-colors', isFavorite ? 'text-yellow-400 fill-current' : 'text-slate-400 hover:text-yellow-400')} />
+            <StarIcon className={cx('w-6 h-6 transition-colors', isFavorite ? 'text-yellow-400 fill-current' : 'text-muted-foreground hover:text-yellow-400')} />
           </button>
           <button onClick={() => onToggleToReview(q.id)} title="Marcar para Revisar">
-            <BookmarkIcon className={cx('w-6 h-6 transition-colors', isToReview ? 'text-sky-500 fill-current' : 'text-slate-400 hover:text-sky-500')} />
+            <BookmarkIcon className={cx('w-6 h-6 transition-colors', isToReview ? 'text-primary fill-current' : 'text-muted-foreground hover:text-primary')} />
           </button>
         </div>
       </div>
 
-      <p className="text-slate-800 dark:text-slate-200 text-base leading-relaxed mb-4 whitespace-pre-wrap">{q.stem}</p>
+      <p className="text-foreground text-base leading-relaxed mb-4 whitespace-pre-wrap">{q.stem}</p>
 
-      {q.media[0]?.uri && <img src={q.media[0].uri} alt={q.media[0].alt} className="my-4 rounded-lg w-full max-w-lg mx-auto bg-white p-2" />}
+      {q.media[0]?.uri && <img src={q.media[0].uri} alt={q.media[0].alt} className="my-4 rounded-lg w-full max-w-lg mx-auto bg-card p-2" />}
 
       <div className="space-y-3">
         {q.options
@@ -279,7 +279,7 @@ const QuestionCard: React.FC<{
             >
               <div className="flex-shrink-0 font-bold text-sm w-6 h-6 flex items-center justify-center rounded-full border-2 border-current">{option.label}</div>
               <div className="flex-grow">
-                <p className="font-medium text-sm">{option.text}</p>
+                <p className="font-medium text-sm text-foreground">{option.text}</p>
                 {(confirmed || mode === 'sim_review') && q.rationales && q.rationales[option.label] && (
                   <div className="mt-2 text-xs flex items-start gap-2">
                     {q.answer_key === option.label ? (
@@ -287,7 +287,7 @@ const QuestionCard: React.FC<{
                     ) : (
                       <XCircleIcon className="w-4 h-4 text-red-600 dark:text-red-500 flex-shrink-0 mt-0.5" />
                     )}
-                    <p className="text-slate-600 dark:text-slate-300">{q.rationales[option.label]}</p>
+                    <p className="text-foreground">{q.rationales[option.label]}</p>
                   </div>
                 )}
               </div>
@@ -320,13 +320,15 @@ const QuestionCard: React.FC<{
       </div>
       {isLuzaumOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
-          <div className="absolute inset-0 bg-black/40" onClick={() => setLuzaumOpen(false)} />
-          <div className="relative z-10 w-full max-w-3xl rounded-xl border border-border bg-background p-4 shadow-xl">
-            <div className="flex items-center justify-between mb-3">
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setLuzaumOpen(false)} />
+          <div className="relative z-10 w-full max-w-4xl max-h-[85vh] overflow-hidden rounded-2xl border border-border bg-card shadow-2xl">
+            <div className="flex items-center justify-between border-b border-border px-5 py-3">
               <h4 className="text-lg font-semibold text-foreground">Revisão com o Dr. Luzaum</h4>
               <button onClick={() => setLuzaumOpen(false)} className="rounded-md px-2 py-1 text-sm hover:bg-accent">Fechar</button>
             </div>
-            <DrLuzaumPanel question={q} />
+            <div className="p-4 overflow-y-auto max-h-[70vh]">
+              <DrLuzaumPanel question={q} />
+            </div>
           </div>
         </div>
       )}

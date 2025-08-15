@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { Question } from '../types'
 import { Button } from './ui/button'
+import AIChat from './AIChat'
 
 interface Props {
   question: Question
@@ -11,7 +12,7 @@ const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 )
 
 export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
-  const [tab, setTab] = useState<'chat' | 'resumo' | 'extras'>('resumo')
+  const [tab, setTab] = useState<'chat' | 'resumo'>('chat')
 
   const prompt = useMemo(() => {
     return `Você é o Dr. Luzaum, médico-veterinário PhD em clínica médica, cirúrgica, anestesiologia, imaginologia, saúde pública e patologia clínica. Explique o tema desta questão de forma completa e robusta.
@@ -33,20 +34,12 @@ Instruções:
   return (
     <div>
       <div className="mb-3 flex items-center gap-2">
-        <Button variant={tab === 'resumo' ? 'default' : 'outline'} size="sm" onClick={() => setTab('resumo')}>Resumo</Button>
         <Button variant={tab === 'chat' ? 'default' : 'outline'} size="sm" onClick={() => setTab('chat')}>Chat</Button>
-        <Button variant={tab === 'extras' ? 'default' : 'outline'} size="sm" onClick={() => setTab('extras')}>Extras</Button>
+        <Button variant={tab === 'resumo' ? 'default' : 'outline'} size="sm" onClick={() => setTab('resumo')}>Resumo</Button>
       </div>
 
       {tab === 'resumo' && (
         <div className="prose prose-slate dark:prose-invert max-w-none">
-          <SectionTitle>Como usar</SectionTitle>
-          <p>
-            O Dr. Luzaum prepara um roteiro de revisão completo para esta questão. Você pode abrir a aba Chat
-            para fazer perguntas livres, ou copiar o prompt abaixo para outra IA.
-          </p>
-          <SectionTitle>Prompt para copiar</SectionTitle>
-          <pre className="whitespace-pre-wrap rounded-md border border-border bg-background p-3 text-xs text-foreground">{prompt}</pre>
           <SectionTitle>Roteiro recomendado</SectionTitle>
           <ul>
             <li><strong>Panorama:</strong> definição do tema, relevância e riscos.</li>
@@ -59,22 +52,7 @@ Instruções:
 
       {tab === 'chat' && (
         <div className="rounded-md border border-border bg-background p-3 text-sm text-foreground">
-          <p>
-            Integração de chat externo não habilitada neste projeto. Use o prompt acima em sua IA preferida
-            ou conecte um provedor em <code>services/geminiService.ts</code>.
-          </p>
-        </div>
-      )}
-
-      {tab === 'extras' && (
-        <div className="prose prose-slate dark:prose-invert max-w-none">
-          <SectionTitle>Ideias de artigos recentes</SectionTitle>
-          <ul>
-            <li>Guidelines e consensos (WSAVA/ACVS/ACVAA/ACVIM) relacionados ao tópico.</li>
-            <li>Estudos comparando abordagens terapêuticas e desfechos.</li>
-          </ul>
-          <SectionTitle>Fluxograma sugerido</SectionTitle>
-          <pre className="whitespace-pre">{`Sinais clínicos -> Exames básicos -> Exames confirmatórios -> Classificação de gravidade -> Conduta passo-a-passo`}</pre>
+          <AIChat seedPrompt={prompt} question={question} />
         </div>
       )}
     </div>
