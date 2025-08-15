@@ -15,6 +15,7 @@ import { Card, CardContent } from './components/ui/Card';
 import ProgressRing from './components/ProgressRing';
 import ActionCard from './components/ActionCard';
 import { BookOpen, Target, TrendingUp, Brain, Clock, Zap } from 'lucide-react';
+import DrLuzaumPanel from './components/DrLuzaumPanel';
 
 const AREAS = [ 'CLÍNICA MÉDICA', 'CLÍNICA CIRÚRGICA', 'DIAGNÓSTICO POR IMAGEM', 'ANESTESIOLOGIA', 'LABORATÓRIO CLÍNICO', 'SAÚDE PÚBLICA' ];
 
@@ -74,7 +75,7 @@ const Header: React.FC<{
                 </button>
               ))}
             </nav>
-            <ThemeToggle className="ml-4" />
+            <ThemeToggle className="ml-4" showLabels />
           </div>
         </div>
       </div>
@@ -142,7 +143,7 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
   );
 };
 
-const QuestionReviewDisplay: React.FC<{ review: Review }> = ({ review }) => {
+const QuestionReviewDisplay: React.FC<{ review: Review; onOpenLuzaum?: () => void }> = ({ review, onOpenLuzaum }) => {
   const renderList = (items: string[] | undefined) => items && items.length > 0 && <ul>{items.map((item, i) => <li key={i}>{item}</li>)}</ul>;
 
   if (!review || Object.keys(review).length === 0) {
@@ -155,6 +156,14 @@ const QuestionReviewDisplay: React.FC<{ review: Review }> = ({ review }) => {
         <SparklesIcon className="w-6 h-6 text-sky-500" />
         Revisão Aprofundada
       </h3>
+      <div className="mb-4">
+        <button
+          onClick={onOpenLuzaum}
+          className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-3 py-1.5 text-sm font-medium hover:bg-accent text-foreground"
+        >
+          🧑‍⚕️ Revisão com o Dr. Luzaum
+        </button>
+      </div>
       <div className="prose prose-sm max-w-none prose-slate dark:prose-invert prose-strong:text-slate-800 dark:prose-strong:text-slate-100 space-y-4">
         {review.fisiologia && (
           <div>
@@ -204,6 +213,7 @@ const QuestionCard: React.FC<{
 }> = ({ q, mode, onConfirm, onNext, onToggleFavorite, onToggleToReview, isFavorite, isToReview, simAnswer }) => {
   const [selected, setSelected] = useState<string | null>(null);
   const [confirmed, setConfirmed] = useState(mode !== 'quiz');
+  const [isLuzaumOpen, setLuzaumOpen] = useState(false);
 
   useEffect(() => {
     setSelected(null);
@@ -286,7 +296,9 @@ const QuestionCard: React.FC<{
       </div>
 
       <div className="mt-6 flex justify-between items-end">
-        {(confirmed || mode !== 'quiz') && <QuestionReviewDisplay review={q.review} />}        
+        {(confirmed || mode !== 'quiz') && (
+          <QuestionReviewDisplay review={q.review} onOpenLuzaum={() => setLuzaumOpen(true)} />
+        )}
         {mode === 'quiz' && !confirmed && (
           <Button
             onClick={handleConfirm}
@@ -306,6 +318,18 @@ const QuestionCard: React.FC<{
           </Button>
         )}
       </div>
+      {isLuzaumOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/40" onClick={() => setLuzaumOpen(false)} />
+          <div className="relative z-10 w-full max-w-3xl rounded-xl border border-border bg-background p-4 shadow-xl">
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="text-lg font-semibold text-foreground">Revisão com o Dr. Luzaum</h4>
+              <button onClick={() => setLuzaumOpen(false)} className="rounded-md px-2 py-1 text-sm hover:bg-accent">Fechar</button>
+            </div>
+            <DrLuzaumPanel question={q} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
