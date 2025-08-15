@@ -1,0 +1,604 @@
+{
+  "meta": {
+    "batch": 2018,
+    "total_batches": 1,
+    "taxonomy_version": "v1.0",
+    "generator": "manual-entry",
+    "notes": ["UFV 2018 – Clínica Cirúrgica (Questões 21–40)"],
+    "persistence": { "strategy": ["json_canonical"], "conflicts": "upsert_on_checksum", "defaults": { "namespace": "vet-residencia", "schema_version": 1 } }
+  },
+  "items": [
+    {
+      "id": "UFV-2018-CC-0021",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "DISPLASIA COXOFEMORAL", "CIRURGIAS DE SALVAMENTO"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Sobre a displasia coxofemoral em cães, assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A sinfisiodese púbica juvenil é indicada em cães com 8 meses de idade."},
+        {"label": "B", "text": "A osteotomia pélvica dupla/tripla (DPO/TPO) deve ser realizada preferencialmente em cães com menos de 5 meses de idade e com osteoartrose."},
+        {"label": "C", "text": "A excisão da cabeça e colo do fêmur elimina o contato osso-osso e permite a formação de pseudoarticulação fibrosa; uso precoce do membro é fundamental."},
+        {"label": "D", "text": "A artroplastia total de quadril é recomendada em filhotes em crescimento para prevenir afrouxamento do implante."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "C": "Correta. Colocefalectomia é cirurgia de salvamento que remove dor ao abolir contato osso–osso; fisioterapia e apoio precoce são cruciais.",
+        "A": "Incorreta. SPJ é efetiva em 14–20 semanas; aos 8 meses já é tarde.",
+        "B": "Incorreta. DPO/TPO é para jovens antes de ~10 meses e sem OA; \"<5 meses\" é faixa típica da SPJ.",
+        "D": "Incorreta. Prótese é para cães maduros; em filhotes o crescimento leva ao afrouxamento."
+      },
+      "review": {
+        "fisiologia": "A DCF cursa com laxidade coxofemoral → incongruência → microinstabilidade e OA progressiva.",
+        "diagnostico": {"principais": ["Sinais clínicos variáveis (claudicação, dor, Ortolani)", "Radiografias (PennHIP, distração)"]},
+        "terapia": {"caes": ["Filhotes sem OA: SPJ (14–20s), DPO/TPO (até ~10m)", "Maduros/OA: colocefalectomia ou prótese"]},
+        "high_yield": ["SPJ precoce; DPO/TPO sem OA", "Colocefalectomia = pseudoarticulação indolor"],
+        "pegadinhas": ["Idade da SPJ", "Prótese não é para filhotes"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0022",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "BIOMECÂNICA", "STRAIN"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "[Fratura simples de rádio/ulna em Pinscher] Quanto ao STRAIN e método de estabilização, assinale a correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Fratura de baixo strain; estabilidade relativa favorece consolidação secundária."},
+        {"label": "B", "text": "Fratura de alto strain por ser simples; requer estabilidade absoluta e consolidação primária."},
+        {"label": "C", "text": "Fratura de baixo strain; fixação relativa é ideal em fraturas simples."},
+        {"label": "D", "text": "Fratura de alto strain, porém o ideal é estabilidade relativa e calo exuberante."}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "B": "Correta. Fratura simples concentra deformação no único gap → alto strain → precisa de compressão rígida (estabilidade absoluta) para consolidação primária.",
+        "A": "Incorreta. Baixo strain é típico de fraturas cominutivas.",
+        "C": "Incorreta. Misclassifica o strain e o método.",
+        "D": "Incorreta. Alto strain não tolera micromovimento/calo; requer estabilidade absoluta."
+      },
+      "review": {
+        "fisiologia": "Strain = Δcomprimento/gap. Gap único grande → alto strain.",
+        "diagnostico": {"principais": ["Radiografia: linha simples", "Raças toy: risco de não união distal do rádio"]},
+        "terapia": {"caes": ["Placa com compressão rígida em raças toy"]},
+        "high_yield": ["Simples = alto strain = compressão"],
+        "pegadinhas": ["Confundir simples com baixo strain"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0023",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["EMERGÊNCIA", "TORACOTOMIA", "PNEUMOTÓRAX CONTÍNUO"],
+      "difficulty": "M",
+      "cognitive_level": "Aplicação",
+      "stem": "[Trauma torácico grave] Diante de hipóxia refratária e pneumotórax contínuo não responsivo a drenagem, a conduta correta é:",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Manter toracocenteses seriadas e bandagem compressiva."},
+        {"label": "B", "text": "Apenas dreno torácico bilateral e analgesia."},
+        {"label": "C", "text": "Toracotomia exploratória, possível lobectomia e estabilização das costelas."},
+        {"label": "D", "text": "Bandagem compressiva para conter vazamento aéreo."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "C": "Correta. Vazamento de ar persistente indica lesão significativa (pulmão/brônquio); cirurgia é indicada.",
+        "A": "Incorreta. Tratamento conservador já falhou e bandagem piora ventilação.",
+        "B": "Incorreta. Dreno sem correção da fonte não resolve vazamento contínuo.",
+        "D": "Incorreta. Bandagem restritiva agrava hipóxia."
+      },
+      "review": {
+        "diagnostico": {"principais": ["Gás persistente no dreno", "Hipóxia refratária"]},
+        "terapia": {"caes": ["Toracotomia, reparo/lobectomia, estabilização de flail chest"]},
+        "high_yield": ["Indicações de toracotomia em trauma"],
+        "pegadinhas": ["Bandagem em tórax instável"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0024",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["URETROSTOMIA FELINA", "UROLOGIA"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Uretrostomia em felinos: analise as afirmações e assinale.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "II e IV estão corretas."},
+        {"label": "B", "text": "II e V estão corretas."},
+        {"label": "C", "text": "I, II e IV estão corretas."},
+        {"label": "D", "text": "Apenas IV está correta."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. II (pré-púbica: estoma largo porém infecção ascendente) e IV (estabilizar e operar depois) são verdadeiras.",
+        "B": "Incorreta. V é falsa.",
+        "C": "Incorreta. I é falsa; III é falsa em gatos.",
+        "D": "Incorreta. II também é verdadeira."
+      },
+      "review": {
+        "diagnostico": {"principais": ["Obstrução recorrente", "Falha de cateterização"]},
+        "terapia": {"gatos": ["Perineal como padrão", "Pré-púbica = salvamento"]},
+        "high_yield": ["Complicação: estenose", "Colar elizabetano obrigatório"],
+        "pegadinhas": ["Operar no 1º episódio = errado"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0025",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["UROLOGIA", "PRÓSTATA", "OMENTALIZAÇÃO"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "[Cão idoso não castrado com prostatomegalia e áreas anecogênicas] Assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Tratamento clínico (castração + antibiótico) é suficiente."},
+        {"label": "B", "text": "Orquiectomia bilateral + drenagem cirúrgica dos abscessos + omentalização e antibiótico."},
+        {"label": "C", "text": "Finasterida e AINEs são suficientes, pois as imagens sugerem cistos simples."},
+        {"label": "D", "text": "Prostatectomia total é o tratamento de escolha."}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "B": "Correta. HPB com abscessos requer drenagem e omentalização além da castração e antibiótico.",
+        "A": "Incorreta. Abscesso exige drenagem; antibiótico isolado falha.",
+        "C": "Incorreta. Anecogênico + febre/leucocitose → abscesso, não apenas cisto.",
+        "D": "Incorreta. Prostatectomia total tem alta morbidade; não indicada."
+      },
+      "review": {
+        "diagnostico": {"principais": ["US com áreas anecogênicas (pus)", "Leucocitose, febre"]},
+        "terapia": {"caes": ["Orquiectomia", "Drenagem + omentalização", "ATB penetrante na próstata"]},
+        "high_yield": ["Doenças prostáticas são andrógeno-dependentes"],
+        "pegadinhas": ["Tratar abscesso apenas com antibiótico"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0026",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ONCOLOGIA", "NEOPLASIA MAMÁRIA", "CONSENSO 2020"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Sobre neoplasia mamária em cadelas segundo o Consenso 2020, assinale a correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Cirurgia radical bilateral em tempo único é a recomendação padrão."},
+        {"label": "B", "text": "Citologia permite diferenciar com segurança todos os nódulos benignos de malignos."},
+        {"label": "C", "text": "I, III e V (condutas cirúrgicas individualizadas; paliativa se ulcerado com metástase; M3 pode requerer mastectomia total unilateral) estão corretas."},
+        {"label": "D", "text": "Não se remove linfonodos regionais durante a cirurgia."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "C": "Correta. Abordagem em dois tempos quando bilateral; remover LN regionais; paliativa possível em estágio V; M3 frequentemente indica cadeia completa.",
+        "A": "Incorreta. Bilateral radical em um tempo aumenta morbidade.",
+        "B": "Incorreta. Citologia tem limitações; histopatologia é padrão.",
+        "D": "Incorreta. Linfonodos regionais devem ser avaliados/removidos."
+      },
+      "review": {
+        "diagnostico": {"principais": ["Palpação de toda a cadeia", "Avaliar LN axilar/inguinal"]},
+        "terapia": {"caes": ["Cirurgia baseada em localização/quantidade", "Estadiamento"]},
+        "high_yield": ["Carcinoma inflamatório: cirurgia contraindicada"],
+        "pegadinhas": ["Confiar na citologia para benignidade"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0027",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "LUXAÇÃO DE PATELA"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Sobre luxação de patela, assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A escolha das técnicas é arbitrária e não depende das deformidades."},
+        {"label": "B", "text": "Luxação assintomática nunca progride e não requer correção em raças grandes."},
+        {"label": "C", "text": "I, IV e V (TTT; associação com valgo na luxação lateral; relação com ruptura do LCCr) estão corretas."},
+        {"label": "D", "text": "A trocleoplastia isolada sempre resolve, independentemente do alinhamento do mecanismo extensor."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "C": "Correta. Correção visa alinhar o mecanismo extensor; TTT é chave; lateral em grandes cães associa-se a geno valgo; há relação com LCCr.",
+        "A": "Incorreta. Planejamento é individual conforme deformidades.",
+        "B": "Incorreta. Pode progredir e gerar OA, especialmente em raças grandes.",
+        "D": "Incorreta. Frequentemente requer combinação de técnicas (TTT, imbricação, osteotomias)."
+      },
+      "review": {
+        "diagnostico": {"principais": ["Grau de luxação", "Eixo do mecanismo extensor"]},
+        "terapia": {"caes": ["Trocleoplastia + TTT + tecidos moles conforme necessidade"]},
+        "high_yield": ["Alinhamento do mecanismo extensor"],
+        "pegadinhas": ["Tratar apenas a sulcoplastia"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0028",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["HÉRNIA DIAFRAGMÁTICA PERITONEOPERICÁRDICA", "CONGÊNITA"],
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Sobre a hérnia diafragmática peritoneopericárdica (HPPD), assinale a correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "O pericárdio deve ser fechado após a redução e a via de acesso é obrigatoriamente esternotomia."},
+        {"label": "B", "text": "Podem ocorrer anormalidades cardíacas concomitantes, tornando o prognóstico reservado."},
+        {"label": "C", "text": "Pacientes assintomáticos não necessitam de correção, pois não há risco de complicações."},
+        {"label": "D", "text": "É uma hérnia falsa decorrente de laceração incompleta do diafragma."}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "B": "Correta. Defeito de linha média pode coexistir com cardiopatias congênitas, piorando o prognóstico.",
+        "A": "Incorreta. Pericárdio geralmente deixado aberto para evitar tamponamento; acesso por laparotomia mediana na maioria.",
+        "C": "Incorreta. Existe risco de estrangulamento; correção é recomendada.",
+        "D": "Incorreta. HPPD é hérnia verdadeira com saco peritoneopericárdico."
+      },
+      "review": {
+        "diagnostico": {"principais": ["RX/US evidenciam órgãos no saco pericárdico"]},
+        "terapia": {"caes": ["Redução vísceras, pericardiectomia ventral parcial, sutura do defeito diafragmático"]},
+        "high_yield": ["Associar com defeitos esternais/umbilicais"],
+        "pegadinhas": ["Fechar o pericárdio"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0029",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["HEPATO-BILIAR", "BÓCIO/BIÓPSIA HEPÁTICA", "SHUNT PORTOSSISTÊMICO"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Doenças hepáticas e do sistema biliar extra-hepático: assinale a alternativa que contenha as assertivas corretas.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "I e III."},
+        {"label": "B", "text": "II e IV."},
+        {"label": "C", "text": "III e IV."},
+        {"label": "D", "text": "I, II e V."}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "D": "Correta. I (cautela na biópsia percutânea), II (teste de patência biliar) e V (metástases são comuns) são verdadeiras.",
+        "A": "Incorreta.",
+        "B": "Incorreta. IV está falsa (shunts geralmente sintomáticos).",
+        "C": "Incorreta."
+      },
+      "review": {
+        "diagnostico": {"principais": ["Imagem e função hepática", "Biópsia percutânea x cunha"]},
+        "high_yield": ["Checar patência do ducto biliar comum intraop"],
+        "pegadinhas": ["Confundir mortalidade por tumor primário vs metástase"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0030",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "ARTRODESE"],
+      "difficulty": "F",
+      "cognitive_level": "Entender",
+      "stem": "Sobre artrodese, assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Artrite séptica ativa é uma indicação clara de artrodese imediata."},
+        {"label": "B", "text": "Não se remove a cartilagem articular para favorecer a fusão."},
+        {"label": "C", "text": "O método de fixação deve promover compressão entre as superfícies ósseas."},
+        {"label": "D", "text": "Resultados são melhores nas articulações proximais (joelho/cotovelo)."}
+      ],
+      "answer_type": "single",
+      "answer_key": "C",
+      "rationales": {
+        "C": "Correta. Compressão + estabilidade rígida favorecem consolidação primária.",
+        "A": "Incorreta. Infecção ativa é contraindicação relativa; controlar infecção primeiro.",
+        "B": "Incorreta. Remoção completa da cartilagem é mandatória.",
+        "D": "Incorreta. Melhor em articulações distais (carpo/tarso)."
+      },
+      "review": {
+        "high_yield": ["Remover cartilagem", "Compressão interfragmentária"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0031",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["OFTALMOLOGIA", "ÚLCERA DE CÓRNEA", "MELTING"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Úlceras de córnea: assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Ceratotomia em grade é indicada em gatos com úlcera indolente."},
+        {"label": "B", "text": "I, II e IV (flap conjuntival, membrana amniótica, emergência) estão corretas; V é falsa pois inibidores de proteinase são mandatórios no melting."},
+        {"label": "C", "text": "Úlcera melting pode aguardar tratamento ambulatorial sem urgência."},
+        {"label": "D", "text": "Inibidores de proteinase estão contraindicados em ceratomalácia."}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "B": "Correta. Flap e membrana amniótica são úteis; melting é emergência; inibidores de proteinase são essenciais.",
+        "A": "Incorreta. Contraindicado em gatos (risco de sequestro corneano).",
+        "C": "Incorreta. Risco elevado de perfuração e perda do olho.",
+        "D": "Incorreta. São parte central do tratamento."
+      },
+      "review": {
+        "terapia": {"caes": ["ATB fortificados", "Soro autólogo/EDTA/NAC"], "gatos": ["Evitar grid keratotomy"]},
+        "high_yield": ["Melting = emergência"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0032",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["NEUROCIRURGIA", "CAUDA EQUINA", "L7-S1"],
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Síndrome da cauda equina: assinale a afirmativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Estenose lombossacra degenerativa envolve protrusão do disco L7–S1 e compressão das raízes da cauda equina."},
+        {"label": "B", "text": "Nunca ocorre perda de nocicepção em dermátomos sacrais/coccígeos."},
+        {"label": "C", "text": "Fraturas lombossacras costumam ser estáveis e de manejo conservador."},
+        {"label": "D", "text": "É uma doença de osteocondrose em idosos; laminectomia dorsal com fenestração L6–L7 é padrão."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Patogênese clássica em cães grandes/trabalho.",
+        "B": "Incorreta. Perda de dor profunda pode ocorrer e é mau prognóstico.",
+        "C": "Incorreta. Frequentemente instáveis e indicam cirurgia.",
+        "D": "Incorreta. Não é osteocondrose; foco é L7–S1, não L6–L7."
+      },
+      "review": {
+        "diagnostico": {"principais": ["RM ou TC para confirmação", "Sinal principal: dor LS"]},
+        "terapia": {"caes": ["Laminectomia dorsal + foraminotomia conforme caso"]}
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0033",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["EMERGÊNCIA", "DILATAÇÃO-VÓLVULO GÁSTRICA", "GASTROPEXIA"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Síndrome dilatação-vólvulo-gástrica (DVG): assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Reposicionar estômago, ressecar tecidos necróticos e realizar gastropexia são objetivos essenciais."},
+        {"label": "B", "text": "Levar imediatamente à cirurgia, mesmo em choque profundo, sem estabilização."},
+        {"label": "C", "text": "A sondagem orogástrica é contraindicada no pré-operatório."},
+        {"label": "D", "text": "Esplenectomia é obrigatória em todos os casos."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Desrotacionar, avaliar/ressecar tecido inviável e gastropexia para prevenir recidiva.",
+        "B": "Incorreta. Estabilização hemodinâmica prévia reduz mortalidade.",
+        "C": "Incorreta. Descompressão por sonda frequentemente é necessária.",
+        "D": "Incorreta. Esplenectomia apenas se baço inviável/ruptura."
+      },
+      "review": {
+        "high_yield": ["Arritmia ventricular pós-op frequente", "Gastropexia é mandatória"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0034",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ODONTOLOGIA", "DOENÇA PERIODONTAL"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Relação entre doença periodontal e saúde sistêmica: marque V/F e a sequência correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "V – V – F – F"},
+        {"label": "B", "text": "F – V – V – F"},
+        {"label": "C", "text": "V – F – V – V"},
+        {"label": "D", "text": "F – V – V – F (corresponde à alternativa D no enunciado original)"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "D": "Correta. Exodontia não é para todos os graus; DP pode causar fístula oronasal e fratura mandibular; há sinais orais sistêmicos; a última afirmação mistura categorias (F).",
+        "A": "Incorreta.",
+        "B": "Incorreta conforme gabarito original numerado.",
+        "C": "Incorreta."
+      },
+      "review": {
+        "high_yield": ["Bacteremia crônica de foco oral", "Complicações: fístula infraorbitária"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0035",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "OCD OMBRO"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Osteocondrose na articulação escapulo-umeral: assinale a alternativa INCORRETA.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Acomete cães jovens de raças grandes, machos, geralmente entre 4–5 meses de idade."},
+        {"label": "B", "text": "Falha de ossificação endocondral pode gerar flap (OCD)."},
+        {"label": "C", "text": "Tratamento cirúrgico remove o flap e cureta o leito para fibrocartilagem."},
+        {"label": "D", "text": "Etiologia multifatorial (genética, nutrição, crescimento rápido, trauma)."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Incorreta. O padrão etário clínico típico é ~6–9 meses, não 4–5.",
+        "B": "Correta.",
+        "C": "Correta.",
+        "D": "Correta."
+      },
+      "review": {
+        "diagnostico": {"principais": ["Rx ML: defeito subcondral caudal da cabeça umeral"]}
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0036",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["CICATRIZAÇÃO", "MANEJO DE FERIDAS", "AÇÚCAR"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Processos de reparação de feridas e infecção: marque V/F e assinale a sequência correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "V – F – V – V – F – F – V"},
+        {"label": "B", "text": "F – V – V – F – F – V – V"},
+        {"label": "C", "text": "F – V – F – V – V – V – F"},
+        {"label": "D", "text": "V – V – F – F – F – V – V"}
+      ],
+      "answer_type": "single",
+      "answer_key": "B",
+      "rationales": {
+        "B": "Correta. Síntese proteica é da fase proliferativa; contração por miofibroblastos; maturação longa; preservar granulação; açúcar desinfeta por osmose; tempo e carga bacteriana influem; inflamação/supuração = formas clínicas.",
+        "A": "Incorreta.",
+        "C": "Incorreta.",
+        "D": "Incorreta."
+      },
+      "review": {
+        "high_yield": ["Período de ouro 6–8h", "Mel/mel azedo/açúcar – desbridamento osmótico"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0037",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["RECONSTRUTIVA", "RETALHOS PADRÃO AXIAL"],
+      "difficulty": "M",
+      "cognitive_level": "Lembrar",
+      "stem": "Cirurgia reconstrutiva – relacione retalhos axiais às regiões-alvo (sequência correta).",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A B C D E"},
+        {"label": "B", "text": "B C D E A"},
+        {"label": "C", "text": "C D E A B"},
+        {"label": "D", "text": "E B A C D"}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "D": "Correta: toracodorsal → tórax/ombro/cotovelo; genicular → faces da tíbia; omocervical → face/pescoço/ombro; braquial superficial → antebraço/cotovelo; ilíaca circunflexa profunda → sacro/flanco/coxa.",
+        "A": "Incorreta.",
+        "B": "Incorreta.",
+        "C": "Incorreta."
+      },
+      "review": {
+        "high_yield": ["Retalhos axiais carregam artéria/veia cutânea direta"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0038",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ODONTOLOGIA", "FENDA PALATINA", "LÁBIO LEPORINO"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Fístula oronasal congênita – associe o diagnóstico à técnica cirúrgica indicada (sequência correta).",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "C A D B"},
+        {"label": "B", "text": "A C B D"},
+        {"label": "C", "text": "D B A C"},
+        {"label": "D", "text": "B A D C"}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Fissura primária → múltiplos retalhos do lábio/nasal; palato duro → retalhos bipediculados; hipoplasia palato mole → retalhos faríngeos; defeito palato mole → retalhos locais/rotacionais.",
+        "B": "Incorreta.",
+        "C": "Incorreta.",
+        "D": "Incorreta."
+      },
+      "review": {
+        "high_yield": ["Fechar sem tensão com mucoperiósteo"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0039",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["ORTOPEDIA", "NÃO UNIÃO ÓSSEA", "PSEUDOARTROSE"],
+      "difficulty": "M",
+      "cognitive_level": "Entender",
+      "stem": "Não-união óssea ou pseudoartrose: assinale a alternativa correta.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "Incapacidade de apoio, atrofia muscular, deformidade, esclerose das extremidades e descontinuidade radiográfica são achados típicos."},
+        {"label": "B", "text": "Uso de nutracêuticos é causa frequente de não-união."},
+        {"label": "C", "text": "Na não-união hipertrófica, o problema é biológico e se trata com placa de compressão e enxerto."},
+        {"label": "D", "text": "Na não-união atrófica, basta fixação rígida sem estímulo biológico."}
+      ],
+      "answer_type": "single",
+      "answer_key": "A",
+      "rationales": {
+        "A": "Correta. Sinais clínicos e radiográficos clássicos.",
+        "B": "Incorreta. Nutraceuticos não causam não-união.",
+        "C": "Incorreta. Hipertrófica é problema mecânico (muito calo → instabilidade).",
+        "D": "Incorreta. Atrófica requer estabilidade + enxerto (estímulo biológico)."
+      },
+      "review": {
+        "high_yield": ["Hipertrófica = mecânica; Atrófica = biológica", "Enxerto autógeno: asa do ílio/tíbia proximal"]
+      }
+    },
+    {
+      "id": "UFV-2018-CC-0040",
+      "year": 2018,
+      "exam": "UFV",
+      "area_tags": ["CLÍNICA CIRÚRGICA"],
+      "topic_tags": ["EMERGÊNCIA", "PERITONITE SÉPTICA", "LAVAGEM PERITONEAL"],
+      "difficulty": "M",
+      "cognitive_level": "Análise",
+      "stem": "Peritonites generalizadas: assinale a alternativa com as assertivas corretas.",
+      "media": [],
+      "options": [
+        {"label": "A", "text": "A abdominocentese é sempre preferível à lavagem peritoneal diagnóstica."},
+        {"label": "B", "text": "Apenas I e II."},
+        {"label": "C", "text": "Apenas III e IV."},
+        {"label": "D", "text": "II, III e V."}
+      ],
+      "answer_type": "single",
+      "answer_key": "D",
+      "rationales": {
+        "D": "Correta. II (pilares terapêuticos), III (critérios citológicos), V (drenagem aberta) verdadeiras; I e IV são falsas (LPD mais sensível; glicose baixa/lactato alto no fluido).",
+        "A": "Incorreta. LPD é mais sensível no \"dry tap\".",
+        "B": "Incorreta.",
+        "C": "Incorreta."
+      },
+      "review": {
+        "high_yield": ["Fluido séptico: glicose < sangue; lactato > sangue", "Drenagem aberta como controle de danos"]
+      }
+    }
+  ]
+}
+
+

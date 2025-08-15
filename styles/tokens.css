@@ -1,18 +1,18 @@
-/* Design Tokens - Academic Blue Palette */
+/* Design Tokens - Wizard Indigo Palette */
 :root {
-  /* Colors - Light Theme */
+  /* Colors - Light Theme: branco + dourado */
   --color-bg: #FFFFFF;
-  --color-surface: #F8FAFC;
+  --color-surface: #FFFFFF;
   --color-surface-raised: #FFFFFF;
-  --color-text: #0F172A;
-  --color-text-muted: #64748B;
-  --color-primary: #2563EB;
-  --color-primary-contrast: #FFFFFF;
-  --color-accent: #22C55E;
-  --color-warning: #F59E0B;
-  --color-danger: #EF4444;
+  --color-text: #1F2937;
+  --color-text-muted: #6B7280;
+  --color-primary: #ca8a04; /* amber-600 approx */
+  --color-primary-contrast: #111827;
+  --color-accent: #fef3c7; /* light amber */
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
   --color-border: #E5E7EB;
-  --color-border-muted: #F1F5F9;
+  --color-border-muted: #F3F4F6;
   
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -56,25 +56,25 @@
 
 /* Dark Theme */
 [data-theme="dark"] {
-  /* Colors - Dark Theme */
-  --color-bg: #0B1020;
-  --color-surface: #111827;
-  --color-surface-raised: #1F2937;
-  --color-text: #E5E7EB;
-  --color-text-muted: #94A3B8;
-  --color-primary: #60A5FA;
-  --color-primary-contrast: #0B1020;
-  --color-accent: #34D399;
-  --color-warning: #FBBF24;
-  --color-danger: #F87171;
-  --color-border: #243B55;
-  --color-border-muted: #1F2937;
+  /* Colors - Dark Theme: azul escuro + amarelo */
+  --color-bg: #0b1220;
+  --color-surface: #0f182b;
+  --color-surface-raised: #14203a;
+  --color-text: #F9FAFB;
+  --color-text-muted: #9CA3AF;
+  --color-primary: #fbbf24; /* amber-400/500 */
+  --color-primary-contrast: #0b1220;
+  --color-accent: #1f2937;
+  --color-warning: #f59e0b;
+  --color-danger: #f87171;
+  --color-border: #1f2a44;
+  --color-border-muted: #131b2c;
   
   /* Shadows - Dark (Glows) */
-  --shadow-sm: 0 1px 2px 0 rgb(96 165 250 / 0.1);
-  --shadow-md: 0 4px 6px -1px rgb(96 165 250 / 0.15), 0 2px 4px -2px rgb(96 165 250 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(96 165 250 / 0.2), 0 4px 6px -4px rgb(96 165 250 / 0.15);
-  --shadow-xl: 0 20px 25px -5px rgb(96 165 250 / 0.25), 0 8px 10px -6px rgb(96 165 250 / 0.2);
+  --shadow-sm: 0 1px 2px 0 rgb(139 92 246 / 0.12);
+  --shadow-md: 0 4px 6px -1px rgb(139 92 246 / 0.18), 0 2px 4px -2px rgb(139 92 246 / 0.12);
+  --shadow-lg: 0 10px 15px -3px rgb(139 92 246 / 0.24), 0 4px 6px -4px rgb(139 92 246 / 0.18);
+  --shadow-xl: 0 20px 25px -5px rgb(139 92 246 / 0.28), 0 8px 10px -6px rgb(139 92 246 / 0.22);
 }
 
 /* Focus Ring */

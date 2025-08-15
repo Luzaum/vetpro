@@ -7,6 +7,7 @@ import questionBank1 from './data/question_bank_1.json';
 import questionBank2 from './data/question_bank_2.json';
 import questionBank3 from './data/question_bank_3.json';
 import questionBank4 from './data/question_bank_4.json';
+import questionBankUFV2018Cirurgia from './data/question_bank_ufv_2018_cirurgia.json';
 import { initializeTheme, getCurrentTheme } from './lib/theme';
 import ThemeToggle from './components/ThemeToggle';
 import { Button } from './components/ui/button';
@@ -90,7 +91,7 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
-          className="inline-flex justify-center w-full rounded-md border border-slate-300 dark:border-slate-600 shadow-sm px-4 py-2 bg-white dark:bg-slate-800 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-sky-500"
+          className="inline-flex justify-center w-full rounded-md border border-border shadow-sm px-4 py-2 bg-background text-sm font-medium text-foreground hover:bg-accent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring"
         >
           {selectedArea}
           <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" />
@@ -109,8 +110,8 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
               className={cx(
                 'block px-4 py-2 text-sm',
                 selectedArea === 'Todas'
-                  ? 'bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white'
-                  : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700'
+                  ? 'bg-accent text-foreground'
+                  : 'text-foreground hover:bg-accent'
               )}
             >
               Todas
@@ -127,8 +128,8 @@ const AreaFilter: React.FC<{ selectedArea: string; onSelectArea: (area: string) 
                 className={cx(
                   'block px-4 py-2 text-sm',
                   selectedArea === area
-                    ? 'bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-white'
-                    : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700'
+                    ? 'bg-accent text-foreground'
+                    : 'text-foreground hover:bg-accent'
                 )}
               >
                 {area.charAt(0) + area.slice(1).toLowerCase()}
@@ -287,21 +288,22 @@ const QuestionCard: React.FC<{
       <div className="mt-6 flex justify-between items-end">
         {(confirmed || mode !== 'quiz') && <QuestionReviewDisplay review={q.review} />}        
         {mode === 'quiz' && !confirmed && (
-          <button
+          <Button
             onClick={handleConfirm}
             disabled={!selected}
-            className="ml-auto px-6 py-2 bg-sky-600 text-white font-semibold rounded-lg shadow-sm hover:bg-sky-700 disabled:bg-slate-400 dark:disabled:bg-slate-600 disabled:cursor-not-allowed transition-colors"
+            className="ml-auto"
           >
             Confirmar
-          </button>
+          </Button>
         )}
         {mode === 'quiz' && confirmed && (
-          <button
+          <Button
             onClick={onNext}
-            className="ml-auto inline-flex items-center gap-2 px-6 py-2 bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900 font-semibold rounded-lg shadow-sm hover:bg-slate-900 dark:hover:bg-white transition-colors"
+            variant="secondary"
+            className="ml-auto inline-flex items-center gap-2"
           >
             Próxima <ArrowRightIcon className="w-5 h-5" />
-          </button>
+          </Button>
         )}
       </div>
     </div>
@@ -382,7 +384,8 @@ export default function App() {
           ...(questionBank1 as any).items,
           ...(questionBank2 as any).items,
           ...(questionBank3 as any).items,
-          ...(questionBank4 as any).items
+          ...(questionBank4 as any).items,
+          ...(questionBankUFV2018Cirurgia as any).items
         ];
         try {
           await db.upsertQuestionsInChunks(questionBankItems, 50);
@@ -698,9 +701,9 @@ const StudyView: React.FC<{
           />
           {mode !== 'quiz' && questionPool.length > 1 && (
             <div className="mt-6 flex justify-between">
-              <button onClick={() => setCurrentIndex(p => (p - 1 + questionPool.length) % questionPool.length)} className="px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">Anterior</button>
+              <Button variant="secondary" onClick={() => setCurrentIndex(p => (p - 1 + questionPool.length) % questionPool.length)}>Anterior</Button>
               <span className="self-center text-slate-600 dark:text-slate-400">{currentIndex + 1} / {questionPool.length}</span>
-              <button onClick={handleNextQuestion} className="px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">Próxima</button>
+              <Button variant="secondary" onClick={handleNextQuestion}>Próxima</Button>
             </div>
           )}
         </>
@@ -843,9 +846,9 @@ const SimulationView: React.FC<{
             />
           ))}
         </div>
-        <button onClick={() => dispatch({ type: 'RESET_SIM' })} className="mt-4 px-8 py-3 bg-sky-600 text-white font-semibold rounded-lg shadow-sm hover:bg-sky-700 transition-colors">
+        <Button onClick={() => dispatch({ type: 'RESET_SIM' })} className="mt-4">
           Novo Simulado
-        </button>
+        </Button>
       </div>
     );
   }
@@ -883,7 +886,7 @@ const SimulationView: React.FC<{
           ))}
         </div>
       </div>
-      <button onClick={handleStart} className="w-full px-8 py-3 bg-sky-600 text-white font-semibold rounded-lg shadow-sm hover:bg-sky-700 transition-colors">Iniciar Simulado</button>
+      <Button onClick={handleStart} className="w-full">Iniciar Simulado</Button>
     </div>
   );
 };
