@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { Question } from '../types'
 import { Button } from './ui/button'
 import { composeLuzaumPrompt, generateLuzaumReview } from '../services/geminiService'
+import { ChatMessage, streamChat } from '../services/ai'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
@@ -18,6 +19,12 @@ export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
   const [loading, setLoading] = useState<boolean>(true)
   const [error, setError] = useState<string | null>(null)
   const [answer, setAnswer] = useState<string>('')
+  const [history, setHistory] = useState<ChatMessage[]>([
+    { role: 'system', content: 'Você é o Dr. Luzaum, médico-veterinário PhD. Responda com precisão e de acordo com a literatura.' },
+  ])
+  const [userInput, setUserInput] = useState('')
+  const [streaming, setStreaming] = useState(false)
+  const abortRef = React.useRef<AbortController | null>(null)
 
   const prompt = useMemo(() => {
     return composeLuzaumPrompt(question)
@@ -40,6 +47,37 @@ export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
     run()
     return () => { mounted = false }
   }, [question])
+
+  const sendChat = async (text: string) => {
+    if (!text.trim()) return;
+    const controller = new AbortController();
+    abortRef.current = controller;
+    const updated: ChatMessage[] = [...history, { role: 'user' as const, content: text }];
+    setHistory(updated);
+    setStreaming(true);
+    let acc = '';
+    try {
+      await streamChat(updated, (delta) => {
+        acc += delta;
+        // render token a token
+        setHistory((cur: ChatMessage[]) => {
+          // se última msg é assistant, concatena; senão adiciona
+          const last = cur[cur.length - 1];
+          if (last && last.role === 'assistant') {
+            const clone = [...cur];
+            clone[clone.length - 1] = { role: 'assistant', content: acc } as ChatMessage;
+            return clone;
+          }
+          return [...cur, { role: 'assistant', content: acc } as ChatMessage];
+        });
+      }, controller.signal);
+    } catch (e) {
+      setHistory(cur => [...cur, { role: 'assistant', content: 'Falha ao gerar resposta. Verifique as chaves do provedor.' }]);
+    } finally {
+      setStreaming(false);
+      setUserInput('');
+    }
+  }
 
   return (
     <div className="rounded-xl border border-border bg-card">
@@ -64,9 +102,28 @@ export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
       )}
 
       {tab === 'chat' && (
-        <div className="p-4 text-sm text-foreground">
-          <div className="rounded-md border border-border bg-background p-3 text-muted-foreground">
-            Chat em tempo real não habilitado nesta versão. A revisão completa é gerada automaticamente com o Gemini Pro.
+        <div className="p-4 text-sm text-foreground flex flex-col gap-3">
+          <div className="rounded-md border border-border bg-background p-3 max-h-[40vh] overflow-y-auto">
+            {history.filter(m => m.role !== 'system').map((m, i) => (
+              <div key={i} className={"mb-2 rounded-md p-2 " + (m.role === 'assistant' ? 'bg-accent/40' : 'bg-secondary/30')}>
+                <div className="text-xs opacity-70 mb-1">{m.role === 'assistant' ? 'Dr. Luzaum' : 'Você'}</div>
+                <div className="whitespace-pre-wrap">{m.content}</div>
+              </div>
+            ))}
+            {streaming && <div className="text-xs text-muted-foreground">Gerando...</div>}
+          </div>
+          <div className="flex gap-2">
+            <input
+              value={userInput}
+              onChange={(e) => setUserInput(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter') sendChat(userInput) }}
+              placeholder="Pergunte algo ao Dr. Luzaum..."
+              className="flex-1 rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground"
+            />
+            <Button size="sm" onClick={() => sendChat(userInput)} disabled={streaming}>Enviar</Button>
+            {streaming && (
+              <Button size="sm" variant="outline" onClick={() => abortRef.current?.abort()}>Parar</Button>
+            )}
           </div>
         </div>
       )}

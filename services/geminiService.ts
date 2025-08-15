@@ -25,12 +25,30 @@ export const composeLuzaumPrompt = (q: Question): string => {
 
 export async function generateLuzaumReview(q: Question, init?: RequestInit): Promise<string> {
   const apiKey = getApiKey();
+  const prompt = composeLuzaumPrompt(q);
+  // Se não houver Gemini, faça fallback para OpenAI se existir
   if (!apiKey) {
-    throw new Error("Faltando VITE_GEMINI_API_KEY. Crie um arquivo .env.local com a variável e reinicie o dev server.");
+    // Fallback simples para OpenAI (sem streaming) usando env do Vite
+    const V: any = (import.meta as any).env || {};
+    const openaiKey = V.VITE_OPENAI_API_KEY;
+    const openaiModel = V.VITE_OPENAI_MODEL || 'gpt-4o-mini';
+    if (!openaiKey) {
+      throw new Error('Faltando VITE_GEMINI_API_KEY e VITE_OPENAI_API_KEY. Configure uma das chaves em .env.local');
+    }
+    const res = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openaiKey}` },
+      body: JSON.stringify({ model: openaiModel, messages: [{ role: 'user', content: prompt }], temperature: 0.4 }),
+      ...(init || {})
+    });
+    if (!res.ok) throw new Error(`OpenAI erro ${res.status}: ${await res.text()}`);
+    const data = await res.json();
+    const text = data?.choices?.[0]?.message?.content || '';
+    if (!text) throw new Error('Resposta vazia do OpenAI');
+    return text as string;
   }
   const model = DEFAULT_MODEL;
   const url = `${API_BASE}/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`;
-  const prompt = composeLuzaumPrompt(q);
   const body = {
     contents: [
       { role: "user", parts: [{ text: prompt }] }
@@ -42,14 +60,31 @@ export async function generateLuzaumReview(q: Question, init?: RequestInit): Pro
       maxOutputTokens: 4096
     }
   };
-  const res = await fetch(url, {
+  let res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
     ...(init || {})
   });
   if (!res.ok) {
+    // Fallback: se Gemini falhar (ex.: créditos), tenta OpenAI
     const text = await res.text();
+    const V: any = (import.meta as any).env || {};
+    const openaiKey = V.VITE_OPENAI_API_KEY;
+    const openaiModel = V.VITE_OPENAI_MODEL || 'gpt-4o-mini';
+    if (openaiKey) {
+      const oa = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${openaiKey}` },
+        body: JSON.stringify({ model: openaiModel, messages: [{ role: 'user', content: prompt }], temperature: 0.4 }),
+        ...(init || {})
+      });
+      if (!oa.ok) throw new Error(`Gemini erro ${res.status}: ${text} | OpenAI erro ${oa.status}: ${await oa.text()}`);
+      const data = await oa.json();
+      const out = data?.choices?.[0]?.message?.content || '';
+      if (!out) throw new Error('Resposta vazia do OpenAI');
+      return out as string;
+    }
     throw new Error(`Gemini erro ${res.status}: ${text}`);
   }
   const data = await res.json();
