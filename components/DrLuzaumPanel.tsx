@@ -1,7 +1,7 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { Question } from '../types'
 import { Button } from './ui/button'
-import AIChat from './AIChat'
+import { composeLuzaumPrompt, generateLuzaumReview } from '../services/geminiService'
 
 interface Props {
   question: Question
@@ -12,23 +12,31 @@ const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 )
 
 export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
-  const [tab, setTab] = useState<'chat' | 'resumo'>('chat')
+  const [tab, setTab] = useState<'resumo' | 'chat'>('resumo')
+  const [loading, setLoading] = useState<boolean>(true)
+  const [error, setError] = useState<string | null>(null)
+  const [answer, setAnswer] = useState<string>('')
 
   const prompt = useMemo(() => {
-    return `Você é o Dr. Luzaum, médico-veterinário PhD em clínica médica, cirúrgica, anestesiologia, imaginologia, saúde pública e patologia clínica. Explique o tema desta questão de forma completa e robusta.
-Contexto da questão: ${question.stem}
-Área(s): ${question.area_tags.join(', ')} | Tópicos: ${question.topic_tags.join(', ')} | Ano/Prova: ${question.exam}-${question.year}
+    return composeLuzaumPrompt(question)
+  }, [question])
 
-Instruções:
-- Aborde epidemiologia, etiologia, patogenia, sinais clínicos e diferenciais.
-- Diagnóstico com sensibilidade/especificidade (use faixas e referências típicas quando não houver valor exato).
-- Tratamentos padrão (consensos atuais) e alternativos, com ressalvas.
-- Explique conceitos complexos com analogias e passos.
-- Para saúde pública, inclua revisão de leis/definições aplicáveis.
-- Analise as alternativas da questão (correta e incorretas) de forma crítica.
-- Finalize com dicas e curiosidades para fixação.
-- Formate com destaques: use títulos curtos, listas, e marque conceitos-chaves com **negrito**. Quando possível, sugira fluxogramas textuais (->) e pequenos quadros comparativos.
-`;
+  useEffect(() => {
+    let mounted = true
+    async function run() {
+      try {
+        setLoading(true)
+        setError(null)
+        const text = await generateLuzaumReview(question)
+        if (mounted) setAnswer(text)
+      } catch (e: any) {
+        if (mounted) setError(e?.message || 'Falha ao gerar revisão')
+      } finally {
+        if (mounted) setLoading(false)
+      }
+    }
+    run()
+    return () => { mounted = false }
   }, [question])
 
   return (
@@ -40,19 +48,19 @@ Instruções:
 
       {tab === 'resumo' && (
         <div className="prose prose-slate dark:prose-invert max-w-none">
-          <SectionTitle>Roteiro recomendado</SectionTitle>
-          <ul>
-            <li><strong>Panorama:</strong> definição do tema, relevância e riscos.</li>
-            <li><strong>Diagnóstico de precisão:</strong> quando usar quais exames e por quê.</li>
-            <li><strong>Terapia baseada em evidências:</strong> condutas de 1ª linha e alternativas.</li>
-            <li><strong>Pegadinhas de prova:</strong> erros comuns relacionados a este assunto.</li>
-          </ul>
+          {loading && <div className="text-sm text-muted-foreground">Gerando revisão com o Dr. Luzaum...</div>}
+          {error && <div className="text-sm text-danger">{error}</div>}
+          {!loading && !error && (
+            <div className="whitespace-pre-wrap text-foreground">{answer}</div>
+          )}
         </div>
       )}
 
       {tab === 'chat' && (
         <div className="rounded-md border border-border bg-background p-3 text-sm text-foreground">
-          <AIChat seedPrompt={prompt} question={question} />
+          <div className="text-sm text-muted-foreground mb-2">Chat em tempo real não habilitado nesta versão.
+            A revisão completa acima é gerada automaticamente com o Gemini Pro.</div>
+          <div className="rounded-md border border-border p-2 text-xs text-muted-foreground">{prompt}</div>
         </div>
       )}
     </div>

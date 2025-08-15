@@ -107,6 +107,17 @@ Utilizamos o sistema de cores OKLCH para melhor acessibilidade e consistência v
 - `npm run preview` - Preview do build
 - `npm run lint` - Verificação de código
 
+## 🔐 Variáveis de Ambiente (Gemini)
+
+Crie um arquivo `.env.local` na raiz do projeto para habilitar a IA do Dr. Luzaum:
+
+```bash
+VITE_GEMINI_API_KEY=COLOQUE_SUA_CHAVE_AQUI
+VITE_GEMINI_MODEL=gemini-1.5-pro
+```
+
+Essas variáveis são lidas no build pelo Vite e usadas no cliente. Não versione suas chaves reais.
+
 ## 📄 Licença
 
 Este projeto é de uso pessoal e educacional.
