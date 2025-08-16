@@ -126,7 +126,7 @@ export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
           {loading && <div className="text-sm text-sky-200/80">Gerando revisão com o Dr. Luzaum...</div>}
           {error && <div className="text-sm text-red-300">{error}</div>}
           {!loading && !error && (
-            <div className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-sky-100 prose-strong:text-sky-100 prose-p:text-slate-100">
+            <div className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-white prose-strong:text-white prose-p:text-white prose-li:text-white prose-blockquote:text-white prose-code:text-white">
               <ReactMarkdown remarkPlugins={[remarkGfm]}>{answer}</ReactMarkdown>
             </div>
           )}
@@ -138,8 +138,8 @@ export const DrLuzaumPanel: React.FC<Props> = ({ question }) => {
           <div className="rounded-lg border border-sky-400/30 bg-[rgba(10,25,50,0.35)] p-3 max-h-[40vh] overflow-y-auto">
             {history.filter(m => m.role !== 'system').map((m, i) => (
               <div key={i} className={"mb-2 rounded-md p-2 " + (m.role === 'assistant' ? 'bg-sky-500/20' : 'bg-blue-900/30')}>
-                <div className="text-xs opacity-70 mb-1">{m.role === 'assistant' ? 'Dr. Luzaum' : 'Você'}</div>
-                <div className="whitespace-pre-wrap">{m.content}</div>
+                <div className="text-xs opacity-70 mb-1 text-white">{m.role === 'assistant' ? 'Dr. Luzaum' : 'Você'}</div>
+                <div className="whitespace-pre-wrap text-white">{m.content}</div>
               </div>
             ))}
             {streaming && <div className="text-xs text-sky-200/80">Gerando...</div>}
