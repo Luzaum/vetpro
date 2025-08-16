@@ -320,11 +320,11 @@ const QuestionCard: React.FC<{
       </div>
       {isLuzaumOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
-          <div className="absolute inset-0 bg-black/60" onClick={() => setLuzaumOpen(false)} />
-          <div className="relative z-10 w-full max-w-5xl max-h-[90vh] overflow-hidden rounded-2xl border border-border bg-card shadow-[0_10px_40px_rgba(0,0,0,0.45)]">
-            <div className="flex items-center justify-between border-b border-border px-6 py-4">
-              <h4 className="text-xl font-semibold text-foreground">Revisão com o Dr. Luzaum</h4>
-              <button onClick={() => setLuzaumOpen(false)} className="rounded-md px-3 py-1.5 text-sm hover:bg-accent">Fechar</button>
+          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={() => setLuzaumOpen(false)} />
+          <div className="relative z-10 w-full max-w-5xl max-h-[90vh] overflow-hidden rounded-3xl border border-sky-400/30 bg-[rgba(5,20,45,0.7)] shadow-[0_10px_60px_rgba(0,30,80,0.65)]">
+            <div className="flex items-center justify-between border-b border-sky-400/30 px-6 py-4">
+              <h4 className="text-xl font-semibold text-sky-100">Revisão com o Dr. Luzaum</h4>
+              <button onClick={() => setLuzaumOpen(false)} className="rounded-md px-3 py-1.5 text-sm text-sky-100 hover:bg-sky-500/20">Fechar</button>
             </div>
             <div className="p-5 overflow-y-auto max-h-[78vh]">
               <DrLuzaumPanel question={q} />

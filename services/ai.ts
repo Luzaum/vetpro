@@ -2,11 +2,30 @@ export type ChatMessage = { role: 'system' | 'user' | 'assistant'; content: stri
 
 const V = (import.meta as any).env || {};
 
-export const getGeminiKey = (): string | null => V.VITE_GEMINI_API_KEY || null;
+function safeLocalStorageGet(key: string): string | null {
+  try {
+    if (typeof window === 'undefined') return null;
+    return window.localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function safeLocalStorageSet(key: string, value: string) {
+  try {
+    if (typeof window === 'undefined') return;
+    window.localStorage.setItem(key, value);
+  } catch {}
+}
+
+export const getGeminiKey = (): string | null => V.VITE_GEMINI_API_KEY || safeLocalStorageGet('GEMINI_API_KEY') || null;
 export const getGeminiModel = (): string => V.VITE_GEMINI_MODEL || 'gemini-1.5-pro';
 
-export const getOpenAIKey = (): string | null => V.VITE_OPENAI_API_KEY || null;
+export const getOpenAIKey = (): string | null => V.VITE_OPENAI_API_KEY || safeLocalStorageGet('OPENAI_API_KEY') || null;
 export const getOpenAIModel = (): string => V.VITE_OPENAI_MODEL || 'gpt-4o-mini';
+
+export function setOpenAIKey(key: string) { safeLocalStorageSet('OPENAI_API_KEY', key); }
+export function setGeminiKey(key: string) { safeLocalStorageSet('GEMINI_API_KEY', key); }
 
 export function hasGemini(): boolean { return !!getGeminiKey(); }
 export function hasOpenAI(): boolean { return !!getOpenAIKey(); }

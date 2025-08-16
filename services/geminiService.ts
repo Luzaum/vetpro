@@ -1,12 +1,12 @@
 import { Question } from "../types";
+import { getGeminiKey, getGeminiModel, getOpenAIKey, getOpenAIModel } from "./ai";
 
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta";
-const DEFAULT_MODEL = (import.meta as any).env?.VITE_GEMINI_MODEL || "gemini-1.5-pro";
+const DEFAULT_MODEL = getGeminiModel();
 
 const getApiKey = (): string | null => {
-  // Leia a chave do ambiente de build (Vite)
-  const key = (import.meta as any).env?.VITE_GEMINI_API_KEY;
-  return key || null;
+  // Primeiro pelo env, depois localStorage (exposto por getGeminiKey)
+  return getGeminiKey();
 };
 
 export const composeLuzaumPrompt = (q: Question): string => {
@@ -15,8 +15,8 @@ export const composeLuzaumPrompt = (q: Question): string => {
     `Você é o Dr. Luzaum, médico-veterinário com pós-doutorado em clínica médica, clínica cirúrgica, anestesiologia, imaginologia, saúde pública e patologia clínica.`,
     `Explique o tema da questão abaixo de forma completa e robusta, sempre didática e com revisões de consensos atuais.`,
     `Faça verificação de consistência em 3 passes ANTES de responder (sem expor o raciocínio intermediário). Garanta exatidão.`,
-    `Formatação: use títulos curtos (##), listas, **negrito** para conceitos chave, e fluxogramas textuais com '->'.`,
-    `Inclua: epidemiologia, etiologia/patogenia, sinais clínicos, diferenciais, diagnóstico (com faixas de sensibilidade/especificidade quando apropriado), tratamento (padrão e alternativas com ressalvas), noções de saúde pública/legislação quando aplicável, análise das alternativas (correta e incorretas) e dicas/curiosidades ao final.`,
+    `Formatação: use títulos curtos (##), listas, **negrito** para conceitos chave, e fluxogramas textuais com '->'. Use ênfases visuais (negrito/itálico) para destacar pontos high-yield.`,
+    `Seções obrigatórias: Etiologia, Epidemiologia, Fisiologia, Fisiopatologia, Patologia, Sinais clínicos, Exames complementares (achados típicos), Diagnóstico (inclua sensibilidade/especificidade quando possível), Tratamento (padrão e alternativas com ressalvas), Diferenciais, Saúde pública/legislação (quando aplicável), Análise das alternativas (com correção e por que as demais estão incorretas), Dicas e curiosidades.`,
     `Questão: ${q.stem}`,
     options ? `Opções: ${options}` : "",
     q.answer_key ? `Gabarito oficial: ${q.answer_key}` : "",
@@ -28,10 +28,9 @@ export async function generateLuzaumReview(q: Question, init?: RequestInit): Pro
   const prompt = composeLuzaumPrompt(q);
   // Se não houver Gemini, faça fallback para OpenAI se existir
   if (!apiKey) {
-    // Fallback simples para OpenAI (sem streaming) usando env do Vite
-    const V: any = (import.meta as any).env || {};
-    const openaiKey = V.VITE_OPENAI_API_KEY;
-    const openaiModel = V.VITE_OPENAI_MODEL || 'gpt-4o-mini';
+    // Fallback simples para OpenAI (sem streaming)
+    const openaiKey = getOpenAIKey();
+    const openaiModel = getOpenAIModel();
     if (!openaiKey) {
       throw new Error('Faltando VITE_GEMINI_API_KEY e VITE_OPENAI_API_KEY. Configure uma das chaves em .env.local');
     }
@@ -69,9 +68,8 @@ export async function generateLuzaumReview(q: Question, init?: RequestInit): Pro
   if (!res.ok) {
     // Fallback: se Gemini falhar (ex.: créditos), tenta OpenAI
     const text = await res.text();
-    const V: any = (import.meta as any).env || {};
-    const openaiKey = V.VITE_OPENAI_API_KEY;
-    const openaiModel = V.VITE_OPENAI_MODEL || 'gpt-4o-mini';
+    const openaiKey = getOpenAIKey();
+    const openaiModel = getOpenAIModel();
     if (openaiKey) {
       const oa = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',

@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { Question } from '../types'
 import { Button } from './ui/button'
+import { setOpenAIKey } from '../services/ai'
 
 interface AIChatProps {
   seedPrompt: string
@@ -49,6 +50,7 @@ const AIChat: React.FC<AIChatProps> = ({ seedPrompt, question }) => {
       alert('Informe sua OpenAI API Key para usar o chat.')
       return
     }
+    setOpenAIKey(apiKey)
     const newMsgs = [...messages, { role: 'user', content: userText } as ChatMsg]
     setMessages(newMsgs)
     setLoading(true)
