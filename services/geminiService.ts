@@ -145,7 +145,7 @@ export function buildQuestionPayload(q: Question, userAnswer?: string | null) {
       topic_tags: q.topic_tags,
       fonte: `${q.exam}-${q.year}`,
       dificuldade: q.difficulty,
-      most_specific_topic
+      most_specific_topic: mostSpecificTopic
     }
   } as any;
 }

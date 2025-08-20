@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build and deployment
+.env
+.env.local
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
