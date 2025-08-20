@@ -13,10 +13,10 @@ type ChatMsg = { role: 'user' | 'assistant' | 'system'; content: string }
 const AIChat: React.FC<AIChatProps> = ({ seedPrompt, question }) => {
   const [apiKey, setApiKey] = useState<string>('')
   const [model, setModel] = useState<string>('gpt-4o-mini')
-  const [messages, setMessages] = useState<ChatMsg[]>([{
-    role: 'system',
-    content: 'Você é o Dr. Luzaum, médico-veterinário PhD, professor e clínico. Explique sempre com rigor, cite consensos quando possível, e ensine de forma didática.'
-  },{
+  const [messages, setMessages] = useState<ChatMsg[]>([    {
+      role: 'system',
+      content: 'Você é o Dr. Luzaum, um médico-veterinário experiente e professor dedicado a ajudar estudantes de medicina veterinária. Use linguagem clara, didática e acessível. Seja objetivo e direto ao ponto.'
+    },{
     role: 'assistant',
     content: 'Olá! Sou o Dr. Luzaum. Vamos revisar esta questão juntos. Envie sua dúvida ou clique em “Gerar visão geral”.'
   }])

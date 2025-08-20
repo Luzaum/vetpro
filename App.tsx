@@ -52,8 +52,10 @@ const Header: React.FC<{
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 text-primary">
-              <LogoIcon />
+            <div className="flex items-center gap-3 text-primary">
+              <div className="w-12 h-12 flex items-center justify-center">
+                <LogoIcon className="w-full h-full" size="100%" />
+              </div>
               <span className="font-bold text-lg text-text">VetPro</span>
             </div>
           </div>
